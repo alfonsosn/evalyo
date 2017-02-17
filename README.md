@@ -1,10 +1,8 @@
 # EVALYO APP
----
 
 Find your next professor, the right way.
 
 ## A Common Problem
----
 
 Students at Hunter College use sites like Rate My Professors to select a course. Students may want to know professors who teach a course.
 
@@ -15,7 +13,6 @@ However professors arguably welcome review by students. Every semester they ask 
 Technically, students could rely on the information from this database instead of the one provided in Rate My Professors. However, information is not aggregated neither by professor, course, or semester, leaving more to be desired from a user perspective.
 
 ## Evalyo - Great for Students and Fair for Professors
----
 
 A team of Students at Hunter College is envisioning a web application to view professors ratings. In theory, it would use the current Hunter College course evaluation database, and present it in a student-friendly manner. Among its features:
 
@@ -30,11 +27,9 @@ A team of Students at Hunter College is envisioning a web application to view pr
 5. **Feature Friendly:** With the historical data, the sky is the limit in the way we present information.
 
 ## Technologies
----
 
 Our team is going to the modern web framework, REACT (made by Facebook), to present the app with modern design in mind.
 
 ## Goals
----
 
 By contributing the teacher evaluation data, we can create an application that could be used by hundreds of students. The app can serve as a prototype for the College to pursue a more complete project. Also the value of saving thousands of dollars in an application beneficial for both faculty and the student population.
