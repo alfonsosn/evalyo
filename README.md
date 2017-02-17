@@ -1,16 +1,18 @@
 # EVALYO APP
 
-Find your next professor, the right way.
+###*Find your next professor, the right way.*
 
 ## A Common Problem
 
-Students at Hunter College use sites like Rate My Professors to select a course. Students may want to know professors who teach a course.
+Students at Hunter College often use Rate My Professors to choose their courses. The site gives them ratings and reviews written by former students about professor. That way, a student can choose if the professor whether to pick a professor based on a rating or not.
 
-The problem with Rate My Professors is that it's a haven for disgruntled student to let their frustrations from an experience with professors. Harsh comments fill the site. And professor avoid the site due to student abuse.
+The problem with Rate My Professors is that it's a haven for disgruntled students to let their frustrations out from a previous experience with professors. The site is filled with sour and often harsh comments. Professors avoid the site due to its well-known student abuse.
 
-However professors arguably welcome review by students. Every semester they ask students to submit course evaluation, which are entered in a database for faculty and students.
+This is not to say that professors shy away from reviews by students. In fact, every semester they ask students to submit course evaluations, which are entered in a database for faculty and students.
 
-Technically, students could rely on the information from this database instead of the one provided in Rate My Professors. However, information is not aggregated neither by professor, course, or semester, leaving more to be desired from a user perspective.
+Technically, students could rely on the information from this database instead of the one provided in Rate My Professors. There are more reviews of Hunter Students in this site than Rate My Professors, providing a degree of historical statistical accuracy. Also this site does not include comments so it doesn't contain the abuse of Rate My Professors.
+
+However, the problem with this database solution is that the information is not aggregated neither by professor, course, or semester, leaving more to be desired from a user experience. The site could use a redesign with the student in mind.
 
 ## Evalyo - Great for Students and Fair for Professors
 
@@ -28,8 +30,12 @@ A team of Students at Hunter College is envisioning a web application to view pr
 
 ## Technologies
 
-Our team is going to the modern web framework, REACT (made by Facebook), to present the app with modern design in mind.
+Our team is going to the web framework, REACT (made by Facebook), to present the app with modern design in mind. Moreover, we would use a relational database known as MongoDB that would allow for more intrepid means to present the data.
 
 ## Goals
 
-By contributing the teacher evaluation data, we can create an application that could be used by hundreds of students. The app can serve as a prototype for the College to pursue a more complete project. Also the value of saving thousands of dollars in an application beneficial for both faculty and the student population.
+By contributing the teacher evaluation data, we can create an application that could be used by hundreds of students. Instead of using application that lead to abuse such as Rate My Professors, students can use the evaluation that their peers wrote. Teachers already use those evaluations so it's just a matter about how the information is presented to the students.
+
+The app can serve as a prototype for the College to pursue a more complete project. Also the value of saving thousands of dollars in an application beneficial for both faculty and the student population.
+
+The college can be assured that this project would only be for learning purposes and will not be distributed without the approval of the college.
