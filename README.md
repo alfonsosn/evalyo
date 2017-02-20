@@ -1,4 +1,4 @@
-[Main](https://github.com/alfonsosn/evalyo/blob/master/README.md) | [Team](https://github.com/alfonsosn/evalyo/blob/master/blurbs/team.md) | [Reports](https://github.com/alfonsosn/evalyo/blob/master/weekly_reports)
+[Main](..blob/master/README.md) | [Team](..blob/master/blurbs/team.md) | [Reports](..blob/master/weekly_reports)
 ------------ | ------------- | -------------
 ---
 
