@@ -4,19 +4,19 @@
 
 ## A Common Problem
 
-Students at Hunter College often use Rate My Professors to choose their courses. The site gives them ratings and reviews written by former students about professor. That way, a student can choose if the professor whether to pick a professor based on a rating or not.
+Students at Hunter College use the site "RateMyProfessors.com" (RMP) to evaluate and choose their professors. RMP is a widely used application accross campuses in America, where students can review former professors. Students both generate and receive the content.
 
-The problem with Rate My Professors is that it's a haven for disgruntled students to let their frustrations out from a previous experience with professors. The site is filled with sour and often harsh comments. Professors avoid the site due to its well-known student abuse.
+While the service has its faults, the main problem with RMP is its loose community standards, which often leads to site abuse. Disgruntled students leave scathing reviews, the reason why professors avoid the site.
 
-This is not to say that professors shy away from reviews by students. In fact, every semester they ask students to submit course evaluations, which are entered in a database for faculty and students.
+This is not to say that professors shy away from receiving student reviews. Professors often encourage student course evaluations and a mid to high percentage of students write these evaluations; these are later entered to an evalutions database.
 
-Technically, students could rely on the information from this database instead of the one provided in Rate My Professors. There are more reviews of Hunter Students in this site than Rate My Professors, providing a degree of historical statistical accuracy. Also this site does not include comments so it doesn't contain the abuse of Rate My Professors.
+Technically, Hunter students could rely on the information from this database instead of RMP. These database provides more evaluation data than RMP, without the harsh words.
 
-However, the problem with this database solution is that the information is not aggregated neither by professor, course, or semester, leaving more to be desired from a user experience. The site could use a redesign with the student in mind.
+However, the problem with this database is the way information is displayed. Mainly, 1) no option to aggregate course evaluation , 2) no option to query based by course, 3) content information is not displayed in user friendly way. The data in the site could use an improvement.
 
 ## Evalyo - Great for Students and Fair for Professors
 
-A team of Students at Hunter College is envisioning a web application to view professors ratings. In theory, it would use the current Hunter College course evaluation database, and present it in a student-friendly manner. Among its features:
+We are evalyo, a team of computer science students at Hunter College. Our team is working on our data-science capstone product, and we envision a web application to improvde the Teacher Evaluation site at Hunter. We would use modern web frameworks to improve the current Hunter College course evaluation database, improving it with following features:
 
 1. **Professor Based Querying:** Instead of receiving a list of courses with a professor that matches your result, professor queries will aggregate the courses to a single professor. Also, another feature would show when a professor which semester a professor teacher a course (spring, summer, fall, winter, etc).
 
@@ -24,7 +24,7 @@ A team of Students at Hunter College is envisioning a web application to view pr
 
 3. **Class Based Querying:** Unlike Rate my Professors or the current Hunter Based System, students could search based on courses and see results of all professors who've taught the course.
 
-4. **Student Friendly Language:** Current data presents information with an obtuse language. The app would reduce metrics from a total of 20+ to five key metrics.
+4. **Student Friendly Design:** Current data presents information with an obtuse language. The app would reduce metrics from a total of 20+ to five key metrics.
 
 5. **Feature Friendly:** With the historical data, the sky is the limit in the way we present information.
 
