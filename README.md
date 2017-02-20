@@ -1,4 +1,4 @@
-[Main](#) | [Team](../master/blurbs/team.md) | [Reports](../master/weekly_reports)
+[Main](#) | [Team](../master/blurbs/team.md) | [Reports](../master/weekly_reports/)
 ------------ | ------------- | -------------
 ---
 # EVALYO APP
