@@ -31,7 +31,7 @@ Hobbies: literature, detective tv-shows
 
 ### Marshall Woo
 
-Working to become a Computer Scientist. Certified computer technician.
+Studying for a BA in Computer Science. Certified computer technician.
 
 Lousy scale-model builder. Hiking enthusiast. Owner of a sweet mustache. Former head of Harry Potter fan club.
 
