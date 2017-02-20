@@ -1,4 +1,4 @@
-[Main](..blob/master/README.md) | [Team](..blob/master/blurbs/team.md) | [Reports](..blob/master/weekly_reports)
+[Main](../blob/master/README.md) | [Team](../blob/master/blurbs/team.md) | [Reports](../blob/master/weekly_reports)
 ------------ | ------------- | -------------
 ---
 

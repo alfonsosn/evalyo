@@ -1,7 +1,6 @@
-[Main](..blob/master/README.md) | [Team](..blob/master/blurbs/team.md) | [Reports](..blob/master/weekly_reports)
+[Main](../blob/master/README.md) | [Team](../blob/master/blurbs/team.md) | [Reports](../blob/master/weekly_reports)
 ------------ | ------------- | -------------
 ---
-
 # EVALYO APP
 
 ###*Find your next professor, the right way.*
