@@ -1,4 +1,4 @@
-[Main](../../master/README.md) | [Team](#) | [Reports](../../master/weekly_reports)
+[Main](../../master/README.md) | [Team](#) | [Weekly Reports](../../master/weekly_reports)
 ------------ | ------------- | -------------
 ---
 
