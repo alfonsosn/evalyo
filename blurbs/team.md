@@ -1,4 +1,4 @@
-[Main](https://github.com/alfonsosn/evalyo/blob/master/about_evalio.md) | [Team](https://github.com/alfonsosn/evalyo/blob/master/blurbs/team.md) | [Reports](https://github.com/alfonsosn/evalyo/blob/master/weekly_reports)
+[Main](https://github.com/alfonsosn/evalyo/blob/master/README.md) | [Team](https://github.com/alfonsosn/evalyo/blob/master/blurbs/team.md) | [Reports](https://github.com/alfonsosn/evalyo/blob/master/weekly_reports)
 ------------ | ------------- | -------------
 ---
 
@@ -10,7 +10,7 @@ Alfonso is graduating from Hunter College with a BA in Computer Science. During 
 
 Alfonso is currently an activist for immigrant rights and is involved with New York Immigration Coalition.
 
-In his spare time, Alfonso enjoys hiking in the city and in mountains, his favorite hike this year was in Colorado. 
+In his spare time, Alfonso enjoys hiking in the city and in mountains, his favorite hike this year was in Colorado.
 
 ### Ahmed D. Hassan
 
