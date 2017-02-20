@@ -23,7 +23,7 @@
 
 - [x] Personal Blurb on Heroku
 - [ ] Setup a Heroku image for the database
-- [ ] Scrape a small from the the teacher evaluation database
+- [ ] Scrape a small sample from the the teacher evaluation database
 
 ### Marshall
 
