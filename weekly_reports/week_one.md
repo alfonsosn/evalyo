@@ -31,5 +31,5 @@
 - [x] Personal Blurb on Github
 - [x] Learn about MongoDb
 - [x] Learn about Javascript
-- [ ] Familiarize with NodeJS - Be able to explain what it is.
+- [x] Familiarize with NodeJS - Be able to explain what it is.
 - [ ] Work with Ahmed to create an early application wireframe
