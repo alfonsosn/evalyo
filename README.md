@@ -11,11 +11,11 @@ Students at Hunter College use the site [RateMyProfessors](RateMyProfessors.com)
 
 While the service has its faults, the main problem with RMP is its loose community standards, often leading to site abuse by disgruntled students. The sites is filled with scathing reviews, a leading reason why professors avoid the site.
 
-This is not to say that professors shy away from receiving student reviews. Professors often encourage student course evaluations and a mid to high percentage of students write course evaluations. These student evaluations are then entered to a database accessible to both faculty and students at the college.
+This is not to say that professors shy away from receiving student reviews. Professors often encourage student course evaluations. A mid to high percentage of students write course evaluations. These student evaluations are then entered to a database accessible to both faculty and students at the college.
 
-Technically, Hunter students could rely on the information from this database instead of RMP. These database provides more evaluation data than RMP, without the harsh words.
+Technically, Hunter students could rely on the information from this database instead of RMP. This database provides more evaluation data than RMP but without the harsh words.
 
-However, the problem with this database is the way information is displayed. Mainly, 1) no option to aggregate course evaluation , 2) no option to query based by course, and finally 3) content information is not displayed in a user friendly way. The database could use an improvement.
+However, the problem with this database is the way information is displayed. Mainly, 1) no option to aggregate course evaluation , 2) no option to query based by course, and finally 3) content information displayed in a user friendly way. The database could use an improvement.
 
 ## Evalyo - Great for Students and Fair for Professors
 
