@@ -24,7 +24,7 @@ var professorSchema = new mongoose.Schema({
 	courses: [courseSchema],
 });
 
-var courseSchema = {
+var courseSchema = new mongoose.Schema({
   courseName:{
 		type: String,
     lowercase: true
@@ -32,7 +32,7 @@ var courseSchema = {
 	semesters: [semesterSchema]
 }
 
-var semester = {
+var semester = new mongoose.Schema({
   semesterName:{
     type: String,
     lowercase: true
