@@ -10,9 +10,9 @@ This was our first week as team. In our first meeting we made some housekeeping 
 
 Early on it was decided that we would work with MERN stack (MongoDB | Express | React | NodeJS). Our team has different skill levels and knowledge of the stack. In someways, our differences might be an asset to our team since it will force us to document our work clearly.
 
-We assigned for this team to get acquainted with MongoDB. The benefit of working with MongoDB is that it's a commonly used database across the industry. It's also easier to conceptualize for our work with its document based features.
+We assigned for this team to get acquainted with MongoDB since its syntax is similar to JavaScript. The benefit of working with MongoDB is that it's a commonly used database across the industry. It's also easier to conceptualize for our work with its document based features.
 
-This is an early model of our conceptual of our schemas:
+This is an early model of our conceptual schemas:
 
 ```javascript
 
