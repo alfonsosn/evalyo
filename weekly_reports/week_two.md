@@ -5,11 +5,11 @@
 
 ### Alfonso
 
-[]
+[] 
 
 ### Ahmed
 
-[]
+[] Work with Marshall to create a small mobile friendly wireframe.
 
 ### Lev
 
@@ -17,4 +17,4 @@
 
 ### Marshall
 
-[] 
+[] Work with Ahmed to create a small mobile friendly wireframe.
