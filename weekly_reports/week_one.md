@@ -23,8 +23,8 @@
 ### Lev
 
 - [x] Personal Blurb on Heroku
-- [ ] Setup a Heroku image for the database
-- [ ] Scrape a small sample from the the teacher evaluation database
+- [x] Setup a Heroku image for the database
+- [x] Scrape a small sample from the the teacher evaluation database
 
 ### Marshall
 
@@ -32,4 +32,4 @@
 - [x] Learn about MongoDb
 - [x] Learn about Javascript
 - [x] Familiarize with NodeJS - Be able to explain what it is.
-- [ ] Work with Ahmed to create an early application wireframe
+- [x] Work with Ahmed to create an early application wireframe
