@@ -18,7 +18,7 @@
 - [x] Learn about MongoDb
 - [x] Learn about Javascript
 - [ ] Familiarize with NodeJS - Be able to explain what it is.
-- [ ] Work with Marshall to create an early application wireframe
+- [x] Work with Marshall to create an early application wireframe
 
 ### Lev
 
