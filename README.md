@@ -37,8 +37,8 @@ Our team is going to the web framework, REACT (made by Facebook), to present the
 
 ## Goals
 
-By contributing the teacher evaluation data, we can create an application that could be used by hundreds of students. Instead of using application that lead to abuse such as Rate My Professors, students can use the evaluation that their peers wrote. Teachers already use those evaluations so it's just a matter about how the information is presented to the students.
+By contributing the teacher evaluation data, we can create an application that could be used by hundreds of students. Instead of using a site that leads to abuse, such as Rate My Professors, students can use the Evalyo and obtain legitimate course evaluation data. Teachers already use those evaluations, so it's just a matter about how the information is presented to the students.
 
-The app can serve as a prototype for the College to pursue a more complete project. Also the value of saving thousands of dollars in an application beneficial for both faculty and the student population.
+The app can serve as a prototype for the College to pursue a more complete project. Also the value of saving thousands of dollars in an application prototype that's benefitial for both faculty and the student population.
 
 The college can be assured that this project would only be for learning purposes and will not be distributed without the approval of the college.
