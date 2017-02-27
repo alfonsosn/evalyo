@@ -23,5 +23,6 @@
 ### Marshall
 
 - [x] Work to create a small mobile friendly wireframe.
+- [x] Watch "JavaScript for Developers" on Youtube
 - [x] Install NodeJS on laptop.
 - [x] Run HelloWorld.js with NodeJs
