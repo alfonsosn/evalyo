@@ -9,7 +9,7 @@ const connection = mongoose.connection;
 // Professor db model
 var Professor = require('./models/professors');
 
- 
+
 var port = process.env.PORT || 3000
 
 connection.on('open', function() {

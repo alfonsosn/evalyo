@@ -193,8 +193,9 @@ casper.start().thenOpen("https://www.hunter.cuny.edu/myprof", function() {
 casper.then(function(){
   console.log("Log in using username and password");
   this.evaluate(function(){
-        document.getElementById("P101_USERNAME").value='';
-        document.getElementById("P101_PASSWORD").value='';
+    // remember to forgot
+        document.getElementById("P101_USERNAME").value='ae538';
+        document.getElementById("P101_PASSWORD").value='#8Burkini';
         document.getElementById("P101_LOGIN").click();
   });
 })
