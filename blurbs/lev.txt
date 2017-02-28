@@ -1,8 +1,0 @@
-Name: Lev Izraelit
-
-Major: Computer Science
-Minor: English
-
-Languages in CS: C++, Javascript
-
-Hobbies: literature, detective tv-shows

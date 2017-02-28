@@ -1,6 +1,0 @@
-Marshall Woo
-
-Struggling to become a Computer Scientist. Certified computer technician. 
-Lousy scale-model builder. Hiking enthusiast. Owner of a sweet mustache. Former head of Harry Potter fan club.
-
-Languages in CS: C++, Android
