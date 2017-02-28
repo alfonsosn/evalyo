@@ -52,3 +52,42 @@ var semester = new mongoose.Schema({
 }
 
 ```
+
+## Week Two: February 22 - February 27
+
+another things that
+
+We've been discussing some of the broad themes about how we're going to rate the professors. We've narrowed down to four categories. In an early thought knowledge, we've narrowed it to a couple of things.
+
+So in a small brainstorm Ahmed, Marshall, and me (Alfonso), created a couple things that we think are important. So a list of our ideas were:
+
+Ahmed:
+	- Clarity
+	- Organization (dates, grading, time)
+	- Method of Teaching
+	- Interaction
+	- Helpfulness
+
+Alfonso:
+	- Different subject they teach
+	- Class size
+	- Is he a tough grader
+	- How long have they taught
+	- Class size
+
+Marshall
+	- Returning grade material
+	- Visuals
+	- Clarity
+	- Knowledge
+	- Interest
+
+So out of these lists, we created a couple of broad themes that we believe might be important.
+
+Broad THEMES
+
+1) Organization
+2) Clarity
+3) Experience
+4) Personality
+5) Grading
