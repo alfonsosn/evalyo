@@ -2,47 +2,38 @@
   and (min-device-width: 320px)
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
-	#screen {
-    margin: auto;
-		border: none;
-		width: 100%;
-		left: 0;
-	}
 
-	#nav{
-		width: 100%;
-		position: fixed;
-	}
+    .viewport{
+      margin-left: 0%;
+    }
 
-	#footer {
-		width: 100%;
-		top: none!important;
-		bottom: 0;
-	}
+    header {
+      position: fixed;
+      width: 100%;
+      top: 35%;
+      text-align: center;
+      padding-left: 0%;
+      padding-bottom: 1em;
+    }
+
 }
 
 @media only screen
   and (min-device-width: 375px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
-	body {
-		margin: 0;
-	}
 
-	#screen {
-		border: none;
-		width: 100%;
-		left: 0;
-	}
+    .viewport{
+      margin-left: 0%;
+    }
 
-	#nav{
-		width: 100%;
-		position: fixed;
-	}
+    header {
+      position: fixed;
+      width: 100%;
+      top: 35%;
+      text-align: center;
+      padding-left: 0%;
+      padding-bottom: 1em;
+    }
 
-	#footer {
-		width: 100%;
-		top: none!important;
-		bottom: 0;
-	}
 }
