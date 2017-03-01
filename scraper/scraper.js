@@ -43,7 +43,7 @@ casper.saveJSON = function(what) {
  */
 function getCourseData(){
 
-  console.log('smaller? ', index < courseLinks.length - 2)
+  console.log('smaller? ', index < courseLinks.length - 1)
   if (index < courseLinks.length - 1){//2){
 
      this.start(courseLinks[index])
@@ -119,7 +119,7 @@ function getCourseData(){
       if (should_continue){
         this.waitFor(function check() {
             return this.evaluate(function(currIndex) {
-              var dropDown = document.getElementsByClassName('u-TF-item u-TF-item--select')[0]
+              var dropDown =  [0]
               return dropDown.selectedIndex > currIndex
             },  selectedIndex);
         }, function then() {
