@@ -1,0 +1,30 @@
+Node libraries and Dependencies
+
+1) GULP: Learning what to do with it. Gulp is a build system. It helps you compile your code. You can also make it run your tests.
+2) We need to create a gulp file that allows us to do certain things to build.
+3) gulp-uglify helps us minimize js files by creating a min file and thus faster. Below is the code that minimizes the documents on our app.
+
+	var gulp = require(‘gulp’),
+	uglify   = require(‘gulp-uglify’)
+	gulp.task(‘default’, function()
+	gulp.src(‘js/*.js’) // all js files to be min
+	.piple(uglify())  // calls gulp
+	.piple(gulp.dest(‘minks’)  // puts in on destination
+
+
+4) middleware section, gulp can calls scripts like functions.
+
+	gulp.task(‘default’, (‘script.js’, ‘styles’))
+
+5) gulp.watch can help gulp keep running and watching any changes to files and assigning tasks to run on them.
+
+7) gulp can break when there’s a syntax error. We can use use the plumber gulp package to help gulp keep running.
+
+8) But apparently we can do the same thing without gulp. We can use a function an add it to our middleware something like:
+
+	function errorLog(error):
+	console.error.bing(error)
+	this.emit(‘end’)
+
+
+9) We can use gulp-livereload to use it on our application. What livereload those is we have to call live reload, we have to use it our on watch, gulp, watch var server = lirereload(). We are setting up a server with live reload.
