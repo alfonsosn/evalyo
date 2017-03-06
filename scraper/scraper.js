@@ -13,13 +13,26 @@ var casper = require('casper').create({
     }
 });
 
-// -------- Global Variables -------
-var prof = {
-  firstName: 'Eric',
-  lastName: 'Schweitzer',
-  courses: []
+// -------- Constructors -------
+function Semester(){
+  this.questions = {
+    personality:[],
+    experience: [],
+    clarity: [
+      Provides clearly defined objectives for students: null
+    ],
+    organization: [],
+    grading: []
+  }
 }
 
+// -------- Global Variables -------
+var professor = {
+  firstName: 'Eric',
+  lastName: 'Schweitzer'
+}
+
+var semesters = []
 var questionsArr = []
 var courseObj = {}
 var courseRows = []
@@ -67,7 +80,7 @@ function getCourseData(){
 
      this.then(function(){
        this.echo("index: " + index)
-       prof.courses.push(courseObj)
+       semesters.push(courseObj)
        index++
        getCourseData.call(this)
      })

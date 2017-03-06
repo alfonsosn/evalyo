@@ -5,9 +5,8 @@ var Schema = mongoose.Schema;
 var ProfessorSchema = new Schema({
  firstname: {type: String, required: true},
  lastName:  {type: String, required: true},
- courses: [Schema.Types.Mixed]
+ courses: [{ type: Schema.Types.ObjectId, ref: 'Course' }]
 });
-
 
 
 module.exports = mongoose.model('Professor', ProfessorSchema);
