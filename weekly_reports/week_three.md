@@ -1,7 +1,7 @@
 [Main](../../master/README.md) | [Our Team](../../master/our_team/README.md) | [Weekly Reports](../weekly_reports)
 ------------ | ------------- | -------------
 ---
-# Week One: February 27 - March 6th
+# Week Three: February 27 - March 6th
 
 ### Alfonso - Team Leader / PM
 
