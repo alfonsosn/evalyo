@@ -1,0 +1,7418 @@
+<li> ACSK	00300	Pre-Anatomy and Physiology I
+ 
+</li>
+<li> ACSK	01900	Basic Skills for Chemistry
+ 
+</li>
+<li> ACSK	06500	Orientation for Success
+ 
+</li>
+<li> AFPRL	10000	Introduction to Black Politics
+ 
+</li>
+<li> AFPRL	10100	Introduction to Africana Studies
+ 
+</li>
+<li> AFPRL	10200	Latino Communities in the United States
+ 
+</li>
+<li> AFPRL	10300	Conquest and Resistance: Puerto Rican Experiences in Comparative Perspective
+ 
+</li>
+<li> AFPRL	14100	Puerto Rican Folklore
+ 
+</li>
+<li> AFPRL	14300	The Image of the Puerto Rican National Identity in Its Literature
+ 
+</li>
+<li> AFPRL	18100	Language and Ethnic Identity
+ 
+</li>
+<li> AFPRL	18200	Culture and Ethnic Identity
+ 
+</li>
+<li> AFPRL	20100	African History from Human Origins to 1600 CE
+ 
+</li>
+<li> AFPRL	20200	African History Since 1600 CE
+ 
+</li>
+<li> AFPRL	20300	African American History I
+ 
+</li>
+<li> AFPRL	20400	African American History II
+ 
+</li>
+<li> AFPRL	20500	African American Politics of Social Change
+ 
+</li>
+<li> AFPRL	20600	African Political and Social Change
+ 
+</li>
+<li> AFPRL	20700	African Caribbean Politics I
+ 
+</li>
+<li> AFPRL	20800	African Caribbean Politics II
+ 
+</li>
+<li> AFPRL	20900	Introduction to Caribbean History to 1900
+ 
+</li>
+<li> AFPRL	21000	Introduction to Caribbean History: 1900 - Present
+ 
+</li>
+<li> AFPRL	21100	Black Economic History
+ 
+</li>
+<li> AFPRL	22000	African Spirituality in the Diaspora
+ 
+</li>
+<li> AFPRL	22200	African Civilization
+ 
+</li>
+<li> AFPRL	23500	African Literature (W)
+ 
+</li>
+<li> AFPRL	23600	African American Literature (W)
+ 
+</li>
+<li> AFPRL	23700	African Caribbean Literature (W)
+ 
+</li>
+<li> AFPRL	23800	Introduction to the Literature of the African Diaspora (W)
+ 
+</li>
+<li> AFPRL	24100	Puerto Rican History to 1897
+ 
+</li>
+<li> AFPRL	24200	Puerto Rican History Since 1898
+ 
+</li>
+<li> AFPRL	24300	Puerto Rican Culture
+ 
+</li>
+<li> AFPRL	24400	Puerto Ricans in the United States
+ 
+</li>
+<li> AFPRL	24500	Puerto Rican Literature I
+ 
+</li>
+<li> AFPRL	24600	Puerto Rican Literature II
+ 
+</li>
+<li> AFPRL	24700	Puerto Ricans in the U.S. as a Literary Theme
+ 
+</li>
+<li> AFPRL	24800	Caribbean Spanish
+ 
+</li>
+<li> AFPRL	25500	Puerto Rican/Latino Children in North American Schools
+ 
+</li>
+<li> AFPRL	27000	Economic History of Puerto Ricans
+ 
+</li>
+<li> AFPRL	27600	The Puerto Rican Family
+ 
+</li>
+<li> AFPRL	28100	Fieldwork in African American/Latino Communities
+ 
+</li>
+<li> AFPRL	29000	Selected Topics in Africana and Puerto Rican/Latino Studies
+ 
+</li>
+<li> AFPRL	30400	Leaders and Movements of Black Urban Communities (W)
+ 
+</li>
+<li> AFPRL	30600	Modern African International Relations (W)
+ 
+</li>
+<li> AFPRL	30700	Contemporary African Politics (W)
+ 
+</li>
+<li> AFPRL	30800	Contemporary International Relations of the African-Caribbean (W)
+ 
+</li>
+<li> AFPRL	30900	African-Americans and Africa (W)
+ 
+</li>
+<li> AFPRL	31000	Modern Nigeria (W)
+ 
+</li>
+<li> AFPRL	31300	Slavery (W)
+ 
+</li>
+<li> AFPRL	31400	Blacks in Labor and Politics (W)
+ 
+</li>
+<li> AFPRL	31800	Women in Africa (W)
+ 
+</li>
+<li> AFPRL	31900	Women in the African Diaspora (W)
+ 
+</li>
+<li> AFPRL	32000	African-Caribbean Culture (W)
+ 
+</li>
+<li> AFPRL	32100	Caribbean Migration and New York City (W)
+ 
+</li>
+<li> AFPRL	32200	African World View: Philosophy and Symbolic Thought
+ 
+</li>
+<li> AFPRL	32200	African World View: Philosophy and Symbolic Thought (W)
+ 
+</li>
+<li> AFPRL	32300	Islam and Christianity in Africa (W)
+ 
+</li>
+<li> AFPRL	32400	African-American Ethnohistory (W)
+ 
+</li>
+<li> AFPRL	33000	Autobiography as a Theme in Black Literature (W)
+ 
+</li>
+<li> AFPRL	33600	African-American Women Writers (W)
+ 
+</li>
+<li> AFPRL	33700	Caribbean Women Writers (W)
+ 
+</li>
+<li> AFPRL	34200	Political Nationalism in Puerto Rico (W)
+ 
+</li>
+<li> AFPRL	35100	Major Puerto Rican Figures (W)
+ 
+</li>
+<li> AFPRL	35200	Power Structure in Puerto Rico (W)
+ 
+</li>
+<li> AFPRL	35500	The African Image in 19th and 20th century Spanish Antillean Poetry (W)
+ 
+</li>
+<li> AFPRL	35600	Latino Literature in English (W)
+ 
+</li>
+<li> AFPRL	36000	Politics in Puerto Rico (W)
+ 
+</li>
+<li> AFPRL	36200	Puerto Rican and Caribbean Religious Practices
+ 
+</li>
+<li> AFPRL	36200	Puerto Rican and Caribbean Religious Practices (W)
+ 
+</li>
+<li> AFPRL	37000	Sociolinguistic Fieldwork in Black and Puerto Rican/Latino Speech Communities (W)
+ 
+</li>
+<li> AFPRL	38400	Poverty in Society (W)
+ 
+</li>
+<li> AFPRL	38700	Puerto Rican/Latino Politics in the United States (W)
+ 
+</li>
+<li> AFPRL	39000	Research Topics in Africana and Puerto Rican/Latino Studies (W)
+ 
+</li>
+<li> AFPRL	40100	Pan-Africanism
+ 
+</li>
+<li> AFPRL	40200	African American Political Thought
+ 
+</li>
+<li> AFPRL	40300	Development Strategies in the African-Caribbean
+ 
+</li>
+<li> AFPRL	42000	The Black Church and Social Change
+ 
+</li>
+<li> AFPRL	42800	Selected Topics in Africana and Puerto Rican/Latino Studies: Social Science
+ 
+</li>
+<li> AFPRL	42863	Afro-Latino Culture and History
+ 
+</li>
+<li> AFPRL	44200	History of Puerto Rican Labor Movements
+ 
+</li>
+<li> AFPRL	44500	Caribbean Short Story in Spanish: Readings and Theories
+ 
+</li>
+<li> AFPRL	49900	Honors
+ 
+</li>
+<li> ANTHC	10100	Introduction to Cultural Anthropology
+ 
+</li>
+<li> ANTHC	12600	Introduction to Prehistoric Archaeology
+ 
+</li>
+<li> ANTHC	12700	Methods In Archaeological Science
+ 
+</li>
+<li> ANTHC	15100	Introduction to Linguistics
+ 
+</li>
+<li> ANTHC	20000	Africa: Societies and Cultures
+ 
+</li>
+<li> ANTHC	20100	The Middle East: Societies and Cultures
+ 
+</li>
+<li> ANTHC	20400	East Asia: Societies and Cultures
+ 
+</li>
+<li> ANTHC	21100	Native North America: Societies and Cultures
+ 
+</li>
+<li> ANTHC	21300	Latin America: Societies and Cultures
+ 
+</li>
+<li> ANTHC	21400	The Caribbean: Societies and Cultures
+ 
+</li>
+<li> ANTHC	21500	The Anthropology of Black America (W)
+ 
+</li>
+<li> ANTHC	21800	The Anthropology of the Civil Rights Movement in the U.S.
+ 
+</li>
+<li> ANTHC	22600	Archaeology of Africa
+ 
+</li>
+<li> ANTHC	22700	Archaeology of Europe
+ 
+</li>
+<li> ANTHC	22800	Archaeology of the Near East to 2000 BC
+ 
+</li>
+<li> ANTHC	23000	Prehistory of North American Indians
+ 
+</li>
+<li> ANTHC	23100	Archaeology of Mesoamerica
+ 
+</li>
+<li> ANTHC	23200	Archaeology of South America and the Caribbean
+ 
+</li>
+<li> ANTHC	26000	North American Indian Languages and Cultures
+ 
+</li>
+<li> ANTHC	26300	Afro-New World Languages and Cultures
+ 
+</li>
+<li> ANTHC	27500	Reading Ethnographies (W)
+ 
+</li>
+<li> ANTHC	30100	Gender in Anthropological Perspective
+ 
+</li>
+<li> ANTHC	30600	Folklore and Myth
+ 
+</li>
+<li> ANTHC	30700	Anthropology of Religion
+ 
+</li>
+<li> ANTHC	30700	Anthropology of Religion
+ 
+</li>
+<li> ANTHC	30800	Human Ecology
+ 
+</li>
+<li> ANTHC	30900	Countryside and City: Comparative Perspectives
+ 
+</li>
+<li> ANTHC	31000	Politics and Power in Anthropological Perspective
+ 
+</li>
+<li> ANTHC	31100	Anthropology of Art
+ 
+</li>
+<li> ANTHC	31200	Anthropological Approaches to Sexuality
+ 
+</li>
+<li> ANTHC	31400	Research Design in Anthropology
+ 
+</li>
+<li> ANTHC	31500	Applied Anthropology
+ 
+</li>
+<li> ANTHC	31600	Quantitative Methods in Anthropology
+ 
+</li>
+<li> ANTHC	31700	Field Methods in Cultural Anthropology
+ 
+</li>
+<li> ANTHC	31800	History of Anthropological Theory
+ 
+</li>
+<li> ANTHC	32000	Problems in Anthropology
+ 
+</li>
+<li> ANTHC	32076	Language, Sex and Gender
+ 
+</li>
+<li> ANTHC	32100	Women and Globalization
+ 
+</li>
+<li> ANTHC	32200	Family and Household in Anthropology and History
+ 
+</li>
+<li> ANTHC	32500	Special Projects and Independent Research in Anthropology
+ 
+</li>
+<li> ANTHC	32600	Rise of Old and New World Civilizations
+ 
+</li>
+<li> ANTHC	32700	Prehistoric Cultural Ecology
+ 
+</li>
+<li> ANTHC	33200	East Asia: Societies and Cultures
+ 
+</li>
+<li> ANTHC	33400	Latin America: Societies and Cultures
+ 
+</li>
+<li> ANTHC	34600	Analytic Methods in Archaeology
+ 
+</li>
+<li> ANTHC	35000	Popular Culture: Anthropological Perspectives
+ 
+</li>
+<li> ANTHC	35100	Language in Culture and Society
+ 
+</li>
+<li> ANTHC	35300	Phonological Analysis and Theory
+ 
+</li>
+<li> ANTHC	35400	Grammatical Analysis and Theory
+ 
+</li>
+<li> ANTHC	40000	Honors Projects
+ 
+</li>
+<li> ANTHC	40100	Seminars in Selected Topics
+ 
+</li>
+<li> ANTHC	40196	International Migration
+ 
+</li>
+<li> ANTHC	42600	Seminar in Archaeological Field Methods
+ 
+</li>
+<li> ANTHP	10100 (STEM)	Human Evolution
+ 
+</li>
+<li> ANTHP	10200 (STEM)	Human Variation
+ 
+</li>
+<li> ANTHP	10500	The Human Species
+ 
+</li>
+<li> ANTHP	21400	Theory of Evolution
+ 
+</li>
+<li> ANTHP	30100	Human Fossil Record
+ 
+</li>
+<li> ANTHP	30200	Human Genetics
+ 
+</li>
+<li> ANTHP	31000	Primate Ecology and Behavior
+ 
+</li>
+<li> ANTHP	31100	Primate Evolution
+ 
+</li>
+<li> ANTHP	31200	Primate Evolutionary Genetics
+ 
+</li>
+<li> ANTHP	31600	Human Evolutionary Adaptations
+ 
+</li>
+<li> ANTHP	40100	Seminars in Selected Topics
+ 
+</li>
+<li> ARB	10100	Beginning Arabic I
+ 
+</li>
+<li> ARB	10200	Beginning Arabic II
+ 
+</li>
+<li> ARB	14800	Beginning Arabic for Heritage Speakers
+ 
+</li>
+<li> ARB	14900	Spoken Egyptian Arabic
+ 
+</li>
+<li> ARB	20000	Topics in Arabic Literature and Culture
+ 
+</li>
+<li> ARB	20100	Intermediate Arabic I
+ 
+</li>
+<li> ARB	20200	Intermediate Arabic II
+ 
+</li>
+<li> ARB	24800	Intermediate Arabic for Heritage Speakers
+ 
+</li>
+<li> ARB	25000	The Arab Novel (in translation) (W)
+ 
+</li>
+<li> ARB	25100	Arab Cinema (in translation)
+ 
+</li>
+<li> ARB	25200	Literatures from the Islamic World (W)
+ 
+</li>
+<li> ARB	25300	Literatures and Cultures of Muslim Spain (W)
+ 
+</li>
+<li> ARB	25400	The Arabian Nights East and West (W)
+ 
+</li>
+<li> ARB	30000	Problems in Arabic Literature and Culture
+ 
+</li>
+<li> ARB	30100	Advanced Arabic I
+ 
+</li>
+<li> ARB	30200	Advanced Arabic II
+ 
+</li>
+<li> ARTCR	22100	Drawing
+ 
+</li>
+<li> ARTCR	22500	Graphic Arts Workshop
+ 
+</li>
+<li> ARTCR	23500	Painting
+ 
+</li>
+<li> ARTCR	24000	Watercolor Painting
+ 
+</li>
+<li> ARTCR	25100	Sculpture
+ 
+</li>
+<li> ARTCR	25700	Ceramics
+ 
+</li>
+<li> ARTCR	27100	Principles of Photography
+ 
+</li>
+<li> ARTCR	29000	Combined Media
+ 
+</li>
+<li> ARTCR	30100	Advanced Studio
+ 
+</li>
+<li> ARTCR	32200	Advanced Drawing
+ 
+</li>
+<li> ARTCR	32600	Advanced Graphic Arts Workshop
+ 
+</li>
+<li> ARTCR	33600	Advanced Painting
+ 
+</li>
+<li> ARTCR	35200	Advanced Sculpture
+ 
+</li>
+<li> ARTCR	35700	Advanced Ceramics
+ 
+</li>
+<li> ARTCR	36000	Special Projects
+ 
+</li>
+<li> ARTCR	37200	Advanced Photography
+ 
+</li>
+<li> ARTCR	39000	Combined Media
+ 
+</li>
+<li> ARTCR	40200	Independent Study in Studio Art
+ 
+</li>
+<li> ARTCR	40500	Art and Current Ideas II
+ 
+</li>
+<li> ARTCR	45900	Professional Experience in Art I
+ 
+</li>
+<li> ARTCR	46000	Professional Experience in Art II
+ 
+</li>
+<li> ARTCR	49800	Internship
+ 
+</li>
+<li> ARTH	11100	Introduction to History of Art
+ 
+</li>
+<li> ARTH	20500	Egyptian Art
+ 
+</li>
+<li> ARTH	21500	Greek Art
+ 
+</li>
+<li> ARTH	21600	Roman Art
+ 
+</li>
+<li> ARTH	22000	Early Medieval Art
+ 
+</li>
+<li> ARTH	22100	Later Medieval Art
+ 
+</li>
+<li> ARTH	22500	Art of Early Renaissance
+ 
+</li>
+<li> ARTH	22700	Northern Renaissance Art
+ 
+</li>
+<li> ARTH	23000	Art of High Renaissance and Later 16th Century in Italy
+ 
+</li>
+<li> ARTH	23500	Southern Baroque Art
+ 
+</li>
+<li> ARTH	24000	Baroque Art of Northern Europe
+ 
+</li>
+<li> ARTH	24300	Eighteenth-Century Art
+ 
+</li>
+<li> ARTH	24400	Neo-Classicism and Romanticism: the Age of Revolution, 1789-1848
+ 
+</li>
+<li> ARTH	24500	Issues in 19th-Century French Painting: Realism, Impressionism and Post-Impressionism/Symbolism (1850-1910)
+ 
+</li>
+<li> ARTH	24600	American Art 1760-1900
+ 
+</li>
+<li> ARTH	24900	Twentieth-Century Art I
+ 
+</li>
+<li> ARTH	25000	Twentieth-Century Art II
+ 
+</li>
+<li> ARTH	25100	Contemporary Art
+ 
+</li>
+<li> ARTH	25200	Ancient Architecture
+ 
+</li>
+<li> ARTH	25300	Medieval Architecture
+ 
+</li>
+<li> ARTH	25400	Architecture: Renaissance to Neo-Classical
+ 
+</li>
+<li> ARTH	25500	Modern Architecture I (1850- 1950)
+ 
+</li>
+<li> ARTH	26000	Islamic Art and Architecture
+ 
+</li>
+<li> ARTH	26200	Art of East Asia: Ritual and Religion
+ 
+</li>
+<li> ARTH	26300	Art of East Asia: Painting and Calligraphy
+ 
+</li>
+<li> ARTH	27000	Art of Africa and Oceania
+ 
+</li>
+<li> ARTH	29900	Special Topics in History of Art
+ 
+</li>
+<li> ARTH	30000	Research Methods of Art History Seminar (W)
+ 
+</li>
+<li> ARTH	31100	Special Topics Lecture in Ancient Art (W)
+ 
+</li>
+<li> ARTH	32100	Special Topics Lecture in Medieval Art (W)
+ 
+</li>
+<li> ARTH	33100	Special Topics Lecture in Renaissance Art (W)
+ 
+</li>
+<li> ARTH	34100	Special Topics Lecture in Baroque Art (W)
+ 
+</li>
+<li> ARTH	35100	Special Topics Lecture in Modern Art (W)
+ 
+</li>
+<li> ARTH	36100	Special Topics Lecture in Islamic Art (W)
+ 
+</li>
+<li> ARTH	37100	Special Topics Lecture in Asian Art (W)
+ 
+</li>
+<li> ARTH	38100	Special Topics Lecture in Art History (W)
+ 
+</li>
+<li> ARTH	40200	Independent Study in Art History
+ 
+</li>
+<li> ARTH	41000	Advanced Studies Seminar in Ancient Art (W)
+ 
+</li>
+<li> ARTH	42000	Advanced Studies Seminar in Medieval Art
+ 
+</li>
+<li> ARTH	43000	Advanced Studies Seminar in Renaissance Art (W)
+ 
+</li>
+<li> ARTH	44000	Advanced Studies Seminar in Baroque Art (W)
+ 
+</li>
+<li> ARTH	45000	Advanced Studies Seminar in Modern Art (W)
+ 
+</li>
+<li> ARTH	46000	Advanced Studies Seminar in Islamic Art (W)
+ 
+</li>
+<li> ARTH	47000	Advanced Studies Seminar in Asian Art (W)
+ 
+</li>
+<li> ARTH	48000	Advanced Studies Seminar in Art History (W)
+ 
+</li>
+<li> ARTH	49800	Internship
+ 
+</li>
+<li> ARTLA	10100	Introduction to Study of Visual Experience
+ 
+</li>
+<li> ARTLA	36018	2-D, 3-D,4-D Seminar
+ 
+</li>
+<li> ASIA	22007	Korean American Literature
+ 
+</li>
+<li> ASIA	22008	Central Asian Literature and Film (W)
+ 
+</li>
+<li> ASIA	24100	Asian American Family
+ 
+</li>
+<li> ASIA	32004	Chinese North American Literature
+ 
+</li>
+<li> ASIA	33000	Asian Groups in the United States
+ 
+</li>
+<li> ASIA	33002	Korean Americans
+ 
+</li>
+<li> ASIA	33004	Japanese in the United States
+ 
+</li>
+<li> ASIA	33007	Southeast Asians in the Contemporary United States
+ 
+</li>
+<li> ASIA	33009	Asian Diasporas
+ 
+</li>
+<li> ASIA	33051	Imagining Asia
+ 
+</li>
+<li> ASIA	34100	Contemporary Filipino-American Literature
+ 
+</li>
+<li> ASIA	35100	Asian American History of Labor and Politics
+ 
+</li>
+<li> ASIA	39011	Asian American Feminism
+ 
+</li>
+<li> ASIA	39012	Asians in Latin America and the Caribbean
+ 
+</li>
+<li> ASIA	39013	Arab Americans: Image, Society, Culture
+ 
+</li>
+<li> ASIA	39014	Politics and Asian Identity
+ 
+</li>
+<li> ASIA	45051	Arab Migration to the United States
+ 
+</li>
+<li> ASIAN	21000	Asians in the U.S.
+ 
+</li>
+<li> ASIAN	22001	Asian American Women Writers
+ 
+</li>
+<li> ASIAN	22004	Arab American Literature
+ 
+</li>
+<li> ASIAN	22005	South Asian Women’s Literature
+ 
+</li>
+<li> ASIAN	22006	Filipino American Literature
+ 
+</li>
+<li> ASIAN	22009	Gender and Genre in Asian American Literature and Film
+ 
+</li>
+<li> ASIAN	22012	Asian American Literature
+ 
+</li>
+<li> ASIAN	23001	Globalization and Gender
+ 
+</li>
+<li> ASIAN	23002	Asian American Communities and Mental Health
+ 
+</li>
+<li> ASIAN	23002	Asian American Communities and Mental Health
+ 
+</li>
+<li> ASIAN	32001	Nation, Self, and Asian Identity
+ 
+</li>
+<li> ASIAN	32005	Asian American Memoir
+ 
+</li>
+<li> ASIAN	32100	Asian American Social Protest Literature
+ 
+</li>
+<li> ASIAN	33001	Chinese in the U.S.
+ 
+</li>
+<li> ASIAN	33003	South Asians in the U.S.
+ 
+</li>
+<li> ASIAN	33008	Muslim Diasporas
+ 
+</li>
+<li> ASIAN	33052	Oral History, Cultural Identity and the Arts
+ 
+</li>
+<li> ASIAN	34001	Asian Pacific American Media
+ 
+</li>
+<li> ASIAN	34003	West Asian American Literature and Film
+ 
+</li>
+<li> ASIAN	35100	Asian American History of Labor and Politics
+ 
+</li>
+<li> ASIAN	39001	International Migration
+ 
+</li>
+<li> ASIAN	39002	Asian American Civil Rights and the Law
+ 
+</li>
+<li> ASIAN	39006	Gender and Sexuality in Asian American Literature and Film
+ 
+</li>
+<li> ASIAN	39015	Immigration and the Economy
+ 
+</li>
+<li> ASIAN	39016	Ethnicity and American English
+ 
+</li>
+<li> ASIAN	39018	Asian American Poetics
+ 
+</li>
+<li> ASIAN	46000	Independent Study
+ 
+</li>
+<li> ASIAN	46000	Independent Study
+ 
+</li>
+<li> ASIAN	49000	Immigration Policy
+ 
+</li>
+<li> ASIAN	49100	Asian American Movement and Community Organizations
+ 
+</li>
+<li> ASTRO	10100	Basic Concepts of Astronomy with Laboratory Exercises
+ 
+</li>
+<li> ASTRO	10700	Laboratory Exercises in Astronomy
+ 
+</li>
+<li> ASTRO	18100	Astronomy of the Solar System
+ 
+</li>
+<li> ASTRO	18200	Stellar Astronomy
+ 
+</li>
+<li> BIOL	10000 (STEM)	Principles of Biology I
+ 
+</li>
+<li> BIOL	10200 (STEM)	Principles of Biology II
+ 
+</li>
+<li> BIOL	12000	Anatomy and Physiology I
+ 
+</li>
+<li> BIOL	12200	Anatomy and Physiology II
+ 
+</li>
+<li> BIOL	12500 (STEM)	Human Biology
+ 
+</li>
+<li> BIOL	15000 (STEM)	CSI:  HUNTER (Forensic Biology)
+ 
+</li>
+<li> BIOL	16000	Honors Principles of Biology II
+ 
+</li>
+<li> BIOL	20000	Cell Biology I: Microorganisms
+ 
+</li>
+<li> BIOL	20200	Cell Biology II: Eucaryotic Systems
+ 
+</li>
+<li> BIOL	20800	Ecology
+ 
+</li>
+<li> BIOL	22000	Topics in Genetics and Evolution
+ 
+</li>
+<li> BIOL	23000	Fundamentals of Microbiology
+ 
+</li>
+<li> BIOL	25000	Current Topics in the Biosciences (W)
+ 
+</li>
+<li> BIOL	25200	Comparative Anatomy of the Vertebrates
+ 
+</li>
+<li> BIOL	28000	Biochemistry of Health and Nutrition
+ 
+</li>
+<li> BIOL	30000	Biological Chemistry
+ 
+</li>
+<li> BIOL	30200	Molecular Genetics
+ 
+</li>
+<li> BIOL	30600	Developmental Biology
+ 
+</li>
+<li> BIOL	32200	Evolution
+ 
+</li>
+<li> BIOL	33500	Comparative Animal Physiology
+ 
+</li>
+<li> BIOL	34000	Plant Physiology
+ 
+</li>
+<li> BIOL	35000	The Biology of Cancer
+ 
+</li>
+<li> BIOL	36000	Cellular and Molecular Immunology
+ 
+</li>
+<li> BIOL	37000	Physiology of the Nervous System
+ 
+</li>
+<li> BIOL	37500	Molecular Systematics
+ 
+</li>
+<li> BIOL	37600	Endocrinology
+ 
+</li>
+<li> BIOL	38000	Molecular Neurobiology
+ 
+</li>
+<li> BIOL	38500	Fundamentals of Developmental Neurobiology
+ 
+</li>
+<li> BIOL	39000	Laboratory in Cell Structure
+ 
+</li>
+<li> BIOL	40000	Special Topics in Advanced Laboratory Techniques
+ 
+</li>
+<li> BIOL	41000	Workshop in Biotechnology
+ 
+</li>
+<li> BIOL	42500	Computational Molecular Biology
+ 
+</li>
+<li> BIOL	45000	Individual Tutorial in Biology
+ 
+</li>
+<li> BIOL	46000	Introduction to Planning and Teaching of Laboratory Work in Biology
+ 
+</li>
+<li> BIOL	47000	Special Topics in Biology
+ 
+</li>
+<li> BIOL	47100	Special Topics in Biology
+ 
+</li>
+<li> BIOL	48000	Introduction to Experimental Biology
+ 
+</li>
+<li> BIOL	48100	Introduction to Experimental Biology
+ 
+</li>
+<li> BIOL	48200	Introduction to Experimental biology
+ 
+</li>
+<li> BIOL	48300	Introduction to Experimental Biology
+ 
+</li>
+<li> CHEM	10000 (STEM)	Essentials of General Chemistry Lecture
+ 
+</li>
+<li> CHEM	10100	Inquiries into the Nature of Matter
+ 
+</li>
+<li> CHEM	10200 (STEM)	General Chemistry I
+ 
+</li>
+<li> CHEM	10300 (STEM)	General Chemistry Laboratory I
+ 
+</li>
+<li> CHEM	10400 (STEM)	General Chemistry II
+ 
+</li>
+<li> CHEM	10500 (STEM)	General Chemistry Laboratory II
+ 
+</li>
+<li> CHEM	10600 (STEM)	General Chemistry Laboratory
+ 
+</li>
+<li> CHEM	11100 (STEM)	Chemical Principles
+ 
+</li>
+<li> CHEM	11200 (STEM)	Thermodynamics and Solution Chemistry
+ 
+</li>
+<li> CHEM	11500	Introductory Chemistry
+ 
+</li>
+<li> CHEM	12000 (STEM)	Essentials of Organic Chemistry Lecture
+ 
+</li>
+<li> CHEM	12100 (STEM)	Essentials of Organic Chemistry Laboratory
+ 
+</li>
+<li> CHEM	15000	Peer-Led Teaching in Chemistry
+ 
+</li>
+<li> CHEM	22200	Organic Chemistry Lecture I
+ 
+</li>
+<li> CHEM	22300	Organic Chemistry Laboratory I
+ 
+</li>
+<li> CHEM	22400	Organic Chemistry Lecture II
+ 
+</li>
+<li> CHEM	22500	Organic Chemistry Laboratory II
+ 
+</li>
+<li> CHEM	24900	Quantitative Analysis
+ 
+</li>
+<li> CHEM	29101	Chemical Investigations
+ 
+</li>
+<li> CHEM	29102	Chemical Investigations
+ 
+</li>
+<li> CHEM	29500	Introduction to Planning and Teaching of Laboratory Work in Chemistry
+ 
+</li>
+<li> CHEM	32200	Organic Chemistry Lecture III
+ 
+</li>
+<li> CHEM	34900	Instrumental Analysis
+ 
+</li>
+<li> CHEM	35000	Biophysical Chemistry
+ 
+</li>
+<li> CHEM	35200	Physical Chemistry I
+ 
+</li>
+<li> CHEM	35400	Physical Chemistry II - F
+ 
+</li>
+<li> CHEM	35500	Physical Chemistry Laboratory I
+ 
+</li>
+<li> CHEM	35600	Physical Chemistry II - S
+ 
+</li>
+<li> CHEM	35700	Physical Chemistry Laboratory II
+ 
+</li>
+<li> CHEM	36600	Inorganic Chemistry
+ 
+</li>
+<li> CHEM	37600	Biochemistry I
+ 
+</li>
+<li> CHEM	37700	Biochemistry II
+ 
+</li>
+<li> CHEM	37800	Biochemistry Laboratory
+ 
+</li>
+<li> CHEM	38800	Topics of Current Interest in Chemistry
+ 
+</li>
+<li> CHEM	39000	Current Laboratory Methods in Chemistry
+ 
+</li>
+<li> CHEM	49101	Introduction to Research
+ 
+</li>
+<li> CHEM	49102	Introduction to Research
+ 
+</li>
+<li> CHIN	10100	Elementary Chinese I
+ 
+</li>
+<li> CHIN	10200	Elementary Chinese II
+ 
+</li>
+<li> CHIN	10500	Chinese Writing System and Calligraphy I
+ 
+</li>
+<li> CHIN	10600	Chinese Writing System and Calligraphy II
+ 
+</li>
+<li> CHIN	11100	Chinese Culture I
+ 
+</li>
+<li> CHIN	11200	Chinese Culture II
+ 
+</li>
+<li> CHIN	20100	Intermediate Chinese I
+ 
+</li>
+<li> CHIN	20200	Intermediate Chinese II
+ 
+</li>
+<li> CHIN	21100	Topics in Chinese Culture
+ 
+</li>
+<li> CHIN	25100	Topics in Chinese Literature in English Translation (W)
+ 
+</li>
+<li> CHIN	30100	Journalistic Chinese Literature I
+ 
+</li>
+<li> CHIN	30200	Journalistic Chinese Literature II
+ 
+</li>
+<li> CHIN	30300	Classical Chinese Literature I
+ 
+</li>
+<li> CHIN	30400	Classical Chinese Literature II
+ 
+</li>
+<li> CHIN	30600	20th-century Chinese Literature
+ 
+</li>
+<li> CHIN	30700	Classical Chinese Poetry
+ 
+</li>
+<li> CHIN	35500	Classical Chinese Fiction in English Translation (W)
+ 
+</li>
+<li> CHIN	35700	Chinese Poetry in English Translation (W)
+ 
+</li>
+<li> CHIN	39900	Second Language Acquisition
+ 
+</li>
+<li> CHIN	40100	Advanced Studies in Chinese Literature
+ 
+</li>
+<li> CHIN	40200	Independent Study in Chinese Literature
+ 
+</li>
+<li> CLA	10100	Classical Mythology
+ 
+</li>
+<li> CLA	10100	Classical Mythology
+ 
+</li>
+<li> CLA	11000	The Greek and Latin Roots of English
+ 
+</li>
+<li> CLA	20100	Greek Civilization (W)
+ 
+</li>
+<li> CLA	20200	Hellenistic Civilization (W)
+ 
+</li>
+<li> CLA	20300	Roman Civilization (W)
+ 
+</li>
+<li> CLA	20400	Introduction to Classical, Near Eastern, and Egyptian Archaeology (W)
+ 
+</li>
+<li> CLA	21000	The Greek and Roman Theatre (W)
+ 
+</li>
+<li> CLA	22000	Aegean Archaeology (W)
+ 
+</li>
+<li> CLA	22100	Greek Archaeology (W)
+ 
+</li>
+<li> CLA	22200	Roman Archaeology I: Etruscans, Monarchy, Republic (W)
+ 
+</li>
+<li> CLA	22500	Archaeology of Egypt (W)
+ 
+</li>
+<li> CLA	22700	Archaeology of Eastern Mediterranean (W)
+ 
+</li>
+<li> CLA	24000	Topics in Classics
+ 
+</li>
+<li> CLA	25000	Greek and Roman Tragedy (W)
+ 
+</li>
+<li> CLA	25100	Ancient Comedy (W)
+ 
+</li>
+<li> CLA	25300	Homer and Vergil (W)
+ 
+</li>
+<li> CLA	25400	The Ancient Novel in Translation (W)
+ 
+</li>
+<li> CLA	30200	Comparative Backgrounds of Classical Mythology (W)
+ 
+</li>
+<li> CLA	30300	Religion of Ancient Greece
+ 
+</li>
+<li> CLA	30300	Religion of Ancient Greece (W)
+ 
+</li>
+<li> CLA	30400	Pagans and Christians (W)
+ 
+</li>
+<li> CLA	30500	Women and Slaves in Classical Antiquity (W)
+ 
+</li>
+<li> CLA	30600	Special Studies in Ancient Greek Culture
+ 
+</li>
+<li> CLA	30700	Special Studies in Ancient Roman Culture
+ 
+</li>
+<li> CLA	30800	Magic and Science in the Ancient World (W)
+ 
+</li>
+<li> CLA	31000	Ancient Sports and Spectacles (W)
+ 
+</li>
+<li> CLA	32200	Archaeology of Mesopotamia and Iran (W)
+ 
+</li>
+<li> CLA	32300	Archaeology of Anatolia (W)
+ 
+</li>
+<li> CLA	32900	Problems in Archaeology
+ 
+</li>
+<li> CLA	33000	Field Seminar in Archaeology
+ 
+</li>
+<li> CLA	42100	Independent Study in Classics
+ 
+</li>
+<li> CLA	49100	Honors in Classics
+ 
+</li>
+<li> CLA	49800	Internship
+ 
+</li>
+<li> COMHE	15000	Introduction to the Health Care System
+ 
+</li>
+<li> COMHE	15200	Bodies Using Bodies
+ 
+</li>
+<li> COMHE	20000	Controversial Issues in Health and Health Care
+ 
+</li>
+<li> COMHE	20400	AIDS and Society
+ 
+</li>
+<li> COMHE	30100	Introduction to Community and Public Health
+ 
+</li>
+<li> COMHE	30200	Principles of Health Promotion
+ 
+</li>
+<li> COMHE	30300	Social Structure and Health (W)
+ 
+</li>
+<li> COMHE	30400	Introduction to Health Communication Theory and Practice
+ 
+</li>
+<li> COMHE	30600	Social Disparities in Health
+ 
+</li>
+<li> COMHE	32100	Addictions and Dependencies
+ 
+</li>
+<li> COMHE	32200	Maternal and Child Health
+ 
+</li>
+<li> COMHE	32300	Health and Aging
+ 
+</li>
+<li> COMHE	32400	Human Sexuality
+ 
+</li>
+<li> COMHE	32500	Environmental Public Health
+ 
+</li>
+<li> COMHE	32600	HIV/AIDS: An Interdisciplinary Perspective for Health Care Providers
+ 
+</li>
+<li> COMHE	32800	Public Health Biology
+ 
+</li>
+<li> COMHE	33000	Principles of Epidemiology
+ 
+</li>
+<li> COMHE	40000	Topics in Community Health and Public Health
+ 
+</li>
+<li> COMHE	40500	Health Care Systems and Health Policy
+ 
+</li>
+<li> COMHE	40800	Digital Media and Health
+ 
+</li>
+<li> COMHE	41100	Community Health Assessment
+ 
+</li>
+<li> COMHE	41200	Directed Fieldwork Practicum
+ 
+</li>
+<li> COMHE	41300	Research Symposium
+ 
+</li>
+<li> COMHE	42000	Introduction to Clinical Medicine
+ 
+</li>
+<li> COMHE	48010	Independent Study
+ 
+</li>
+<li> COMHE	48020	Independent Study
+ 
+</li>
+<li> COMHE	48030	Independent Study
+ 
+</li>
+<li> COMHE	49000	Honors
+ 
+</li>
+<li> COMPL	30100	Seminar: Approaches to Comparative Literature
+ 
+</li>
+<li> COMPL	32000	Comparative Studies in Prose Fiction
+ 
+</li>
+<li> COMPL	32100	Comparative Studies in Prose Fiction
+ 
+</li>
+<li> COMPL	33000	Comparative Studies in Drama
+ 
+</li>
+<li> COMPL	33100	Comparative Studies in Drama
+ 
+</li>
+<li> COMPL	34000	Perspectives on Literature and the Arts
+ 
+</li>
+<li> COMPL	34100	Perspectives on Literature and the Arts
+ 
+</li>
+<li> COMPL	35000	Comparative Studies in Literary Movements
+ 
+</li>
+<li> COMPL	35100	Comparative Studies in Literary Movements
+ 
+</li>
+<li> COMPL	37000	Comparative Studies in Myth and Folklore
+ 
+</li>
+<li> COMPL	37100	Comparative Studies in Myth and Folklore
+ 
+</li>
+<li> COMPL	38000	Selected Topics in Comparative Literature
+ 
+</li>
+<li> COMPL	38100	Selected Topics in Comparative Literature
+ 
+</li>
+<li> COMPL	39000	Honors Project
+ 
+</li>
+<li> COMPL	39100	Honors Project
+ 
+</li>
+<li> COUNS	20500	Career Planning and Job Search
+ 
+</li>
+<li> CSCI	11500	Computer Technology in Childhood Education
+ 
+</li>
+<li> CSCI	12000	Introduction to Computers
+ 
+</li>
+<li> CSCI	12100	Computers and Money: Quantitative Reasoning in Context
+ 
+</li>
+<li> CSCI	12700	Introduction to Computer Science
+ 
+</li>
+<li> CSCI	13200	Practical UNIX and Programming, with Lab
+ 
+</li>
+<li> CSCI	13300	Programming for Everyone
+ 
+</li>
+<li> CSCI	13500	Software Analysis and Design I
+ 
+</li>
+<li> CSCI	13600	Supervised Programming Lab
+ 
+</li>
+<li> CSCI	15000	Discrete Structures
+ 
+</li>
+<li> CSCI	16000	Computer Architecture I
+ 
+</li>
+<li> CSCI	18100	Independent Workshop
+ 
+</li>
+<li> CSCI	18200	Independent Workshop
+ 
+</li>
+<li> CSCI	18300	Independent Workshop
+ 
+</li>
+<li> CSCI	23200	Relational Databases and SQL Programming, with Lab
+ 
+</li>
+<li> CSCI	23300	Programming Projects Seminar for Minors
+ 
+</li>
+<li> CSCI	23500	Software Analysis and Design II
+ 
+</li>
+<li> CSCI	24500	Computer Architecture II
+ 
+</li>
+<li> CSCI	26000	Computer Architecture II
+ 
+</li>
+<li> CSCI	26500	Computer Theory I
+ 
+</li>
+<li> CSCI	26700	Microprocessors and Embedded Systems
+ 
+</li>
+<li> CSCI	33500	Software Analysis and Design III
+ 
+</li>
+<li> CSCI	34000	Operating Systems
+ 
+</li>
+<li> CSCI	35000	Artificial Intelligence
+ 
+</li>
+<li> CSCI	35500	Introduction to Linear Programming
+ 
+</li>
+<li> CSCI	36000	Computer Architecture III
+ 
+</li>
+<li> CSCI	36500	Computer Theory II
+ 
+</li>
+<li> CSCI	38500	Numerical Methods I
+ 
+</li>
+<li> CSCI	39100	Independent Study in Computer Science
+ 
+</li>
+<li> CSCI	39200	Independent Study in Computer Science
+ 
+</li>
+<li> CSCI	39300	Independent Study in Computer Science
+ 
+</li>
+<li> CSCI	39400	Topics in Computer Science
+ 
+</li>
+<li> CSCI	39500	Topics in Computer Science
+ 
+</li>
+<li> CSCI	40500	Software Engineering
+ 
+</li>
+<li> CSCI	41500	Data Communications and Networks
+ 
+</li>
+<li> CSCI	43500	Database Management
+ 
+</li>
+<li> CSCI	45000	Language Translation
+ 
+</li>
+<li> CSCI	46000	Advanced Programming Languages
+ 
+</li>
+<li> CSCI	48500	Numerical Methods II
+ 
+</li>
+<li> CSCI	49300	Honors Seminar
+ 
+</li>
+<li> CSCI	49366	UNIX System Programming
+ 
+</li>
+<li> CSCI	49600	Supervised Research
+ 
+</li>
+<li> CSCI	49700	Supervised Research
+ 
+</li>
+<li> CSCI	49800	Supervised Research
+ 
+</li>
+<li> CSCI	49900	Advanced Applications: A Capstone for Majors
+ 
+</li>
+<li> DAN	10100	Fundamentals of Contemporary Dance Technique
+ 
+</li>
+<li> DAN	10200	Dance, Dancers and the Audience
+ 
+</li>
+<li> DAN	14500	Fundamentals of Ballet
+ 
+</li>
+<li> DAN	15100	Folk Forms of Dance I
+ 
+</li>
+<li> DAN	21000	Contemporary Dance Technique I
+ 
+</li>
+<li> DAN	21300	Basic Musicianship for Dancers
+ 
+</li>
+<li> DAN	22000	Contemporary Dance Technique II
+ 
+</li>
+<li> DAN	22100	Improvisation as a Creative Process I
+ 
+</li>
+<li> DAN	23200	20th-Century Dance History
+ 
+</li>
+<li> DAN	24500	Ballet I
+ 
+</li>
+<li> DAN	25100	Folk Forms of Dance II
+ 
+</li>
+<li> DAN	25200	Special Topics: Traditional Dance I
+ 
+</li>
+<li> DAN	31000	Contemporary Dance Technique III
+ 
+</li>
+<li> DAN	32000	Contemporary Dance Technique IV
+ 
+</li>
+<li> DAN	32100	Composition I
+ 
+</li>
+<li> DAN	32400	Production I
+ 
+</li>
+<li> DAN	34500	Ballet II
+ 
+</li>
+<li> DAN	35000	Anatomy and Kinesiology for Dancers
+ 
+</li>
+<li> DAN	35200	Special Topics: Traditional Dance II
+ 
+</li>
+<li> DAN	42100	Composition II
+ 
+</li>
+<li> DAN	42200	Choreographic Projects
+ 
+</li>
+<li> DAN	42400	Production II
+ 
+</li>
+<li> DAN	43200	Repertory I
+ 
+</li>
+<li> DAN	43300	Repertory II
+ 
+</li>
+<li> DAN	44000	Lecture/Demonstration Touring Group
+ 
+</li>
+<li> DAN	46100	Seminar in Dance
+ 
+</li>
+<li> DAN	48000	Independent Study in Dance
+ 
+</li>
+<li> DAN	49000	Honors in Dance
+ 
+</li>
+<li> DAN	49800	Internship
+ 
+</li>
+<li> DANED	30200	Theory and Practice of Teaching Dance (pre-K-12)
+ 
+</li>
+<li> ECO	10000	Introduction to Economics
+ 
+</li>
+<li> ECO	20000	Principles of Microeconomics
+ 
+</li>
+<li> ECO	20100	Principles of Macroeconomics
+ 
+</li>
+<li> ECO	21000	Money and Banking
+ 
+</li>
+<li> ECO	22000	Techniques of Economic Analysis
+ 
+</li>
+<li> ECO	22100	Economic Statistics
+ 
+</li>
+<li> ECO	26000	Business Organization and Management
+ 
+</li>
+<li> ACC	27100	Accounting I
+ 
+</li>
+<li> ACC	27200	Accounting II
+ 
+</li>
+<li> ACC	28000	Business Law I
+ 
+</li>
+<li> ECO	29500	Selected Topics in Economics
+ 
+</li>
+<li> ECO	30000	Intermediate Microeconomics
+ 
+</li>
+<li> ECO	30100	Intermediate Macroeconomics
+ 
+</li>
+<li> ECO	30500	Development of Economic Thought
+ 
+</li>
+<li> ECO	31000	Financial Institutions
+ 
+</li>
+<li> ECO	31500	Public Finance
+ 
+</li>
+<li> ECO	32100	Introduction to Econometrics
+ 
+</li>
+<li> ECO	33000	Economic Development
+ 
+</li>
+<li> ECO	33100	Economic History
+ 
+</li>
+<li> ECO	33600	Regional Economics
+ 
+</li>
+<li> ECO	34000	International Trade
+ 
+</li>
+<li> ECO	34100	International Finance
+ 
+</li>
+<li> ECO	34500	Women and Men in the Labor Market
+ 
+</li>
+<li> ECO	34600	The Labor Movement
+ 
+</li>
+<li> ECO	35000	Comparative Economic Systems
+ 
+</li>
+<li> ECO	35200	Economics of the Caribbean
+ 
+</li>
+<li> ECO	35500	Business Strategy & Industrial Organization
+ 
+</li>
+<li> ECO	35600	Business and Public Policy
+ 
+</li>
+<li> ECO	36000	Managerial Economics
+ 
+</li>
+<li> ECO	36500	Corporate Finance
+ 
+</li>
+<li> ECO	36600	Security and Investment Analysis
+ 
+</li>
+<li> ACC	36700	Analysis of Financial Statements
+ 
+</li>
+<li> ECO	37000	Law and Economics
+ 
+</li>
+<li> ACC	37100	Intermediate Accounting I
+ 
+</li>
+<li> ACC	37200	Intermediate Accounting II
+ 
+</li>
+<li> ACC	37300	Federal Income Taxation
+ 
+</li>
+<li> ACC	37400	Managerial Accounting (Cost Accounting)
+ 
+</li>
+<li> ACC	38000	Business Law II
+ 
+</li>
+<li> ECO	39000	Independent Study in Economics
+ 
+</li>
+<li> ECO	39500	Selected Topics in Economics
+ 
+</li>
+<li> ECO	42100	Econometrics
+ 
+</li>
+<li> ECO	42600	Computer Applications in Economics
+ 
+</li>
+<li> ACC	47100	Advanced Accounting I
+ 
+</li>
+<li> ACC	47200	Advanced Accounting II
+ 
+</li>
+<li> ACC	47300	Business Taxes
+ 
+</li>
+<li> ACC	47500	Auditing
+ 
+</li>
+<li> ACC	47600	Computer Accounting Systems
+ 
+</li>
+<li> ACC	48000	Business Law III
+ 
+</li>
+<li> ACC	49000	Accounting & Auditing Research
+ 
+</li>
+<li> ECO	49500	Selected Topics in Economics
+ 
+</li>
+<li> ECO	49600	Honors Seminar in Economics
+ 
+</li>
+<li> ECO	49800	Internship in Economics of Accounting
+ 
+</li>
+<li> ECO	49900	Honors Project
+ 
+</li>
+<li> EDUC	49000	Honors Course in Educational Research
+ 
+</li>
+<li> ENGL	00200SL	Reading II
+ 
+</li>
+<li> ENGL	00400SL	English for Bilingual Students II
+ 
+</li>
+<li> ENGL	00500SL	English for Bilingual Students III
+ 
+</li>
+<li> ENGL	12000	Expository Writing
+ 
+</li>
+<li> ENGL	20100	Intermediate Expository Writing Using Small-Group Methods
+ 
+</li>
+<li> ENGL	21800	Advanced Expository Writing
+ 
+</li>
+<li> ENGL	22000	Introduction to Writing about Literature (W)
+ 
+</li>
+<li> ENGL	25000	Topics in Literature
+ 
+</li>
+<li> ENGL	25100	Topics in Literature
+ 
+</li>
+<li> ENGL	25400	Survey of British Literature II: the Eighteenth Century to the Present
+ 
+</li>
+<li> ENGL	25500	Topics in Non-European Literary Traditions (W)
+ 
+</li>
+<li> ENGL	25600	Topics in Literature by Non-European Americans (W)
+ 
+</li>
+<li> ENGL	25800	Topics in Literature by Women (W)
+ 
+</li>
+<li> ENGL	30000	Introduction to Creative Writing
+ 
+</li>
+<li> ENGL	30100	Theory and Practice of Expository Writing
+ 
+</li>
+<li> ENGL	30200	Introduction to Literary Analysis (W)
+ 
+</li>
+<li> ENGL	30300	Western Literary Backgrounds of British and American Literature
+ 
+</li>
+<li> ENGL	30500	Studies in Children's Literature
+ 
+</li>
+<li> ENGL	30600	Literary Theory (W)
+ 
+</li>
+<li> ENGL	30800	Workshop in Non-Fiction I
+ 
+</li>
+<li> ENGL	30900	Workshop in Non-Fiction II
+ 
+</li>
+<li> ENGL	31100	Workshop in Fiction I
+ 
+</li>
+<li> ENGL	31300	Workshop in Fiction II
+ 
+</li>
+<li> ENGL	31400	Workshop in Poetry I
+ 
+</li>
+<li> ENGL	31600	Workshop in Poetry II
+ 
+</li>
+<li> ENGL	31700	Topics in Non- European Literary Traditions (W)
+ 
+</li>
+<li> ENGL	31800	Topics in Literature of Non-European Americans (W)
+ 
+</li>
+<li> ENGL	31900	Topics in Literature by Women (W)
+ 
+</li>
+<li> ENGL	32000	Multi-Ethnic American Literature (W)
+ 
+</li>
+<li> ENGL	32100	Topics in African American Literature
+ 
+</li>
+<li> ENGL	32200	Topics in Gender and Sexuality in Literature
+ 
+</li>
+<li> ENGL	32300	Topics in Asian American Literature
+ 
+</li>
+<li> ENGL	32400	Topics in Native American Literature
+ 
+</li>
+<li> ENGL	32500	Post-Colonial Literature in English (W)
+ 
+</li>
+<li> ENGL	32600	Topics in US Latina/o Literature
+ 
+</li>
+<li> ENGL	32700	Topics in Caribbean Literature (W)
+ 
+</li>
+<li> ENGL	32900	Topics in Cross-Cultural Literature in English (W)
+ 
+</li>
+<li> ENGL	33000	Sociolinguistics
+ 
+</li>
+<li> ENGL	33100	The Structure of Modern English
+ 
+</li>
+<li> ENGL	33200	History of the English Language (W)
+ 
+</li>
+<li> ENGL	33300	Topics in Language and Linguistics
+ 
+</li>
+<li> ENGL	33400	Beowulf and Other Early Texts
+ 
+</li>
+<li> ENGL	33500	Chaucer
+ 
+</li>
+<li> ENGL	33600	Medieval Literature (1100-1500)
+ 
+</li>
+<li> ENGL	33700	Literary Aspects of Folklore
+ 
+</li>
+<li> ENGL	33800	Survey of British Literature I: Early Texts To the Eighteenth Century
+ 
+</li>
+<li> ENGL	33900	Survey of British Literature II: The Eighteenth Century to the Present
+ 
+</li>
+<li> ENGL	34000	History of Rhetoric
+ 
+</li>
+<li> ENGL	34100	Rhetorical Principles of Expository Writing
+ 
+</li>
+<li> ENGL	34200	Topics in Rhetoric
+ 
+</li>
+<li> ENGL	34600	Discourse Analysis
+ 
+</li>
+<li> ENGL	34700	Language and Ethnicity
+ 
+</li>
+<li> ENGL	34800	English Across the World
+ 
+</li>
+<li> ENGL	35000	Renaissance Drama
+ 
+</li>
+<li> ENGL	35100	The Age of Elizabeth I
+ 
+</li>
+<li> ENGL	35200	Shakespeare Survey
+ 
+</li>
+<li> ENGL	35300	Shakespeare I
+ 
+</li>
+<li> ENGL	35400	Shakespeare II
+ 
+</li>
+<li> ENGL	35500	Topics in Shakespeare (W)
+ 
+</li>
+<li> ENGL	35900	Topics in Seventeenth-Century Literature
+ 
+</li>
+<li> ENGL	36000	The 17th Century
+ 
+</li>
+<li> ENGL	36100	Milton
+ 
+</li>
+<li> ENGL	36200	English Drama of Restoration and 18th Century
+ 
+</li>
+<li> ENGL	36300	Topics in Milton
+ 
+</li>
+<li> ENGL	36400	The Age of Satire
+ 
+</li>
+<li> ENGL	36500	The Later 18th Century
+ 
+</li>
+<li> ENGL	36800	The 18th Century English Novel
+ 
+</li>
+<li> ENGL	36900	The 19th Century English Novel
+ 
+</li>
+<li> ENGL	37100	Topics in Romantic Literature
+ 
+</li>
+<li> ENGL	37200	Romantic Poetry
+ 
+</li>
+<li> ENGL	37300	Victorian Literature (W)
+ 
+</li>
+<li> ENGL	37400	20th and 21st Century British and Irish Poetry
+ 
+</li>
+<li> ENGL	37500	20th and 21st Century American Poetry
+ 
+</li>
+<li> ENGL	37600	20th and 21st Century British and Irish Fiction
+ 
+</li>
+<li> ENGL	37700	20th and 21st Century American Fiction
+ 
+</li>
+<li> ENGL	37800	20th and 21st Century British and Irish Drama
+ 
+</li>
+<li> ENGL	37900	20th and 21st Century American Drama
+ 
+</li>
+<li> ENGL	38000	Irish Literary Renaissance
+ 
+</li>
+<li> ENGL	38200	Topics in Medieval Literature
+ 
+</li>
+<li> ENGL	38300	Topics in Renaissance Literature
+ 
+</li>
+<li> ENGL	38400	Topics in Restoration and 18th Century Literature
+ 
+</li>
+<li> ENGL	38500	Topics in 19th Century Literature
+ 
+</li>
+<li> ENGL	38600	Topics in British and American Literature
+ 
+</li>
+<li> ENGL	38700	Topics in British and/or Irish Fiction
+ 
+</li>
+<li> ENGL	38800	Topics in Multi-Genre British and/or Irish Literature
+ 
+</li>
+<li> ENGL	38900	One Major Writer (W)
+ 
+</li>
+<li> ENGL	39000	Topics in 20th Century Literature (W)
+ 
+</li>
+<li> ENGL	39100	Topics in British and/ or Irish Poetry
+ 
+</li>
+<li> ENGL	39200	Topics in American Poetry
+ 
+</li>
+<li> ENGL	39400	World Literature: Drama
+ 
+</li>
+<li> ENGL	39500	Survey of American Literature: Origins to the Civil War (W)
+ 
+</li>
+<li> ENGL	39600	American Prose from Reconstruction to World War I
+ 
+</li>
+<li> ENGL	39700	Pre-20th Century American Poetry
+ 
+</li>
+<li> ENGL	39800	Topics in American Fiction
+ 
+</li>
+<li> ENGL	39900	Topics in American Multi-Genre Literature (W)
+ 
+</li>
+<li> ENGL	48200	Special Studies Seminar
+ 
+</li>
+<li> ENGL	48300	Special Studies Seminar
+ 
+</li>
+<li> ENGL	48400	Special Studies Seminar
+ 
+</li>
+<li> ENGL	48455	Advanced Prose Writing
+ 
+</li>
+<li> ENGL	48469	Advanced Poetry Writing
+ 
+</li>
+<li> ENGL	48476	Narrative Forms: Strategies in Fiction Writing
+ 
+</li>
+<li> ENGL	48483	Character, Class, Conflict in Contemporary Firction
+ 
+</li>
+<li> ENGL	48491	Creative Non-Fiction
+ 
+</li>
+<li> ENGL	48500	Individual Tutorial Project
+ 
+</li>
+<li> ENGL	49400	Honors Seminar: Special Studies
+ 
+</li>
+<li> ENGL	49800	Internship
+ 
+</li>
+<li> FILM	10100	Introduction to Cinema
+ 
+</li>
+<li> FILM	20100	Practical Film Analysis
+ 
+</li>
+<li> FILM	21100	Film History I: 1895-1942
+ 
+</li>
+<li> FILM	21200	Film History II: Since 1942
+ 
+</li>
+<li> FILM	21300	National Cinema
+ 
+</li>
+<li> FILM	21305	National Cinema: Italian Cinema
+ 
+</li>
+<li> FILM	21344	Israeli Cinema
+ 
+</li>
+<li> FILM	21351	National Cinema: French New Wave
+ 
+</li>
+<li> FILM	21355	National Cinema: Asian Cinema
+ 
+</li>
+<li> FILM	21400	Multicultural Perspectives in Cinema
+ 
+</li>
+<li> FILM	21500	Women and Film
+ 
+</li>
+<li> FILM	22200	Topics in Genre Studies
+ 
+</li>
+<li> FILM	22252	Topics in Genre Studies: “The Woman's Film” of the 1940s
+ 
+</li>
+<li> FILM	22400	Cinematic Space
+ 
+</li>
+<li> FILM	23000	Movies in American Culture
+ 
+</li>
+<li> FILM	23100	Studies of Selected Directors
+ 
+</li>
+<li> FILM	23200	Experimental Film and Video
+ 
+</li>
+<li> FILM	29900	Special Topics in Film
+ 
+</li>
+<li> FILM	31500	Nonfiction Film and Video
+ 
+</li>
+<li> FILM	32200	Contemporary Film Theory
+ 
+</li>
+<li> FILM	32300	Film Technology and Aesthetic Theory
+ 
+</li>
+<li> FILM	32351	Aesthetics of Film Sound
+ 
+</li>
+<li> FILM	32400	Narrative Strategies
+ 
+</li>
+<li> FILM	32600	America in American Film and Video
+ 
+</li>
+<li> FILM	32700	Representations of Race and Ethnicity in U.S. Media
+ 
+</li>
+<li> FILM	32800	Images of Resistance in the Developing World
+ 
+</li>
+<li> FILM	33200	Myths and Images in the Media
+ 
+</li>
+<li> FILM	33300	Styles and Theories of Film Acting
+ 
+</li>
+<li> FILM	33400	Theatricality and the Presentation of Self
+ 
+</li>
+<li> FILM	34400	History of Cinematography
+ 
+</li>
+<li> FILM	39100	Problems in Film Research
+ 
+</li>
+<li> FILM	39700	Topics in Film History
+ 
+</li>
+<li> FILM	39900	Studies in Film
+ 
+</li>
+<li> FILM	40100	Independent Research
+ 
+</li>
+<li> FILM	40200	Honors Project
+ 
+</li>
+<li> FILM	49800	Internship
+ 
+</li>
+<li> FILM	49900	Advanced Seminar
+ 
+</li>
+<li> FILMP	15000	Media & Film in a Digital Age I
+ 
+</li>
+<li> FILMP	16000	Media & Film in a Digital Age II
+ 
+</li>
+<li> FILMP	25100	Film Production I
+ 
+</li>
+<li> FILMP	27600	Screen Writing I - The Short (W)
+ 
+</li>
+<li> FILMP	28600	Location Sound
+ 
+</li>
+<li> FILMP	31100	Directing Documentary Video Production
+ 
+</li>
+<li> FILMP	31600	Experimental Production
+ 
+</li>
+<li> FILMP	34100	Producing the Film
+ 
+</li>
+<li> FILMP	35200	Film Production II
+ 
+</li>
+<li> FILMP	37100	Screen Directing I
+ 
+</li>
+<li> FILMP	37200	Screen Directing II
+ 
+</li>
+<li> FILMP	37700	Screen Writing II The Feature (W)
+ 
+</li>
+<li> FILMP	38100	Techniques of Cinematography
+ 
+</li>
+<li> FILMP	38200	Narrative Editing
+ 
+</li>
+<li> FILMP	38300	Sound Design
+ 
+</li>
+<li> FILMP	38400	Film and Video Production
+ 
+</li>
+<li> FILMP	39900	Special Topics in Advanced Film Practice
+ 
+</li>
+<li> FILMP	45100	Film and Video Production Seminar
+ 
+</li>
+<li> FILMP	49800	Internship
+ 
+</li>
+<li> FREN	10100	Elementary French I
+ 
+</li>
+<li> FREN	10200	Elementary French II
+ 
+</li>
+<li> FREN	10250	Beginning French Conversation and Cultural Enrichment
+ 
+</li>
+<li> FREN	10300	Intensive Elementary French
+ 
+</li>
+<li> FREN	20100	Intermediate French I
+ 
+</li>
+<li> FREN	20200	Intermediate French II
+ 
+</li>
+<li> FREN	20300	Intensive Intermediate French
+ 
+</li>
+<li> FREN	20800	French for Francophones
+ 
+</li>
+<li> FREN	21100	Intermediate Grammar and Composition
+ 
+</li>
+<li> FREN	22000	Advanced French Conversation
+ 
+</li>
+<li> FREN	24100	Early French Civilization: From Gothic to Revolution
+ 
+</li>
+<li> FREN	24200	Modern French Civilization: From Revolution to Present
+ 
+</li>
+<li> FREN	25100	French Literature and the Arts
+ 
+</li>
+<li> FREN	25200	From Symbolism to Surrealism in French Literature
+ 
+</li>
+<li> FREN	25300	Modern French Theatre: Theory and Practice
+ 
+</li>
+<li> FREN	25400	Film and the French Novel
+ 
+</li>
+<li> FREN	25500	New Approaches to Modern French Literature
+ 
+</li>
+<li> FREN	25600	Dream and Image (W)
+ 
+</li>
+<li> FREN	25700	Literary Cross-Currents
+ 
+</li>
+<li> FREN	25800	French Poetry in Translation
+ 
+</li>
+<li> FREN	25900	French Theatre in Translation
+ 
+</li>
+<li> FREN	26000	French Novel in Translation (1600-1900)
+ 
+</li>
+<li> FREN	26100	Modern French Novel in Translation (1900-Present)
+ 
+</li>
+<li> FREN	26200	Perspectives on Women in French Literature
+ 
+</li>
+<li> FREN	27500	Introduction to French Literature
+ 
+</li>
+<li> FREN	31100	Advanced French Grammar
+ 
+</li>
+<li> FREN	31200	French Oral and Written Expression
+ 
+</li>
+<li> FREN	32100	French Translation
+ 
+</li>
+<li> FREN	33500	French Culture I
+ 
+</li>
+<li> FREN	33600	French Culture II
+ 
+</li>
+<li> FREN	33700	Contemporary French Culture
+ 
+</li>
+<li> FREN	34100	Survey of French Literature from the Middle Ages to the End of the 17th Century
+ 
+</li>
+<li> FREN	34200	Survey of French Literature from the 18th Century to the Modern Period
+ 
+</li>
+<li> FREN	34300	Medieval and Renaissance French Literature
+ 
+</li>
+<li> FREN	34400	17th Century French Literature
+ 
+</li>
+<li> FREN	34600	18th Century French Literature
+ 
+</li>
+<li> FREN	34800	19th Century French Literature (1800-1850)
+ 
+</li>
+<li> FREN	34900	19th Century French Literature (1850-1900)
+ 
+</li>
+<li> FREN	35000	20th Century French Literature (1900-1950)
+ 
+</li>
+<li> FREN	35100	Contemporary French Literature (1950-present)
+ 
+</li>
+<li> FREN	35300	Survey of Francophone Literature
+ 
+</li>
+<li> FREN	36000	French Literature: Special Topics
+ 
+</li>
+<li> FREN	36100	Middle Ages and the Renaissance: Special Topics
+ 
+</li>
+<li> FREN	36200	The 17th Century: Special Topics
+ 
+</li>
+<li> FREN	36300	The 18th Century: Special Topics
+ 
+</li>
+<li> FREN	36400	The 19th Century: Special Topics
+ 
+</li>
+<li> FREN	36500	The 20th Century: Special Topics
+ 
+</li>
+<li> FREN	36600	French Cinema: Special Topics
+ 
+</li>
+<li> FREN	37500	Seminar in French Literary History
+ 
+</li>
+<li> FREN	39900	Second Language Acquisition
+ 
+</li>
+<li> FREN	49100	Honors Course in French
+ 
+</li>
+<li> FREN	49500	Independent Study in French Literature
+ 
+</li>
+<li> GEOG	10100	People and Their Environment
+ 
+</li>
+<li> GEOG	15000	World Regional Geography
+ 
+</li>
+<li> GEOG	18300	Special Topics: Introductory Geosciences
+ 
+</li>
+<li> GEOG	21000	Elementary Field Geography
+ 
+</li>
+<li> GEOG	21100	Field Geography of New York City and Vicinity
+ 
+</li>
+<li> GEOG	22100	Economic Geography and Globalization
+ 
+</li>
+<li> GEOG	22600	Environmental Conservation: Resource Management
+ 
+</li>
+<li> GEOG	22700	Environmental Conservation: Urban Problems
+ 
+</li>
+<li> GEOG	24100	Population Geography
+ 
+</li>
+<li> GEOG	24200	Medical Geography
+ 
+</li>
+<li> GEOG	25100	Geography of the United States and Canada
+ 
+</li>
+<li> GEOG	26000	Geography of New York State
+ 
+</li>
+<li> GEOG	27000	Regional Geography of Mexico, Central America and the Caribbean
+ 
+</li>
+<li> GEOG	27100	Regional Geography of South America
+ 
+</li>
+<li> GEOG	27200	Regional Geography of Europe
+ 
+</li>
+<li> GEOG	27400	Regional Geography of the Middle East and North Africa
+ 
+</li>
+<li> GEOG	27500	Regional Geography of Sub- Saharan Africa
+ 
+</li>
+<li> GEOG	27700	Regional Geography of East Asia
+ 
+</li>
+<li> GEOG	27800	Regional Geography of Russia and Central Asia
+ 
+</li>
+<li> GEOG	28300	Special Topics: Geography and Geosciences
+ 
+</li>
+<li> GEOG	31100	Introduction to Fluid Mechanics
+ 
+</li>
+<li> GEOG	32100	Transportation Geography
+ 
+</li>
+<li> GEOG	32800	Urban Environmental Problems: Evaluations and Solutions
+ 
+</li>
+<li> GEOG	24400	Political Geography
+ 
+</li>
+<li> GEOG	33500	International Pollution Issues
+ 
+</li>
+<li> GEOG	24300	Urban Geography
+ 
+</li>
+<li> GEOG	34200	Geography of International Migration and Ethnicity
+ 
+</li>
+<li> GEOG	34300	Urban Geographic Theory
+ 
+</li>
+<li> GEOG	24700	Cultural Geography
+ 
+</li>
+<li> GEOG	34800	Geography of Religion
+ 
+</li>
+<li> GEOG	35700	Geography of New York City and Vicinity
+ 
+</li>
+<li> GEOG	37000	Geography of Sustainable Development in Developing Countries
+ 
+</li>
+<li> GEOG	37100	Rural Water Supply in Developing Regions
+ 
+</li>
+<li> GEOG	37200	Field Geography of Peru
+ 
+</li>
+<li> GEOG	38000	Seminar in Geographic Concepts and Methodology
+ 
+</li>
+<li> GEOG	38100	Special Topics in Geography
+ 
+</li>
+<li> GEOG	38200	Special Topics in Geography
+ 
+</li>
+<li> GEOG	38300	Special Topics in Geography
+ 
+</li>
+<li> GEOG	38500	Geographic Studies in the Field
+ 
+</li>
+<li> GEOG	39100	Individual Study in Geography
+ 
+</li>
+<li> GEOG	39200	Individual Study in Geography
+ 
+</li>
+<li> GEOG	39300	Individual Study in Geography
+ 
+</li>
+<li> GEOG	49000	Honors in Geography
+ 
+</li>
+<li> GEOG	49800	Internship
+ 
+</li>
+<li> GEOL	10000	Introductory to Geology
+ 
+</li>
+<li> GEOL	10200	Plate Tectonics and the Earth's Evolution
+ 
+</li>
+<li> GEOL	10500	Introduction to Environmental Geoscience
+ 
+</li>
+<li> GEOL	18000	Introduction to Oceanography
+ 
+</li>
+<li> GEOL	20500	Environmental Geology
+ 
+</li>
+<li> GEOL	21100	Field Geology of New York City and Vicinity
+ 
+</li>
+<li> GEOL	23100	Principles of Geomorphology
+ 
+</li>
+<li> GEOL	23300	Geology of North America
+ 
+</li>
+<li> GEOL	24400	Sedimentology
+ 
+</li>
+<li> GEOL	24800	Principals of Stratigraphy
+ 
+</li>
+<li> GEOL	28000	Marine Geology
+ 
+</li>
+<li> GEOL	33200	Hydrology See PGEOG 33200
+ 
+</li>
+<li> GEOL	33400	Geomorphology: The Study of Beaches and Coasts
+ 
+</li>
+<li> GEOL	38000	Advanced Oceanography: Physics of the Oceans
+ 
+</li>
+<li> GEOL	38100	Special Topics in Geology and Oceanography
+ 
+</li>
+<li> GEOL	38200	Special Topics in Geology and Oceanography
+ 
+</li>
+<li> GEOL	38300	Special Topics in Geology and Oceanography
+ 
+</li>
+<li> GEOL	39100	Individual Study in Geology
+ 
+</li>
+<li> GEOL	39200	Individual Study in Geology
+ 
+</li>
+<li> GEOL	39300	Individual Study in Geology
+ 
+</li>
+<li> GERMN	10100	Elementary German I
+ 
+</li>
+<li> GERMN	10200	Elementary German II
+ 
+</li>
+<li> GERMN	10300	Intensive Elementary German
+ 
+</li>
+<li> GERMN	10600	German through Lieder
+ 
+</li>
+<li> GERMN	11100	Elementary German for Reading Purposes
+ 
+</li>
+<li> GERMN	11200	Intermediate German for Reading Purposes
+ 
+</li>
+<li> GERMN	20100	Intermediate German I
+ 
+</li>
+<li> GERMN	20150	Intermediate German Workshop I
+ 
+</li>
+<li> GERMN	20200	Intermediate German II
+ 
+</li>
+<li> GERMN	20250	Intermediate German Workshop II
+ 
+</li>
+<li> GERMN	20300	Intensive Intermediate German
+ 
+</li>
+<li> GERMN	21100	Advanced German Reading
+ 
+</li>
+<li> GERMN	24000	German Thought and Culture: A Survey (W)
+ 
+</li>
+<li> GERMN	24100	German Fairy Tales in Translation (W)
+ 
+</li>
+<li> GERMN	30100	Advanced German Comprehension and Conversation
+ 
+</li>
+<li> GERMN	30200	Advanced German Conversation and Composition
+ 
+</li>
+<li> GERMN	31000	Advanced German Language Studies
+ 
+</li>
+<li> GERMN	31200	Introduction to Business German
+ 
+</li>
+<li> GERMN	32000	Studies in German Literature and Language
+ 
+</li>
+<li> GERMN	32100	Individual and Society in Modern German Literature
+ 
+</li>
+<li> GERMN	32200	German Civilization
+ 
+</li>
+<li> GERMN	32300	Women in German Literature
+ 
+</li>
+<li> GERMN	32700	Modern Swiss Literature
+ 
+</li>
+<li> GERMN	32800	German Children's and Adolescent Literature
+ 
+</li>
+<li> GERMN	33400	The German Short Story and Novelle
+ 
+</li>
+<li> GERMN	33500	German Radio Plays: Hoerspiel
+ 
+</li>
+<li> GERMN	33600	German Lyric Poetry
+ 
+</li>
+<li> GERMN	33900	German Drama from Naturalism to Present
+ 
+</li>
+<li> GERMN	34100	German Drama from Age of Goethe to Naturalism
+ 
+</li>
+<li> GERMN	34200	The German Novel
+ 
+</li>
+<li> GERMN	34300	German Literature from Its Origins to the Age of Goethe
+ 
+</li>
+<li> GERMN	34400	Readings in Classical Period of German Literature
+ 
+</li>
+<li> GERMN	34500	Literature of Weimar Republic
+ 
+</li>
+<li> GERMN	34600	German Literature of the 1930s and 1940s
+ 
+</li>
+<li> GERMN	34700	German Literature 1945-1995
+ 
+</li>
+<li> GERMN	34800	East German Literature (1945-1990)
+ 
+</li>
+<li> GERMN	34900	The End of East Germany in Literature, Film and Memory
+ 
+</li>
+<li> GERMN	35000	Austrian Literature
+ 
+</li>
+<li> GERMN	35300	Goethe's Faust
+ 
+</li>
+<li> GERMN	35900	German Literary Seminar
+ 
+</li>
+<li> GERMN	36100	Gottfried von Strassburg: Tristan
+ 
+</li>
+<li> GERMN	36200	Wolfram von Eschenbach: Parzival in translation
+ 
+</li>
+<li> GERMN	36300	Goethe’s Faust in English translation
+ 
+</li>
+<li> GERMN	36400	Heinrich von Kleist
+ 
+</li>
+<li> GERMN	36500	Georg Büchner
+ 
+</li>
+<li> GERMN	36600	Hermann Hesse
+ 
+</li>
+<li> GERMN	36700	Hermann Hesse: Magister Ludi
+ 
+</li>
+<li> GERMN	36800	Rainer Maria Rilke’s Duino Elegies
+ 
+</li>
+<li> GERMN	36900	Thomas Mann’s The Magic Mountain
+ 
+</li>
+<li> GERMN	37000	Franz Kafka
+ 
+</li>
+<li> GERMN	37100	Bertolt Brecht
+ 
+</li>
+<li> GERMN	37200	Germany in the Twenties (W)
+ 
+</li>
+<li> GERMN	37300	German-Jewish Love Stories in Literature and Film after 1945 (W)
+ 
+</li>
+<li> GERMN	37400	Masterpieces of German Literature in English Translation (W)
+ 
+</li>
+<li> GERMN	37600	Masterpieces of Modern German Prose in English Translation
+ 
+</li>
+<li> GERMN	37800	Masterpieces of German Drama in English Translation
+ 
+</li>
+<li> GERMN	37900	Studies/Seminar Studies in German Literature in English Translation
+ 
+</li>
+<li> GERMN	38500	Advanced Topics in German Language Study
+ 
+</li>
+<li> GERMN	38501	The German Press of Today: Reading and Understanding Newspapers and Magazines
+ 
+</li>
+<li> GERMN	38502	Advanced Business German
+ 
+</li>
+<li> GERMN	38503	German Grammar for Upper- Level Discourse
+ 
+</li>
+<li> GERMN	39900	Second Language Acquisition
+ 
+</li>
+<li> GERMN	44400	Seminar Studies in German Literature and Language
+ 
+</li>
+<li> GERMN	47900	Studies/Seminar Studies in German Literature in English Translation
+ 
+</li>
+<li> GERMN	49100	Honors Project
+ 
+</li>
+<li> GERMN	49200	Independent Study in German
+ 
+</li>
+<li> GERMN	49300	Individual Studies Project in German Studies
+ 
+</li>
+<li> GERMN	49800	Internship
+ 
+</li>
+<li> GRK	10100	Beginning Greek
+ 
+</li>
+<li> GRK	10200	Beginning Greek
+ 
+</li>
+<li> GRK	10700	Beginning Greek, Intensive
+ 
+</li>
+<li> GRK	11000	Greek Reading
+ 
+</li>
+<li> GRK	20200	Plato
+ 
+</li>
+<li> GRK	20300	Homer
+ 
+</li>
+<li> GRK	30100	Plato II
+ 
+</li>
+<li> GRK	30200	Euripides
+ 
+</li>
+<li> GRK	30300	Greek Lyric Poetry
+ 
+</li>
+<li> GRK	30400	Aristophanes and Menander
+ 
+</li>
+<li> GRK	30500	Attic Orators
+ 
+</li>
+<li> GRK	30700	Sophocles
+ 
+</li>
+<li> GRK	30800	Aeschylus
+ 
+</li>
+<li> GRK	30900	Herodotus
+ 
+</li>
+<li> GRK	31000	Thucydides
+ 
+</li>
+<li> GRK	42100	Independent Study in Greek Literature
+ 
+</li>
+<li> GTECH	20100	Introduction to Geographic Information Science
+ 
+</li>
+<li> GTECH	30100	Quantitative Methods in Geography
+ 
+</li>
+<li> GTECH	20300	Introduction to Remote Sensing
+ 
+</li>
+<li> GTECH	32100	Remote Sensing of the Environment
+ 
+</li>
+<li> GTECH	32200	Digital Image Processing
+ 
+</li>
+<li> GTECH	35000	Field Topographic Surveying
+ 
+</li>
+<li> GTECH	35100	Field Techniques in Geography
+ 
+</li>
+<li> GTECH	36100	GIS Analysis
+ 
+</li>
+<li> GTECH	36200	Geographic Information Science II
+ 
+</li>
+<li> GTECH	38000	Introduction to Cartographic Design and Geovisualization
+ 
+</li>
+<li> GTECH	38500	GIS Applications
+ 
+</li>
+<li> HEBR	10100	Elementary Hebrew I
+ 
+</li>
+<li> HEBR	10200	Elementary Hebrew II
+ 
+</li>
+<li> HEBR	10300	Intensive Elementary Hebrew
+ 
+</li>
+<li> HEBR	10500	Elementary Biblical Hebrew I
+ 
+</li>
+<li> HEBR	10600	Elementary Biblical Hebrew II
+ 
+</li>
+<li> HEBR	20100	Intermediate Hebrew I
+ 
+</li>
+<li> HEBR	20200	Intermediate Hebrew II
+ 
+</li>
+<li> HEBR	20500	Intermediate Biblical Hebrew I
+ 
+</li>
+<li> HEBR	20600	Intermediate Biblical Hebrew II
+ 
+</li>
+<li> HEBR	21000	Selected Studies in Hebrew Literature in Translation
+ 
+</li>
+<li> HEBR	21100	Masterpieces of Medieval Hebraic Literature in Translation (W)
+ 
+</li>
+<li> HEBR	21200	Readings in Modern Hebrew Literature in Translation (W)
+ 
+</li>
+<li> HEBR	21400	Maimonides'  Guide to the Perplexed
+ 
+</li>
+<li> HEBR	21500	Hebraic and Judaic Culture and Thought in the Medieval Islamic World (W)
+ 
+</li>
+<li> HEBR	21800	Masterpieces of Yiddish Literature in Translation (W)
+ 
+</li>
+<li> HEBR	22000	Israeli Cinema
+ 
+</li>
+<li> HEBR	22100	Modern Israeli Culture
+ 
+</li>
+<li> HEBR	22200	Introduction to Jewish Texts and Writings
+ 
+</li>
+<li> HEBR	24000	Introduction to the Old Testament
+ 
+</li>
+<li> HEBR	25000	Topics in Hebraic Studies
+ 
+</li>
+<li> HEBR	25900	Old Testament Religion
+ 
+</li>
+<li> HEBR	25900	Old Testament Religion
+ 
+</li>
+<li> HEBR	28100	Masterpieces of Ancient Hebraic Literature in Translation (W)
+ 
+</li>
+<li> HEBR	28100	Masterpieces of Ancient Hebraic Literature in Translation (W)
+ 
+</li>
+<li> HEBR	28400	Images of Women in the Old Testament, in Translation
+ 
+</li>
+<li> HEBR	28400	Images of Women in the Old Testament, in Translation
+ 
+</li>
+<li> HEBR	28600	Ancient Near Eastern Literature and the Bible
+ 
+</li>
+<li> HEBR	28800	Ancient Hebraic Folklore
+ 
+</li>
+<li> HEBR	28800	Ancient Hebraic Folklore
+ 
+</li>
+<li> HEBR	29000	Biblical Archaeology
+ 
+</li>
+<li> HEBR	29000	Biblical Archaeology
+ 
+</li>
+<li> HEBR	29200	The Hebrew Prophets
+ 
+</li>
+<li> HEBR	29200	The Hebrew Prophets
+ 
+</li>
+<li> HEBR	29400	Job, Ecclesiastes and the Human Predicament (W)
+ 
+</li>
+<li> HEBR	29400W	Job, Ecclesiastes and the Human Predicament
+ 
+</li>
+<li> HEBR	29500	Ancient Hebraic Law
+ 
+</li>
+<li> HEBR	29500	Ancient Hebrew Law
+ 
+</li>
+<li> HEBR	29600	The Dead Sea Scrolls in English (W)
+ 
+</li>
+<li> HEBR	31000	Modern Hebrew Literature I
+ 
+</li>
+<li> HEBR	31100	Modern Hebrew Literature II
+ 
+</li>
+<li> HEBR	31500	Biblical Literature: Pentateuch
+ 
+</li>
+<li> HEBR	31600	Biblical Literature: Historical Books
+ 
+</li>
+<li> HEBR	31700	Biblical Literature: Prophetic Books
+ 
+</li>
+<li> HEBR	31800	Biblical Literature: Hagiographa
+ 
+</li>
+<li> HEBR	32000	The Modern Hebrew Short Story
+ 
+</li>
+<li> HEBR	32100	Talmudic Literature
+ 
+</li>
+<li> HEBR	32200	Medieval Literature
+ 
+</li>
+<li> HEBR	32300	Poetry of the Modern Hebrew Renaissance Period
+ 
+</li>
+<li> HEBR	32400	The Modern Hebrew Essay
+ 
+</li>
+<li> HEBR	32500	History of Modern Hebrew Literature
+ 
+</li>
+<li> HEBR	32600	Hebrew Poetry Between the Two World Wars
+ 
+</li>
+<li> HEBR	32700	The Modern Hebrew Novel
+ 
+</li>
+<li> HEBR	32800	Contemporary Hebrew Prose
+ 
+</li>
+<li> HEBR	33100	Medieval Hebrew Philosophic Texts
+ 
+</li>
+<li> HEBR	35100	Hebrew Grammar and Composition
+ 
+</li>
+<li> HEBR	35700	Approaches to Main Problems in Hebraic Studies
+ 
+</li>
+<li> HEBR	37100	Hebrew Conversation I
+ 
+</li>
+<li> HEBR	37200	Hebrew Conversation II
+ 
+</li>
+<li> HEBR	39900	Second Language Acquisition
+ 
+</li>
+<li> HEBR	45100	Selected Studies in Hebrew Literature
+ 
+</li>
+<li> HEBR	49000	Independent Studies
+ 
+</li>
+<li> HEBR	49100	Honors Project
+ 
+</li>
+<li> HED	20100	Women and Health
+ 
+</li>
+<li> HED	30500	Sex Education
+ 
+</li>
+<li> HED	30600	Drugs and Drug Dependencies
+ 
+</li>
+<li> HED	31400	Health Education for the Classroom Teacher
+ 
+</li>
+<li> HED	48000	Independent Study in Health Education
+ 
+</li>
+<li> HIST	11100	World History to 1500
+ 
+</li>
+<li> HIST	11200	World History from 1500 to the Present
+ 
+</li>
+<li> HIST	12100	Early Modern Europe 1500 to 1815
+ 
+</li>
+<li> HIST	12200	19th and 20th Century Europe (W)
+ 
+</li>
+<li> HIST	15100	The United States from the Colonial Era to the Civil War (W)
+ 
+</li>
+<li> HIST	15200	The United States from the Civil War Era to the Present (W)
+ 
+</li>
+<li> HIST	20100	Ancient Civilization
+ 
+</li>
+<li> HIST	20800	History of the Jews
+ 
+</li>
+<li> HIST	21000	History of Judaism
+ 
+</li>
+<li> HIST	21100	Medieval Civilization (W)
+ 
+</li>
+<li> HIST	24200	The Holocaust: An Introduction
+ 
+</li>
+<li> HIST	25000	Historical Issues
+ 
+</li>
+<li> HIST	27100	Early History of Latin America
+ 
+</li>
+<li> HIST	27200	History of Latin America in the 19th and 20th Centuries
+ 
+</li>
+<li> HIST	27650	Middle Eastern History from the Beginning of Islam to 1800
+ 
+</li>
+<li> HIST	27651	The Modern Middle East from 1800 to the Present
+ 
+</li>
+<li> HIST	27700	East Asia to 1600
+ 
+</li>
+<li> HIST	27800	East Asia, 1600 to the Present
+ 
+</li>
+<li> HIST	28800	History of Africa to the 19th Century
+ 
+</li>
+<li> HIST	28900	Africa in the 19th and 20th Centuries
+ 
+</li>
+<li> HIST	29000	History Practicum (W)
+ 
+</li>
+<li> HIST	29100	Historical Methods
+ 
+</li>
+<li> HIST	30000	Historical Research (W)
+ 
+</li>
+<li> HIST	30100	History of the Ancient Near East
+ 
+</li>
+<li> HIST	30200	Greek History
+ 
+</li>
+<li> HIST	30300	Roman History
+ 
+</li>
+<li> HIST	30500	The Age of the Crusades
+ 
+</li>
+<li> HIST	30900	Jewish History in the Ancient World
+ 
+</li>
+<li> HIST	31000	Jewish History in the Medieval and Early Modern Periods
+ 
+</li>
+<li> HIST	31100	Europe in the Early Middle Ages
+ 
+</li>
+<li> HIST	31200	Europe in the High Middle Ages
+ 
+</li>
+<li> HIST	31300	Europe in the Late Middle Ages
+ 
+</li>
+<li> HIST	31400	Ancient and Medieval Christianity (W)
+ 
+</li>
+<li> HIST	31500	Christianity in Modern Times
+ 
+</li>
+<li> HIST	31600	History of Religion in the United States
+ 
+</li>
+<li> HIST	31600	History of Religion in the United States
+ 
+</li>
+<li> HIST	31700	History of the American City
+ 
+</li>
+<li> HIST	31800	History of the American Working Class (W)
+ 
+</li>
+<li> HIST	31900	Jewish History in the Medieval and Early Modern Periods (W)
+ 
+</li>
+<li> HIST	32000	Jewish History in Modern World
+ 
+</li>
+<li> HIST	32000	Jewish History in the Modern World (W)
+ 
+</li>
+<li> HIST	32100	History of the Holocaust
+ 
+</li>
+<li> HIST	32400	Europe in the Age of Renaissance and Reformation (W)
+ 
+</li>
+<li> HIST	32500	Europe in the Age of Absolutism and Revolution
+ 
+</li>
+<li> HIST	32600	Europe 1815-1914
+ 
+</li>
+<li> HIST	32700	Europe since 1914
+ 
+</li>
+<li> HIST	32900	History of European Diplomacy
+ 
+</li>
+<li> HIST	33000	Social and Economic History of Modern Europe
+ 
+</li>
+<li> HIST	33100	European Culture in the 16th, 17th and 18th Centuries (W)
+ 
+</li>
+<li> HIST	33200	Modern Culture from the 18th to the 20th Centuries
+ 
+</li>
+<li> HIST	33400	France during the Revolution and Napoleonic Eras
+ 
+</li>
+<li> HIST	33500	History of Modern France
+ 
+</li>
+<li> HIST	33700	History of Spain
+ 
+</li>
+<li> HIST	33800	History of Italy (W)
+ 
+</li>
+<li> HIST	34100	Topics in History
+ 
+</li>
+<li> HIST	34122	Latin American Political Economy
+ 
+</li>
+<li> HIST	34139	African Influences in the Americas
+ 
+</li>
+<li> HIST	34250	Early British History to 1689
+ 
+</li>
+<li> HIST	34251	Britain Since 1689
+ 
+</li>
+<li> HIST	34300	England under the Tudors and Stuarts
+ 
+</li>
+<li> HIST	34600	Churchill's Britain (W)
+ 
+</li>
+<li> HIST	35300	History of New York City
+ 
+</li>
+<li> HIST	35400	The American Colonies in the 17th Century (W)
+ 
+</li>
+<li> HIST	35500	The American Colonies in the 18th Century (W)
+ 
+</li>
+<li> HIST	35600	The Early Republic
+ 
+</li>
+<li> HIST	35700	American-Jewish History (W)
+ 
+</li>
+<li> HIST	35800	20th Century United States (W)
+ 
+</li>
+<li> HIST	35900	Immigration and Ethnicity in the United States
+ 
+</li>
+<li> HIST	36100	America and the World in the 20th Century
+ 
+</li>
+<li> HIST	36200	Biography and Autobiography in the History of the U.S.
+ 
+</li>
+<li> HIST	36300	American Cultural History
+ 
+</li>
+<li> HIST	36400	American Constitutional History, 1783 to 1900
+ 
+</li>
+<li> HIST	36500	American Economic History
+ 
+</li>
+<li> HIST	36600	Role of Women in American History
+ 
+</li>
+<li> HIST	36700	Civil War and Reconstruction
+ 
+</li>
+<li> HIST	36900	African American History in the United States
+ 
+</li>
+<li> HIST	37000	The West in American History
+ 
+</li>
+<li> HIST	37300	History of the Ottoman Empire (W)
+ 
+</li>
+<li> HIST	37400	Russia to the 20th Century
+ 
+</li>
+<li> HIST	37500	Late Imperial Russia and the Soviet Union
+ 
+</li>
+<li> HIST	37600	Soviet Foreign Policy
+ 
+</li>
+<li> HIST	37700	Ancient and Imperial China to 1800
+ 
+</li>
+<li> HIST	37800	China Since 1800
+ 
+</li>
+<li> HIST	37900	Japan to 1800
+ 
+</li>
+<li> HIST	38000	Japan since 1800
+ 
+</li>
+<li> HIST	38200	Historical Studies Seminar
+ 
+</li>
+<li> HIST	38300	Problems in U.S. History (W)
+ 
+</li>
+<li> HIST	38400	Problems in European History (W)
+ 
+</li>
+<li> HIST	38500	Problems in Non-Western History (W)
+ 
+</li>
+<li> HIST	38900	History of South Asia
+ 
+</li>
+<li> HIST	39000	History of Modern West Africa
+ 
+</li>
+<li> HIST	39100	Historical Restoration and Museum Work
+ 
+</li>
+<li> HIST	40000	Historical Research [H]
+ 
+</li>
+<li> HIST	48300	Problems in U.S. History (Honors) (W)
+ 
+</li>
+<li> HIST	48400	Problems in European History (Honors) (W)
+ 
+</li>
+<li> HIST	48500	Problems in Non-Western History (Honors) (W)
+ 
+</li>
+<li> HIST	49200	Honors Seminar in Historical Studies
+ 
+</li>
+<li> HIST	49300	Individual Tutorial Research Project
+ 
+</li>
+<li> HIST	49800	Internship
+ 
+</li>
+<li> HONS	20100	Sophomore Honors Colloquium (W)
+ 
+</li>
+<li> HONS	30100	Upper-Level Honors Colloquium (W)
+ 
+</li>
+<li> HONS	30199	Interdisciplinary Independent Study
+ 
+</li>
+<li> HONS	49100	Advanced Interdisciplinary Studies
+ 
+</li>
+<li> HR	20000	Introduction to Human Rights: History, Discourse, Practice (W)
+ 
+</li>
+<li> HR	25000	Human Rights Internship
+ 
+</li>
+<li> HR	26000	Human Rights Internship Seminar (W)
+ 
+</li>
+<li> HR	35000	Human Rights Capstone Seminar (W)
+ 
+</li>
+<li> HUM	11000	Map of Knowledge (W)
+ 
+</li>
+<li> HUM	11000	The Map of Knowledge (W)
+ 
+</li>
+<li> HUM	15000	Introductory Topics in Humanities and the Arts
+ 
+</li>
+<li> HUM	20100	Explorations in the Arts
+ 
+</li>
+<li> HUM	25000	Intermediate Topics in Humanities and the Arts
+ 
+</li>
+<li> HUM	35000	Advanced Topics in Humanities and the Arts
+ 
+</li>
+<li> ITAL	10100	Elementary Italian I
+ 
+</li>
+<li> ITAL	10200	Elementary Italian II
+ 
+</li>
+<li> ITAL	10251	Elementary Italian Conversation
+ 
+</li>
+<li> ITAL	10300	Intensive Elementary Italian
+ 
+</li>
+<li> ITAL	20100	Intermediate Italian I
+ 
+</li>
+<li> ITAL	20200	Intermediate Italian II
+ 
+</li>
+<li> ITAL	20300	Intensive Intermediate Italian
+ 
+</li>
+<li> ITAL	22100	Italian for Oral Communication
+ 
+</li>
+<li> ITAL	26000	Modern Italian Short Story (W)
+ 
+</li>
+<li> ITAL	27500	Masterpieces of Italian Literature
+ 
+</li>
+<li> ITAL	27600	Dante's Divine Comedy in English (W)
+ 
+</li>
+<li> ITAL	28000	The Italian Renaissance: An Introduction
+ 
+</li>
+<li> ITAL	31100	Advanced Italian Grammar
+ 
+</li>
+<li> ITAL	31200	Advanced Italian Composition
+ 
+</li>
+<li> ITAL	32100	Italian Translation
+ 
+</li>
+<li> ITAL	33100	Italian Phonetics and Diction
+ 
+</li>
+<li> ITAL	33400	Italian Civilization in the Baroque, in English
+ 
+</li>
+<li> ITAL	33500	Italian Culture I
+ 
+</li>
+<li> ITAL	33600	Italian Culture II
+ 
+</li>
+<li> ITAL	33700	Italian Women Writers from the Middle Ages to the 18th Century, in English
+ 
+</li>
+<li> ITAL	33800	19th and 20th Century Italian Women Writers, in English
+ 
+</li>
+<li> ITAL	33900	Italian American Women Writers and Artists: Issues of Identity (W)
+ 
+</li>
+<li> ITAL	34100	Introduction to Italian Literature from the Middle Ages to the 16th Century
+ 
+</li>
+<li> ITAL	34200	Introduction to Italian Literature from the 16th Century to the Present
+ 
+</li>
+<li> ITAL	34300	Dante's Vita Nuova and Inferno
+ 
+</li>
+<li> ITAL	34400	Dante's Purgatorio and Introduction to Paradiso
+ 
+</li>
+<li> ITAL	34500	Dante's Paradiso and Major Prose Works
+ 
+</li>
+<li> ITAL	34600	Petrarch, Boccaccio and the Literature of Humanism
+ 
+</li>
+<li> ITAL	34700	16th Century Italian Literature
+ 
+</li>
+<li> ITAL	34800	17th and 18th Century Literature
+ 
+</li>
+<li> ITAL	34900	The Modern Italian Lyric
+ 
+</li>
+<li> ITAL	35000	The Modern Italian Novel
+ 
+</li>
+<li> ITAL	35100	The Modern Italian Theatre
+ 
+</li>
+<li> ITAL	35200	The Italian Novel and Cinema
+ 
+</li>
+<li> ITAL	36000	The Middle Ages: Special Topics
+ 
+</li>
+<li> ITAL	36100	The Renaissance: Special Topics
+ 
+</li>
+<li> ITAL	36200	The 17th Century: Special Topics
+ 
+</li>
+<li> ITAL	36300	The 18th Century: Special Topics
+ 
+</li>
+<li> ITAL	36400	The 19th Century: Special Topics
+ 
+</li>
+<li> ITAL	36500	The 20th Century: Special Topics
+ 
+</li>
+<li> ITAL	37000	Italian Literature: Special Topics
+ 
+</li>
+<li> ITAL	37500	Seminar in Italian Literary History
+ 
+</li>
+<li> ITAL	39900	Second Language Acquisition
+ 
+</li>
+<li> ITAL	49100	Honors Course in Italian
+ 
+</li>
+<li> ITAL	49500	Independent Study in Italian Literature
+ 
+</li>
+<li> JPN	10100	Elementary Japanese I
+ 
+</li>
+<li> JPN	10200	Elementary Japanese II
+ 
+</li>
+<li> JPN	20100	Intermediate Japanese I
+ 
+</li>
+<li> JPN	20200	Intermediate Japanese II
+ 
+</li>
+<li> JPN	25100	Japanese Culture Before 1600
+ 
+</li>
+<li> JPN	25200	Japanese Culture Since 1600
+ 
+</li>
+<li> JPN	26100	Special Topics in Japanese Culture
+ 
+</li>
+<li> JPN	30100	Advanced Japanese I
+ 
+</li>
+<li> JPN	30200	Advanced Japanese II
+ 
+</li>
+<li> JPN	35100	Advanced Japanese Conversation
+ 
+</li>
+<li> JS	30000	Independent Studies
+ 
+</li>
+<li> JS	31000	Jewish Studies Fieldwork
+ 
+</li>
+<li> JS	40000	Individual Honors Project
+ 
+</li>
+<li> JS	41050	Jewish Studies Seminar I
+ 
+</li>
+<li> JS	41051	Jewish Studies Seminar II
+ 
+</li>
+<li> LACS	33000	Latin America and the Caribbean Field Course/Internship
+ 
+</li>
+<li> LACS	43400	Seminar in Latin American and Caribbean Studies
+ 
+</li>
+<li> LAT	10100	Beginning Latin
+ 
+</li>
+<li> LAT	10200	Beginning Latin
+ 
+</li>
+<li> LAT	10700	Beginning Latin, Intensive
+ 
+</li>
+<li> LAT	11000	Latin Reading
+ 
+</li>
+<li> LAT	20100	Ovid's Metamorphoses
+ 
+</li>
+<li> LAT	20200	Roman Biography
+ 
+</li>
+<li> LAT	20300	Vergil's Aeneid
+ 
+</li>
+<li> LAT	20400	Cicero's De Senectute
+ 
+</li>
+<li> LAT	22000	Medieval Latin
+ 
+</li>
+<li> LAT	30200	Roman Letter
+ 
+</li>
+<li> LAT	30300	Roman Comedy
+ 
+</li>
+<li> LAT	30400	Roman Satire
+ 
+</li>
+<li> LAT	30500	Vergil's Eclogues and Georgics
+ 
+</li>
+<li> LAT	30600	Cicero
+ 
+</li>
+<li> LAT	30700	Lucretius'  De Rerum Natura
+ 
+</li>
+<li> LAT	30800	Roman Epic
+ 
+</li>
+<li> LAT	30900	Lyric Poetry of the Golden Age
+ 
+</li>
+<li> LAT	31000	The Roman Novel
+ 
+</li>
+<li> LAT	31100	Elegiac Poets
+ 
+</li>
+<li> LAT	31200	Livy
+ 
+</li>
+<li> LAT	31300	Caesar
+ 
+</li>
+<li> LAT	31400	Tacitus
+ 
+</li>
+<li> LAT	31500	Anthology of Latin Verse
+ 
+</li>
+<li> LAT	42100	Independent Study in Latin Literature
+ 
+</li>
+<li> MATH	10000	Basic Structures of Mathematics
+ 
+</li>
+<li> MATH	10100	Algebra for College Students
+ 
+</li>
+<li> MATH	10200	Mathematics and Everyday Life
+ 
+</li>
+<li> MATH	10400 (STEM)	Mathematics for Elementary Education I
+ 
+</li>
+<li> MATH	10500	Mathematics for Elementary Education II
+ 
+</li>
+<li> MATH	11000	Topics in the Mathematical Sciences
+ 
+</li>
+<li> MATH	11100	Matrices, Vectors and Linear Programming
+ 
+</li>
+<li> MATH	12500 (STEM)	Precalculus
+ 
+</li>
+<li> MATH	12600	Precalculus Technology Laboratory
+ 
+</li>
+<li> MATH	15000 (STEM)	Calculus with Analytic Geometry I
+ 
+</li>
+<li> MATH	15100	Calculus I with Symbolic Computation
+ 
+</li>
+<li> MATH	15400	An Introduction to Symbolic Computation
+ 
+</li>
+<li> MATH	15500 (STEM)	Calculus with Analytic Geometry II
+ 
+</li>
+<li> MATH	15600	Introduction to Mathematical Proof Workshop
+ 
+</li>
+<li> MATH	16000	Matrix Algebra
+ 
+</li>
+<li> MATH	25000	Calculus with Analytic Geometry III
+ 
+</li>
+<li> MATH	25400	Ordinary Differential Equations
+ 
+</li>
+<li> MATH	25500	Vector Analysis
+ 
+</li>
+<li> MATH	26000	Linear Algebra
+ 
+</li>
+<li> MATH	26100	Mathematics in Human History (W)
+ 
+</li>
+<li> MATH	27500	Symbolic Logic
+ 
+</li>
+<li> MATH	29500	Intermediate Topics in Mathematics
+ 
+</li>
+<li> MATH	30100	Mathematical Methods for the Physical Sciences
+ 
+</li>
+<li> MATH	31100	Abstract Algebra I
+ 
+</li>
+<li> MATH	31200	Abstract Algebra II
+ 
+</li>
+<li> MATH	31300	Theory of Numbers
+ 
+</li>
+<li> MATH	33100	Geometries
+ 
+</li>
+<li> MATH	34000	Topology
+ 
+</li>
+<li> MATH	35100	Mathematical Analysis I
+ 
+</li>
+<li> MATH	35200	Mathematical Analysis II
+ 
+</li>
+<li> MATH	35300	Introduction To Complex Variables
+ 
+</li>
+<li> MATH	35400	Dynamical Systems and Chaos
+ 
+</li>
+<li> MATH	37000	Mathematical Logic
+ 
+</li>
+<li> MATH	37100	Fundamental Concepts of Modern Mathematics
+ 
+</li>
+<li> MATH	37600	Philosophy of Mathematics (W)
+ 
+</li>
+<li> MATH	38500	Numerical Methods I
+ 
+</li>
+<li> MATH	39100	Independent Study in Mathematics
+ 
+</li>
+<li> MATH	39200	Independent Study in Mathematics
+ 
+</li>
+<li> MATH	39300	Independent Study in Mathematics
+ 
+</li>
+<li> MATH	39500	Advanced Topics in Mathematics
+ 
+</li>
+<li> MATH	45400	Calculus on Manifolds
+ 
+</li>
+<li> MATH	48500	Numerical Methods II
+ 
+</li>
+<li> MATH	49000	Honors Seminar
+ 
+</li>
+<li> MEDIA	15100	Introduction to Film and Video Techniques
+ 
+</li>
+<li> MEDIA	16100	Introduction to Digital Media
+ 
+</li>
+<li> MEDIA	18000	Introduction to Media Studies
+ 
+</li>
+<li> MEDIA	21000	Journalism and Society
+ 
+</li>
+<li> MEDIA	26000	Internet and Society
+ 
+</li>
+<li> MEDIA	27100	Television Culture
+ 
+</li>
+<li> MEDIA	28000	Understanding New Media
+ 
+</li>
+<li> MEDIA	29700	Interviewing Techniques
+ 
+</li>
+<li> MEDIA	29800	Special Topics in Media Studies
+ 
+</li>
+<li> MEDIA	29853	The Horror Film
+ 
+</li>
+<li> MEDIA	29900	Special Topics in Media Studies
+ 
+</li>
+<li> MEDIA	31300	The Culture of Publicity
+ 
+</li>
+<li> MEDIA	31400	Public Relations: Theory and Practice (W)
+ 
+</li>
+<li> MEDIA	31500	Nonfiction Film and Video
+ 
+</li>
+<li> MEDIA	32600	America in American Film and Video
+ 
+</li>
+<li> MEDIA	32700	Representations of Race and Ethnicity in U.S. Media
+ 
+</li>
+<li> MEDIA	32800	Images of Resistance in the Developing World
+ 
+</li>
+<li> MEDIA	33200	Myths and Images in the Media
+ 
+</li>
+<li> MEDIA	33300	Typecasting
+ 
+</li>
+<li> MEDIA	36500	Digital Copyright
+ 
+</li>
+<li> MEDIA	37000	The Press and the Public
+ 
+</li>
+<li> MEDIA	37300	Journalism as Literature
+ 
+</li>
+<li> MEDIA	37400	Media, Sports, and Society
+ 
+</li>
+<li> MEDIA	37500	Media and Politics
+ 
+</li>
+<li> MEDIA	38000	History of Broadcasting
+ 
+</li>
+<li> MEDIA	38100	Propaganda and the Mass Media
+ 
+</li>
+<li> MEDIA	38300	Popular Music and the Music Industry
+ 
+</li>
+<li> MEDIA	38400	Women and Media
+ 
+</li>
+<li> MEDIA	38600	Media Ethics
+ 
+</li>
+<li> MEDIA	38900	Contrasting Media Systems
+ 
+</li>
+<li> MEDIA	39000	Broadcast Journalism
+ 
+</li>
+<li> MEDIA	39100	History of Print Journalism
+ 
+</li>
+<li> MEDIA	39200	Communications, Technology and Change
+ 
+</li>
+<li> MEDIA	39300	Media Criticism
+ 
+</li>
+<li> MEDIA	39400	Mass Communications and the Law
+ 
+</li>
+<li> MEDIA	39500	Mass Media in Developing Countries
+ 
+</li>
+<li> MEDIA	39600	Global Communication
+ 
+</li>
+<li> MEDIA	39700	Cult TV and its Audiences
+ 
+</li>
+<li> MEDIA	39800	Complex Television Narratives (W)
+ 
+</li>
+<li> MEDIA	39900	Special Issues in Media Studies
+ 
+</li>
+<li> MEDIA	40100	Independent Research
+ 
+</li>
+<li> MEDIA	40200	Honors Project
+ 
+</li>
+<li> MEDIA	49800	Internship
+ 
+</li>
+<li> MEDIA	49900	Advanced Seminar
+ 
+</li>
+<li> MEDP	15000	Media and Film in a Digital Age Pt. 1
+ 
+</li>
+<li> MEDP	16000	Media and Film in a Digital Age Pt. 2
+ 
+</li>
+<li> MEDP	20100	Reporting and Writing I (W)
+ 
+</li>
+<li> MEDP	20200	Reporting and Writing 2(W)
+ 
+</li>
+<li> MEDP	23900	Entertainment Journalism (W)
+ 
+</li>
+<li> MEDP	24000	Effective Speechmaking
+ 
+</li>
+<li> MEDP	25000	Digital Design and Usability
+ 
+</li>
+<li> MEDP	26000	Introduction to 2D Animation
+ 
+</li>
+<li> MEDP	27500	Desktop Publishing
+ 
+</li>
+<li> MEDP	35500	Physical Computing: Interactive Installation
+ 
+</li>
+<li> MEDP	28100	Documentary Video Production 1
+ 
+</li>
+<li> MEDP	28200	Studio Television Production
+ 
+</li>
+<li> MEDP	28300	Electronic News Gathering
+ 
+</li>
+<li> MEDP	28500	Web Production I
+ 
+</li>
+<li> MEDP	28600	Location Sound
+ 
+</li>
+<li> MEDP	29000	Developing the Documentary (W)
+ 
+</li>
+<li> MEDP	29100	Critical Perspectives in Journalism (W)
+ 
+</li>
+<li> MEDP	29400	Magazine Writing (W)
+ 
+</li>
+<li> MEDP	29500	Online Journalism (W)
+ 
+</li>
+<li> MEDP	29600	Feature Writing (W)
+ 
+</li>
+<li> MEDP	29900	Special Topics in Media Practice
+ 
+</li>
+<li> MEDP	29900	Special Topics in Media Production
+ 
+</li>
+<li> MEDP	31000	Advanced TV Studio Production
+ 
+</li>
+<li> MEDP	31100	Documentary Video Production 2
+ 
+</li>
+<li> MEDP	31200	Advanced Documentary Digital Editing
+ 
+</li>
+<li> MEDP	31600	Experimental Production
+ 
+</li>
+<li> MEDP	33100	Web Production II
+ 
+</li>
+<li> MEDP	34500	Web Design Projects
+ 
+</li>
+<li> MEDP	34900	Introduction to Physical Computing
+ 
+</li>
+<li> MEDP	35000	Workshop in Public Communication Graphics
+ 
+</li>
+<li> MEDP	36000	3D Animation and Modeling
+ 
+</li>
+<li> MEDP	36500	3D Virtual Environments
+ 
+</li>
+<li> MEDP	37200	Investigative Reporting (W)
+ 
+</li>
+<li> MEDP	37700	Neighborhood News (W)
+ 
+</li>
+<li> MEDP	38300	Sound Design
+ 
+</li>
+<li> MEDP	39900	Special Topics in Advanced Media Production
+ 
+</li>
+<li> MEDP	39909	Game Design and Programming
+ 
+</li>
+<li> MEDP	39950	Motion Graphics
+ 
+</li>
+<li> MEDP	45100	Film and Video Production Seminar
+ 
+</li>
+<li> MHC	10000	MHC Seminar 1, The Arts in New York City (W)
+ 
+</li>
+<li> MHC	15000	MHC Seminar 2: Peopling of New York (W)
+ 
+</li>
+<li> MHC	20000	MHC Seminar 3: Science and Technology (W)
+ 
+</li>
+<li> MHC	25000	MHC Seminar 4: Shaping the Future of New York City (W)
+ 
+</li>
+<li> MLS	30000	Fundamental Concepts and Techniques in the Medical Laboratory
+ 
+</li>
+<li> MLS	31200	Human Physiology: Integration and Control
+ 
+</li>
+<li> MLS	34700	Human Histology
+ 
+</li>
+<li> MLS	34900	Hematology
+ 
+</li>
+<li> MLS	35100	Clinical Microbiology I
+ 
+</li>
+<li> MLS	35200	Clinical Microbiology II
+ 
+</li>
+<li> MLS	35400	Clinical Biochemistry I: Biomolecules & Metabolism
+ 
+</li>
+<li> MLS	35500	Clinical Biochemistry II: Genes to Proteins
+ 
+</li>
+<li> MLS	36100	Computers and Data Processing in the Medical Laboratory
+ 
+</li>
+<li> MLS	40000	Topics in Biomedical Sciences
+ 
+</li>
+<li> MLS	40066	Topics: Biohazards and Emergency Response
+ 
+</li>
+<li> MLS	41000	Professional Practice
+ 
+</li>
+<li> MLS	43000	Immunohematology
+ 
+</li>
+<li> MLS	45000	Cell and Tissue Culture
+ 
+</li>
+<li> MLS	45400	Parasitology
+ 
+</li>
+<li> MLS	45700	Senior Seminar
+ 
+</li>
+<li> MLS	45900	Viral Mechanisms in Human Disease
+ 
+</li>
+<li> MLS	46000	Immunology
+ 
+</li>
+<li> MLS	48001-48003	Independent Study
+ 
+</li>
+<li> MLS	49000	Honors
+ 
+</li>
+<li> MUSHL	10100	A Thousand Years of Listening
+ 
+</li>
+<li> MUSHL	10700	The World of Music
+ 
+</li>
+<li> MUSHL	20100	Introduction to Music Research
+ 
+</li>
+<li> MUSHL	20500	Music History I
+ 
+</li>
+<li> MUSHL	20600	Music History II (W)
+ 
+</li>
+<li> MUSHL	21000	Music for the Piano (W)
+ 
+</li>
+<li> MUSHL	21200	Masterpieces of Opera (W)
+ 
+</li>
+<li> MUSHL	21700	History of Jazz (W)
+ 
+</li>
+<li> MUSHL	22100	Black Music in the Americas (W)
+ 
+</li>
+<li> MUSHL	22700	Master Composers (W)
+ 
+</li>
+<li> MUSHL	23100	Folk and Traditional Music (W)
+ 
+</li>
+<li> MUSHL	24000	Music of the Caribbean and Latin America (W)
+ 
+</li>
+<li> MUSHL	24100	Music of Asia (W)
+ 
+</li>
+<li> MUSHL	24300	Music of the Middle East
+ 
+</li>
+<li> MUSHL	24500	Music of Africa (W)
+ 
+</li>
+<li> MUSHL	25000	Women and Music (W)
+ 
+</li>
+<li> MUSHL	25200	Film Music (W)
+ 
+</li>
+<li> MUSHL	26100	Special Topics in History and Literature of Music (W)
+ 
+</li>
+<li> MUSHL	26200	Special Topics in Music (W)
+ 
+</li>
+<li> MUSHL	30500	Music History III (W)
+ 
+</li>
+<li> MUSHL	30600	Music History IV (W)
+ 
+</li>
+<li> MUSHL	35200	Introduction to Ethnomusicology I (W)
+ 
+</li>
+<li> MUSHL	35300	Introduction to Ethnomusicology II (W)
+ 
+</li>
+<li> MUSHL	36100	Special Topics in History and Literature of Music (W)
+ 
+</li>
+<li> MUSHL	49800	Music Internship
+ 
+</li>
+<li> MUSIN	20101	Individual Study Project
+ 
+</li>
+<li> MUSIN	20102	Individual Study Project
+ 
+</li>
+<li> MUSIN	20103	Individual Study Project
+ 
+</li>
+<li> MUSIN	30101	Individual Study Project
+ 
+</li>
+<li> MUSIN	30102	Individual Study Project
+ 
+</li>
+<li> MUSIN	30103	Individual Study Project
+ 
+</li>
+<li> MUSIN	40101	Individual Study Project
+ 
+</li>
+<li> MUSIN	40102	Individual Study Project
+ 
+</li>
+<li> MUSIN	40103	Individual Study Project
+ 
+</li>
+<li> MUSPF	11100	Elementary Voice I
+ 
+</li>
+<li> MUSPF	11200	Elementary Voice II
+ 
+</li>
+<li> MUSPF	12100	Elementary Guitar I
+ 
+</li>
+<li> MUSPF	12200	Elementary Guitar II
+ 
+</li>
+<li> MUSPF	13100	Elementary Piano I
+ 
+</li>
+<li> MUSPF	13200	Elementary Piano II
+ 
+</li>
+<li> MUSPF	21100	Voice I
+ 
+</li>
+<li> MUSPF	21200	Voice II
+ 
+</li>
+<li> MUSPF	21300	Piano I
+ 
+</li>
+<li> MUSPF	21400	Piano II
+ 
+</li>
+<li> MUSPF	22100	College Choir
+ 
+</li>
+<li> MUSPF	23100	Hunter Symphony
+ 
+</li>
+<li> MUSPF	24900	Jazz Ensemble
+ 
+</li>
+<li> MUSPF	25000	Jazz and Popular Music Combos
+ 
+</li>
+<li> MUSPF	25100	Jazz Vocal Workshop Ensemble
+ 
+</li>
+<li> MUSPF	34900	Conducting I
+ 
+</li>
+<li> MUSPF	35000	Conducting II
+ 
+</li>
+<li> MUSPF	35300	Chamber Singers
+ 
+</li>
+<li> MUSPF	35500	Chamber Music Workshop
+ 
+</li>
+<li> MUSPF	36100	Special Studies in Performance of Music
+ 
+</li>
+<li> MUSPF	36200	Special Studies in Performance of Music
+ 
+</li>
+<li> MUSPF	36300	Special Studies in Performance of Music
+ 
+</li>
+<li> MUSPF	36500	Topics in Piano Performance
+ 
+</li>
+<li> MUSPF	36900	Topics in Vocal Performance
+ 
+</li>
+<li> MUSPF	40100	Individual Instruction in Instrument or Voice
+ 
+</li>
+<li> MUSPF	40200	Individual Instruction in Second Instrument or Voice
+ 
+</li>
+<li> MUSPF	43100	Individual Instruction in Instrument or Voice
+ 
+</li>
+<li> MUSTH	10100	Music Theory Fundamentals
+ 
+</li>
+<li> MUSTH	20100	Introduction to Music Technology
+ 
+</li>
+<li> MUSTH	22000	Music Theory I
+ 
+</li>
+<li> MUSTH	22100	Music Theory II
+ 
+</li>
+<li> MUSTH	23000	Musicianship I
+ 
+</li>
+<li> MUSTH	23100	Musicianship II
+ 
+</li>
+<li> MUSTH	32000	Music Theory III
+ 
+</li>
+<li> MUSTH	32100	Music Theory IV
+ 
+</li>
+<li> MUSTH	33000	Musicianship III
+ 
+</li>
+<li> MUSTH	33100	Musicianship IV
+ 
+</li>
+<li> MUSTH	33300	Composition I
+ 
+</li>
+<li> MUSTH	33400	Composition II
+ 
+</li>
+<li> MUSTH	33500	Orchestration
+ 
+</li>
+<li> MUSTH	35100	Computer Music
+ 
+</li>
+<li> MUSTH	36100	Special Topics in Music Theory
+ 
+</li>
+<li> MUSTH	37000	Jazz Harmony and Arranging
+ 
+</li>
+<li> MUSTH	37100	Jazz Improvisation
+ 
+</li>
+<li> MUSTH	38500	Private Lessons in Composition
+ 
+</li>
+<li> MUSTH	49100	Honors Project
+ 
+</li>
+<li> MUSTH	49200	Honors Project
+ 
+</li>
+<li> NFS	13100	Food Science I
+ 
+</li>
+<li> NFS	14100	Nutrition
+ 
+</li>
+<li> NFS	33200	Cultural Aspects of Food and Nutrition
+ 
+</li>
+<li> NFS	33300	Nutrition Education
+ 
+</li>
+<li> NFS	33500	Institutional Management
+ 
+</li>
+<li> NFS	34200	Nutrition and Human Development
+ 
+</li>
+<li> NFS	36100	Food and the Consumer
+ 
+</li>
+<li> NFS	40100	Techniques of Communication in Nutrition
+ 
+</li>
+<li> NFS	40200	Seminar in Nutrition and Food Science
+ 
+</li>
+<li> NFS	43100	Experimental Foods
+ 
+</li>
+<li> NFS	43400	Nutrition and the Elderly
+ 
+</li>
+<li> NFS	43500	Food Service Systems
+ 
+</li>
+<li> NFS	44100	Community Nutrition
+ 
+</li>
+<li> NFS	44351	Practicum in Nutrition and Food Science
+ 
+</li>
+<li> NFS	44352	Practicum in Nutrition and Food Science
+ 
+</li>
+<li> NFS	44354	Practicum in Nutrition and Food Science
+ 
+</li>
+<li> NFS	44355	Practicum in Nutrition and Food Science
+ 
+</li>
+<li> NFS	44356	Practicum in Nutrition and Food Science
+ 
+</li>
+<li> NFS	48031	Independent Study in Nutrition and Food Science
+ 
+</li>
+<li> NFS	48032	Independent Study in Nutrition and Food Science
+ 
+</li>
+<li> NFS	49000	Honors in Nutrition and Food Science
+ 
+</li>
+<li> NURS	20000	Introduction to Nursing
+ 
+</li>
+<li> NURS	31000	Nursing I
+ 
+</li>
+<li> NURS	31200	Nursing II
+ 
+</li>
+<li> NURS	33100	Pharmacology I
+ 
+</li>
+<li> NURS	33200	Normal and Therapeutic Nutrition in the Nursing Process
+ 
+</li>
+<li> NURS	34000	Women's Health
+ 
+</li>
+<li> NURS	34200	Ethical Issues in Nursing Practice
+ 
+</li>
+<li> NURS	34300	Pathophysiology and Nursing Care
+ 
+</li>
+<li> NURS	34500	HIV/AIDS: An Interdisciplinary Perspective for Health Care Providers
+ 
+</li>
+<li> NURS	34600	Death and Dying
+ 
+</li>
+<li> NURS	35000	Independent Study in Nursing
+ 
+</li>
+<li> NURS	35100	Gender, Science and Technology
+ 
+</li>
+<li> NURS	37900	Nursing and Societal Forces in the Health Care Delivery System
+ 
+</li>
+<li> NURS	38000	Nursing Research and Theory
+ 
+</li>
+<li> NURS	38100	Health Assessment Throughout the Lifespan
+ 
+</li>
+<li> NURS	38400	Nursing Culturally Diverse Families
+ 
+</li>
+<li> NURS	38400	Nursing Culturally Diverse Families
+ 
+</li>
+<li> NURS	39998	Urban Disaster Response and the Health Care Team
+ 
+</li>
+<li> NURS	41000	Nursing III
+ 
+</li>
+<li> NURS	41200	Nursing IV
+ 
+</li>
+<li> NURS	41900	Nursing Management and Leadership in the Health Care System
+ 
+</li>
+<li> NURS	42000	Nursing Leadership and Ethics
+ 
+</li>
+<li> NURS	42100	Nursing and Society
+ 
+</li>
+<li> NURS	44000	Stress Management for Nurses
+ 
+</li>
+<li> NURS	44100	Selected Studies in Nursing Research
+ 
+</li>
+<li> NURS	44200	Nursing Care of Acute and Critically Ill Clients
+ 
+</li>
+<li> NURS	44500	Teaching-Learning Across the Developmental and Health Continua
+ 
+</li>
+<li> NURS	45000	Computer Concepts and Application in Nursing
+ 
+</li>
+<li> NURS	48000	Promotion of Wellness in the Community
+ 
+</li>
+<li> NURS	48200	Advancement of Roles and Relationships in Professional Nursing
+ 
+</li>
+<li> NURS	48300	Politics of Health
+ 
+</li>
+<li> PGEOG	13000 (STEM)	Weather and Climate
+ 
+</li>
+<li> PGEOG	21200	Geography of Soils and Vegetation
+ 
+</li>
+<li> PGEOG	23100	Physical Geography II: Principles of Geomorphology
+ 
+</li>
+<li> PGEOG	25000	Earth System Science I
+ 
+</li>
+<li> PGEOG	25100	Earth System Science II
+ 
+</li>
+<li> PGEOG	31100	Introduction to Fluid Mechanics
+ 
+</li>
+<li> PGEOG	31300	Biogeography
+ 
+</li>
+<li> PGEOG	33200	Introduction to Hydrology
+ 
+</li>
+<li> PGEOG	33400	Coastal Geomorphology See GEOL 33400
+ 
+</li>
+<li> PGEOG	33500	Urban and Metropolitan Coasts
+ 
+</li>
+<li> PGEOG	36100	Global Climatic Change
+ 
+</li>
+<li> PGEOG	36300	Environmental Hazards
+ 
+</li>
+<li> PGEOG	38100	Special Topics in Environmental Studies
+ 
+</li>
+<li> PGEOG	38200	Special Topics in Environmental Studies
+ 
+</li>
+<li> PGEOG	38300	Special Topics in Environmental Studies
+ 
+</li>
+<li> PGEOG	39100	Individual Study in Environmental Studies
+ 
+</li>
+<li> PGEOG	39200	Individual Study in Environmental Studies
+ 
+</li>
+<li> PGEOG	39300	Individual Study in Environmental Studies
+ 
+</li>
+<li> PGEOG	49000	Honors in Environmental Studies
+ 
+</li>
+<li> PGEOG	49800	Internship in Environmental Studies
+ 
+</li>
+<li> PHILO	10100	Introduction to Philosophy
+ 
+</li>
+<li> PHILO	10300	Introduction to Logic and Critical Thinking
+ 
+</li>
+<li> PHILO	10400	Introduction to Ethics
+ 
+</li>
+<li> PHILO	10600	Philosophy, Politics and Society
+ 
+</li>
+<li> PHILO	17100	Introduction to Symbolic Logic
+ 
+</li>
+<li> PHILO	20000	Topics in Philosophy
+ 
+</li>
+<li> PHILO	20100	Knowledge and Reality (W)
+ 
+</li>
+<li> PHILO	20300	Great Philosophers: Ancient and Medieval
+ 
+</li>
+<li> PHILO	20400	Great Philosophers
+ 
+</li>
+<li> PHILO	21200	Classical Greek Philosophy: Plato and Aristotle (W)
+ 
+</li>
+<li> PHILO	21400	Medieval Philosophy (W)
+ 
+</li>
+<li> PHILO	21500	Foundations of Modern Philosophy (W)
+ 
+</li>
+<li> PHILO	21600	Women Philosophers of the Past
+ 
+</li>
+<li> PHILO	21800	Revolutions in Modern Philosophy (W)
+ 
+</li>
+<li> PHILO	21900	Chinese Philosophy (W)
+ 
+</li>
+<li> PHILO	31900	Marxist and Critical Theory (W)
+ 
+</li>
+<li> PHILO	22100	Indian Philosophy (W)
+ 
+</li>
+<li> PHILO	22300	Neoplatonism (W)
+ 
+</li>
+<li> PHILO	22500	American Philosophy (W)
+ 
+</li>
+<li> PHILO	22600	African-American Philosophy (W)
+ 
+</li>
+<li> PHILO	22800	Existentialism (W)
+ 
+</li>
+<li> PHILO	23000	Feminism: Philosophical Theory and Practice (W)
+ 
+</li>
+<li> PHILO	24400	Moral Philosophy (W)
+ 
+</li>
+<li> PHILO	24600	Political Philosophy (W)
+ 
+</li>
+<li> PHILO	24800	International Ethics (W)
+ 
+</li>
+<li> PHILO	25000	Problems of Ethics and Society (W)
+ 
+</li>
+<li> PHILO	25200	Problems of Law and Morality
+ 
+</li>
+<li> PHILO	25400	Ethical Issues in Biology and Medical Care (W)
+ 
+</li>
+<li> PHILO	25600	Philosophical Ideas in Literature (W)
+ 
+</li>
+<li> PHILO	25800	Aesthetics (W)
+ 
+</li>
+<li> PHILO	26200	Philosophy of Religion (W)
+ 
+</li>
+<li> PHILO	26200	Philosophy of Religion (W)
+ 
+</li>
+<li> PHILO	26800	Philosophical Psychology (W)
+ 
+</li>
+<li> PHILO	27000	Philosophy, Science and Culture (W)
+ 
+</li>
+<li> PHILO	27500	Symbolic Logic
+ 
+</li>
+<li> PHILO	27900	Inductive Logic
+ 
+</li>
+<li> PHILO	32000	Twentieth-Century Philosophy (W)
+ 
+</li>
+<li> PHILO	32200	Modern Philosophical Idealism
+ 
+</li>
+<li> PHILO	34400	Contemporary Theories in Ethics (W)
+ 
+</li>
+<li> PHILO	34600	Contemporary Theories of Justice (W)
+ 
+</li>
+<li> PHILO	36000	Metaphysics (W)
+ 
+</li>
+<li> PHILO	36200	Theory of Knowledge (W)
+ 
+</li>
+<li> PHILO	36400	Philosophy of Language (W)
+ 
+</li>
+<li> PHILO	36600	Philosophy of Mind (W)
+ 
+</li>
+<li> PHILO	37500	Advanced Symbolic Logic
+ 
+</li>
+<li> PHILO	37600	Philosophy of Mathematics (W)
+ 
+</li>
+<li> PHILO	37900	Philosophy of Science (W)
+ 
+</li>
+<li> PHILO	38000	Major Figures in Philosophy (W)
+ 
+</li>
+<li> PHILO	38100	Aristotle (W)
+ 
+</li>
+<li> PHILO	38200	Major Figure in Medieval Philosophy (W)
+ 
+</li>
+<li> PHILO	38250	Major Figure in Medieval Philosophy: Augustine (W)
+ 
+</li>
+<li> PHILO	38254	Major Figure in Medieval Philosophy: Averroes (W)
+ 
+</li>
+<li> PHILO	38254	Major Figure in Medieval Philosophy: Maimonides (W)
+ 
+</li>
+<li> PHILO	38256	Major Figure in Medieval Philosophy: Aquinas (W)
+ 
+</li>
+<li> PHILO	38300	Major Figure in Early Modern Philosophy (W)
+ 
+</li>
+<li> PHILO	38350	Major Figure in Early Modern Philosophy: Descartes (W)
+ 
+</li>
+<li> PHILO	38351	Major Figure in Early Modern Philosophy: Spinoza (W)
+ 
+</li>
+<li> PHILO	38352	Major Figure in Early Modern Philosophy: Leibniz (W)
+ 
+</li>
+<li> PHILO	38353	Major Figure in Early Modern Philosophy: Hobbes (W)
+ 
+</li>
+<li> PHILO	38354	Major Figure in Early Modern Philosophy: Locke (W)
+ 
+</li>
+<li> PHILO	38355	Major Figure in Early Modern Philosophy: Berkeley (W)
+ 
+</li>
+<li> PHILO	38356	Major Figure in Early Modern Philosophy: Hume (W)
+ 
+</li>
+<li> PHILO	38357	Major Figure in Early Modern Philosophy: Rousseau (W)
+ 
+</li>
+<li> PHILO	38400	Kant (W)
+ 
+</li>
+<li> PHILO	38500	Plotinus (W)
+ 
+</li>
+<li> PHILO	38600	Hegel (W)
+ 
+</li>
+<li> PHILO	38700	Nietzsche (W)
+ 
+</li>
+<li> PHILO	38800	Wittgenstein (W)
+ 
+</li>
+<li> PHILO	38900	Heidegger (W)
+ 
+</li>
+<li> PHILO	39000	Marx (W)
+ 
+</li>
+<li> PHILO	39300	Philosophical Systems
+ 
+</li>
+<li> PHILO	39400	Philosophical Problems
+ 
+</li>
+<li> PHILO	49200	Independent Study in Philosophy
+ 
+</li>
+<li> PHILO	49400	Honors Tutorial in Philosophy
+ 
+</li>
+<li> PHILO	49800	Internship
+ 
+</li>
+<li> PHYS	10100	Basic Concepts of Physics with Laboratory Exercises
+ 
+</li>
+<li> PHYS	11000 (STEM)	General Physics: Introductory Course in Mechanics, Heat, and Sound
+ 
+</li>
+<li> PHYS	11100 (STEM)	General Physics: Introductory Course in Mechanics, Heat, and Sound
+ 
+</li>
+<li> PHYS	12000 (STEM)	General Physics: Introductory Course in Electricity and Magnetism, Light, and Atomic Physics
+ 
+</li>
+<li> PHYS	12100 (STEM)	General Physics: Introductory Course in Electricity and Magnetism, Light, and Atomic Physics
+ 
+</li>
+<li> PHYS	14500	Physics of Computers
+ 
+</li>
+<li> PHYS	18600	Acoustics of Music
+ 
+</li>
+<li> PHYS	19000	Tutorial in Mathematical Physics
+ 
+</li>
+<li> PHYS	20400	Electrical Circuits and Laboratory
+ 
+</li>
+<li> PHYS	22100	Electronics
+ 
+</li>
+<li> PHYS	22200	Electronics Laboratory
+ 
+</li>
+<li> PHYS	22400	Analog and Digital Electronics and Laboratory
+ 
+</li>
+<li> PHYS	23000	Classical Physics Laboratory
+ 
+</li>
+<li> PHYS	23100	Fundamentals of Laser and Fiber Optics
+ 
+</li>
+<li> PHYS	23200	Laser and Electro-Optics Technology
+ 
+</li>
+<li> PHYS	23300	Laser Electro-Optics Devices, Measurements and Applications
+ 
+</li>
+<li> PHYS	23400	Fiber Optics Devices, Measurements, and Applications
+ 
+</li>
+<li> PHYS	23500	Modern Physics Laboratory
+ 
+</li>
+<li> PHYS	24000	Physics of Biological Systems
+ 
+</li>
+<li> PHYS	24500	Computer Applications in Physical Sciences
+ 
+</li>
+<li> PHYS	28000	Astrophysics
+ 
+</li>
+<li> PHYS	30100	Theoretical Physics
+ 
+</li>
+<li> PHYS	31100	Introduction to Fluid Mechanics
+ 
+</li>
+<li> PHYS	33000	Atomic and Nuclear Physics
+ 
+</li>
+<li> PHYS	33400	Intermediate Electricity and Magnetism
+ 
+</li>
+<li> PHYS	33500	Intermediate Mechanics
+ 
+</li>
+<li> PHYS	33600	Thermodynamics and Statistical Mechanics
+ 
+</li>
+<li> PHYS	34200	Optics
+ 
+</li>
+<li> PHYS	36000	Atomic and Nuclear Physics for Engineers
+ 
+</li>
+<li> PHYS	36400	Electricity and Magnetism for Engineers
+ 
+</li>
+<li> PHYS	36500	Analytical Mechanics
+ 
+</li>
+<li> PHYS	38500	Numerical Methods I
+ 
+</li>
+<li> PHYS	39900	Senior Thesis (W)
+ 
+</li>
+<li> PHYS	40300	Topics in Modern Physics
+ 
+</li>
+<li> PHYS	41100	Theoretical Mechanics
+ 
+</li>
+<li> PHYS	41500	Electromagnetic Theory
+ 
+</li>
+<li> PHYS	41600	Electromagnetic Theory II
+ 
+</li>
+<li> PHYS	42000	Introduction to Biophysics
+ 
+</li>
+<li> PHYS	42400	Plasma Physics
+ 
+</li>
+<li> PHYS	42500	Quantum Theory
+ 
+</li>
+<li> PHYS	42700	Intermediate Physics Laboratory
+ 
+</li>
+<li> PHYS	42800	Photonics and Laboratory
+ 
+</li>
+<li> PHYS	44500	Solid State Physics
+ 
+</li>
+<li> PHYS	45300	Introduction to Research
+ 
+</li>
+<li> PHYS	45400	Introduction to Research
+ 
+</li>
+<li> PHYS	48500	Numerical Methods II
+ 
+</li>
+<li> POL	10100	Elementary Polish
+ 
+</li>
+<li> POL	10200	Elementary Polish
+ 
+</li>
+<li> POL	20100	Intermediate Polish I
+ 
+</li>
+<li> POL	20200	Intermediate Polish II
+ 
+</li>
+<li> POL	25000	Topics in Polish Literature
+ 
+</li>
+<li> POL	30000	Independent Study in Polish Language and Literature
+ 
+</li>
+<li> POLSC	10000	Introduction to Politics: Democracy, Anarchy and the State (W)
+ 
+</li>
+<li> POLSC	11000	American Government: A Historical Introduction (W)
+ 
+</li>
+<li> POLSC	11000	American Government: A Historical Introduction (W)
+ 
+</li>
+<li> POLSC	11200	Introduction to Political Theory (W)
+ 
+</li>
+<li> POLSC	11200	Introduction to Political Theory (W)
+ 
+</li>
+<li> POLSC	20000	Interpreting Politics: An Introduction to Political Ideas (W)
+ 
+</li>
+<li> POLSC	20000	Interpreting Politics: An Introduction to Political Ideas (W)
+ 
+</li>
+<li> POLSC	20100	Ancient to Early Modern Political Thought (W)
+ 
+</li>
+<li> POLSC	20200	Modern Political Thought (1600-1900) (W)
+ 
+</li>
+<li> POLSC	20300	Political Thought Since 1900 (W)
+ 
+</li>
+<li> POLSC	20400	Contemporary Issues in Political Theory
+ 
+</li>
+<li> POLSC	20600	Research Design in Political Science (W)
+ 
+</li>
+<li> POLSC	20700	Data Analysis in Political Science (W)
+ 
+</li>
+<li> POLSC	20900	Women and Gender in Western Political Thought (W)
+ 
+</li>
+<li> POLSC	21100	State Government and Politics (W)
+ 
+</li>
+<li> POLSC	21200	Urban Politics (W)
+ 
+</li>
+<li> POLSC	21300	Political Parties and Elections (W)
+ 
+</li>
+<li> POLSC	21500	Public Opinion and Political Participation (W)
+ 
+</li>
+<li> POLSC	21700	Contemporary Issues in American Politics
+ 
+</li>
+<li> POLSC	21800	Women and Politics (W)
+ 
+</li>
+<li> POLSC	21900	Women and the Law (W)
+ 
+</li>
+<li> POLSC	22100	U.S. Immigration Policy (W)
+ 
+</li>
+<li> POLSC	22200/22300	Seminar/Internship in New York City Government
+ 
+</li>
+<li> POLSC	22600	Interest Group Politics (W)
+ 
+</li>
+<li> POLSC	22700	Political Parties (W)
+ 
+</li>
+<li> POLSC	22800	Protest Movements in American Politics (W)
+ 
+</li>
+<li> POLSC	23000	The American Presidency (W)
+ 
+</li>
+<li> POLSC	23500	The American Congress (W)
+ 
+</li>
+<li> POLSC	23800	The American Legal System (W)
+ 
+</li>
+<li> POLSC	24000	The American Judiciary (W)
+ 
+</li>
+<li> POLSC	24400	Energy and Environmental Politics and Public Policy (W)
+ 
+</li>
+<li> POLSC	25000	Comparing Countries (W)
+ 
+</li>
+<li> POLSC	25000	Comparing Countries (W)
+ 
+</li>
+<li> POLSC	25100	Politics of Africa, Asia and Latin America (W)
+ 
+</li>
+<li> POLSC	25200	Government and Politics in the Caribbean (W)
+ 
+</li>
+<li> POLSC	25300	Government and Politics in Latin America (W)
+ 
+</li>
+<li> POLSC	25400	Government and Politics in Western Europe (W)
+ 
+</li>
+<li> POLSC	25500	Government and Politics of Japan and Korea (W)
+ 
+</li>
+<li> POLSC	25600	Government and Politics in South and Southeast Asia (W)
+ 
+</li>
+<li> POLSC	25700	Government and Politics of China (W)
+ 
+</li>
+<li> POLSC	26000	African Politics through African Films (W)
+ 
+</li>
+<li> POLSC	26100	Globalization and Opposition Movements (W)
+ 
+</li>
+<li> POLSC	26200	Government and Politics in Central America (W)
+ 
+</li>
+<li> POLSC	26300	Government and Politics in the Middle East (W)
+ 
+</li>
+<li> POLSC	26400	Government and Politics of Israel (W)
+ 
+</li>
+<li> POLSC	26500	Government and Politics in Eastern Europe (W)
+ 
+</li>
+<li> POLSC	26700	The Politics of Southern Africa (W)
+ 
+</li>
+<li> POLSC	26900	Governments and Politics of Northern Africa (W)
+ 
+</li>
+<li> POLSC	27000	International Relations: Conceptual Foundations and Current Issues (W)
+ 
+</li>
+<li> POLSC	27000	International Relations: Conceptual Foundations and Current Issues (W)
+ 
+</li>
+<li> POLSC	27100	International Politics in the Americas (W)
+ 
+</li>
+<li> POLSC	27200	Contemporary Issues in Comparative Politics
+ 
+</li>
+<li> POLSC	27300	Contemporary Issues in International Politics
+ 
+</li>
+<li> POLSC	27400	American Foreign Policy (W)
+ 
+</li>
+<li> POLSC	27400	American Foreign Policy (W)
+ 
+</li>
+<li> POLSC	27500	Politics of the Global Economy (W)
+ 
+</li>
+<li> POLSC	27600	Global Issues (W)
+ 
+</li>
+<li> POLSC	27800	International Organizations (W)
+ 
+</li>
+<li> POLSC	28000	Women, War and Peace (W)
+ 
+</li>
+<li> POLSC	28100	Drugs, Politics and Public Policy (W)
+ 
+</li>
+<li> POLSC	28200	International Security (W)
+ 
+</li>
+<li> POLSC	28300	Terrorism (W)
+ 
+</li>
+<li> POLSC	29001-29003	Independent Study in Political Science
+ 
+</li>
+<li> POLSC	29102-29103	Directed Research (W)
+ 
+</li>
+<li> POLSC	29801-29806	Internship in Political Science
+ 
+</li>
+<li> POLSC	30100	American Political Thought (W)
+ 
+</li>
+<li> POLSC	30100	American Political Thought (W)
+ 
+</li>
+<li> POLSC	30200	Critical Theory and Politics (W)
+ 
+</li>
+<li> POLSC	30300	Democracy and Emergency (W)
+ 
+</li>
+<li> POLSC	30400	Contemporary Issues in Political Theory
+ 
+</li>
+<li> POLSC	30500	Democratic Theory (W)
+ 
+</li>
+<li> POLSC	30700	Theory of Revolution
+ 
+</li>
+<li> POLSC	30900	Feminist Political Theory (W)
+ 
+</li>
+<li> POLSC	31000	Comparative Legal Systems (W)
+ 
+</li>
+<li> POLSC	31100	Utopian Theory (W)
+ 
+</li>
+<li> POLSC	31600	Political Theory of Human Rights (W)
+ 
+</li>
+<li> POLSC	31700	Contemporary Issues in American Politics
+ 
+</li>
+<li> POLSC	32000	Ethnic Politics (W)
+ 
+</li>
+<li> POLSC	32100	American Political Economy (W)
+ 
+</li>
+<li> POLSC	32200	Social and Economic Policies in Western Europe and the United States (W)
+ 
+</li>
+<li> POLSC	32300	Politics of Public Budgeting (W)
+ 
+</li>
+<li> POLSC	33000	American Political Development (W)
+ 
+</li>
+<li> POLSC	34000	Constitutional Law: Organizing the Government (W)
+ 
+</li>
+<li> POLSC	34100	Constitutional Law: Civil Rights (W)
+ 
+</li>
+<li> POLSC	34200	Constitutional Law: The First Amendment (W)
+ 
+</li>
+<li> POLSC	34300	Criminal Law (W)
+ 
+</li>
+<li> POLSC	34800	Public Administration and Public Policy (W)
+ 
+</li>
+<li> POLSC	35100	Government and Politics of Russia and the Post-Soviet States (W)
+ 
+</li>
+<li> POLSC	35200	State and Society in Africa (W)
+ 
+</li>
+<li> POLSC	35300	Social Movements, Civil Society and the State in Latin America (W)
+ 
+</li>
+<li> POLSC	35600	India's Democratic Experiment (W)
+ 
+</li>
+<li> POLSC	36000	Democracy & Development in a Globalizing World (W)
+ 
+</li>
+<li> POLSC	37200	Contemporary Issues in Comparative Politics
+ 
+</li>
+<li> POLSC	37300	Contemporary Issues in International Politics
+ 
+</li>
+<li> POLSC	37400	International Human Rights (W)
+ 
+</li>
+<li> POLSC	37500	International Law (W)
+ 
+</li>
+<li> POLSC	37600	International Political Economy (W)
+ 
+</li>
+<li> POLSC	37700	Theories of International Politics (W)
+ 
+</li>
+<li> POLSC	37800	Russian National Interest: Past and Present (W)
+ 
+</li>
+<li> POLSC	37800	Russian National Interest: Past and Present (W)
+ 
+</li>
+<li> POLSC	37900	War and Strategy (W)
+ 
+</li>
+<li> POLSC	38000	European Security (W)
+ 
+</li>
+<li> POLSC	38100	East Asia in World Politics (W)
+ 
+</li>
+<li> POLSC	38200	Causes of War (W)
+ 
+</li>
+<li> POLSC	38300	Power Transitions, the U.S. and World Order (W)
+ 
+</li>
+<li> POLSC	48000	Seminar in Selected Problems of Political Science
+ 
+</li>
+<li> POLSC	48600	Senior Colloquium
+ 
+</li>
+<li> POLSC	49202-49203	Honors Independent Study in Political Science
+ 
+</li>
+<li> POLSC	49300	Conducting and Presenting Political Science Research
+ 
+</li>
+<li> PSYCH	10000	Introduction to Psychology
+ 
+</li>
+<li> PSYCH	14000	Psychological Adjustment
+ 
+</li>
+<li> PSYCH	15000	Human Development
+ 
+</li>
+<li> PSYCH	16000	Evolution and Behavior
+ 
+</li>
+<li> PSYCH	17000	Psychology of Human Sexuality
+ 
+</li>
+<li> PSYCH	18000	Brain and Behavior
+ 
+</li>
+<li> PSYCH	19000	Development of Gender Roles
+ 
+</li>
+<li> PSYCH	19500	Special Topics in Psychology I
+ 
+</li>
+<li> PSYCH	20100	Independent Study in Psychology
+ 
+</li>
+<li> PSYCH	20500	The Profession of Psychology (W)
+ 
+</li>
+<li> PSYCH	21000	Child Development (D/S)
+ 
+</li>
+<li> PSYCH	21200	Exceptional Childhoods (D/S)
+ 
+</li>
+<li> PSYCH	21500	Introduction to Research Methods in Psychology (W)
+ 
+</li>
+<li> PSYCH	22000	Personality (D/S)
+ 
+</li>
+<li> PSYCH	22100	Psychoanalytic Theories (A; D/S)
+ 
+</li>
+<li> PSYCH	22300	Abnormal Psychology (A; D/S)
+ 
+</li>
+<li> PSYCH	22500	Ethology: Animal Behavior (B)
+ 
+</li>
+<li> PSYCH	23000	Social Psychology (D/S)
+ 
+</li>
+<li> PSYCH	23500	The Psychology of Women (D/S)
+ 
+</li>
+<li> PSYCH	24000	Applications of Psychology (A)
+ 
+</li>
+<li> PSYCH	24200	Health Psychology (A)
+ 
+</li>
+<li> PSYCH	24300	Cognitive Processes (C)
+ 
+</li>
+<li> PSYCH	24500	History of Psychology (W)
+ 
+</li>
+<li> PSYCH	24800	Statistical Methods in Psychological Research
+ 
+</li>
+<li> PSYCH	24900	Experimental Psychology: Social
+ 
+</li>
+<li> PSYCH	25000	Experimental Psychology: General
+ 
+</li>
+<li> PSYCH	29500	Special Topics in Psychology II
+ 
+</li>
+<li> PSYCH	30000	Physiological Psychology (B)
+ 
+</li>
+<li> PSYCH	30100	Sensation and Perception (B; C)
+ 
+</li>
+<li> PSYCH	30600	Seminar in Psychological Services I (A)
+ 
+</li>
+<li> PSYCH	30700	Seminar in Psychological Services II (A)
+ 
+</li>
+<li> PSYCH	30900	Behavioral Neuroendocrinology (B; D/S)
+ 
+</li>
+<li> PSYCH	31000	Research Methods in Developmental Psychology (C; D/S)
+ 
+</li>
+<li> PSYCH	31500	Adult Development (D/S)
+ 
+</li>
+<li> PSYCH	32200	Psychology of Language (C)
+ 
+</li>
+<li> PSYCH	32300	Developmental Psychopathology (A; D/S)
+ 
+</li>
+<li> PSYCH	32700	Motivation and Emotion (B; C)
+ 
+</li>
+<li> PSYCH	32800	States of Consciousness (A/C)
+ 
+</li>
+<li> PSYCH	34000	Industrial and Organizational Psychology (A)
+ 
+</li>
+<li> PSYCH	34800	Statistics Practicum in Psychology
+ 
+</li>
+<li> PSYCH	35000	Learning (C)
+ 
+</li>
+<li> PSYCH	35500	Ethnic and Cultural Identity Theories (D/S)
+ 
+</li>
+<li> PSYCH	36100	Psychological Tests (A)
+ 
+</li>
+<li> PSYCH	36900	Behavioral Pharmacology (B)
+ 
+</li>
+<li> PSYCH	37000	Cognitive Development (C; D/S)
+ 
+</li>
+<li> PSYCH	38000	Microcomputers in Psychological Research
+ 
+</li>
+<li> PSYCH	39000	Special Topics in Psychology III
+ 
+</li>
+<li> PSYCH	39500	Independent Research in Psychology
+ 
+</li>
+<li> PSYCH	39600	Honors in Psychology
+ 
+</li>
+<li> PSYCH	39800	Honors in Psychology
+ 
+</li>
+<li> PSYCH	40000	Special Topics in Psychology IV
+ 
+</li>
+<li> PUPOL	10000	Introduction to Public Policy
+ 
+</li>
+<li> PUPOL	40000	Capstone Seminar
+ 
+</li>
+<li> QSTA	40080	The Art of Effective Teaching
+ 
+</li>
+<li> QSTA	40180	Developmental Reading
+ 
+</li>
+<li> QSTA	40680	Mathematics Teaching and Learning in Elementary School
+ 
+</li>
+<li> QSTA	40780	The Arts: An Interdisciplinary Learning Experience
+ 
+</li>
+<li> QSTA	41080	Literacy Across the Content Areas
+ 
+</li>
+<li> QSTA	41280	Teaching Social Studies through Literature, the Arts, and Technology in Elementary Schools
+ 
+</li>
+<li> QSTA	41480	Teaching Science in Elementary Schools
+ 
+</li>
+<li> QSTA	41580	Student Teaching
+ 
+</li>
+<li> QSTAB	30000	Fieldwork I: Fieldwork for Child Development and Developmental Reading
+ 
+</li>
+<li> QSTAB	30100	Fieldwork II: Fieldwork for Literacy Across the Content Areas and Teaching Social Studies through Literature, the Arts, and Technology in Elementary Schools
+ 
+</li>
+<li> QSTAB	30200	Fieldwork III: Fieldwork for Mathematics Teaching and Learning in Elementary School and Psychology of Teaching and Learning
+ 
+</li>
+<li> QSTB	20280	Child Growth and Development
+ 
+</li>
+<li> QSTB	40380	Social Foundations of Urban Education
+ 
+</li>
+<li> QSTB	41380	Psychology of Teaching and Learning
+ 
+</li>
+<li> REL	25800	Religions of Ancient Europe (W)
+ 
+</li>
+<li> REL	11000	Nature of Religion (W)
+ 
+</li>
+<li> REL	11100	Approaches to Religion (W)
+ 
+</li>
+<li> REL	20400	Religious Experience (W)
+ 
+</li>
+<li> REL	20500	Faith and Disbelief (W)
+ 
+</li>
+<li> REL	20600	Ideas of God in Contemporary Western Thought (W)
+ 
+</li>
+<li> REL	20700	Religious Sources for Morality (W)
+ 
+</li>
+<li> REL	20800	Religion and Social Justice (W)
+ 
+</li>
+<li> REL	20900	Religion and Human Rights (W)
+ 
+</li>
+<li> REL	21100	The Sacred Sky:  Astrology in World Religions (W)
+ 
+</li>
+<li> REL	25100	Asian Religions (W)
+ 
+</li>
+<li> REL	25200	Ancient Near Eastern Religions (W)
+ 
+</li>
+<li> REL	25300	Abrahamic Religions (W)
+ 
+</li>
+<li> REL	25400	Tribal Religions: From Australia to the Americas (W)
+ 
+</li>
+<li> REL	25500	Religions of Two Gods (W)
+ 
+</li>
+<li> REL	25600	Afro-Caribbean Religions (W)
+ 
+</li>
+<li> REL	25700	Religions of Ancient Central and South America (W)
+ 
+</li>
+<li> REL	25800	Religions of Ancient Europe (W)
+ 
+</li>
+<li> REL	26000	Special Topics: Theoretical Studies in Religion
+ 
+</li>
+<li> REL	26100	Special Topics: Issues in Religion
+ 
+</li>
+<li> REL	26200	Special Topics: Religious Traditions
+ 
+</li>
+<li> REL	27000	Religion and Psychology (W)
+ 
+</li>
+<li> REL	30700	Religious Ideas in Modern Literature (W)
+ 
+</li>
+<li> REL	30800	Religion and the Arts (W)
+ 
+</li>
+<li> REL	30900	The Religious Meanings of Love and Sex (W)
+ 
+</li>
+<li> REL	31000	The Religious Meanings of Death (W)
+ 
+</li>
+<li> REL	31100	Women and Religion (W)
+ 
+</li>
+<li> REL	31200	Religion and Politics (W)
+ 
+</li>
+<li> REL	31300	Spirit and Nature (W)
+ 
+</li>
+<li> REL	31400	Religion and Sports (W)
+ 
+</li>
+<li> REL	31400	Religion and Sports (W)
+ 
+</li>
+<li> REL	31500	The Problem of Evil (W)
+ 
+</li>
+<li> REL	32000	Hinduism (W)
+ 
+</li>
+<li> REL	32100	Buddhism (W)
+ 
+</li>
+<li> REL	32200	Islam (W)
+ 
+</li>
+<li> REL	32300	Christianity (W)
+ 
+</li>
+<li> REL	32400	Islam and Buddhism (W)
+ 
+</li>
+<li> REL	32600	Religious Meanings of the Qur’ān (W)
+ 
+</li>
+<li> REL	33000	New Testament Religion (W)
+ 
+</li>
+<li> REL	33300	Christian Theology (W)
+ 
+</li>
+<li> REL	33400	Mysticism (W)
+ 
+</li>
+<li> REL	33500	Myth and Ritual (W)
+ 
+</li>
+<li> REL	33600	Zen (W)
+ 
+</li>
+<li> REL	33700	Sufism (W)
+ 
+</li>
+<li> REL	34000	Homosexuality in World Religions (W)
+ 
+</li>
+<li> REL	36000	Special Topics: Theoretical Studies in Religion
+ 
+</li>
+<li> REL	36100	Special Topics: Issues in Religion
+ 
+</li>
+<li> REL	36200	Special Topics: Religious Traditions
+ 
+</li>
+<li> REL	39000	Modern Theories of Religion (W)
+ 
+</li>
+<li> REL	41000	Independent Study in Religion
+ 
+</li>
+<li> REL	45000	Honors Seminar in Religion
+ 
+</li>
+<li> REL	49000	Honors Tutorial in Religion
+ 
+</li>
+<li> RUSS	10100	Elementary Russian
+ 
+</li>
+<li> RUSS	10200	Elementary Russian
+ 
+</li>
+<li> RUSS	10300	Elementary Russian for Heritage Speakers (Intensive)
+ 
+</li>
+<li> RUSS	15500	The Culture of Old Russia
+ 
+</li>
+<li> RUSS	15600	Culture of Imperial Russia: the Age of Empresses
+ 
+</li>
+<li> RUSS	15700	The Age of the Great Masters
+ 
+</li>
+<li> RUSS	15800	Contemporary Russian Culture
+ 
+</li>
+<li> RUSS	20100	Intermediate Russian I
+ 
+</li>
+<li> RUSS	20200	Intermediate Russian II
+ 
+</li>
+<li> RUSS	20300	Intermediate Russian for Heritage Speakers (Intensive)
+ 
+</li>
+<li> RUSS	24500	Russian Folklore: Slavic Myths and Traditions
+ 
+</li>
+<li> RUSS	24600	Special Topics in Slavic Literature and Cultures
+ 
+</li>
+<li> RUSS	25000	19th Century Russian Literature in English Translation (W)
+ 
+</li>
+<li> RUSS	25100	Tolstoy and Dostoevsky in English Translation (W)
+ 
+</li>
+<li> RUSS	25200	Modern Russian Literature in English Translation (W)
+ 
+</li>
+<li> RUSS	25300	Russian Theater in English Translation (W)
+ 
+</li>
+<li> RUSS	25400	The Silver Age of Russian Literature in English Translation (W)
+ 
+</li>
+<li> RUSS	25500	Russian Folklore, in Translation (W)
+ 
+</li>
+<li> RUSS	25600	Special Topics in Slavic Literatures and Cultures in English Translation
+ 
+</li>
+<li> RUSS	25700	Masterpieces of Russian Literature in English Translation
+ 
+</li>
+<li> RUSS	25800	Masterpieces of Russian Literature in English Translation
+ 
+</li>
+<li> RUSS	25900	Masterpieces of Russian Literature in English Translation
+ 
+</li>
+<li> RUSS	26000	Russian Women Writers in English Translation (W)
+ 
+</li>
+<li> RUSS	27000	Soviet and Post-Soviet Cinema and Society (W)
+ 
+</li>
+<li> RUSS	29300	Folklore in Translation: A Comparative Study
+ 
+</li>
+<li> RUSS	29400	Folklore and Literature (W)
+ 
+</li>
+<li> RUSS	29500	The Vampire in Lore and Literature (W)
+ 
+</li>
+<li> RUSS	29600	Vladimir Nabokov Between Two Cultures
+ 
+</li>
+<li> RUSS	29700	The Russian Urban Novel in English Translation (W)
+ 
+</li>
+<li> RUSS	30100	Advanced Russian I
+ 
+</li>
+<li> RUSS	30200	Advanced Russian II
+ 
+</li>
+<li> RUSS	31200	Advanced Russian Conversation I
+ 
+</li>
+<li> RUSS	31300	Advanced Russian Conversation II
+ 
+</li>
+<li> RUSS	31400	Reading Russian I
+ 
+</li>
+<li> RUSS	31500	Reading Russian II
+ 
+</li>
+<li> RUSS	31700	Practical Aspects of Translation
+ 
+</li>
+<li> RUSS	31800	Advanced Translation
+ 
+</li>
+<li> RUSS	31900	Business Russian
+ 
+</li>
+<li> RUSS	32100	Russian Short Story and Novella
+ 
+</li>
+<li> RUSS	32200	Classical Russian Poetry
+ 
+</li>
+<li> RUSS	32300	Modern Russian Poetry
+ 
+</li>
+<li> RUSS	32400	Literature of Kievan Rus' and Early Russian Literature through the Age of Classicism
+ 
+</li>
+<li> RUSS	34000	19th Century Russian Literature
+ 
+</li>
+<li> RUSS	34100	Tolstoy and Dostoevsky
+ 
+</li>
+<li> RUSS	34200	Modern Russian Literature
+ 
+</li>
+<li> RUSS	34300	Russian Theater
+ 
+</li>
+<li> RUSS	34400	The Silver Age of Russian Literature
+ 
+</li>
+<li> RUSS	36000	Russian Women Writers
+ 
+</li>
+<li> RUSS	37000	Independent Study in Slavic Literatures and Cultures
+ 
+</li>
+<li> RUSS	39900	Second Language Acquisition
+ 
+</li>
+<li> RUSS	49100	Honors Project
+ 
+</li>
+<li> SCI	20000	Introduction to Biomedical Research
+ 
+</li>
+<li> SCI	30200	Ethical Conduct in the Natural and Physical Sciences
+ 
+</li>
+<li> SEDC	21000	Building the Foundations of Literacy in Grades 7-12
+ 
+</li>
+<li> SEDC	21100	Young Adult Literature in Our Diverse Society
+ 
+</li>
+<li> SEDC	21200	Methods I: Foundations of Literacy, Language and Learning in the Foreign/Heritage Language Classroom, Grades 7-12
+ 
+</li>
+<li> SEDC	21300	Methods I: Classroom Organization, Management and Instruction in Mathematics and Science, Grades 7-12
+ 
+</li>
+<li> SEDC	21500	Methods I: Classroom Organization, Management, and Instruction in Social Studies, Grades 7-12
+ 
+</li>
+<li> SEDC	22000	Adolescent Health and Safety
+ 
+</li>
+<li> SEDC	32100	Teaching English Methods to a Diverse Population in Grades 7-12
+ 
+</li>
+<li> SEDC	32200	Methods II: Instructional Planning for Literacy, Language, and Learning in the Foreign/Heritage Language Classroom, Grades 7-12
+ 
+</li>
+<li> SEDC	32300	Methods II: Teaching Diverse Learners in Mathematics, Grades 7-12
+ 
+</li>
+<li> SEDC	32400	Methods II: Teaching Diverse Learners Science, Grades 7-12
+ 
+</li>
+<li> SEDC	32500	Methods II: Teaching Diverse Learners in Social Studies, Grades 7-12
+ 
+</li>
+<li> SEDC	45100	Student Teaching in English, Grades 7-12
+ 
+</li>
+<li> SEDC	45210	Student Teaching in Chinese, Grades 7-12
+ 
+</li>
+<li> SEDC	45220	Student Teaching in French, Grades 7-12
+ 
+</li>
+<li> SEDC	45230	Student Teaching in German, Grades 7-12
+ 
+</li>
+<li> SEDC	45250	Student Teaching in Hebrew, Grades 7-12
+ 
+</li>
+<li> SEDC	45260	Student Teaching in Italian, Grades 7-12
+ 
+</li>
+<li> SEDC	45270	Student Teaching in Russian, Grades 7-12
+ 
+</li>
+<li> SEDC	45280	Student Teaching in Spanish, Grades 7-12
+ 
+</li>
+<li> SEDC	45300	Student Teaching in Mathematics, Grades 7-12
+ 
+</li>
+<li> SEDC	45410	Student Teaching in Biology, Grades 7-12
+ 
+</li>
+<li> SEDC	45420	Student Teaching in Chemistry, Grades 7-12
+ 
+</li>
+<li> SEDC	45430	Student Teaching in Physics, Grades 7-12
+ 
+</li>
+<li> SEDC	45500	Student Teaching in Social Studies, Grades 7-12
+ 
+</li>
+<li> SEDC	45600	Student Teaching in Dance, Grades Pre-K-12
+ 
+</li>
+<li> SEDF	20300	Social Foundations of Education, Grades 7-12 (W)
+ 
+</li>
+<li> SEDF	20400	Adolescent Development
+ 
+</li>
+<li> SEDF	20500	Educational Psychology: Applications in Grades 7-12
+ 
+</li>
+<li> SEDF	20600	Assessment of the Teaching and Learning Process in Grades 7-12
+ 
+</li>
+<li> SOC	10100	Introduction to Sociology
+ 
+</li>
+<li> SOC	20100	The Family
+ 
+</li>
+<li> SOC	20300	Education
+ 
+</li>
+<li> SOC	20500	Sociology of Religion
+ 
+</li>
+<li> SOC	20700	Leisure, Recreation and Sports
+ 
+</li>
+<li> SOC	20900	Arts in Modern Society
+ 
+</li>
+<li> SOC	21100	Urban Sociology
+ 
+</li>
+<li> SOC	21300	Political Sociology
+ 
+</li>
+<li> SOC	21500	Occupations and Professions
+ 
+</li>
+<li> SOC	21700	Race and Ethnicity
+ 
+</li>
+<li> SOC	21800	Social Inequality
+ 
+</li>
+<li> SOC	21900	American Society (W)
+ 
+</li>
+<li> SOC	22100	Classical Sociological Theory
+ 
+</li>
+<li> SOC	22300	Current Sociological Theory
+ 
+</li>
+<li> SOC	22500	Seminar in Selected Problems of Sociology
+ 
+</li>
+<li> SOC	23100	Introduction to Social Work Profession
+ 
+</li>
+<li> SOC	23500	Community Organization and Action
+ 
+</li>
+<li> SOC	23700	Social Welfare Policy
+ 
+</li>
+<li> SOC	23900	Child Welfare (W)
+ 
+</li>
+<li> SOC	24000	Introduction to Research Methods
+ 
+</li>
+<li> SOC	24100	Social Statistics
+ 
+</li>
+<li> SOC	25100	Interpersonal Behavior
+ 
+</li>
+<li> SOC	25300	Deviance and Social Control
+ 
+</li>
+<li> SOC	25500	Youth and Adulthood
+ 
+</li>
+<li> SOC	25700	Sex and Gender Roles
+ 
+</li>
+<li> SOC	25900	Mass Media, Communication and Public Opinion (W)
+ 
+</li>
+<li> SOC	30100	Medical Sociology
+ 
+</li>
+<li> SOC	30700	Migration
+ 
+</li>
+<li> SOC	30900	Social Movements and Social Change (W)
+ 
+</li>
+<li> SOC	31100	Population Dynamics
+ 
+</li>
+<li> SOC	31300	Consumer Behavior
+ 
+</li>
+<li> SOC	31400	Culture and Consumption
+ 
+</li>
+<li> SOC	31500	Work and Society (W)
+ 
+</li>
+<li> SOC	31700	Class, Status, and Power
+ 
+</li>
+<li> SOC	31800	Sociology of Human Rights in Latin America
+ 
+</li>
+<li> SOC	31900	Criminology
+ 
+</li>
+<li> SOC	32000	Law, Society and Civil Rights
+ 
+</li>
+<li> SOC	32100	Sociology of Organizations
+ 
+</li>
+<li> SOC	32200	Drugs and Society
+ 
+</li>
+<li> SOC	32500	Seminar in Selected Problems of Sociology
+ 
+</li>
+<li> SOC	32502	Sociology of Human Rights: Violation and Protection
+ 
+</li>
+<li> SOC	32506	Latin American Societies
+ 
+</li>
+<li> SOC	32519	Economic Development and Social Inequality in Latin America
+ 
+</li>
+<li> SOC	33000	Children and Public Policy (W)
+ 
+</li>
+<li> SOC	33100	Field Placement in Social Work Agencies
+ 
+</li>
+<li> SOC	33200	Advanced Field Placement in Social Work Agencies
+ 
+</li>
+<li> SOC	34100	Research Practicum
+ 
+</li>
+<li> SOC	34500	Sociology of Knowledge
+ 
+</li>
+<li> SOC	35000	Qualitative Research Methods (W)
+ 
+</li>
+<li> SOC	36000	Feminist Social Theory
+ 
+</li>
+<li> SOC	36100	Development and Modernization (W)
+ 
+</li>
+<li> SOC	36200	Sociology of Islam (W)
+ 
+</li>
+<li> SOC	36300	Social Change
+ 
+</li>
+<li> SOC	36400	Globalism and Nationalism
+ 
+</li>
+<li> SOC	37101	Independent Study
+ 
+</li>
+<li> SOC	37102	Independent Study
+ 
+</li>
+<li> SOC	37103	Independent Study
+ 
+</li>
+<li> SOC	37200	Independent Study
+ 
+</li>
+<li> SOC	42100	Sociology of Organizations
+ 
+</li>
+<li> SOC	42500	Seminar in Selected Problems of Sociology
+ 
+</li>
+<li> SOC	44100	Advanced Research Methods
+ 
+</li>
+<li> SOC	46100	Comparative Ethnic  and Race Relations
+ 
+</li>
+<li> SOC	47100	Honors/Independent Study
+ 
+</li>
+<li> SOC	47200	Honors/Independent Study
+ 
+</li>
+<li> SOC	47300	Honors Seminar
+ 
+</li>
+<li> SOC	47400	Honors Seminar
+ 
+</li>
+<li> SOC	49800	Internship
+ 
+</li>
+<li> SOSCI	29700	Special Topics in the Social Sciences
+ 
+</li>
+<li> SOSCI	39700	Studies in the Social Sciences
+ 
+</li>
+<li> SOSCI	49800	Internship
+ 
+</li>
+<li> SPAN	10100	Elementary Spanish I
+ 
+</li>
+<li> SPAN	10200	Elementary Spanish II
+ 
+</li>
+<li> SPAN	10251	Elementary Spanish Conversation
+ 
+</li>
+<li> SPAN	10300	Intensive Elementary Spanish
+ 
+</li>
+<li> SPAN	10500	Basic Reading and Writing for Native Speakers of Spanish
+ 
+</li>
+<li> SPAN	10600	Oral and Written Skills for Native Speakers of Spanish
+ 
+</li>
+<li> SPAN	20000	Basic Spanish Review
+ 
+</li>
+<li> SPAN	20100	Intermediate Spanish I
+ 
+</li>
+<li> SPAN	20200	Intermediate Spanish II
+ 
+</li>
+<li> SPAN	20300	Intensive Intermediate Spanish
+ 
+</li>
+<li> SPAN	20700	Intermediate Spanish for Native Speakers
+ 
+</li>
+<li> SPAN	20800	Advanced Spanish for Native Speakers
+ 
+</li>
+<li> SPAN	21000	Spanish for Social Service Fields
+ 
+</li>
+<li> SPAN	21100	Spanish Grammar and Composition
+ 
+</li>
+<li> SPAN	21200	Spanish for Classroom Communication
+ 
+</li>
+<li> SPAN	22100	Spanish for Oral Communication
+ 
+</li>
+<li> SPAN	24100	Civilization of Spain, in English
+ 
+</li>
+<li> SPAN	26300	Contemporary Spanish-American Literature in Translation
+ 
+</li>
+<li> SPAN	26400	Contemporary Spanish Literature in Translation
+ 
+</li>
+<li> SPAN	26500	Don Quixote (in English translation) (W)
+ 
+</li>
+<li> SPAN	26500	Don Quixote in English Translation
+ 
+</li>
+<li> SPAN	26900	Spanish American Women's Literature and Cinema (W)
+ 
+</li>
+<li> SPAN	27000	Spanish Composition for Spanish Speaking Students
+ 
+</li>
+<li> SPAN	27500	Readings in Modern Spanish Literature
+ 
+</li>
+<li> SPAN	27600	Readings in Modern Spanish- American Literature
+ 
+</li>
+<li> SPAN	31100	The Structure of Modern Spanish
+ 
+</li>
+<li> SPAN	31200	Advanced Spanish Writing
+ 
+</li>
+<li> SPAN	31300	Spanish Stylistics
+ 
+</li>
+<li> SPAN	31400	Spanish Writing Workshop I: Poetry
+ 
+</li>
+<li> SPAN	31500	Spanish Writing Workshop II: Narrative
+ 
+</li>
+<li> SPAN	32100	Spanish Translation
+ 
+</li>
+<li> SPAN	33100	Spanish Phonetics and Diction
+ 
+</li>
+<li> SPAN	33500	Spanish Civilization
+ 
+</li>
+<li> SPAN	33600	Latin American Civilization
+ 
+</li>
+<li> SPAN	34100	Introduction to Hispanic Literature I
+ 
+</li>
+<li> SPAN	34200	Introduction to Hispanic Literature II
+ 
+</li>
+<li> SPAN	34300	Spanish Literature of the Middle Ages
+ 
+</li>
+<li> SPAN	34500	Spanish Drama of the Golden Age
+ 
+</li>
+<li> SPAN	34600	Cervantes
+ 
+</li>
+<li> SPAN	34900	Spanish Prose of the Golden Age
+ 
+</li>
+<li> SPAN	35000	Spanish Poetry of the Golden Age
+ 
+</li>
+<li> SPAN	35300	Spanish Neoclassicism and Romanticism
+ 
+</li>
+<li> SPAN	35500	Spanish Literature from Realism to World War I
+ 
+</li>
+<li> SPAN	35700	Early 20th Century Spanish Literature
+ 
+</li>
+<li> SPAN	35800	Post-Civil War Spanish Literature
+ 
+</li>
+<li> SPAN	36000	Spanish-American Literature of the Colonial Period
+ 
+</li>
+<li> SPAN	36200	Spanish-American Romanticism, Realism and Naturalism
+ 
+</li>
+<li> SPAN	36400	Spanish-American Modernism and Post-modernism
+ 
+</li>
+<li> SPAN	36500	Survey of Spanish-American Teatro
+ 
+</li>
+<li> SPAN	36600	Contemporary Latin American Poetry
+ 
+</li>
+<li> SPAN	36700	Latin American Essay
+ 
+</li>
+<li> SPAN	36800	Contemporary Latin American Narrative
+ 
+</li>
+<li> SPAN	37000	Special Topics in Spanish Literature
+ 
+</li>
+<li> SPAN	37100	Special Topics in Spanish- American Literature
+ 
+</li>
+<li> SPAN	37300	Problems in Criticism
+ 
+</li>
+<li> SPAN	37400	Contemporary Literature and Film
+ 
+</li>
+<li> SPAN	37500	Seminar in Spanish Literary History
+ 
+</li>
+<li> SPAN	37600	Time, Love and Death in Spanish Poetry from the Middle Ages to the Postmodern Age
+ 
+</li>
+<li> SPAN	38000	Introduction to Translation and Interpretation Studies
+ 
+</li>
+<li> SPAN	38100	Translation from Spanish into English
+ 
+</li>
+<li> SPAN	38200	Consecutive Interpretation Spanish-English/English-Spanish
+ 
+</li>
+<li> SPAN	38300	Translation from English into Spanish
+ 
+</li>
+<li> SPAN	38400	Simultaneous Interpretation Spanish-English
+ 
+</li>
+<li> SPAN	39000	Translation and Interpretation for the Professions
+ 
+</li>
+<li> SPAN	39100	Internship in Translation
+ 
+</li>
+<li> SPAN	39200	Internship in Interpretation
+ 
+</li>
+<li> SPAN	39900	Second Language Acquisition
+ 
+</li>
+<li> SPAN	49100	Honors Course in Spanish: Special Studies in Contemporary Latin American Literature
+ 
+</li>
+<li> SPAN	49200	Honors Course in Spanish: Special Studies in Spanish Literature
+ 
+</li>
+<li> SPAN	49500	Independent Study in Hispanic Literature
+ 
+</li>
+<li> SPED	30800	Teaching Students with Special Needs in Inclusive Settings
+ 
+</li>
+<li> STAT	11000	Selected Topics in Elementary Probability and Statistics as Applied to Popular Science and Current Events
+ 
+</li>
+<li> STAT	11300	Elementary Probability and Statistics
+ 
+</li>
+<li> STAT	21200	Discrete Probability
+ 
+</li>
+<li> STAT	21300 (STEM)	Introduction to Applied Statistics
+ 
+</li>
+<li> STAT	21400	Data Analysis Using Statistical Software
+ 
+</li>
+<li> STAT	22000	Statistical Analysis in Forensics
+ 
+</li>
+<li> STAT	29500	Intermediate Topics in Statistics
+ 
+</li>
+<li> STAT	31100	Probability Theory
+ 
+</li>
+<li> STAT	31200	Stochastic Processes
+ 
+</li>
+<li> STAT	31300	Introduction to Mathematical Statistics
+ 
+</li>
+<li> STAT	31900	Bayesian Statistical Inference in the Sciences
+ 
+</li>
+<li> STAT	35100	Advanced Biometrics
+ 
+</li>
+<li> STAT	39100	Independent Study
+ 
+</li>
+<li> STAT	39200	Independent Study
+ 
+</li>
+<li> STAT	39300	Independent Study
+ 
+</li>
+<li> STAT	39500	Advanced Topics in Statistics
+ 
+</li>
+<li> STAT	48600	Modeling and Visualization
+ 
+</li>
+<li> SWA	10100	Swahili I
+ 
+</li>
+<li> SWA	10200	Swahili II
+ 
+</li>
+<li> SWA	20100	Swahili III
+ 
+</li>
+<li> SWA	20200	Swahili IV
+ 
+</li>
+<li> THEA	10100	Introduction to Theatre
+ 
+</li>
+<li> THEA	15100	Introduction to Theatre Production
+ 
+</li>
+<li> THEA	16100	Acting I: Basic Acting Techniques
+ 
+</li>
+<li> THEA	21100	World Theatre I (W)
+ 
+</li>
+<li> THEA	21200	World Theatre II (W)
+ 
+</li>
+<li> THEA	21300	World Theatre III (W)
+ 
+</li>
+<li> THEA	21400	Multicultural Perspectives in Theatrical Performance (W)
+ 
+</li>
+<li> THEA	21500	Black Theatre (W)
+ 
+</li>
+<li> THEA	24100	Creative Dramatics
+ 
+</li>
+<li> THEA	24200	Theatre for Young Audiences
+ 
+</li>
+<li> THEA	24300	Theatre for Young Audiences: Laboratory
+ 
+</li>
+<li> THEA	24400	Drama and Disability
+ 
+</li>
+<li> THEA	25100	Theatre Production
+ 
+</li>
+<li> THEA	25301	Special Topics in Theatre Performance
+ 
+</li>
+<li> THEA	26100	Acting II: American Realism
+ 
+</li>
+<li> THEA	26200	Acting III: World Realism
+ 
+</li>
+<li> THEA	26300	Basic Voice and Movement for Performers
+ 
+</li>
+<li> THEA	28100	Visual Elements of Theatre
+ 
+</li>
+<li> THEA	28200	Theatrical Design Techniques
+ 
+</li>
+<li> THEA	28300	Stagecraft
+ 
+</li>
+<li> THEA	28400	Makeup for the Stage
+ 
+</li>
+<li> THEA	28500	Design Concepts for Theatre, Film, and Television
+ 
+</li>
+<li> THEA	29700	Special Topics in Theatre
+ 
+</li>
+<li> THEA	32100	Play Analysis (W)
+ 
+</li>
+<li> THEA	32200	Theatre Theory and Criticism (W)
+ 
+</li>
+<li> THEA	32300	20th Century Aesthetics in Theatre and Film (W)
+ 
+</li>
+<li> THEA	32400	Adaptation in Theatre and Film (W)
+ 
+</li>
+<li> THEA	33100	Avant-Garde Theatre of the 20th Century (W)
+ 
+</li>
+<li> THEA	33200	Theatre of Realism and Naturalism
+ 
+</li>
+<li> THEA	33300	Alternative Performance
+ 
+</li>
+<li> THEA	34100	Creative Drama Leadership Techniques: Special Groups
+ 
+</li>
+<li> THEA	34200	Creative Drama in the Community
+ 
+</li>
+<li> THEA	35100	Theatre Workshop
+ 
+</li>
+<li> THEA	36100	Acting: Non-realism
+ 
+</li>
+<li> THEA	36200	Acting: Period Drama
+ 
+</li>
+<li> THEA	36300	Advanced Voice and Movement for Performers
+ 
+</li>
+<li> THEA	36400	Mime and Masks
+ 
+</li>
+<li> THEA	36500	Screen Acting
+ 
+</li>
+<li> THEA	37100	Directing I
+ 
+</li>
+<li> THEA	37200	Directing II
+ 
+</li>
+<li> THEA	37600	Playwriting I (W)
+ 
+</li>
+<li> THEA	37700	Playwriting II
+ 
+</li>
+<li> THEA	37800	Scriptwriting for Young Audiences: Theatre, Film, and Television
+ 
+</li>
+<li> THEA	38100	Scene Design I
+ 
+</li>
+<li> THEA	38200	Scene Design II
+ 
+</li>
+<li> THEA	38300	Costume Design I
+ 
+</li>
+<li> THEA	38400	Stage Lighting Design
+ 
+</li>
+<li> THEA	38500	Production Design I for Theatre, Film, and Television
+ 
+</li>
+<li> THEA	38600	Production Design II for Theatre, Film, and Television
+ 
+</li>
+<li> THEA	38700	Concepts of Light in Theatre, Film, and Television
+ 
+</li>
+<li> THEA	38800	Theatres and Movie Palaces: Contemporary Culture
+ 
+</li>
+<li> THEA	39100	Theatre Projects
+ 
+</li>
+<li> THEA	39700	Studies in Theatre
+ 
+</li>
+<li> THEA	40100	Seminar
+ 
+</li>
+<li> THEA	40200	Independent Research
+ 
+</li>
+<li> THEA	49800	Internship
+ 
+</li>
+<li> THEA	49900	Honors Project
+ 
+</li>
+<li> UKR	30000	Independent Study in Ukrainian Language and Literature
+ 
+</li>
+<li> URBS	10100	Urban Life: Personal and Observational View (W)
+ 
+</li>
+<li> URBS	10200	Structure of Urban Region (W)
+ 
+</li>
+<li> URBS	20100	Urban Plans and Policies
+ 
+</li>
+<li> URBS	31000	Methods of Urban Research and Policy Analysis
+ 
+</li>
+<li> URBS	31100	Quantitative Approaches to Urban Analysis
+ 
+</li>
+<li> URBS	40100	Managing Urban Physical Environment
+ 
+</li>
+<li> URBS	40200	Urban Studies Studio
+ 
+</li>
+<li> URBS	40300	Selected Topics in Urban Affairs
+ 
+</li>
+<li> URBS	40354	Seminar on the City
+ 
+</li>
+<li> URBS	40900	Urban Studies Internship
+ 
+</li>
+<li> URBS	49803	Urban Studies Internship
+ 
+</li>
+<li> URBS	49806	Public Service Scholar In-Service Seminar
+ 
+</li>
+<li> WGS	200XX	Special Topics in Women and Gender Studies
+ 
+</li>
+<li> WGS	300XX	Special Topics in Women and Gender Studies
+ 
+</li>
+<li> WGS	400XX	Special Topics in Women and Gender Studies
+ 
+</li>
+<li> WGS	10000	Introduction to Gender and Sexuality Studies
+ 
+</li>
+<li> WGS	20005	Dominican and Haitian Literature and Culture
+ 
+</li>
+<li> WGS	20100	Classics in Feminist Thought (W)
+ 
+</li>
+<li> WGS	21100	Women in the 3rd World
+ 
+</li>
+<li> WGS	21600	Women Philosophers of the Past
+ 
+</li>
+<li> WGS	22100	Women in the Islamic World
+ 
+</li>
+<li> WGS	24400	Transnational Feminisms
+ 
+</li>
+<li> WGS	25800	Topics in Literature by Women (W)
+ 
+</li>
+<li> WGS	31000	Research Seminar: Feminist Theory and Methodology
+ 
+</li>
+<li> WGS	33600	African-American Women Writers (W)
+ 
+</li>
+<li> WGS	36000	Feminist Social Theory
+ 
+</li>
+<li> WGSA	318.51	Black Women Writers (W)
+ 
+</li>
+<li> WGSA	22252	Topics in Genre Studies: The Woman's Film of the 1940s
+ 
+</li>
+<li> WGSA	25000	Women and Music (W)
+ 
+</li>
+<li> WGSA	26000	Russian Women Writers in English Translation (W)
+ 
+</li>
+<li> WGSA	26900	Spanish American Women's Literature and Cinema (W)
+ 
+</li>
+<li> WGSA	31900	Advanced Topics in Literature by Women (W)
+ 
+</li>
+<li> WGSA	33700	Caribbean Women Writers (W)
+ 
+</li>
+<li> WGSA	36100	Russian Women Writers
+ 
+</li>
+<li> WGSA	38400	Women and Media (W)
+ 
+</li>
+<li> WGSC	15600	Culture of Imperial Russia: The Age of Empresses
+ 
+</li>
+<li> WGSC	30100	Gender in Anthropological Perspective
+ 
+</li>
+<li> WGSC	30500	Women and Slaves in Classical Antiquity (W)
+ 
+</li>
+<li> WGSC	31800	Women in Africa (W)
+ 
+</li>
+<li> WGSC	32900	Women in the African Diaspora (W)
+ 
+</li>
+<li> WGSI	29800	Internship
+ 
+</li>
+<li> WGSI	39300	Independent Research
+ 
+</li>
+<li> WGSL	30600	Gender and Migration
+ 
+</li>
+<li> WGSL	31500	Work and Society (W)
+ 
+</li>
+<li> WGSL	32100	Women and Globalization
+ 
+</li>
+<li> WGSL	34500	Women and Men in the Labor Market
+ 
+</li>
+<li> WGSP	21900	Women and the Law
+ 
+</li>
+<li> WGSP	21900	Women and the Law
+ 
+</li>
+<li> WGSP	22300	Sociology of the Family
+ 
+</li>
+<li> WGSP	23500	The Psychology of Women (W)
+ 
+</li>
+<li> WGSP	23900	Child Welfare (W)
+ 
+</li>
+<li> WGSP	25100	Women and Health
+ 
+</li>
+<li> WGSP	26100	Women and Politics (W)
+ 
+</li>
+<li> WGSP	26200	Women, War and Peace (W)
+ 
+</li>
+<li> WGSP	32000	Internship Seminar: Feminist Activism and Advocacy
+ 
+</li>
+<li> WGSP	39800	Community Leadership Seminar
+ 
+</li>
+<li> WGSP	49000	Leadership Field Work Internship
+ 
+</li>
+<li> WGSS	15000	Introduction to LGBTQI Studies
+ 
+</li>
+<li> WGSS	17000	Psychology of Human Sexuality
+ 
+</li>
+<li> WGSS	19000	Development of Gender Roles
+ 
+</li>
+<li> WGSS	21900	Women and the Law (W)
+ 
+</li>
+<li> WGSS	25700	Sex and Gender Roles
+ 
+</li>
+<li> WGSS	28700	Masculinities
+ 
+</li>
+<li> WGSS	35100	Gender, Science, and Technology
+ 
+</li>
+<li> WGSS	38700	Queer Theory
+ 
+</li>
+<li> WGST	400.53	Body Politics:Sexuality and Reproduction
+ 
+</li>
+<li> WGST	20900	Women and Gender in Western Political Thought (W)
+ 
+</li>
+<li> WGST	23000	Feminism: Philosophical Theory and Practice (W)
+ 
+</li>
+<li> WGST	30900	Feminist Political Theory
+ 
+</li>
+<li> XXX	XXXXX	Writing Precept
+ 
+</li>
+<li> YOR	10100	Yoruba I
+ 
+</li>
+<li> YOR	10200	Yoruba II
+ 
+</li>
+<li> YOR	20100	Yoruba III
+ 
+</li>
+<li> YOR	20200	Yoruba IV
+ 
+</li>
+<li> MEDP	34100	Web Programming
+ 
+</li>
+<li> NURS	21000	Nursing Fundamentals and Health Assessment
+ 
+</li>
+<li> NURS	22000	Adult Health and Illness
+ 
+</li>
+<li> NURS	24000	Foundations of Genetics for Nurses
+ 
+</li>
+<li> NURS	33900	Pharmacology II
+ 
+</li>
+<li> NURS	34900	Foundations of Ethics and End-of-Life Care
+ 
+</li>
+<li> NURS	35200	Nursing Care of Women and Childbearing Families
+ 
+</li>
+<li> NURS	36000	Nursing Care of Infants, Children, and Adolescents
+ 
+</li>
+<li> NURS	42200	Health Policy and Leadership
+ 
+</li>
+<li> NURS	45500	Public Health Nursing
+ 
+</li>
+<li> NURS	46000	Mental and Behavioral Health Nursing
+ 
+</li>
+<li> NURS	47000	Adult Acute Illness/ Immersion Clinical
+ 
+</li>
+<li> NURS	49000	Gerontological Nursing
+ 
+</li>
+<li> NURS	49200	Advanced Synthesis of Nursing Knowledge
+ 
+</li>
+<li> NURS	49500	Writing for Health Professionals: A Course for Undergraduates
+ 
+</li>
+<li> BIOL	10500	Introduction to Genome Biology
+ 
+</li>
+<li> ASTRO	10300	Laboratory Explorations in Astronomy
+ 
+</li>
+<li> GTECH	10100	Digital Earth
+ 
+</li>
+<li> ASTRO	10200	Laboratory Explorations in Astronomy
+ 
+</li>
+<li> GEOL	10100	Introductory Geology Lab
+ 
+</li>
+<li> ASTRO	10000	Basic Concepts in Astronomy
+ 
+</li>
+<li> PHYS	10000	Basic Concepts of Physics
+ 
+</li>
+<li> PORT	10100	Elementary Portuguese I
+ 
+</li>
+<li> PORT	10200	Elementary Portuguese II
+ 
+</li>
+<li> PORT	20100	Intermediate Portuguese I
+ 
+</li>
+<li> PORT	20200	Intermediate Portuguese II
+ 
+</li>
+<li> REL	31700	Religion and Film (W)
+ 
+</li>
+<li> PSYCH	31300	Adolescence (D/S)
+ 
+</li>
+<li> PSYCH	31600	Cognitive Neuroscience (B/C)
+ 
+</li>
+<li> PSYCH	32100	Animal Orientation: Function and Mechanisms (B)
+ 
+</li>
+<li> PSYCH	32400	Communication Behavior (B/C)
+ 
+</li>
+<li> PSYCH	33000	Memory and Attention (C)
+ 
+</li>
+<li> PSYCH	33100	Social Cognition of Gender
+ 
+</li>
+<li> PSYCH	33200	Attitudes and Persuasion (D/S)
+ 
+</li>
+<li> PSYCH	33400	Cultural Psychology  (D/S)
+ 
+</li>
+<li> PSYCH	34100	Stress, Trauma, and Resilience (A)
+ 
+</li>
+<li> PSYCH	34200	Emotion: Function and Dysfunction (A)
+ 
+</li>
+<li> PSYCH	34400	Clinical Psychology (A)
+ 
+</li>
+<li> PSYCH	22400	Neuroscience
+ 
+</li>
+<li> PSYCH	32000	Neuronal Basis of Behavior  (Neuroethology) (B)
+ 
+</li>
+<li> PSYCH	32500	Animal Cognition (B/C)
+ 
+</li>
+<li> MEDIA	36300	Concepts in Gaming
+ 
+</li>
+<li> ENGL	25200	Introduction to Literary Studies
+ 
+</li>
+<li> PHILO	25500	Environmental Philosophy (W)
+ 
+</li>
+<li> PHILO	37800	Philosophy of Biology (W)
+ 
+</li>
+<li> PHILO	34800	Philosophy of Human Rights (W)
+ 
+</li>
+<li> PHILO	38010	Plato (W)
+ 
+</li>
+<li> PHILO	38011	Aristotle (W)
+ 
+</li>
+<li> PHILO	38020	Plotinus (W)
+ 
+</li>
+<li> PHILO	38063	Hume (W)
+ 
+</li>
+<li> ANTHP	21000	Biology of the Living Primates
+ 
+</li>
+<li> ANTHP	30500	Evolution of the Human Skeleton
+ 
+</li>
+<li> ANTHP	30600	Human Anatomy
+ 
+</li>
+<li> PHILO	38068	Kant (W)
+ 
+</li>
+<li> PHILO	38070	Hegel (W)
+ 
+</li>
+<li> ANTHP	31800	Primate Nutritional Ecology
+ 
+</li>
+<li> PHILO	38076	Marx (W)
+ 
+</li>
+<li> PHILO	38078	Nietzsche (W)
+ 
+</li>
+<li> PHILO	38080	Wittgenstein (W)
+ 
+</li>
+<li> PHILO	38083	Heidegger (W)
+ 
+</li>
+<li> PHILO	38086	Foucault (W)
+ 
+</li>
+<li> ENGL	49000	Advanced Topics Seminar
+ 
+</li>
+<li> BIOL	20300	Molecular Biology and Genetics
+ 
+</li>
+<li> BIOL	30300	Cell Biology
+ 
+</li>
+<li> PGEOG	48000	Capstone in Physical Geography
+ 
+</li>
+<li> GTECH	48000	Capstone in Geographic Information Science
+ 
+</li>
+<li> GEOG	48000	Capstone in Urban and Social Geography
+ 
+</li>
+<li> GTECH	49000	Honors in Geographic Information Science
+ 
+</li>
+<li> GTECH	49800	Internship in Geographic Information Science
+ 
+</li>
+<li> GEOG	25000	Geographic Research Methods
+ 
+</li>
+<li> GEOG	24500	Geography of Development
+ 
+</li>
+<li> GEOG	30600	Special Topics in Contemporary Regional Geographies
+ 
+</li>
+<li> GEOG	30500	Special Topics in Urban and Regional Dynamics
+ 
+</li>
+<li> ECO	23300	Economics of the Media
+ 
+</li>
+<li> ECO	33700	Mathematical Foundations of Economics
+ 
+</li>
+<li> ECO	33900	Strategies and Games in Economics
+ 
+</li>
+<li> SEDC	34100	Adolescent Fieldwork
+ 
+</li>
+<li> WGSS	26600	Our Bodies, Our Politics
+ 
+</li>
+<li> WGSL	20017	Globalization and Gender
+ 
+</li>
+<li> ARTH	28000	History of Photography
+ 
+</li>
+<li> REL	21000	Atheism (W)
+ 
+</li>
+<li> REL	31600	Men and Religion (W)
+ 
+</li>
+<li> REL	31800	Religion and Science (W)
+ 
+</li>
+<li> REL	31900	Religion and the Body (W)
+ 
+</li>
+<li> ENGL	35800	Topics in Literature
+ 
+</li>
+<li> RUSS	27100	East European Cinema (W)
+ 
+</li>
+<li> RUSS	49800	Internship in Russian and Slavic Studies
+ 
+</li>
+<li> POLSC	38400	Comparative Foreign Policy (W)
+ 
+</li>
+<li> HIST	33600	History of 20th-Century Germany (W)
+ 
+</li>
+<li> BIOL	39100	Laboratory in Cell Structure -- Biological Electron Microscopy
+ 
+</li>
+<li> BIOL	32000	Genetics
+ 
+</li>
+<li> POLSC	29200	Topics in Political Science
+ 
+</li>
+<li> POLSC	29400	Topics in Political Science
+ 
+</li>
+<li> Media	23000	Movies in American Culture
+ 
+</li>
+<li> PSYCH	32900	Cognitive Science (C)
+ 
+</li>
+<li> PSYCH	33300	Advanced Social Psychology Theory and Methods (D/S)
+ 
+</li>
+<li> BIOL	17500	Choreographing Genomics
+ 
+</li>
+<li> ASIAN	29000	Asian American Studies Internship
+ 
+</li>
+<li> ACC	22500	Survey of Accounting
+ 
+</li>
+<li> ACC	23000	Essentials of Business Law
+ 
+</li>
+<li> PHILO	17000	Introduction to Logic and Scientific Method
+ 
+</li>
+<li> ARTH	25600	Modern Architecture II (from 1950 until today)
+ 
+</li>
+<li> ARTH	23700	Art and Architecture in Colonial Latin America
+ 
+</li>
+<li> ARTH	25700	Postwar and Contemporary Art in Latin America
+ 
+</li>
+<li> CSCI	35300	Machine Learning
+ 
+</li>
+<li> CHEM	10201	General Chemistry 1 Recitation
+ 
+</li>
+<li> CHEM	22301	Organic Chemistry 1 Lab Rec
+ 
+</li>
+<li> ARTH	24700	Modern Art in Latin American ( until c. 1945)
+ 
+</li>
+<li> CHEM	22501	Organic Chemistry 2 Lab Rec
+ 
+</li>
+<li> RUSS	21500	Translating Culture: Introduction to Theory and Practice of Translation
+ 
+</li>
+<li> PHILO	22600	African-American Philosophy (W)
+ 
+</li>
+<li> PHILO	23000	Feminism: Philosophical Theory and Practice (W)
+ 
+</li>
+<li> HIST	14100	Contemporary Issues in Historical Perspective
+ 
+</li>
+<li> CLA	22300	Roman Archaeology II: The Archaeology of the Roman Empire
+ 
+</li>
+<li> GEOG	48100	Capstone in Sustainability Studies
+ 
+</li>
+<li> PSYCH	36200	Psychological Determinants of Health Disparities (A; D/S)
+ 
+</li>
+<li> PSYCH	38700	Current Topics in Health Psychology (A; DS)
+ 
+</li>
+<li> HMBIO	40100	Human Biology Senior Capstone
+ 
+</li>
+<li> HMBIO	40200	Independent Study
+ 
+</li>
+<li> HMBIO	40300	Internship
+ 
+</li>
+<li> MUSPF	37000	Opera Performance
+ 
+</li>
+<li> GERMN	38504	Advanced German Through Translation
+ 
+</li>
+<li> ARB	25500	Modern Palestinian Culture
+ 
+</li>
+<li> ARB	25600	Modern Arab Theatre
+ 
+</li>
+<li> AFPRL	26000	Latinos and US Citizenship
+ 
+</li>
+<li> PSYCH	36300	Health Behavior Change (A; D/S)
+ 
+</li>
+<li> PSYCH	36400	Sexuality and Health (A)
+ 
+</li>
+<li> PSYCH	36500	Coping with Chronic Disease (A; D/S)
+ 
+</li>
+<li> PSYCH	36600	Interpersonal Relationships and Health (A; D/S)
+ 
+</li>
+<li> PSYCH	36700	Biological and Social Bases of Addictive Behavior (B)
+ 
+</li>
+<li> PSYCH	38100	Current Topics in Animal Behavior (B)
+ 
+</li>
+<li> PSYCH	38200	Current Topics in Biopsychology (B)
+ 
+</li>
+<li> PSYCH	38400	Current Topics in Developmental Psychology (A; D/S)
+ 
+</li>
+<li> PSYCH	38500	Current Topics in Social Psychology  D/S
+ 
+</li>
+<li> PSYCH	38600	Current Topics in Clinical Psychology (A)
+ 
+</li>
+<li> CSCI	17200	Topics in Creative Problem Solving
+ 
+</li>
+<li> CSCI	49369	Big Data Technology
+ 
+</li>
+<li> MUSHL	22000	History of Rock
+ 
+</li>
+<li> ANTHC	10000	Cultural Diversity in the United States: Historical and Ethnographic Perspectives (W)
+ 
+</li>
+<li> SW	20100	Introduction to Social Work
+ 
+</li>
+<li> SW	31000	Social Work Practice and Learning LAB I
+ 
+</li>
+<li> SW	31100	Social Work Practice and Learning LAB II
+ 
+</li>
+<li> SW	33000	Human Behavior in the Social Environment I
+ 
+</li>
+<li> SW	33100	Human Behavior in the Social Environment II
+ 
+</li>
+<li> SW	32000	Introduction to Social Welfare Policy & Services
+ 
+</li>
+<li> SW	34000	Social Work Policy in Child Welfare
+ 
+</li>
+<li> SW	35000	Social Work Policy II in Care Coordination
+ 
+</li>
+<li> MLS	40067	Topics: Medical Technology
+ 
+</li>
+<li> NURS	33400	Pathopharmacology
+ 
+</li>
+<li> NURS	42300	Foundations of Ethics and Palliative Care
+ 
+</li>
+<li> NURS	49100	Gerontology for Nurses
+ 
+</li>
+<li> BIOL	10700	The Human Barcode: Biology and Genetics of Personal Identification
+ 
+</li>
+<li> CHEM	33300	Computational Drug Discovery
+ 
+</li>
+<li> PSYCH	21300	Children & Adolescents with Autism
+ 
+</li>
+<li> PSYCH	21400	Adults with Developmental Disabilities
+ 
+</li>
+<li> ECF	20000	Human Development and Theories of Learning, Prenatal-Age 8
+ 
+</li>
+<li> ECF	20100	Social and Historical Foundations of Early Childhood Care and Education
+ 
+</li>
+<li> ECF	40000	Assessment in Early Childhood, Birth through 2nd Grade
+ 
+</li>
+<li> ECC	30000	Early Childhood Programs and Curricular Frameworks
+ 
+</li>
+<li> ECC	30800	Inclusionary Practices and Teaching Children of Diverse Backgrounds
+ 
+</li>
+<li> ECC	30400	Creative Arts and Play-Based Learning
+ 
+</li>
+<li> ECC	30500	Language and Literacy for Children of Diverse Backgrounds (B-Prekindergarten)
+ 
+</li>
+<li> ECC	30600	Language and Literacy for Children of Diverse Backgrounds, Kindergarten through 2nd Grade
+ 
+</li>
+<li> ECC	31000	Mathematics in Early Childhood
+ 
+</li>
+<li> ECC	31100	Early Childhood Science and Inquiry-Based Learning
+ 
+</li>
+<li> ECC	31400	Health, Family, and Community Partnerships
+ 
+</li>
+<li> ECC	40100	Student Teaching
+ 
+</li>
+<li> ECC	30100, 30200, 30300	Field work/Internships
+ 
+</li>
+<li> ASIAN	22100	Introduction to Writing About Asian American Literature (W)
+ 
+</li>
+<li> MEDIA	21100	News Literacy in a Digital Age (W)
+ 
+</li>
+<li> PSYCH	17100	Stress and Coping (A;B)
+ 
+</li>
+<li> HR	12000	Special Topics in Human Rights
+ 
+</li>
+<li> HR	32000	Special Topics in Human Rights
+ 
+</li>
+<li> JPN	27100	Japanese Reading: Recitation and Comprehension
+ 
+</li>
+<li> SW	41000	Social Work Practice in Child Welfare I
+ 
+</li>
+<li> SW	41100	Social Work Practice in Child Welfare II
+ 
+</li>
+<li> SW	42000	Social Work Practice in Care Coordination I
+ 
+</li>
+<li> SW	42100	Social Work Practice in Care Coordination II
+ 
+</li>
+<li> SW	43000	Integrative Seminar 1
+ 
+</li>
+<li> SW	43100	Integrative Seminar 2
+ 
+</li>
+<li> SW	44000	Social Work Research
+ 
+</li>
+<li> ASIAN	22500	Asian American Art (W)
+ 
+</li>
+<li> WGS	12100	Public Speaking in Gender Studies
+ 
+</li>
+<li> WGSS	29300	Bathroom Politics
+ 
+</li>
+<li> GRMN	32400	Post-Feminist German Literature and Film
+ 
+</li>
+<li> BIOL	23100	Survey of Microbiology with Case Studies
+ 
+</li>
+<li> DAN	44500	Ballet III
+ 
+</li>
+<li> GRK	32000	Topics in Greek Literature
+ 
+</li>
+<li> LAT	32000	Topics in Latin Literature
+ 
+</li>
+<li> WGSS	29000	Special Topics in Sexualities
+ 
+</li>
+<li> GERMN	20000	Intensive German 2 and 3
+ 
+</li>
+<li> JPN	42101	Independent Study in Japanese
+ 
+</li>
+<li> JPN	42102	Independent Study in Japanese
+ 
+</li>
+<li> JPN	42103	Independent Study in Japanese
+ 
+</li>
+<li> PSYCH	38300	Current Topics in Cognitive Psychology
+ 
+</li>
+<li> WGSA	29000	Special Topics in Gender, Literature and the Arts
+ 
+</li>
+<li> WGSC	29000	Special Topics in Women and Gender Across Cultures
+ 
+</li>
+<li> WGSL	29000	Special Topics in Labor, Migration, and Globalization
+ 
+</li>
+<li> WGSP	29000	Special Topics in Gender and Public Policy
+ 
+</li>
+<li> WGST	29000	Special Topics in Feminist Thought and Theory
+ 
+</li>
+<li> BIOL	30100	Biological Chemistry
+ 
+</li>
+<li> SW	45000	Social Work Field Instruction I
+ 
+</li>
+<li> SW	45100	Social Work Field Instruction II
+ 
+</li>
+<li> SW	36000	Introduction to Community Organizing
+ 
+</li>
+<li> SW	46000	Advanced Community Organizing Theory & Practice
+ 
+</li>
+<li> SW	37000	Community Organizing Internship and Field Seminar
+ 
+</li>
+<li> CHEM	36000	Introduction to Nanotechnology
+ 
+</li>
+<li> CHEM	36800	Structural Biology
+ 
+</li>
+<li> BIOL	30400	Environmental Microbiology
+ 
+</li>
+<li> ECC	30100	Field work/Internship 1
+ 
+</li>
+<li> ECC	30200	Field work/Internship 2
+ 
+</li>
+<li> ECC	30300	Field work/Internship 3
+ 
+</li>
+<li> CHIN	10700	Intensive Elementary Chinese
+ 
+</li>
+<li> CHIN	20700	Intensive Intermediate Chinese 
+</li>
