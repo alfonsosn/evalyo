@@ -1,8 +1,38 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+/* every page */
+body{
+	font-family: verdana;
+	overflow: scroll;
 }
 
-a {
-  color: #00B7FF;
+footer{
+  position: fixed !important;
+  bottom: 0 !important;
+	text-align: center;
+	font-size: 1.5em;
+	display: flex;
+}
+
+/*Font-Awesome changes*/
+
+.glyphs{
+	margin: 12px 0px 12px 0px;
+	width: 100%;
+	text-align: center:
+}
+
+.glyphs p {
+	font-size:.5em;
+	margin-top: 0;
+}
+
+.glyphs a {
+  color: inherit;
+}
+
+/*TBD*/
+
+.viewport{
+  margin-top: 6em;
+	margin-bottom: 6em;
+  overflow: scroll;
 }
