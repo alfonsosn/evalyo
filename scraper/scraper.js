@@ -1,3 +1,6 @@
+// Create a questionId for each question using a counter - start at 1
+
+
 /*
  *   Scraper for hunter teacher evaluation
  *   This scraper uses CasperJS

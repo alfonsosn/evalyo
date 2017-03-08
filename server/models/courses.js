@@ -4,8 +4,8 @@ var Schema = mongoose.Schema;
 
 var CourseSchema = new Schema({
     code: {type: String, required: true},
-    professorId: {type: Schema.Types.ObjectId, ref: 'Professor'}
-    semsters: [{type: Schema.Types.ObjectId, ref: 'Semester'}]
+    professors: [{type: Schema.Types.ObjectId, ref: 'Professor'}],
+
 });
 
 
