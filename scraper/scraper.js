@@ -16,23 +16,13 @@ var casper = require('casper').create({
     }
 });
 
-// -------- Constructors -------
-function Semester(){
-  this.questions = {
-    personality:[],
-    experience: [],
-    clarity: [
-      Provides clearly defined objectives for students: null
-    ],
-    organization: [],
-    grading: []
-  }
-}
+
 
 // -------- Global Variables -------
-var professor = {
+var prof = {
   firstName: 'Eric',
-  lastName: 'Schweitzer'
+  lastName: 'Schweitzer',
+  courses: []
 }
 
 var semesters = []
@@ -67,23 +57,49 @@ function getCourseData(){
      this.then(function(){
         courseObj = courseRows[index]
         courseObj.questions = this.evaluate(function(){
+           var id = 1;
            var title = document.querySelector('.t2RegionHeader').innerText;
            __utils__.echo(title)
            var questionArr = document.getElementsByClassName('highlight-row')
-           questionArr = Array.prototype.slice.call(questionArr, 0, 9)
-           //__utils__.echo(questionArr)
-           return Array.prototype.map.call(questionArr, function(q){
+           // Getting questions with scale of 1-7
+           var firstQuestionArr = Array.prototype.slice.call(questionArr, 0, 9)
+           firstQuestionArr = Array.prototype.map.call(firstQuestionArr, function(q){
                   return {
+                        id: id++,
                         question: q.children[0].innerText,
                         average:  q.children[9].innerText
                   }
           })
+
+          // Getting questions with scale of 1-3
+          var secondQuestionArr = Array.prototype.slice.call(questionArr, 9, 14)
+          secondQuestionArr = Array.prototype.map.call(secondQuestionArr, function(q){
+                 return {
+                       id: id++,
+                       question: q.children[0].innerText,
+                       average:  q.children[6].innerText
+                 }
+         })
+
+         // Getting yes/no/not answered questions
+         var thirdQuestionArr = Array.prototype.slice.call(questionArr, 14)
+         thirdQuestionArr = Array.prototype.map.call(thirdQuestionArr, function(q){
+                return {
+                      id: id++,
+                      question: q.children[0].innerText,
+                      no:  q.children[2].innerText,
+                      yes: q.children[3].innerText,
+                      noAnswer: q.children[4].innerText
+                }
+         })
+
+         return firstQuestionArr.concat(secondQuestionArr).concat(thirdQuestionArr)
        })
      })
 
      this.then(function(){
        this.echo("index: " + index)
-       semesters.push(courseObj)
+       prof.courses.push(courseObj)
        index++
        getCourseData.call(this)
      })
@@ -177,6 +193,7 @@ function getCourseRows(){
       __utils__.echo('get Course rows')
       var courseRows = document.getElementsByClassName('highlight-row')
       // map over rows to get semester and course subject
+      //  __utils__.echo(courseRows)
       return Array.prototype.map.call(courseRows, function(row){
         return {
           semester: row.children[1].innerText,

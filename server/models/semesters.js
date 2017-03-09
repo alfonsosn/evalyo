@@ -5,7 +5,7 @@ var Schema = mongoose.Schema;
 var SemesterSchema = new Schema({
     year: {type: Number, required: true},
     season:  {type: String, required: true},
-    questions: type: [Schema.Types.Mixed],
+    questions: [Schema.Types.Mixed],
     courseId: {type: Schema.Types.ObjectId, ref: 'Course'},
     professorId: {type: Schema.Types.ObjectId, ref: 'Professor'}
 });
