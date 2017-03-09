@@ -19,6 +19,8 @@
 
 - [x] Build wireframe for mobile
 - [x] Practice HTML/CSS by creating replica of wireframe
+- [x] Practice using Bootstraps
+- [x] Create team website
 
 ### Ahmed - Assistant
 
