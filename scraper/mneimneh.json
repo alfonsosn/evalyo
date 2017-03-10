@@ -1,0 +1,1644 @@
+{
+  "firstName": "SAADEDDINE",
+  "lastName": "MNEIMNEH",
+  "courses": [
+    {
+      "semester": "Fall 2007",
+      "subject": "CSCI 13500 Sec: 051",
+      "questions": [
+        {
+          "average": "5.89",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.67",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "6.11",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "6",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "5.89",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "6.22",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6.33",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "6.22",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "6.22",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2007",
+      "subject": "CSCI 15000 Sec: 001",
+      "questions": [
+        {
+          "average": "5.06",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.17",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "5.33",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "4.94",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "5.11",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "5.24",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "5.33",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "5",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "5.56",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2008",
+      "subject": "CSCI 13500 Sec: 051",
+      "questions": [
+        {
+          "average": "6.13",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.09",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "6.04",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "5.96",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "6.09",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "6.09",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6.26",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "6.13",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "6.13",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2008",
+      "subject": "CSCI 13600 Sec: 051",
+      "questions": [
+        {
+          "average": "6.08",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.42",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "6.25",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "6",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "6.25",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "5.83",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6.25",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "6.25",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "6.33",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2008",
+      "subject": "CSCI 41500 Sec: 001",
+      "questions": [
+        {
+          "average": "5.29",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.07",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "5.36",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "5",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "5.21",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "5.36",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "4.93",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "5.07",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "5.43",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2008",
+      "subject": "CSCI 13200 Sec: 001",
+      "questions": [
+        {
+          "average": "5.27",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.13",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "4.73",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "5.2",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "5.27",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "5.33",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "5.4",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "5.07",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "5.33",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2008",
+      "subject": "CSCI 13500 Sec: 003",
+      "questions": [
+        {
+          "average": "5.63",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.31",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "5.94",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "5.75",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "6",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "5.75",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "5.88",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "5.07",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "6",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2009",
+      "subject": "CSCI 12000 Sec: 007",
+      "questions": [
+        {
+          "average": "3.96",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "5.07",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "4.52",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "4.65",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "4.11",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "4.48",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "4.89",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "3.74",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "4.56",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2009",
+      "subject": "CSCI 15000 Sec: 001",
+      "questions": [
+        {
+          "average": "5.11",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "5.37",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "5.21",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "5.26",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "5.37",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "5.58",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "5",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "5.42",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2009",
+      "subject": "CSCI 49366 Sec: 001",
+      "questions": [
+        {
+          "average": "5.5",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.33",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "5.33",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "5.67",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "6",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "6",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6.5",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "6.17",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "6",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2009",
+      "subject": "CSCI 15000 Sec: 001",
+      "questions": [
+        {
+          "average": "4.46",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "5.29",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "4.75",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "4.54",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "4.46",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "4.42",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "5.29",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "4.13",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "4.54",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2009",
+      "subject": "STAT 31900 Sec: 001",
+      "questions": [
+        {
+          "average": "4.8",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "5.33",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "5.17",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "5.33",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "5.5",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "5.67",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "5.17",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "5.6",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2009",
+      "subject": "STAT 73900 Sec: 001",
+      "questions": [
+        {
+          "average": "6.14",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.43",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "6.43",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "6",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "6.57",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "6.57",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6.57",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "6.29",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "6.57",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2010",
+      "subject": "CSCI 13500 Sec: 001",
+      "questions": [
+        {
+          "average": "5.75",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.35",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "5.85",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "5.75",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "5.7",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "6.2",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6.5",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "5.6",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "6.15",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2010",
+      "subject": "CSCI 13600 Sec: 001",
+      "questions": [
+        {
+          "average": "5.54",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.08",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "5.46",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "5.62",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "5.38",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "5.85",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "5.69",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "5.38",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "6.08",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2010",
+      "subject": "CSCI 15000 Sec: 001",
+      "questions": [
+        {
+          "average": "5.08",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "5.92",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "5.23",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "5.38",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "5.23",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "5.58",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6.62",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "5.25",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "5.31",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2010",
+      "subject": "CSCI 49355 Sec: 001",
+      "questions": [
+        {
+          "average": "5.83",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.5",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "6",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "6.33",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "6.17",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "6.5",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6.2",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "6.4",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "6.4",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2010",
+      "subject": "STAT 31900 Sec: 001",
+      "questions": [
+        {
+          "average": "5.7",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.5",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "6.1",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "5.4",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "6",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "6",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6.7",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "6",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "6.1",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2010",
+      "subject": "STAT 73900 Sec: 001",
+      "questions": [
+        {
+          "average": "5.67",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "6",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "5.67",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "5.67",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "5.33",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6.33",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "6",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "5.67",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2011",
+      "subject": "CSCI 15000 Sec: 001",
+      "questions": [
+        {
+          "average": "4.93",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "5.06",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "4.69",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "4.69",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "4.56",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "4.81",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "5.81",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "5",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "4.88",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2011",
+      "subject": "CSCI 15000 Sec: 051",
+      "questions": [
+        {
+          "average": "5.27",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.18",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "5.64",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "5.27",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "5.45",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "5.36",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6.36",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "4.82",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "5.55",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2012",
+      "subject": "CSCI 15000 Sec: 051",
+      "questions": [
+        {
+          "average": "4.47",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "4.73",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "4.73",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "4.67",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "4.8",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "5.47",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "4.8",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "4.93",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2012",
+      "subject": "STAT 31900 Sec: 001",
+      "questions": [
+        {
+          "average": "4.25",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "5.75",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "5",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "3.75",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "4.5",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "5.25",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "5.75",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "5",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "5.25",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2012",
+      "subject": "STAT 73900 Sec: 001",
+      "questions": [
+        {
+          "average": "6",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "7",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "7",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "6",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "6",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "6",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "7",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "6",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "7",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2013",
+      "subject": "CSCI 15000 Sec: 001",
+      "questions": [
+        {
+          "average": "5.23",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.23",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "5.68",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "5.23",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "5.09",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "5.14",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6.23",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "5.05",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "5.41",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2013",
+      "subject": "CSCI 15000 Sec: 051",
+      "questions": [
+        {
+          "average": "5.5",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.4",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "5.75",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "5.4",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "5.25",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "5.55",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6.2",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "4.4",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "5.4",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2013",
+      "subject": "STAT 31900 Sec: 01",
+      "questions": [
+        {
+          "average": "4.14",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.71",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "5.29",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "4.14",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "4.29",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "4",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6.43",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "4.43",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "5.29",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2013",
+      "subject": "STAT 73900 Sec: 01",
+      "questions": [
+        {
+          "average": "5",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "5.5",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "4",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "6",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "6",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "5",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "5",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2014",
+      "subject": "CSCI 13500 Sec: 01",
+      "questions": [
+        {
+          "average": "5.45",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.55",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "6",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "5.73",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "5.91",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "5.55",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6.55",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "5.91",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "5.45",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2014",
+      "subject": "STAT 31900 Sec: 01",
+      "questions": [
+        {
+          "average": "7",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "7",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "7",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "7",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "7",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "5",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "7",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "7",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "7",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2014",
+      "subject": "STAT 73900 Sec: 01",
+      "questions": [
+        {
+          "average": "6.33",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.33",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "6.67",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "6.67",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "6.33",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "6.33",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6.33",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "6.33",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "6.33",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2015",
+      "subject": "CSCI 15000 Sec: 01",
+      "questions": [
+        {
+          "average": "5.44",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.22",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "6.33",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "6.11",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "5.89",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "6.44",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6.78",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "6.33",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "6.11",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2015",
+      "subject": "CSCI 15000 Sec: 04",
+      "questions": [
+        {
+          "average": "5.88",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.13",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "5.88",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "6.13",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "5.5",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "6",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6.38",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "5.63",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "5.88",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Summer 2015",
+      "subject": "CSCI 10N01 Sec: 01",
+      "questions": [
+        {
+          "average": "5.33",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "5.67",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "6",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "6.33",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "6.33",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "6.33",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "6",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "6",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2015",
+      "subject": "STAT 31900 Sec: 01",
+      "questions": [
+        {
+          "average": "3.33",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "5.33",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "4",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "3.33",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "3",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "4.33",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "4",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "3",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "3",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2016",
+      "subject": "CSCI 15000 Sec: 02",
+      "questions": [
+        {
+          "average": "5.82",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.36",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "6.18",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "6.09",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "6.27",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "6.09",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6.73",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "6",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "6.09",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2016",
+      "subject": "CSCI 39593 Sec: 01",
+      "questions": [
+        {
+          "average": "5.67",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "5.67",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "6",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "6.33",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "6",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "5.67",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "4.67",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "6",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2016",
+      "subject": "STAT 31900 Sec: 01",
+      "questions": [
+        {
+          "average": "4",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "5",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "5",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "4",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "5",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "5",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "4",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "4",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2016",
+      "subject": "STAT 73900 Sec: 01",
+      "questions": [
+        {
+          "average": "6.67",
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.33",
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "6.67",
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "6.67",
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "6.33",
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "6.33",
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6.67",
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "6.33",
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "6.33",
+          "question": "My overall evaluation of this instructor's teaching."
+        }
+      ]
+    }
+  ]
+}
