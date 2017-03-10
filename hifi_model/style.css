@@ -1,0 +1,60 @@
+/* every page */
+body{
+  margin: inherit;
+	font-family: verdana;
+	overflow: scroll;
+}
+
+nav{
+  padding-left: 2%;
+  width: 100%;
+	background-color:  #99237f;
+	color: white;
+	font-size: 1.5em;
+	position: fixed;
+	top: 0;
+}
+
+footer{
+  position: fixed;
+  width: 100%;
+	border-top: 1px solid #b2b2b2;
+	background-color: #f4f4f4;
+	color: #99237f;
+	text-align: center;
+	font-size: 1.5em;
+	display: flex;
+	bottom: 0;
+}
+
+/*Font-Awesome changes*/
+
+.glyphs{
+	margin: 12px 0px 12px 0px;
+	width: 100%;
+	text-align: center:
+}
+
+.glyphs p {
+	font-size:.5em;
+	margin-top: 0;
+}
+
+
+/*TBD*/
+
+.viewport{
+  margin-top: 6em;
+  margin-bottom: 6em;
+  overflow: scroll;
+  margin-left: 20%;
+}
+
+.card{
+	background: #fcfcfc;
+	border: 1px solid #e6e6e6 !important;
+	box-shadow: .2px .2px .2px lightgrey;
+  font-family: "Helvetica Neue-Light",
+    "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+}
