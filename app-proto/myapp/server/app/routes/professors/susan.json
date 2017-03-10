@@ -1,0 +1,1776 @@
+{
+  "firstName": "SUSAN",
+  "lastName": "EPSTEIN",
+  "courses": [
+    {
+      "semester": "Fall 2007",
+      "subject": "CSCI 43500",
+      "questions": [
+        {
+          "average": "4.58",
+          "id": 1,
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "4.75",
+          "id": 2,
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "4.83",
+          "id": 3,
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "4.67",
+          "id": 4,
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "4.58",
+          "id": 5,
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "4.83",
+          "id": 6,
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "4.67",
+          "id": 7,
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "4.92",
+          "id": 8,
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "4.75",
+          "id": 9,
+          "question": "My overall evaluation of this instructor's teaching."
+        },
+        {
+          "average": "2.58",
+          "id": 10,
+          "question": "As much as possible, did the instructor provide individual attention?"
+        },
+        {
+          "average": "2.58",
+          "id": 11,
+          "question": "As much as possible, did the instructor encourage student participation?"
+        },
+        {
+          "average": "2.42",
+          "id": 12,
+          "question": "As much as possible, did the instructor provide constructive feedback on work submitted?"
+        },
+        {
+          "average": "2.45",
+          "id": 13,
+          "question": "How helpful to you were instructor's responses to questions that you asked?"
+        },
+        {
+          "average": "2.67",
+          "id": 14,
+          "question": "Did supplemental materials (for example, website, audio/visual aids, etc.) enhance course content?"
+        },
+        {
+          "id": 15,
+          "no": "1",
+          "noAnswer": "0",
+          "question": "Did exams and assignments reflect materials emphasized in course?",
+          "yes": "11"
+        },
+        {
+          "id": 16,
+          "no": "2",
+          "noAnswer": "0",
+          "question": "Did the syllabus or other documents accurately reflect course content and grading?",
+          "yes": "10"
+        },
+        {
+          "id": 17,
+          "no": "1",
+          "noAnswer": "0",
+          "question": "Did the instructor begin and end class on time?",
+          "yes": "11"
+        },
+        {
+          "id": 18,
+          "no": "3",
+          "noAnswer": "0",
+          "question": "Was your work graded fairly?",
+          "yes": "9"
+        },
+        {
+          "id": 19,
+          "no": "1",
+          "noAnswer": "0",
+          "question": "Did the instructor return graded material in a timely manner?",
+          "yes": "11"
+        },
+        {
+          "id": 20,
+          "no": "0",
+          "noAnswer": "1",
+          "question": "Did the instructor keep his or her office hours?",
+          "yes": "11"
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2008",
+      "subject": "CSCI 23200",
+      "questions": [
+        {
+          "average": "5.8",
+          "id": 1,
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "5.8",
+          "id": 2,
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "6.2",
+          "id": 3,
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "5.8",
+          "id": 4,
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "5.6",
+          "id": 5,
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "5.8",
+          "id": 6,
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6",
+          "id": 7,
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "6",
+          "id": 8,
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "6",
+          "id": 9,
+          "question": "My overall evaluation of this instructor's teaching."
+        },
+        {
+          "average": "2.8",
+          "id": 10,
+          "question": "As much as possible, did the instructor provide individual attention?"
+        },
+        {
+          "average": "2.8",
+          "id": 11,
+          "question": "As much as possible, did the instructor encourage student participation?"
+        },
+        {
+          "average": "2.8",
+          "id": 12,
+          "question": "As much as possible, did the instructor provide constructive feedback on work submitted?"
+        },
+        {
+          "average": "2.8",
+          "id": 13,
+          "question": "How helpful to you were instructor's responses to questions that you asked?"
+        },
+        {
+          "average": "3",
+          "id": 14,
+          "question": "Did supplemental materials (for example, website, audio/visual aids, etc.) enhance course content?"
+        },
+        {
+          "id": 15,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did exams and assignments reflect materials emphasized in course?",
+          "yes": "5"
+        },
+        {
+          "id": 16,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the syllabus or other documents accurately reflect course content and grading?",
+          "yes": "5"
+        },
+        {
+          "id": 17,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the instructor begin and end class on time?",
+          "yes": "5"
+        },
+        {
+          "id": 18,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Was your work graded fairly?",
+          "yes": "5"
+        },
+        {
+          "id": 19,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the instructor return graded material in a timely manner?",
+          "yes": "5"
+        },
+        {
+          "id": 20,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the instructor keep his or her office hours?",
+          "yes": "5"
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2008",
+      "subject": "CSCI 43500",
+      "questions": [
+        {
+          "average": "4.64",
+          "id": 1,
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "4.27",
+          "id": 2,
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "4.73",
+          "id": 3,
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "4.91",
+          "id": 4,
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "4.18",
+          "id": 5,
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "4",
+          "id": 6,
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "4",
+          "id": 7,
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "3.55",
+          "id": 8,
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "3.91",
+          "id": 9,
+          "question": "My overall evaluation of this instructor's teaching."
+        },
+        {
+          "average": "2.2",
+          "id": 10,
+          "question": "As much as possible, did the instructor provide individual attention?"
+        },
+        {
+          "average": "2.27",
+          "id": 11,
+          "question": "As much as possible, did the instructor encourage student participation?"
+        },
+        {
+          "average": "2.27",
+          "id": 12,
+          "question": "As much as possible, did the instructor provide constructive feedback on work submitted?"
+        },
+        {
+          "average": "2.36",
+          "id": 13,
+          "question": "How helpful to you were instructor's responses to questions that you asked?"
+        },
+        {
+          "average": "2.45",
+          "id": 14,
+          "question": "Did supplemental materials (for example, website, audio/visual aids, etc.) enhance course content?"
+        },
+        {
+          "id": 15,
+          "no": "2",
+          "noAnswer": "0",
+          "question": "Did exams and assignments reflect materials emphasized in course?",
+          "yes": "9"
+        },
+        {
+          "id": 16,
+          "no": "2",
+          "noAnswer": "0",
+          "question": "Did the syllabus or other documents accurately reflect course content and grading?",
+          "yes": "9"
+        },
+        {
+          "id": 17,
+          "no": "3",
+          "noAnswer": "0",
+          "question": "Did the instructor begin and end class on time?",
+          "yes": "8"
+        },
+        {
+          "id": 18,
+          "no": "3",
+          "noAnswer": "0",
+          "question": "Was your work graded fairly?",
+          "yes": "8"
+        },
+        {
+          "id": 19,
+          "no": "2",
+          "noAnswer": "0",
+          "question": "Did the instructor return graded material in a timely manner?",
+          "yes": "9"
+        },
+        {
+          "id": 20,
+          "no": "1",
+          "noAnswer": "0",
+          "question": "Did the instructor keep his or her office hours?",
+          "yes": "9"
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2009",
+      "subject": "CSCI 12000",
+      "questions": [
+        {
+          "average": "5.07",
+          "id": 1,
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "5",
+          "id": 2,
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "5.27",
+          "id": 3,
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "4.93",
+          "id": 4,
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "4.6",
+          "id": 5,
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "4.73",
+          "id": 6,
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "4.86",
+          "id": 7,
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "4.13",
+          "id": 8,
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "4.47",
+          "id": 9,
+          "question": "My overall evaluation of this instructor's teaching."
+        },
+        {
+          "average": "2.27",
+          "id": 10,
+          "question": "As much as possible, did the instructor provide individual attention?"
+        },
+        {
+          "average": "2.67",
+          "id": 11,
+          "question": "As much as possible, did the instructor encourage student participation?"
+        },
+        {
+          "average": "2.4",
+          "id": 12,
+          "question": "As much as possible, did the instructor provide constructive feedback on work submitted?"
+        },
+        {
+          "average": "2.4",
+          "id": 13,
+          "question": "How helpful to you were instructor's responses to questions that you asked?"
+        },
+        {
+          "average": "2.5",
+          "id": 14,
+          "question": "Did supplemental materials (for example, website, audio/visual aids, etc.) enhance course content?"
+        },
+        {
+          "id": 15,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did exams and assignments reflect materials emphasized in course?",
+          "yes": "14"
+        },
+        {
+          "id": 16,
+          "no": "1",
+          "noAnswer": "0",
+          "question": "Did the syllabus or other documents accurately reflect course content and grading?",
+          "yes": "13"
+        },
+        {
+          "id": 17,
+          "no": "2",
+          "noAnswer": "0",
+          "question": "Did the instructor begin and end class on time?",
+          "yes": "12"
+        },
+        {
+          "id": 18,
+          "no": "3",
+          "noAnswer": "0",
+          "question": "Was your work graded fairly?",
+          "yes": "11"
+        },
+        {
+          "id": 19,
+          "no": "1",
+          "noAnswer": "0",
+          "question": "Did the instructor return graded material in a timely manner?",
+          "yes": "13"
+        },
+        {
+          "id": 20,
+          "no": "0",
+          "noAnswer": "2",
+          "question": "Did the instructor keep his or her office hours?",
+          "yes": "12"
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2009",
+      "subject": "CSCI 35000",
+      "questions": [
+        {
+          "average": "4.85",
+          "id": 1,
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "5.23",
+          "id": 2,
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "5",
+          "id": 3,
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "4.85",
+          "id": 4,
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "4.62",
+          "id": 5,
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "4.69",
+          "id": 6,
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "5",
+          "id": 7,
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "4.38",
+          "id": 8,
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "4.69",
+          "id": 9,
+          "question": "My overall evaluation of this instructor's teaching."
+        },
+        {
+          "average": "2.54",
+          "id": 10,
+          "question": "As much as possible, did the instructor provide individual attention?"
+        },
+        {
+          "average": "2.38",
+          "id": 11,
+          "question": "As much as possible, did the instructor encourage student participation?"
+        },
+        {
+          "average": "2.38",
+          "id": 12,
+          "question": "As much as possible, did the instructor provide constructive feedback on work submitted?"
+        },
+        {
+          "average": "2.54",
+          "id": 13,
+          "question": "How helpful to you were instructor's responses to questions that you asked?"
+        },
+        {
+          "average": "2.5",
+          "id": 14,
+          "question": "Did supplemental materials (for example, website, audio/visual aids, etc.) enhance course content?"
+        },
+        {
+          "id": 15,
+          "no": "1",
+          "noAnswer": "0",
+          "question": "Did exams and assignments reflect materials emphasized in course?",
+          "yes": "11"
+        },
+        {
+          "id": 16,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the syllabus or other documents accurately reflect course content and grading?",
+          "yes": "13"
+        },
+        {
+          "id": 17,
+          "no": "2",
+          "noAnswer": "0",
+          "question": "Did the instructor begin and end class on time?",
+          "yes": "11"
+        },
+        {
+          "id": 18,
+          "no": "1",
+          "noAnswer": "1",
+          "question": "Was your work graded fairly?",
+          "yes": "11"
+        },
+        {
+          "id": 19,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the instructor return graded material in a timely manner?",
+          "yes": "13"
+        },
+        {
+          "id": 20,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the instructor keep his or her office hours?",
+          "yes": "13"
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2010",
+      "subject": "CSCI 23200",
+      "questions": [
+        {
+          "average": "4.64",
+          "id": 1,
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "5.29",
+          "id": 2,
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "4.79",
+          "id": 3,
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "4.71",
+          "id": 4,
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "4.71",
+          "id": 5,
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "5",
+          "id": 6,
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "5",
+          "id": 7,
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "4.14",
+          "id": 8,
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "4.57",
+          "id": 9,
+          "question": "My overall evaluation of this instructor's teaching."
+        },
+        {
+          "average": "2.62",
+          "id": 10,
+          "question": "As much as possible, did the instructor provide individual attention?"
+        },
+        {
+          "average": "2.5",
+          "id": 11,
+          "question": "As much as possible, did the instructor encourage student participation?"
+        },
+        {
+          "average": "2.29",
+          "id": 12,
+          "question": "As much as possible, did the instructor provide constructive feedback on work submitted?"
+        },
+        {
+          "average": "2.43",
+          "id": 13,
+          "question": "How helpful to you were instructor's responses to questions that you asked?"
+        },
+        {
+          "average": "2.33",
+          "id": 14,
+          "question": "Did supplemental materials (for example, website, audio/visual aids, etc.) enhance course content?"
+        },
+        {
+          "id": 15,
+          "no": "2",
+          "noAnswer": "0",
+          "question": "Did exams and assignments reflect materials emphasized in course?",
+          "yes": "12"
+        },
+        {
+          "id": 16,
+          "no": "3",
+          "noAnswer": "0",
+          "question": "Did the syllabus or other documents accurately reflect course content and grading?",
+          "yes": "11"
+        },
+        {
+          "id": 17,
+          "no": "1",
+          "noAnswer": "0",
+          "question": "Did the instructor begin and end class on time?",
+          "yes": "13"
+        },
+        {
+          "id": 18,
+          "no": "5",
+          "noAnswer": "0",
+          "question": "Was your work graded fairly?",
+          "yes": "9"
+        },
+        {
+          "id": 19,
+          "no": "1",
+          "noAnswer": "0",
+          "question": "Did the instructor return graded material in a timely manner?",
+          "yes": "13"
+        },
+        {
+          "id": 20,
+          "no": "0",
+          "noAnswer": "1",
+          "question": "Did the instructor keep his or her office hours?",
+          "yes": "13"
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2010",
+      "subject": "CSCI 43500",
+      "questions": [
+        {
+          "average": "5.5",
+          "id": 1,
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "5.2",
+          "id": 2,
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "5.6",
+          "id": 3,
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "5.2",
+          "id": 4,
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "5",
+          "id": 5,
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "5.5",
+          "id": 6,
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "5.1",
+          "id": 7,
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "4.5",
+          "id": 8,
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "5.2",
+          "id": 9,
+          "question": "My overall evaluation of this instructor's teaching."
+        },
+        {
+          "average": "2.8",
+          "id": 10,
+          "question": "As much as possible, did the instructor provide individual attention?"
+        },
+        {
+          "average": "2.9",
+          "id": 11,
+          "question": "As much as possible, did the instructor encourage student participation?"
+        },
+        {
+          "average": "2.6",
+          "id": 12,
+          "question": "As much as possible, did the instructor provide constructive feedback on work submitted?"
+        },
+        {
+          "average": "2.67",
+          "id": 13,
+          "question": "How helpful to you were instructor's responses to questions that you asked?"
+        },
+        {
+          "average": "2.5",
+          "id": 14,
+          "question": "Did supplemental materials (for example, website, audio/visual aids, etc.) enhance course content?"
+        },
+        {
+          "id": 15,
+          "no": "1",
+          "noAnswer": "0",
+          "question": "Did exams and assignments reflect materials emphasized in course?",
+          "yes": "9"
+        },
+        {
+          "id": 16,
+          "no": "1",
+          "noAnswer": "0",
+          "question": "Did the syllabus or other documents accurately reflect course content and grading?",
+          "yes": "9"
+        },
+        {
+          "id": 17,
+          "no": "1",
+          "noAnswer": "0",
+          "question": "Did the instructor begin and end class on time?",
+          "yes": "9"
+        },
+        {
+          "id": 18,
+          "no": "1",
+          "noAnswer": "0",
+          "question": "Was your work graded fairly?",
+          "yes": "9"
+        },
+        {
+          "id": 19,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the instructor return graded material in a timely manner?",
+          "yes": "10"
+        },
+        {
+          "id": 20,
+          "no": "0",
+          "noAnswer": "3",
+          "question": "Did the instructor keep his or her office hours?",
+          "yes": "7"
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2011",
+      "subject": "CSCI 23200",
+      "questions": [
+        {
+          "average": "5.38",
+          "id": 1,
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "5.69",
+          "id": 2,
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "5.54",
+          "id": 3,
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "5.69",
+          "id": 4,
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "5.46",
+          "id": 5,
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "5.46",
+          "id": 6,
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "5.77",
+          "id": 7,
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "6",
+          "id": 8,
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "5.38",
+          "id": 9,
+          "question": "My overall evaluation of this instructor's teaching."
+        },
+        {
+          "average": "2.69",
+          "id": 10,
+          "question": "As much as possible, did the instructor provide individual attention?"
+        },
+        {
+          "average": "2.69",
+          "id": 11,
+          "question": "As much as possible, did the instructor encourage student participation?"
+        },
+        {
+          "average": "2.85",
+          "id": 12,
+          "question": "As much as possible, did the instructor provide constructive feedback on work submitted?"
+        },
+        {
+          "average": "2.54",
+          "id": 13,
+          "question": "How helpful to you were instructor's responses to questions that you asked?"
+        },
+        {
+          "average": "2.62",
+          "id": 14,
+          "question": "Did supplemental materials (for example, website, audio/visual aids, etc.) enhance course content?"
+        },
+        {
+          "id": 15,
+          "no": "1",
+          "noAnswer": "0",
+          "question": "Did exams and assignments reflect materials emphasized in course?",
+          "yes": "12"
+        },
+        {
+          "id": 16,
+          "no": "1",
+          "noAnswer": "0",
+          "question": "Did the syllabus or other documents accurately reflect course content and grading?",
+          "yes": "12"
+        },
+        {
+          "id": 17,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the instructor begin and end class on time?",
+          "yes": "13"
+        },
+        {
+          "id": 18,
+          "no": "1",
+          "noAnswer": "0",
+          "question": "Was your work graded fairly?",
+          "yes": "12"
+        },
+        {
+          "id": 19,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the instructor return graded material in a timely manner?",
+          "yes": "13"
+        },
+        {
+          "id": 20,
+          "no": "0",
+          "noAnswer": "2",
+          "question": "Did the instructor keep his or her office hours?",
+          "yes": "11"
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2011",
+      "subject": "CSCI 39572",
+      "questions": [
+        {
+          "average": "5.56",
+          "id": 1,
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "5.88",
+          "id": 2,
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "5.75",
+          "id": 3,
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "5.81",
+          "id": 4,
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "5.81",
+          "id": 5,
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "5.81",
+          "id": 6,
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "5.81",
+          "id": 7,
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "5.63",
+          "id": 8,
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "5.69",
+          "id": 9,
+          "question": "My overall evaluation of this instructor's teaching."
+        },
+        {
+          "average": "2.88",
+          "id": 10,
+          "question": "As much as possible, did the instructor provide individual attention?"
+        },
+        {
+          "average": "3",
+          "id": 11,
+          "question": "As much as possible, did the instructor encourage student participation?"
+        },
+        {
+          "average": "2.88",
+          "id": 12,
+          "question": "As much as possible, did the instructor provide constructive feedback on work submitted?"
+        },
+        {
+          "average": "2.88",
+          "id": 13,
+          "question": "How helpful to you were instructor's responses to questions that you asked?"
+        },
+        {
+          "average": "2.8",
+          "id": 14,
+          "question": "Did supplemental materials (for example, website, audio/visual aids, etc.) enhance course content?"
+        },
+        {
+          "id": 15,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did exams and assignments reflect materials emphasized in course?",
+          "yes": "16"
+        },
+        {
+          "id": 16,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the syllabus or other documents accurately reflect course content and grading?",
+          "yes": "16"
+        },
+        {
+          "id": 17,
+          "no": "1",
+          "noAnswer": "0",
+          "question": "Did the instructor begin and end class on time?",
+          "yes": "15"
+        },
+        {
+          "id": 18,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Was your work graded fairly?",
+          "yes": "16"
+        },
+        {
+          "id": 19,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the instructor return graded material in a timely manner?",
+          "yes": "16"
+        },
+        {
+          "id": 20,
+          "no": "0",
+          "noAnswer": "1",
+          "question": "Did the instructor keep his or her office hours?",
+          "yes": "14"
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2012",
+      "subject": "CSCI 43500",
+      "questions": [
+        {
+          "average": "6.5",
+          "id": 1,
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.67",
+          "id": 2,
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "6.5",
+          "id": 3,
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "6.5",
+          "id": 4,
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "6.5",
+          "id": 5,
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "6.83",
+          "id": 6,
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6",
+          "id": 7,
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "6.67",
+          "id": 8,
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "6.5",
+          "id": 9,
+          "question": "My overall evaluation of this instructor's teaching."
+        },
+        {
+          "average": "2.83",
+          "id": 10,
+          "question": "As much as possible, did the instructor provide individual attention?"
+        },
+        {
+          "average": "3",
+          "id": 11,
+          "question": "As much as possible, did the instructor encourage student participation?"
+        },
+        {
+          "average": "2.83",
+          "id": 12,
+          "question": "As much as possible, did the instructor provide constructive feedback on work submitted?"
+        },
+        {
+          "average": "3",
+          "id": 13,
+          "question": "How helpful to you were instructor's responses to questions that you asked?"
+        },
+        {
+          "average": "2.83",
+          "id": 14,
+          "question": "Did supplemental materials (for example, website, audio/visual aids, etc.) enhance course content?"
+        },
+        {
+          "id": 15,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did exams and assignments reflect materials emphasized in course?",
+          "yes": "6"
+        },
+        {
+          "id": 16,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the syllabus or other documents accurately reflect course content and grading?",
+          "yes": "6"
+        },
+        {
+          "id": 17,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the instructor begin and end class on time?",
+          "yes": "6"
+        },
+        {
+          "id": 18,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Was your work graded fairly?",
+          "yes": "6"
+        },
+        {
+          "id": 19,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the instructor return graded material in a timely manner?",
+          "yes": "6"
+        },
+        {
+          "id": 20,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the instructor keep his or her office hours?",
+          "yes": "6"
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2014",
+      "subject": "CSCI 35000",
+      "questions": [
+        {
+          "average": "6.12",
+          "id": 1,
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.41",
+          "id": 2,
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "6.35",
+          "id": 3,
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "6.29",
+          "id": 4,
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "6.12",
+          "id": 5,
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "6",
+          "id": 6,
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6.53",
+          "id": 7,
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "5.94",
+          "id": 8,
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "6.12",
+          "id": 9,
+          "question": "My overall evaluation of this instructor's teaching."
+        },
+        {
+          "average": "2.88",
+          "id": 10,
+          "question": "As much as possible, did the instructor provide individual attention?"
+        },
+        {
+          "average": "3",
+          "id": 11,
+          "question": "As much as possible, did the instructor encourage student participation?"
+        },
+        {
+          "average": "2.76",
+          "id": 12,
+          "question": "As much as possible, did the instructor provide constructive feedback on work submitted?"
+        },
+        {
+          "average": "2.76",
+          "id": 13,
+          "question": "How helpful to you were instructor's responses to questions that you asked?"
+        },
+        {
+          "average": "2.81",
+          "id": 14,
+          "question": "Did supplemental materials (for example, website, audio/visual aids, etc.) enhance course content?"
+        },
+        {
+          "id": 15,
+          "no": "1",
+          "noAnswer": "0",
+          "question": "Did exams and assignments reflect materials emphasized in course?",
+          "yes": "16"
+        },
+        {
+          "id": 16,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the syllabus or other documents accurately reflect course content and grading?",
+          "yes": "17"
+        },
+        {
+          "id": 17,
+          "no": "1",
+          "noAnswer": "0",
+          "question": "Did the instructor begin and end class on time?",
+          "yes": "16"
+        },
+        {
+          "id": 18,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Was your work graded fairly?",
+          "yes": "17"
+        },
+        {
+          "id": 19,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the instructor return graded material in a timely manner?",
+          "yes": "17"
+        },
+        {
+          "id": 20,
+          "no": "0",
+          "noAnswer": "1",
+          "question": "Did the instructor keep his or her office hours?",
+          "yes": "16"
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2014",
+      "subject": "CSCI 39572",
+      "questions": [
+        {
+          "average": "5.67",
+          "id": 1,
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.5",
+          "id": 2,
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "6.17",
+          "id": 3,
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "5",
+          "id": 4,
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "4.83",
+          "id": 5,
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "5.33",
+          "id": 6,
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6",
+          "id": 7,
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "5.17",
+          "id": 8,
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "5.5",
+          "id": 9,
+          "question": "My overall evaluation of this instructor's teaching."
+        },
+        {
+          "average": "3",
+          "id": 10,
+          "question": "As much as possible, did the instructor provide individual attention?"
+        },
+        {
+          "average": "3",
+          "id": 11,
+          "question": "As much as possible, did the instructor encourage student participation?"
+        },
+        {
+          "average": "2.83",
+          "id": 12,
+          "question": "As much as possible, did the instructor provide constructive feedback on work submitted?"
+        },
+        {
+          "average": "2.6",
+          "id": 13,
+          "question": "How helpful to you were instructor's responses to questions that you asked?"
+        },
+        {
+          "average": "2.5",
+          "id": 14,
+          "question": "Did supplemental materials (for example, website, audio/visual aids, etc.) enhance course content?"
+        },
+        {
+          "id": 15,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did exams and assignments reflect materials emphasized in course?",
+          "yes": "6"
+        },
+        {
+          "id": 16,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the syllabus or other documents accurately reflect course content and grading?",
+          "yes": "6"
+        },
+        {
+          "id": 17,
+          "no": "1",
+          "noAnswer": "0",
+          "question": "Did the instructor begin and end class on time?",
+          "yes": "5"
+        },
+        {
+          "id": 18,
+          "no": "1",
+          "noAnswer": "1",
+          "question": "Was your work graded fairly?",
+          "yes": "4"
+        },
+        {
+          "id": 19,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the instructor return graded material in a timely manner?",
+          "yes": "6"
+        },
+        {
+          "id": 20,
+          "no": "0",
+          "noAnswer": "1",
+          "question": "Did the instructor keep his or her office hours?",
+          "yes": "5"
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2015",
+      "subject": "CSCI 35300",
+      "questions": [
+        {
+          "average": "5.07",
+          "id": 1,
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "5",
+          "id": 2,
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "5.2",
+          "id": 3,
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "4.8",
+          "id": 4,
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "4.67",
+          "id": 5,
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "4.6",
+          "id": 6,
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "5.47",
+          "id": 7,
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "4.13",
+          "id": 8,
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "4.67",
+          "id": 9,
+          "question": "My overall evaluation of this instructor's teaching."
+        },
+        {
+          "average": "2.8",
+          "id": 10,
+          "question": "As much as possible, did the instructor provide individual attention?"
+        },
+        {
+          "average": "2.67",
+          "id": 11,
+          "question": "As much as possible, did the instructor encourage student participation?"
+        },
+        {
+          "average": "2.87",
+          "id": 12,
+          "question": "As much as possible, did the instructor provide constructive feedback on work submitted?"
+        },
+        {
+          "average": "2.64",
+          "id": 13,
+          "question": "How helpful to you were instructor's responses to questions that you asked?"
+        },
+        {
+          "average": "2.5",
+          "id": 14,
+          "question": "Did supplemental materials (for example, website, audio/visual aids, etc.) enhance course content?"
+        },
+        {
+          "id": 15,
+          "no": "1",
+          "noAnswer": "0",
+          "question": "Did exams and assignments reflect materials emphasized in course?",
+          "yes": "14"
+        },
+        {
+          "id": 16,
+          "no": "1",
+          "noAnswer": "0",
+          "question": "Did the syllabus or other documents accurately reflect course content and grading?",
+          "yes": "14"
+        },
+        {
+          "id": 17,
+          "no": "1",
+          "noAnswer": "0",
+          "question": "Did the instructor begin and end class on time?",
+          "yes": "14"
+        },
+        {
+          "id": 18,
+          "no": "2",
+          "noAnswer": "0",
+          "question": "Was your work graded fairly?",
+          "yes": "13"
+        },
+        {
+          "id": 19,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the instructor return graded material in a timely manner?",
+          "yes": "15"
+        },
+        {
+          "id": 20,
+          "no": "1",
+          "noAnswer": "1",
+          "question": "Did the instructor keep his or her office hours?",
+          "yes": "13"
+        }
+      ]
+    },
+    {
+      "semester": "Spring 2016",
+      "subject": "CSCI 10N01",
+      "questions": [
+        {
+          "average": "5.5",
+          "id": 1,
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.25",
+          "id": 2,
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "6.75",
+          "id": 3,
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "6",
+          "id": 4,
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "5.75",
+          "id": 5,
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "5.75",
+          "id": 6,
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6.5",
+          "id": 7,
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "6",
+          "id": 8,
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "6",
+          "id": 9,
+          "question": "My overall evaluation of this instructor's teaching."
+        },
+        {
+          "average": "2.67",
+          "id": 10,
+          "question": "As much as possible, did the instructor provide individual attention?"
+        },
+        {
+          "average": "3",
+          "id": 11,
+          "question": "As much as possible, did the instructor encourage student participation?"
+        },
+        {
+          "average": "2.5",
+          "id": 12,
+          "question": "As much as possible, did the instructor provide constructive feedback on work submitted?"
+        },
+        {
+          "average": "2.75",
+          "id": 13,
+          "question": "How helpful to you were instructor's responses to questions that you asked?"
+        },
+        {
+          "average": "2.75",
+          "id": 14,
+          "question": "Did supplemental materials (for example, website, audio/visual aids, etc.) enhance course content?"
+        },
+        {
+          "id": 15,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did exams and assignments reflect materials emphasized in course?",
+          "yes": "4"
+        },
+        {
+          "id": 16,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the syllabus or other documents accurately reflect course content and grading?",
+          "yes": "4"
+        },
+        {
+          "id": 17,
+          "no": "2",
+          "noAnswer": "0",
+          "question": "Did the instructor begin and end class on time?",
+          "yes": "2"
+        },
+        {
+          "id": 18,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Was your work graded fairly?",
+          "yes": "4"
+        },
+        {
+          "id": 19,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the instructor return graded material in a timely manner?",
+          "yes": "4"
+        },
+        {
+          "id": 20,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the instructor keep his or her office hours?",
+          "yes": "4"
+        }
+      ]
+    },
+    {
+      "semester": "Fall 2016",
+      "subject": "CSCI 35000",
+      "questions": [
+        {
+          "average": "6",
+          "id": 1,
+          "question": "Provides clearly defined objectives for students."
+        },
+        {
+          "average": "6.27",
+          "id": 2,
+          "question": "Treats all students in a respectful manner."
+        },
+        {
+          "average": "6.32",
+          "id": 3,
+          "question": "Presents course content in an organized manner."
+        },
+        {
+          "average": "6.05",
+          "id": 4,
+          "question": "Makes good use of examples and illustrations to clarify concepts."
+        },
+        {
+          "average": "5.86",
+          "id": 5,
+          "question": "Interprets difficult and abstract ideas."
+        },
+        {
+          "average": "6.27",
+          "id": 6,
+          "question": "Effectively communicates his/her knowledge of the subject to students."
+        },
+        {
+          "average": "6.82",
+          "id": 7,
+          "question": "Challenges me intellectually."
+        },
+        {
+          "average": "6.05",
+          "id": 8,
+          "question": "Has increased my interest in the subject."
+        },
+        {
+          "average": "6.05",
+          "id": 9,
+          "question": "My overall evaluation of this instructor's teaching."
+        },
+        {
+          "average": "2.65",
+          "id": 10,
+          "question": "As much as possible, did the instructor provide individual attention?"
+        },
+        {
+          "average": "2.82",
+          "id": 11,
+          "question": "As much as possible, did the instructor encourage student participation?"
+        },
+        {
+          "average": "2.64",
+          "id": 12,
+          "question": "As much as possible, did the instructor provide constructive feedback on work submitted?"
+        },
+        {
+          "average": "2.52",
+          "id": 13,
+          "question": "How helpful to you were instructor's responses to questions that you asked?"
+        },
+        {
+          "average": "2.71",
+          "id": 14,
+          "question": "Did supplemental materials (for example, website, audio/visual aids, etc.) enhance course content?"
+        },
+        {
+          "id": 15,
+          "no": "1",
+          "noAnswer": "0",
+          "question": "Did exams and assignments reflect materials emphasized in course?",
+          "yes": "21"
+        },
+        {
+          "id": 16,
+          "no": "1",
+          "noAnswer": "0",
+          "question": "Did the syllabus or other documents accurately reflect course content and grading?",
+          "yes": "21"
+        },
+        {
+          "id": 17,
+          "no": "2",
+          "noAnswer": "0",
+          "question": "Did the instructor begin and end class on time?",
+          "yes": "20"
+        },
+        {
+          "id": 18,
+          "no": "2",
+          "noAnswer": "0",
+          "question": "Was your work graded fairly?",
+          "yes": "20"
+        },
+        {
+          "id": 19,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the instructor return graded material in a timely manner?",
+          "yes": "22"
+        },
+        {
+          "id": 20,
+          "no": "0",
+          "noAnswer": "0",
+          "question": "Did the instructor keep his or her office hours?",
+          "yes": "22"
+        }
+      ]
+    }
+  ]
+}
