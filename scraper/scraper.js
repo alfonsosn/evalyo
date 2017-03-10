@@ -20,8 +20,8 @@ var casper = require('casper').create({
 
 // -------- Global Variables -------
 var prof = {
-  firstName: 'Eric',
-  lastName: 'Schweitzer',
+  firstName: 'CHRISTINA',
+  lastName: 'ZAMFIRESCU',
   courses: []
 }
 
@@ -40,7 +40,7 @@ var selectedIndex = 0;
 // ---------- Functions ----------
 
 casper.saveJSON = function(what) {
-    fs.write('schweitzer.json', JSON.stringify(what, null, '  '), 'w');
+    fs.write('christina.json', JSON.stringify(what, null, '  '), 'w');
     console.log('saved')
 };
 
@@ -237,7 +237,7 @@ casper.then(function(){
  casper.then(function(){
   console.log("logged in");
    this.evaluate(function(){
-     document.getElementById("P3_LAST_NAME").value = 'SCHWEITZER'
+     document.getElementById("P3_LAST_NAME").value = 'ZAMFIRESCU, CHRISTINA'
      document.getElementById("P3_GO").click();
    });
  });
