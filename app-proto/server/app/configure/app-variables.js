@@ -4,7 +4,6 @@ var chalk = require('chalk');
 var util = require('util');
 
 var rootPath = path.join(__dirname, '../../../');
-var indexPath = path.join(rootPath, './views/layouts/main.handlebars');
 
 var logMiddleware = function (req, res, next) {
     util.log(('---NEW REQUEST---'));
@@ -15,7 +14,7 @@ var logMiddleware = function (req, res, next) {
 };
 
 module.exports = function (app) {
-    app.setValue('projectRoot', rootPath);
-    // app.setValue('indexHTMLPath', indexPath);
     app.setValue('log', logMiddleware);
+    app.setValue('projectRoot', rootPath);
+    
 };

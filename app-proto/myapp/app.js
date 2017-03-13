@@ -1,3 +1,6 @@
+'use strict'
+var chalk = require('chalk');
+
 var express = require('express')
 var logger = require('morgan')
 var bodyParser = require('body-parser')
@@ -25,4 +28,12 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(require('./routes'))
 
 
-app.listen(3000)
+var startServer = function () {
+
+    var PORT = process.env.PORT || 3000;
+
+    app.listen(PORT, function () {
+        console.log(chalk.blue('Server started on port', chalk.magenta(PORT)));
+    });
+
+}();

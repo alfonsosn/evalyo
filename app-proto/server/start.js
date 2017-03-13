@@ -7,12 +7,13 @@ var server = require('http').createServer();
 var createApplication = function () {
     var app = require('./app');
     server.on('request', app); // Attach the Express application.
-}();
+};
 
 
 var startServer = function () {
+    createApplication()
 
-    var PORT = process.env.PORT || 3000;
+    var PORT = process.env.PORT || 8000;
 
     server.listen(PORT, function () {
         console.log(chalk.blue('Server started on port', chalk.magenta(PORT)));

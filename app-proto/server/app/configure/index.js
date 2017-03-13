@@ -10,9 +10,10 @@ module.exports = function(app) {
         return app.get(path);
     };
 
-    require('./app-variables')(app);
-    require('./static-middleware')(app);
-    require('./parsing-middleware')(app);
+    require('./app-variables.js')(app);
+    require('./view-engine.js')(app);
+    require('./parsing-middleware.js')(app);
+    require('./static-middleware.js')(app);
 
     // Logging middleware, set as application
     // variable inside of server/app/configure/app-variables.js
