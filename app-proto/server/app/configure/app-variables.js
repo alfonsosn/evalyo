@@ -3,7 +3,7 @@ var path = require('path');
 var chalk = require('chalk');
 var util = require('util');
 
-var rootPath = path.join(__dirname, '../../../');
+var rootPath = path.join(__dirname, '../../');
 
 var logMiddleware = function (req, res, next) {
     util.log(('---NEW REQUEST---'));
@@ -16,5 +16,4 @@ var logMiddleware = function (req, res, next) {
 module.exports = function (app) {
     app.setValue('log', logMiddleware);
     app.setValue('projectRoot', rootPath);
-    
 };

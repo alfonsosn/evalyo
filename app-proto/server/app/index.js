@@ -29,7 +29,7 @@ app.use(function (req, res, next) {
 });
 
 app.get('/*', function (req, res, next) {
-    res.render('index.handlebars', {title: "Alfonso"});
+    res.render('index', {title: "Alfonso"});
 });
 
 // Error catching endware.

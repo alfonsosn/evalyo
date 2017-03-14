@@ -4,11 +4,15 @@ var express = require('express');
 
 module.exports = function (app) {
 
-  // sets the public directory to our PATH
   var root = app.getValue('projectRoot');
+  var views = path.join(root, '/app/views')
+  var publicPath = path.join(root, '/app/public')
+  var npmPath = path.join(root, './node_modules');
 
-  var viewsPath = path.join(root, 'app/views');
-  var publicPath = path.join(root, 'app/public');
+  // Set the PATH for views
+  app.setValue('viewsPath', views);
 
+  // sets the public directory to our PATH
+  app.use(express.static(npmPath));
   app.use(express.static(publicPath));
 };
