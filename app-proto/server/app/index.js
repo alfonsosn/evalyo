@@ -10,7 +10,7 @@ require('./configure')(app);
 
 // Routes that will be accessed via AJAX should be prepended with
 // /api so they are isolated from our GET /* wildcard.
-app.use('/api', require('./routes'));
+app.use('/', require('./routes'));
 
 /*
  This middleware will catch any URLs resembling a file extension
@@ -28,18 +28,12 @@ app.use(function (req, res, next) {
 
 });
 
-app.get('/*', function (req, res, next) {
-    res.render('index', {title: "Alfonso"});
-});
+// app.get('/*', function (req, res, next) {
+//     res.render('index', {title: "Alfonso"});
+// });
 
 // Error catching endware.
 app.use(function (err, req, res, next) {
     console.error(err, typeof next);
     res.status(err.status || 500).send(err.message || 'Internal server error.');
 });
-
-
-
-// app.get('/', function(req, res, next) {
-//   res.render('index', {title: "Alfonso"});
-// })
