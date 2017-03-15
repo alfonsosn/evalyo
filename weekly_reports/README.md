@@ -2,7 +2,7 @@
 ------------ | ------------- | -------------
 ---
 
-#Weekly Entries
+# Weekly Entries
 
 A list of each week's progress reports.
 
