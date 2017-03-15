@@ -4,6 +4,8 @@
 
 # Bitácoras del Capitán
 
+by Alfonso Enriquez, (Group Leader of Evalyo)
+
 ## Week One: February 13 - February 22
 
 This was our first week as team. In our first meeting we made some housekeeping tasks. We set up our Github repository and our team Slack for communication. We directed the rest of our conversation to the tools that we're thinking of using for the project.
@@ -91,3 +93,16 @@ Broad THEMES
 3) Experience
 4) Personality
 5) Grading
+
+
+## Week Three: February 28th - March 6th
+
+This week was the first time that we created a high fidelity model of what the app aims to do. We presented our railway model to our classmates who gave us positive feedback in our work. Moreover, Lev is also getting closer at tackling the models on our database. I'm passionate about front-end, not because of its ease, but because it allows me to coneptualize the utility of the product. I'm by no means a front-end expert, nor a user-interface designer, but I'm becoming better at product. Prioritizing content for the user to obtain its goals within a pair of clicks.
+
+## Week Four: March 7th - March 13th
+
+I've worked so hard on the app and I'm very happy about the progress. I'm glad to have worked on the node server because I have a better understanding of express, which I sort of neglected when I was learning angular and node. I'm happy for this accomplishment because it means that I can modularize several components of our code and add functionality to our app with ease. I'm still learning though.
+
+In terms of Evalyo, Lev has worked on the scrapper and added more functionality to it. I'm happy with his work and I'm glad that he will begin to work on the database models, giving us a fuller application. 
+
+I've guided Marshall in his interest in learning about front-end design, advising him to learn HTML, CSS, and Twitter Bootstrap. With that, he build a pretty nice team website for the team. His next assignment is to learn Jquery and JS to build more interactive sites. In meantime, I assigned Ahmed an assignment to convert and XLS to JSON, which seemed to provide a certain degree of difficulty for him, but it seems that it was a good experience. He learn some python syntax which is good. Now I want to him to focus on Javascript. This might be timely since both him and Marshall will be learning how to use it at the same time. Hopefully, Marshall and Ahmed can collaborate to create a small front-end app that uses the information that Ahmed helped create into a JSON file.
