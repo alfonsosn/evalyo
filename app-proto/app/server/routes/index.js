@@ -6,7 +6,6 @@ module.exports = router;
 router.use('/professor', require('./professors'));
 router.use('/class', require('./classes'));
 
-
 // redirect to main page
 router.get('/', function(req, res, next) {
   res.render('index', {title: "Alfonso"});
@@ -15,4 +14,5 @@ router.get('/', function(req, res, next) {
 // Make sure this is after all of the registered routes!
 router.use(function(req, res) {
 	res.status(404).end();
+  res.render('error')
 });
