@@ -28,6 +28,6 @@
 ## Next Week
 
 - [ ] Marshall - Learn Jquery. Create a front-end function querying app.
-- [ ] Alfonso - Set up middleware for Node app. Create prototype with JSON mock database
-- [ ] Lev - Fix scraper to accept command line arguments. Update database models to import JSON.
+- [ ] Alfonso - Set up middleware for Node app. Create prototype with JSON mock database. Setup GULP on app.
+- [ ] Lev - Fix scraper to accept command line arguments. Update database models to import JSON. 
 - [ ] Ahmed - Help build JSON querying functions with Javascript.
