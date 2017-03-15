@@ -14,7 +14,7 @@
 - [x] Enhance Scraper
 - [x] Include more data from different professors
 
-### Marshall - Front-End Designer
+### Marshall - Junior Front-End Dev
 
 - [x] Set up team page using Bootstraps
 - [x] Create team website
