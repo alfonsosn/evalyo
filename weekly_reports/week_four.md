@@ -3,12 +3,12 @@
 ---
 # Week Four: March 7th - March 13th
 
-### Alfonso - Team Leader / PM
+### Alfonso - Frontend Lead Engineer
 
 - [x] Used handblebars as viewing engine with node application
 - [x] Present early prototype to faculty
 
-### Lev - Backend Engineer
+### Lev - Backend Lead Engineer 
 
 - [x] Create MongoDB Models 
 - [x] Enhance Scraper
@@ -19,7 +19,7 @@
 - [x] Set up team page using Bootstraps
 - [x] Create team website
 
-### Ahmed - Assistant
+### Ahmed - Junior Backend Dev
 
 - [ ] Research NodeJS (Pending)
 - [x] Learn Python to create course parser 
