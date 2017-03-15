@@ -1,5 +1,5 @@
 var router = require('express').Router();
-var fs = require('fs')
+var fs = require('fs');
 var _ = require('lodash'); //extend
 
 // helper functions
@@ -16,36 +16,38 @@ router.get('/', function(req, res, next) {
 })
 
 router.get('/:prof', function(req, res, next) {
-  var file = __dirname + '/' + req.params.prof + '.json'
+  var file = __dirname + '/' + req.params.prof + '.json';
 
   fs.exists(file, function(exists) {
     if (exists) {
       fs.readFile(file, 'utf8', function(err, data) {
         var prof = (JSON.parse(data));
-        var courses = []
+        var courses = [];
         prof.courses.forEach(function(element){
-            courses.push((element.subject).split(' ').join('_'))
+            courses.push((element.subject).split(' ').join('_'));
         })
 
         courses = courses.filter(onlyUnique);
         courses.sort();
+        res.render('professor', {professor: prof, courses: courses});
 
-        res.render('professor', {professor: prof, courses: courses})
       });
-    } else {
+
+    }
+
+    else {
       console.error('Professor does not exist');
-      res.send(404)
-      res.render(error)
-      next(null)
+      res.send(404);
+      res.render(error);
+      next(null);
     }
   });
 })
 
 router.get('/:prof/:course', function(req, res, next) {
-  var file = __dirname + '/' + req.params.prof + '.json'
+  var file = __dirname + '/' + req.params.prof + '.json';
   var courseId = req.params.course.replace(/_/g, " ");
 
-  console.log(courseId)
   fs.exists(file, function(exists) {
       if (exists) {
           fs.readFile(file, 'utf8', function(err, data) {
@@ -53,12 +55,19 @@ router.get('/:prof/:course', function(req, res, next) {
             courses = []
             prof.courses.forEach(function(element){
               if (element.subject == courseId)
-                courses.push(element)
-            })
-            res.json(courses)
-          })
+                courses.push(element);
+            });
+            res.json(courses);
+          });
         }
-    })
-  })
+
+        else {
+
+          res.send(404);
+          res.render(error);
+          next(null);
+        }
+    });
+  });
 
 module.exports = router;

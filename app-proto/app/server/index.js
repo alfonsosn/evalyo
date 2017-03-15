@@ -1,8 +1,8 @@
 'use strict';
 var path = require('path');
 var express = require('express');
-var bodyParser = require('body-parser')
-var logger = require('morgan')
+var bodyParser = require('body-parser');
+var logger = require('morgan');
 var app = express();
 module.exports = app;
 
