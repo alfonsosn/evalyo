@@ -3,7 +3,7 @@
 ---
 # EVALYO APP
 
-###*Find your next professor, the right way.*
+*Find your next professor, the right way.*
 
 ## A Common Problem
 
@@ -13,9 +13,7 @@ While the service has its faults, the main problem with RMP is its loose communi
 
 This is not to say that professors shy away from receiving student reviews. Professors often encourage student course evaluations. A mid to high percentage of students write course evaluations. These student evaluations are then entered to a database accessible to both faculty and students at the college.
 
-Technically, Hunter students could rely on the information from this database instead of RMP. This database provides more evaluation data than RMP but without the harsh words.
-
-However, the problem with this database is the way information is displayed. Mainly, 1) no option to aggregate course evaluation , 2) no option to query based by course, and finally 3) content information displayed in a user friendly way. The database could use an improvement.
+Technically, Hunter students could rely on the information from this database instead of RMP. This database provides more evaluation data than RMP but without the harsh words. However, the problem with this database is the way information is displayed. Mainly, 1) no option to aggregate course evaluation and 2) content information needs to be displayed in a user friendly way. 
 
 ## Evalyo - Great for Students and Fair for Professors
 
@@ -25,11 +23,9 @@ We are Evalyo, a team of computer science students at Hunter College. Our team i
 
 2. **Historical Aggregation:** Students will be able to see a professors rating across multiple semesters, the number will be in a total average that weights recent semesters more heavily.
 
-3. **Class Based Querying:** Unlike Rate my Professors or the current Hunter Based System, students could search based on courses and see results of all professors who've taught the course.
+3. **Student Friendly Design:** Current data presents information with an obtuse language. The app would reduce metrics from a total of 20+ to five key metrics.
 
-4. **Student Friendly Design:** Current data presents information with an obtuse language. The app would reduce metrics from a total of 20+ to five key metrics.
-
-5. **Feature Friendly:** With the historical data, the sky is the limit in the way we present information.
+4. **Feature Friendly:** With the historical data, the sky is the limit in the way we present information.
 
 ## Technologies
 
