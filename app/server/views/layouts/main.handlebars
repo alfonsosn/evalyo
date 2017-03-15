@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html class="mdc-typography">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Evalyo</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    <link rel="stylesheet" href="/stylesheets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+  </head>
+  <body>
+    <main>
+    <div class="mdc-toolbar mdc-toolbar--fixed">
+      <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
+        <a href="/" target="_self" style="color: white !important; text-decoration: none; cursor: pointer;"><h1 class="mdc-typography--display1">Evalyo</h1></a>
+      </section>
+    </div>
+
+    <div class="viewport">
+      {{{body}}}
+    </div>
+    {{>footer/main}}
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <script>window.mdc.autoInit();</script>
+  </body>
+</html>
