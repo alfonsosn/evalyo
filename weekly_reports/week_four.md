@@ -23,11 +23,11 @@
 
 - [ ] Research NodeJS (Pending)
 - [x] Learn Python to create course parser 
-- [ ] Build an XLS to JSON parser with Python  (Pending)
+- [X] Build an XLS to JSON parser with Python  
 
 ## Next Week
 
-- [ ] Marshall - Use Jquery for animation in team site.
-- [ ] Alfonso - Set up middleware for Node app.
-- [ ] Lev - Help build apt querying funtion.
-- [ ] Ahmed - finish the course parger.
+- [ ] Marshall - Learn Jquery. Create a front-end function querying app.
+- [ ] Alfonso - Set up middleware for Node app. Create prototype with JSON mock database
+- [ ] Lev - Fix scraper to accept command line arguments. Update database models to import JSON.
+- [ ] Ahmed - Help build JSON querying functions with Javascript.
