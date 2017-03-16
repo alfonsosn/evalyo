@@ -28,12 +28,14 @@ router.get('/:prof', function(req, res, next) {
 
         courses = courses.filter(onlyUnique);
         courses.sort();
-        res.render('professor', {professor: prof, courses: courses});
-
-      });
-
-    }
-
+        res.render('professor', {professor: prof, courses: courses, helpers: {
+                  lower: function(data){
+                      return data.toLowerCase()
+                  }
+                }
+              })
+            })
+          }
     else {
       console.error('Professor does not exist');
       next(null);

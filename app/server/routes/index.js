@@ -12,7 +12,6 @@ router.get('/', function(req, res, next) {
 })
 
 // Make sure this is after all of the registered routes!
-router.use(function(req, res) {
+router.use(function(req, res, next) {
 	res.status(404).end();
-  res.render('error');
 });
