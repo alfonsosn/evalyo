@@ -7,7 +7,7 @@
 
 - [x] Create API routes with server side requests
 - [x] Set up middleware for Node app
-- [x] Setup GULP on app.
+- [ ] Setup GULP on app.
 
 ### Ahmed
 
