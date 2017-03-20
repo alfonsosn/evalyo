@@ -12,7 +12,7 @@
 ### Ahmed
 
 - [x] Learn about Javascript
-- [x] JSON querying functions with Javascript.
+- [ ] JSON querying functions with Javascript.
 
 ### Lev
 
@@ -22,4 +22,4 @@
 ### Marshall
 
 - [x] Learn Jquery
-- [x] Create a front-end function querying app.
+- [ ] Create a front-end function querying app.
