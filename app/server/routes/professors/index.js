@@ -1,6 +1,8 @@
 var router = require('express').Router();
-var fs = require('fs');
+var Promise = require('bluebird');
+var fs = Promise.promisifyAll(require("fs"))
 var _ = require('lodash'); //extend
+
 
 // helper functions
 
@@ -8,6 +10,24 @@ function onlyUnique(value, index, self) {
   return self.indexOf(value) === index;
 }
 
+var getProf = function(file) {
+  return fs.readFileAsync(file, 'utf8');
+}
+
+var parseProfJSON = function(data){
+    var prof = (JSON.parse(data))
+    prof.courseTitles = []
+    prof.courses.forEach(function(element){
+            prof.courseTitles.push((element.subject).split(' ').join('_'));
+        })
+    prof.courseTitles = prof.courseTitles.filter(onlyUnique).sort();
+    return prof
+  }
+
+
+var reviewAggregation = function(data){
+  console.log("hello")
+}
 // routes
 
 router.get('/', function(req, res, next) {
@@ -16,54 +36,39 @@ router.get('/', function(req, res, next) {
 
 router.get('/:prof', function(req, res, next) {
   var file = __dirname + '/' + req.params.prof + '.json';
-
-  fs.exists(file, function(exists) {
-    if (exists) {
-      fs.readFile(file, 'utf8', function(err, data) {
-        var prof = (JSON.parse(data));
-        var courses = [];
-        prof.courses.forEach(function(element){
-            courses.push((element.subject).split(' ').join('_'));
+  getProf(file).then(function(data) {
+    professor = parseProfJSON(data)
+    res.render('professor', {professor: professor, courses: professor.courseTitles, helpers: {
+              lower: function(data){
+                  return data.toLowerCase()
+              }
+            }
+          })
         })
-
-        courses = courses.filter(onlyUnique);
-        courses.sort();
-        res.render('professor', {professor: prof, courses: courses, helpers: {
-                  lower: function(data){
-                      return data.toLowerCase()
-                  }
-                }
-              })
-            })
-          }
-    else {
-      console.error('Professor does not exist');
-      next(null);
-    }
-  });
-})
+      })
 
 router.get('/:prof/:course', function(req, res, next) {
   var file = __dirname + '/' + req.params.prof + '.json';
   var courseId = req.params.course.replace(/_/g, " ");
 
-  fs.exists(file, function(exists) {
-      if (exists) {
-          fs.readFile(file, 'utf8', function(err, data) {
-            var prof = (JSON.parse(data));
-            courses = []
-            prof.courses.forEach(function(element){
-              if (element.subject == courseId)
-                courses.push(element);
-            });
-            res.json(courses);
-          });
-        }
-
-        else {
-          next(null);
-        }
+  getProf(file).then(function(data) {
+    professor = parseProfJSON(data)
+    reviews = []
+    professor.courses.forEach(function(element){
+      if (element.subject == courseId)
+        reviews.push(element);
     });
+    res.json(reviews);
   });
+});
+
+
+
+
+
+
+
+
+
 
 module.exports = router;
