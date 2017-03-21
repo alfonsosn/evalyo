@@ -7,13 +7,11 @@ router.use('/professor', require('./professors'));
 router.use('/class', require('./classes'));
 
 // redirect to main page
-router.get('/', function(req, res, next) {
+router.get('/', function(req, res) {
   res.render('index', {title: "Alfonso"});
-  next(null)
 })
 
 // Make sure this is after all of the registered routes!
-router.use(function(req, res, next) {
+router.use(function(req, res) {
 	res.status(404).end()
-  next(null)
 });

@@ -54,13 +54,12 @@ const getCourseInfo = (professor, courseId) => {
 }
 
 // routes
-router.get('/', function(req, res, next) {
+router.get('/', function(req, res) {
   res.render('professors_list');
-  next(null)
 })
 
 
-router.get('/:prof', function(req, res, next) {
+router.get('/:prof', function(req, res) {
   let file = __dirname + '/' + req.params.prof + '.json';
   getProf(file)
   .then(function(data) {
@@ -72,11 +71,10 @@ router.get('/:prof', function(req, res, next) {
             }
           })
         })
-        next(null)
       })
 
 
-router.get('/:prof/:course', function(req, res, next) {
+router.get('/:prof/:course', function(req, res) {
   let file = __dirname + '/' + req.params.prof + '.json';
   let courseId = req.params.course.replace(/_/g, " ");
 
