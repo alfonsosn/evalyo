@@ -1,5 +1,4 @@
 'use strict'
-var path = require('path');
 var exphbs = require('express-handlebars');
 
 module.exports = function(app){

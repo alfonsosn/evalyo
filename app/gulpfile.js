@@ -1,8 +1,9 @@
 'use strict';
 
 // All used modules.
-var concat = require('gulp-concat');
+var gulp = require('gulp');
 var livereload = require('gulp-livereload');
+var eslint = require('gulp-eslint');
 
 // Development tasks
 // --------------------------------------------------------------
@@ -12,9 +13,19 @@ gulp.task('reload', function () {
     livereload.reload();
 });
 
+gulp.task('lintJS', function () {
+
+  return gulp.src('./server/**/*.js')
+  .pipe(eslint())
+  .pipe(eslint.format())
+  .pipe(eslint.failOnError());
+
+});
+
 gulp.task('default', function () {
 
     livereload.listen();
-    gulp.start('build');
 
-  }
+    gulp.watch('server/**/*.js', ['lintJS']);
+
+  })
