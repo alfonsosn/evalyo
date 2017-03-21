@@ -79,7 +79,7 @@ router.get('/:prof/:course', function(req, res) {
   let courseId = req.params.course.replace(/_/g, " ");
 
   getProf(file).then(function(data) {
-    professor = parseProfJSON(data)
+    let professor = parseProfJSON(data)
     const courseInfo = getCourseInfo(professor, courseId)
     const questions =  getRatings(professor, courseId)
 
