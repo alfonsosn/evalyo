@@ -53,12 +53,6 @@ const getCourseInfo = (professor, courseId) => {
   }
 }
 
-
-function onlyUnique(value, index, self) {
-  return self.indexOf(value) === index;
-}
-
-
 // routes
 router.get('/', function(req, res, next) {
   res.render('professors_list');
