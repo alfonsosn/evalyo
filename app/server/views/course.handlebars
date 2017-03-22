@@ -1,5 +1,4 @@
 <professor-title>
-
   <h1 class="mdc-typography--headline">{{professor.firstName}} {{professor.lastName}}</h1>
   <base href="./{{professor.firstName}}/">
   <h1 class="mdc-typography--headline">{{course.subject}}</h1>
@@ -8,7 +7,7 @@
 
 {{#each evaluations}}
   {{#each this}}
-    <p> {{this.semester}} </p>
+    <h2> {{this.semester}} </h2>
     <div class="mdc-card demo-card">
       <section class="mdc-card__primary mdc-typography--title">
         Clarity:

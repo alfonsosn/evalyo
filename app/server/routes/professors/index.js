@@ -145,8 +145,4 @@ router.get('/:prof/:course', (req, res) => {
 });
 
 
-
-
-
-
 module.exports = router;
