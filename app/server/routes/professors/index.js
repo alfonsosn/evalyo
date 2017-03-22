@@ -2,23 +2,30 @@
 var router = require('express').Router();
 var Promise = require('bluebird');
 var fs = Promise.promisifyAll(require("fs"))
-// var _ = require('lodash'); //extend
+var _ = require('lodash'); //extend
 
+
+// array variables for questions
 const organization_q_ids = [3, 15, 16, 19, 20, 17]
 const experience_q_ids = [11, 12, 14, 8]
 const clarity_q_ids = [1, 4, 5, 6, 13]
 const personality_q_ids = [2, 7, 10]
 
-// helper functions
-const onlyUnique = function(value, index, self) {
+// Helper functions
+const onlyUnique = (value, index, self) => {
   return self.indexOf(value) === index;
 }
-
-const getProf = function(file) {
-  return fs.readFileAsync(file, 'utf8');
+const roundAverage = (element, num) => {
+  element.average = Math.round(element.average / num * 100)
+  return element
 }
+const aggregates_experience = (professors, courseId) => (
+  professors.courses.reduce((total, course) =>
+    course.subject === courseId ? total + 1 : total , 0)
+);
 
-const parseProfJSON = function(data){
+// Parser from Server
+const parseProfJSON = (data) => {
     let prof = JSON.parse(data)
     prof.courseTitles = []
     prof.courses.forEach(element => {
@@ -28,93 +35,100 @@ const parseProfJSON = function(data){
     return prof
   }
 
-
-const getRatings = (professor, courseId) => {
-  const course = professor.courses.find((course) => course.subject == courseId)
-  const ratings = course.questions.map((question) =>
-    question.id <= 9 ?
-      Object.assign(question, {
-        average: Math.round(question.average / 7 * 100)
-      })
-    : question.id <= 14 ?
-      Object.assign(question, {
-        average: Math.round(question.average / 3 * 100)
-      })
-    : question)
-
-  return ratings
+// Getter Functions
+const getProf = (file) => {
+  return fs.readFileAsync(file, 'utf8');
+}
+const getSemesters = (professorArray, id) => {
+  return professorArray.courses.filter((course) => course.subject === id)
 }
 
-const getCourseInfo = (professor, courseId) => {
-  const course = professor.courses.find((course) => course.subject == courseId)
-  return {
-    semester: course.semester,
-    subject: course.subject
+const getSingleRatings = (semester) => {
+  const ratings = semester.questions.map((question) => {
+    if (question.id <= 9)
+      return roundAverage(question, 7)
+    else if (question.id <= 14)
+      return roundAverage(question, 3)
+    else
+      return question
+    })
+  return ratings
+}
+const getCourseDetail = (professor, courseId) => {
+  const semester = professor.courses.find((course) => course.subject === courseId)
+    return {
+      semester: semester.semester,
+      subject: semester.subject
+    }
+}
+
+// Ratings Class
+class Ratings {
+
+  getQuestions(ids) {
+    return this.ratings.filter((question) =>
+    ids.includes(question.id));
+  }
+
+  constructor(semester, times_taught) {
+    this.ratings = getSingleRatings(semester);
+    this.organization = this.getQuestions(organization_q_ids)
+    this.clarity = this.getQuestions(clarity_q_ids)
+    this.personality = this.getQuestions(personality_q_ids)
+    this.experience = this.getQuestions(experience_q_ids)
+    this.times_taught = times_taught
+    this.experience.push({
+      id: 'XX',
+      question: 'Times the professor taught this class',
+      average: times_taught
+    });
   }
 }
 
 // routes
-router.get('/', function(req, res) {
+router.get('/', (req, res) => {
   res.render('professors_list');
 })
 
-
-router.get('/:prof', function(req, res) {
+router.get('/:prof', (req, res) => {
   let file = __dirname + '/' + req.params.prof + '.json';
-  getProf(file)
-  .then(function(data) {
+
+  getProf(file).then((data) => {
     let professors = parseProfJSON(data)
-    res.render('professor', {professor: professors, courses: professors.courseTitles, helpers: {
-              lower: (word) => {
-                  return word.toLowerCase()
-              }
-            }
-          })
-        })
+
+    res.render('professor', {
+        professor: professors,
+        courses: professors.courseTitles,
+        helpers: {
+          lower: (word) => {
+            return word.toLowerCase()
+          }
+        }
       })
+    })
+  })
 
-
-router.get('/:prof/:course', function(req, res) {
+router.get('/:prof/:course', (req, res) => {
   let file = __dirname + '/' + req.params.prof + '.json';
   let courseId = req.params.course.replace(/_/g, " ");
 
-  getProf(file).then(function(data) {
-    let professor = parseProfJSON(data)
-    const courseInfo = getCourseInfo(professor, courseId)
-    const questions =  getRatings(professor, courseId)
-
-    // Split questions into categories
-    const organization_questions = questions.filter((question) =>
-      organization_q_ids.includes(question.id))
-
-    const clarity_questions = questions.filter((question) =>
-      clarity_q_ids.includes(question.id))
-
-    const personality_questions = questions.filter((question) =>
-      personality_q_ids.includes(question.id))
-
-    let experience_questions = questions.filter((question) =>
-      experience_q_ids.includes(question.id))
-    // get # of times professor taught this course
-    const timesTaught = professor.courses.reduce((total, course) =>
-      course.subject == courseId ? total + 1 : total , 0)
-
-    experience_questions.push({
-      id: 'XX',
-      question: 'Times the professor taught this class',
-      average: timesTaught
-    })
+  getProf(file).then((data) => {
+    const professor = parseProfJSON(data);
+    const semesters = getSemesters(professor, courseId);
+    const times_taught = aggregates_experience(professor, courseId)
+    let ratings = new Ratings(semesters[0], times_taught);
+    const courseDetail = getCourseDetail(professor, courseId);
 
     res.render('course', {
       professor: professor,
-      course: courseInfo,
-      clarity: clarity_questions,
-      organization: organization_questions,
-      experience: experience_questions,
-      personality: personality_questions
-    })
-  })
-})
+      course: courseDetail,
+      clarity: ratings.clarity,
+      organization: ratings.organization,
+      experience: ratings.experience,
+      personality: ratings.personality
+    });
+  });
+});
 
 
 
