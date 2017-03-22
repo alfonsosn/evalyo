@@ -2,73 +2,86 @@
 
   <h1 class="mdc-typography--headline">{{professor.firstName}} {{professor.lastName}}</h1>
   <base href="./{{professor.firstName}}/">
-  <h1 class="mdc-typography--headline">{{course.semester}}, {{course.subject}}</h1>
+  <h1 class="mdc-typography--headline">{{course.subject}}</h1>
   <base href="./{{course.subject}}/" />
 </professor-title>
 
-<div class="mdc-card demo-card">
-  <section class="mdc-card__primary mdc-typography--title">
-    Clarity:
-  </section>
-  <ul class="mdc-list">
-    {{#clarity}}
-      <li class="mdc-list-item">
-      <b>{{question}} </b> :
-         {{#if average}}
-           {{average}}
-         {{else}}
-           yes: {{yes}}
-           no: {{no}}
-         {{/if}}
-      </li>
-    {{/clarity}}
-  </ul>
-  <section class="mdc-card__primary mdc-typography--title">
-    Organization:
-  </section>
-  <ul class="mdc-list">
-    {{#organization}}
-      <li class="mdc-list-item">
-      <b>{{question}} </b> :
-         {{#if average}}
-           {{average}}
-         {{else}}
-           yes: {{yes}}
-           no: {{no}}
-         {{/if}}
-      </li>
-    {{/organization}}
-  </ul>
-  <section class="mdc-card__primary mdc-typography--title">
-    Experience:
-  </section>
-  <ul class="mdc-list">
-    {{#experience}}
-      <li class="mdc-list-item">
-      <b>{{question}} </b> :
-         {{#if average}}
-           {{average}}
-         {{else}}
-           yes: {{yes}}
-           no: {{no}}
-         {{/if}}
-      </li>
-    {{/experience}}
-  </ul>
-  <section class="mdc-card__primary mdc-typography--title">
-    Personality:
-  </section>
-  <ul class="mdc-list">
-    {{#personality}}
-      <li class="mdc-list-item">
-      <b>{{question}} </b> :
-         {{#if average}}
-           {{average}}
-         {{else}}
-           yes: {{yes}}
-           no: {{no}}
-         {{/if}}
-      </li>
-    {{/personality}}
-  </ul>
-</div>
+
+
+      {{#each this.organization}}
+      <ul>
+        <li>{{this.question}}</li>
+      </ul>
+      {{/each}}
+
+{{#each evaluations}}
+  {{#each this}}
+    <p> {{this.semester}} </p>
+    <div class="mdc-card demo-card">
+      <section class="mdc-card__primary mdc-typography--title">
+        Clarity:
+      </section>
+      <ul class="mdc-list">
+        {{#this.clarity}}
+          <li class="mdc-list-item">
+          <b>{{question}} </b> :
+             {{#if average}}
+               {{average}}
+             {{else}}
+               yes: {{yes}}
+               no: {{no}}
+             {{/if}}
+          </li>
+        {{/this.clarity}}
+      </ul>
+      <section class="mdc-card__primary mdc-typography--title">
+        Organization:
+      </section>
+      <ul class="mdc-list">
+        {{#this.organization}}
+          <li class="mdc-list-item">
+          <b>{{question}} </b> :
+             {{#if average}}
+               {{average}}
+             {{else}}
+               yes: {{yes}}
+               no: {{no}}
+             {{/if}}
+          </li>
+        {{/this.organization}}
+      </ul>
+      <section class="mdc-card__primary mdc-typography--title">
+        Experience:
+      </section>
+      <ul class="mdc-list">
+        {{#this.experience}}
+          <li class="mdc-list-item">
+          <b>{{question}} </b> :
+             {{#if average}}
+               {{average}}
+             {{else}}
+               yes: {{yes}}
+               no: {{no}}
+             {{/if}}
+          </li>
+        {{/this.experience}}
+      </ul>
+      <section class="mdc-card__primary mdc-typography--title">
+        Personality:
+      </section>
+      <ul class="mdc-list">
+        {{#this.personality}}
+          <li class="mdc-list-item">
+          <b>{{question}} </b> :
+             {{#if average}}
+               {{average}}
+             {{else}}
+               yes: {{yes}}
+               no: {{no}}
+             {{/if}}
+          </li>
+        {{/this.personality}}
+      </ul>
+    </div>
+  {{/each}}
+{{/each}}
