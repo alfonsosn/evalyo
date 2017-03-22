@@ -65,17 +65,17 @@ const getCourseDetail = (professor, courseId) => {
 // Ratings Class
 class Ratings {
 
-  getQuestions(ids) {
+  setQuestions(ids) {
     return this.ratings.filter((question) =>
     ids.includes(question.id));
   }
 
   constructor(semester, times_taught) {
     this.ratings = getSingleRatings(semester);
-    this.organization = this.getQuestions(organization_q_ids)
-    this.clarity = this.getQuestions(clarity_q_ids)
-    this.personality = this.getQuestions(personality_q_ids)
-    this.experience = this.getQuestions(experience_q_ids)
+    this.organization = this.setQuestions(organization_q_ids)
+    this.clarity = this.setQuestions(clarity_q_ids)
+    this.personality = this.setQuestions(personality_q_ids)
+    this.experience = this.setQuestions(experience_q_ids)
     this.times_taught = times_taught
     this.experience.push({
       id: 'XX',
@@ -116,7 +116,7 @@ router.get('/:prof/:course', (req, res) => {
     const professor = parseProfJSON(data);
     const semesters = getSemesters(professor, courseId);
     const times_taught = aggregates_experience(professor, courseId)
-    let ratings = new Ratings(semesters[0], times_taught);
+    const ratings = new Ratings(semesters[0], times_taught);
     const courseDetail = getCourseDetail(professor, courseId);
 
     res.render('course', {
