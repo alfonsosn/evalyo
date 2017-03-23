@@ -1,3 +1,6 @@
-jQuery(document).ready(function(){
-  console.log("hello")
+
+$(document).ready(function() {
+	$('h2').on('click', function(){
+    $(this).parent().children("#review").toggleClass("hide")
+	})
 });

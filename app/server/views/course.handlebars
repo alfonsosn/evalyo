@@ -7,72 +7,74 @@
 
 {{#each evaluations}}
   {{#each this}}
-    <h2> {{this.semester}} </h2>
-    <div class="mdc-card demo-card">
-      <section class="mdc-card__primary mdc-typography--title">
-        Clarity:
-      </section>
-      <ul class="mdc-list">
-        {{#this.clarity}}
-          <li class="mdc-list-item">
-          <b>{{question}} </b> :
-             {{#if average}}
-               {{average}}
-             {{else}}
-               yes: {{yes}}
-               no: {{no}}
-             {{/if}}
-          </li>
-        {{/this.clarity}}
-      </ul>
-      <section class="mdc-card__primary mdc-typography--title">
-        Organization:
-      </section>
-      <ul class="mdc-list">
-        {{#this.organization}}
-          <li class="mdc-list-item">
-          <b>{{question}} </b> :
-             {{#if average}}
-               {{average}}
-             {{else}}
-               yes: {{yes}}
-               no: {{no}}
-             {{/if}}
-          </li>
-        {{/this.organization}}
-      </ul>
-      <section class="mdc-card__primary mdc-typography--title">
-        Experience:
-      </section>
-      <ul class="mdc-list">
-        {{#this.experience}}
-          <li class="mdc-list-item">
-          <b>{{question}} </b> :
-             {{#if average}}
-               {{average}}
-             {{else}}
-               yes: {{yes}}
-               no: {{no}}
-             {{/if}}
-          </li>
-        {{/this.experience}}
-      </ul>
-      <section class="mdc-card__primary mdc-typography--title">
-        Personality:
-      </section>
-      <ul class="mdc-list">
-        {{#this.personality}}
-          <li class="mdc-list-item">
-          <b>{{question}} </b> :
-             {{#if average}}
-               {{average}}
-             {{else}}
-               yes: {{yes}}
-               no: {{no}}
-             {{/if}}
-          </li>
-        {{/this.personality}}
-      </ul>
-    </div>
+    <semester>
+      <h2> <a style="cursor:pointer; text-decoration: underline;color: blue;">{{this.semester}}</a></h2>
+      <div id="review" class="hide" class="mdc-card demo-card">
+        <section class="mdc-card__primary mdc-typography--title">
+          Clarity:
+        </section>
+        <ul class="mdc-list">
+          {{#this.clarity}}
+            <li class="mdc-list-item">
+            <b>{{question}} </b> :
+               {{#if average}}
+                 {{average}}
+               {{else}}
+                 yes: {{yes}}
+                 no: {{no}}
+               {{/if}}
+            </li>
+          {{/this.clarity}}
+        </ul>
+        <section class="mdc-card__primary mdc-typography--title">
+          Organization:
+        </section>
+        <ul class="mdc-list">
+          {{#this.organization}}
+            <li class="mdc-list-item">
+            <b>{{question}} </b> :
+               {{#if average}}
+                 {{average}}
+               {{else}}
+                 yes: {{yes}}
+                 no: {{no}}
+               {{/if}}
+            </li>
+          {{/this.organization}}
+        </ul>
+        <section class="mdc-card__primary mdc-typography--title">
+          Experience:
+        </section>
+        <ul class="mdc-list">
+          {{#this.experience}}
+            <li class="mdc-list-item">
+            <b>{{question}} </b> :
+               {{#if average}}
+                 {{average}}
+               {{else}}
+                 yes: {{yes}}
+                 no: {{no}}
+               {{/if}}
+            </li>
+          {{/this.experience}}
+        </ul>
+        <section class="mdc-card__primary mdc-typography--title">
+          Personality:
+        </section>
+        <ul class="mdc-list">
+          {{#this.personality}}
+            <li class="mdc-list-item">
+            <b>{{question}} </b> :
+               {{#if average}}
+                 {{average}}
+               {{else}}
+                 yes: {{yes}}
+                 no: {{no}}
+               {{/if}}
+            </li>
+          {{/this.personality}}
+        </ul>
+      </div>
+    </semester>
   {{/each}}
 {{/each}}

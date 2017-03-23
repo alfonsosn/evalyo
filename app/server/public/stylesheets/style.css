@@ -12,6 +12,23 @@ footer{
 	display: flex;
 }
 
+/*TBD*/
+
+.show{
+	display: block;
+}
+
+.hide{
+	display: none;
+}
+
+.viewport{
+  margin-top: 6em;
+	margin-bottom: 6em;
+  overflow: scroll;
+}
+
+
 /*Font-Awesome changes*/
 
 .glyphs{
@@ -26,13 +43,5 @@ footer{
 }
 
 .glyphs a {
-  color: inherit;
-}
-
-/*TBD*/
-
-.viewport{
-  margin-top: 6em;
-	margin-bottom: 6em;
-  overflow: scroll;
+	color: inherit;
 }
