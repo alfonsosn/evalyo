@@ -6,6 +6,7 @@
 </professor-title>
 
 {{#each evaluations}}
+{{#each this}}
   <semester>
     <h2> <a style="cursor:pointer; text-decoration: underline;color: blue;">{{this.semester}}</a></h2>
     <div id="review" class="hide" class="mdc-card demo-card">
@@ -75,4 +76,5 @@
       </ul>
     </div>
   </semester>
+  {{/each}}
 {{/each}}

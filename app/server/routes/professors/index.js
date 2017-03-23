@@ -106,15 +106,15 @@ class Ratings {
 class Evaluation {
   setEvaluation (semesters) {
     semesters.forEach((rating) => {
-        this.evaluations = new Ratings(rating, this.times_taught)
+        this.evaluations.push(new Ratings(rating, this.times_taught))
       });
-      console.log(this.evaluations.organization)
-  }
+    }
 
   constructor(semester_ratings, times_taught){
     this.evaluations = []
     this.times_taught = times_taught
     this.setEvaluation(semester_ratings)
+
   }
 }
 
