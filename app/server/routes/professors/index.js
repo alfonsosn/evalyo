@@ -21,10 +21,25 @@ const roundAverage = (element, num) => {
   return element
 }
 
-const aggregates_experience = (professors, courseId) => (
+const aggregatesExperience = (professors, courseId) => (
   professors.courses.reduce((total, course) =>
     course.subject === courseId ? total + 1 : total , 0)
 );
+
+const aggregateRatings = (ratings_array){
+  ratings_array.forEach((element, index, arr) => {
+    element.count = 1
+    for (var j = index + 1; j < arr.length; j++){
+      if (element.id == arr[j].id){
+        element.rating += arr[j].rating;
+        element.count++;
+        arr.splice(j, 1);
+      }
+    }
+    element.rating = element.rating / element.count
+  });
+}
+
 
 // Parser from Server
 const parseProfJSON = (data) => {
