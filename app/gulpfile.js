@@ -15,7 +15,7 @@ gulp.task('reload', function () {
 
 gulp.task('lintJS', function () {
 
-  return gulp.src('./server/**/*.js')
+  return gulp.src(['./server/**/*.js', "!server/public/js/*.js"])
   .pipe(eslint())
   .pipe(eslint.format())
   .pipe(eslint.failOnError());
@@ -23,9 +23,6 @@ gulp.task('lintJS', function () {
 });
 
 gulp.task('default', function () {
-
     livereload.listen();
-
-    gulp.watch('server/**/*.js', ['lintJS']);
-
+    gulp.watch(['server/**/*.js'], ['lintJS']);
   })

@@ -26,11 +26,11 @@ const aggregatesExperience = (professors, courseId) => (
     course.subject === courseId ? total + 1 : total , 0)
 );
 
-const aggregateRatings = (ratings_array){
+const aggregateRatings = (ratings_array) => {
   ratings_array.forEach((element, index, arr) => {
     element.count = 1
     for (var j = index + 1; j < arr.length; j++){
-      if (element.id == arr[j].id){
+      if (element.id === arr[j].id){
         element.rating += arr[j].rating;
         element.count++;
         arr.splice(j, 1);
@@ -80,20 +80,6 @@ const getCourseSubject = (professor, courseId) => {
     }
 }
 
-class Evaluation {
-  setEvaluation (semesters) {
-    semesters.forEach((rating) => {
-        this.evaluations.push(new Ratings(rating, this.times_taught))
-      });
-  }
-
-  constructor(semester_ratings, times_taught){
-    this.evaluations = []
-    this.times_taught = times_taught
-    this.setEvaluation(semester_ratings)
-  }
-}
-
 // Ratings Class
 class Ratings {
   setQuestions(ids) {
@@ -114,6 +100,20 @@ class Ratings {
       question: 'Times the professor taught this class',
       average: times_taught
     });
+  }
+}
+
+class Evaluation {
+  setEvaluation (semesters) {
+    semesters.forEach((rating) => {
+        this.evaluations.push(new Ratings(rating, this.times_taught))
+      });
+  }
+
+  constructor(semester_ratings, times_taught){
+    this.evaluations = []
+    this.times_taught = times_taught
+    this.setEvaluation(semester_ratings)
   }
 }
 
@@ -147,8 +147,8 @@ router.get('/:prof/:course', (req, res) => {
   getProf(file).then((data) => {
     const professor = parseProfJSON(data);
     const semesters_ratings = getSemesters(professor, courseId);
-    const times_taught = aggregates_experience(professor, courseId)
-    const evaluations = new Evaluation(semesters_ratings, times_taught)
+    const times_taught = aggregatesExperience(professor, courseId);
+    const evaluations = new Evaluation(semesters_ratings, times_taught);
     const subject = getCourseSubject(professor, courseId);
 
     res.render('course', {
@@ -158,6 +158,5 @@ router.get('/:prof/:course', (req, res) => {
     });
   });
 });
-
 
 module.exports = router;
