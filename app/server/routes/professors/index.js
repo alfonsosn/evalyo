@@ -31,14 +31,17 @@ const aggregateRatings = (ratings_array) => {
     element.count = 1
     for (var j = index + 1; j < arr.length; j++){
       if (element.id === arr[j].id){
-        element.rating += arr[j].rating;
+        element.average += arr[j].average;
         element.count++;
         arr.splice(j, 1);
       }
     }
-    element.rating = element.rating / element.count
+    element.average = element.average / element.count
   });
 }
+
+
+
 
 
 // Parser from Server
@@ -114,7 +117,6 @@ class Evaluation {
     this.evaluations = []
     this.times_taught = times_taught
     this.setEvaluation(semester_ratings)
-
   }
 }
 
