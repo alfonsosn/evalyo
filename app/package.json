@@ -5,7 +5,7 @@
   "main": "start.js",
   "scripts": {
     "start": "nodemon --watch server -e js,html start.js",
-    "postinstall": "gulp build"
+    "postinstall": "gulp"
   },
   "dependencies": {
     "bluebird": "3.5.0",
