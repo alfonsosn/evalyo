@@ -25,34 +25,6 @@ const getSingleRatings = (semester) => {
   return ratings
 }
 
-// needs refactoring
-
-const aggregateRatings = (ratings_array) => {
-  ratings_array.forEach((element, index, arr) => {
-    element.count = 1
-    for (var j = index + 1; j < arr.length; j++){
-      if (element.id === arr[j].id) {
-        if (_.has(element, 'average')){
-          element.average += arr[j].average;
-        }
-        else if (_.has(element, 'average')){
-          element.yes = filterInt(element.yes);
-          element.no = filterInt(element.no);
-          element.noAnswer = filterInt(element.noAnswers);
-          element.yes += filterInt(arr[j].yes);
-          element.no += filterInt(arr[j].no);
-          element.noAnswer += filterInt(arr[j].noAnswers);
-        }
-        element.count++;
-        arr.splice(j, 1);
-      }
-    }
-    if (element.id <= 15){
-      element.average = element.average / element.count
-      element.average = _.round(element.average, 2);
-    }
-  });
-}
 
 // Ratings Class
 class Ratings {
@@ -77,25 +49,82 @@ class Ratings {
   }
 }
 
+class aggRating {
+  setQuestions(ids) {
+    return this.ratings.filter((question) =>
+    ids.includes(question.id));
+  }
+
+  constructor(semester, times_taught) {
+    this.ratings = semester.questions
+    this.semester = semester.semester;
+    this.organization = this.setQuestions(organization_q_ids);
+    this.clarity = this.setQuestions(clarity_q_ids);
+    this.personality = this.setQuestions(personality_q_ids);
+    this.experience = this.setQuestions(experience_q_ids);
+    this.times_taught = times_taught;
+    this.experience.push({
+      id: 'XX',
+      question: 'Times the professor taught this class',
+      average: times_taught
+    });
+  }
+}
+
 // Evaluations class
 
 class Evaluation {
+
+  aggregator(arr){
+     let length = 20
+     let number_of_courses = arr.length
+     let aggregateArr = []
+     for (let i = 0; i < length; i++){
+       let question = {
+         id: arr[0][i].id,
+         question: arr[0][i].question,
+       }
+
+       if (arr[0][i].average){
+         question.average = 0
+         for (let j = 0; j < number_of_courses; j++){
+            question.average += arr[j][i].average
+         }
+         // dividing by number of courses to get the average
+         question.average = Math.round(question.average / number_of_courses)
+       } else {
+         question.yes = 0
+         question.no = 0
+         for (let j = 0; j < number_of_courses; j++){
+            question.yes += Number(arr[j][i].yes)
+            question.no += Number(arr[j][i].no)
+         }
+       }
+       aggregateArr.push(question)
+     }
+
+     return aggregateArr
+  }
+
+  aggregateQuestions(ratings_array) {
+    let aggregator = []
+    ratings_array.forEach((rating) => {
+      aggregator.push(rating.questions)
+    })
+    return aggregator
+  }
+
   setEvaluation (semesters) {
-      let aggregate = [ ]
       semesters.forEach((rating) => {
         this.evaluations.push(new Ratings(rating, this.times_taught))
       });
-      semesters.forEach((rating) => {
-        aggregate.push(rating.questions)
-      })
-      let all_questions = _.flatten(aggregate)
-      aggregateRatings(all_questions)
-      let aggregateRating = {};
-      aggregateRating.semester = 'Aggregate';
-      aggregateRating.semester = 'Aggregate';
-      aggregateRating.questions = all_questions
-      console.log(aggregateRating)
-    }
+      let all_questions = this.aggregateQuestions(semesters)
+      let aggregateReview = {}
+      aggregateReview.semester = 'Aggregrate'
+      aggregateReview.subject = semesters[0].subject
+      aggregateReview.questions = this.aggregator(all_questions)
+      this.evaluations.push(new aggRating(aggregateReview, this.times_taught))
+  }
 
   constructor(semester_ratings, times_taught){
     this.evaluations = []
