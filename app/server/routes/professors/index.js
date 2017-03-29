@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
 })
 
 router.get('/:prof', (req, res) => {
-  let file = __dirname + '/' + req.params.prof + '.json';
+  let file = __dirname + '/cs_professors/' + req.params.prof + '.json';
 
   p.getProf(file).then((data) => {
     let professors = p.parseProfJSON(data)
@@ -27,7 +27,7 @@ router.get('/:prof', (req, res) => {
   })
 
 router.get('/:prof/:course', (req, res) => {
-  let file = __dirname + '/' + req.params.prof + '.json';
+  let file = __dirname + '/cs_professors/' + req.params.prof + '.json';
   let courseId = req.params.course.replace(/_/g, " ");
 
   p.getProf(file).then((data) => {
