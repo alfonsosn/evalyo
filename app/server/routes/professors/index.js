@@ -1,6 +1,6 @@
 'use strict'
 var router = require('express').Router();
-var p = require('./parsers.js')
+var p = require('./parser.js')
 var h = require('./helpers.js')
 
 // routes
@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
 router.get('/:prof', (req, res) => {
   let file = __dirname + '/cs_professors/' + req.params.prof + '.json';
 
-  p.getProf(file).then((data) => {
+  p.getJSON(file).then((data) => {
     let professors = p.parseProfJSON(data)
 
     res.render('professor', {
