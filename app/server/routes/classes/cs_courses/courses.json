@@ -1,0 +1,286 @@
+{
+  "CSCI" : [{
+    "Prefix": "CSCI",
+    "Code": 11500,
+    "Name": "Computer Technology in Childhood Education",
+    "Description": "Open only to students in QUEST program. Students learn to use a number of software tools and applications that can be infused into the curriculum of the elementary school. Includes a focus on information retrieval using Internet resources and use of such application packages as Miosoft Excel, Miosoft Power Point, Inspiration and Timeliner."
+
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 12000,
+    "Name": "Introduction to Computers",
+    "Description": "Intended for non-majors. Basic concepts of computer technology. Principles of hardware operation, software and networking. Roles of computers in society, including ethical and legal issues."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 12100,
+    "Name": "Computers and Money: Quantitative Reasoning in Context",
+    "Description": "Quantitative reasoning tackled from a computer based perspective and focusing on practical financial topics-stocks, gambling, inflation, diversification, taxes, hedging, saving, real estate, retirement and others. Students take a hands-on, spreadsheet- based approach to understanding issues of money and personal finance."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 12700,
+    "Name": "Introduction to Computer Science",
+    "Description": "A technical introduction to computer science. Organization of hardware, software, information and an introduction to programming. This course is meant for: potential computer science majors who may not be prepared for CSCI 135; science majors who need some basic computer knowledge; and non-CSCI majors who want a more rigorous introduction to the field than CSCI 120 provides."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 13200,
+    "Name": "Practical UNIX and Programming, with Lab",
+    "Description": "An introduction to computer programming and the UNIX operating system using Perl. Conceptual overview of the UNIX operating system and programming environment, a practical introduction to shell programming, and the use of UNIX filters and utilities. A pragmatic course with an emphasis on skills acquisition."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 13300,
+    "Name": "Programming for Everyone",
+    "Description": "A comprehensive practical course in programming that concentrates on producing working software for games, simulations, animations, data manipulations, interacting with the Internet, graphical user interfaces and many other application areas. No programming experience is necessary. This course is required for Computer Science minors. <span>This course does<u> not </u>count toward the computer science major.<i> </i></span>"
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 13500,
+    "Name": "Software Analysis and Design I",
+    "Description": "This first course for prospective computer science majors and minors concentrates on problem-solving techniques using a high-level programming language. The course includes a brief overview of computer systems."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 13600,
+    "Name": "Supervised Programming Lab",
+    "Description": "Students work in small teams to complete weekly programming assignments under the supervision of an instructor. Assignments are at the level of material covered in CSCI 135 and CSCI 127 though this is not a recitation or review section for either course. Emphasis is on solving problems in a cooperative programming environment."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 15000,
+    "Name": "Discrete Structures",
+    "Description": "Mathematical background required for computer science. Sets, relations, cardinality, propositional calculus, discrete functions, truth tables, induction, combinatorics."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 16000,
+    "Name": "Computer Architecture I",
+    "Description": "Boolean algebra, data representation, combina­tional circuits and minimization, sequential cir­cuits. "
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 18100,
+    "Name": "Independent Workshop",
+    "Description": "Outside internship in practical aspects of computing; e.g., systems programming, biomedical computing, computer-aided instruction."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 18200,
+    "Name": "Independent Workshop",
+    "Description": "Outside internship in practical aspects of computing; e.g., systems programming, biomedical computing, computer-aided instruction."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 18300,
+    "Name": "Independent Workshop",
+    "Description": "Outside internship in practical aspects of computing; e.g., systems programming, biomedical computing, computer-aided instruction."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 23200,
+    "Name": "Relational Databases and SQL Programming, with Lab",
+    "Description": "An introduction to elementary database concepts and SQL, the standard language for communicating with most database systems. A pragmatic course with an emphasis on skills acquisition; students will learn how to get things done quickly and easily in a database environment."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 23300,
+    "Name": "Programming Projects Seminar for Minors",
+    "Description": "This course will serve as a capstone for the minor, affording students the opportunity to write reasonably large and complex programs. Students will be expected to draw topics for these programs from their majors or other areas of interest. This course does not count toward the computer science major."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 23500,
+    "Name": "Software Analysis and Design II",
+    "Description": "Representation of information in computers, including process and data abstraction techniques. Topics covered include static and dynamic storage methods, lists, stacks, queues, binary trees, recursion, analysis of simple algorithms and some searching and sorting algorithms."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 24500,
+    "Name": "Computer Architecture II",
+    "Description": "Boolean algebra, data representation, combinational circuits and minimization, sequential circuits."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 26000,
+    "Name": "Computer Architecture II",
+    "Description": "Organization of computer systems and design of system elements, including ALU, memories and interfaces. Some assembly language programming."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 26500,
+    "Name": "Computer Theory I",
+    "Description": "Recursion, regular sets, regular expressions, finite automata, context-free grammars, pushdown automata."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 26700,
+    "Name": "Microprocessors and Embedded Systems",
+    "Description": "Students will assemble and program a small single board computer to control, or simulate control of, some device "
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 33500,
+    "Name": "Software Analysis and Design III",
+    "Description": "The design and analysis of various types of algorithms, including searching, sorting, graph and tree algorithms. Problem-solving techniques. Worst and average case behavior analysis and optimality. Polynomial time complexity classes and theory, including NP-completeness."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 34000,
+    "Name": "Operating Systems",
+    "Description": "Definition of functions and components of operating systems. Survey of contemporary multiprocessing/ multiprogramming systems. Exploration of systems programs: their design, internal structure and implementation."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 35000,
+    "Name": "Artificial Intelligence",
+    "Description": "A survey of artificial intelligence including search and control, knowledge representation, logic and theorem proving, learning, natural language and AI programming."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 35500,
+    "Name": "Introduction to Linear Programming",
+    "Description": "Introduction to operations research and game theory. Simplex method; inconsistency, redundancy and degeneracy problems; two-phase method; duality; transportation problems."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 36000,
+    "Name": "Computer Architecture III",
+    "Description": "High performance computer architectures, including massively parallel SIMD and MIMD machines and distributed architectures."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 36500,
+    "Name": "Computer Theory II",
+    "Description": "Turing machines, Post machines, Post's theorem, Minsky's theorem. Determinism and non-determinism. Undecidability, the halting problem. Recursive function theory."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 38500,
+    "Name": "Numerical Methods I",
+    "Description": "Accuracy and precision, convergence, iterative and direct methods. Topics selected from: solution of polynomial equations and linear systems of equations, curve fitting and function approximation, interpolation, differentiation and integration, differential equations."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 39100,
+    "Name": "Independent Study in Computer Science",
+    "Description": "Independent work, under the direction of a faculty member, in practical aspects of computing."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 39200,
+    "Name": "Independent Study in Computer Science",
+    "Description": "Independent work, under the direction of a faculty member, in practical aspects of computing."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 39300,
+    "Name": "Independent Study in Computer Science",
+    "Description": "Independent work, under the direction of a faculty member, in practical aspects of computing."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 39400,
+    "Name": "Topics in Computer Science",
+    "Description": "An introduction to  programming in Python, Perl and PHP."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 39500,
+    "Name": "Topics in Computer Science",
+    "Description": "Topics include internet security, web programming, genetic algorithms, expert systems and others."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 40500,
+    "Name": "Software Engineering",
+    "Description": "Problems in large-scale software development including functional analysis of information processing systems, system design concepts, timing estimates, documentation and system testing."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 41500,
+    "Name": "Data Communications and Networks",
+    "Description": "A broad technical introduction to the components, protocols, organization, industry and regulatory issues that are fundamental to the understanding of contemporary computer networks."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 43500,
+    "Name": "Database Management",
+    "Description": "Hierarchical and network databases; theory of relational databases; normalization theory; query languages."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 45000,
+    "Name": "Language Translation",
+    "Description": "The theory and application of language recognition and analysis techniques, as they pertain to both formal programming languages and to natural languages. Includes lexical, syntactic and semantic analysis methods, as well as discussions of efficient data representation."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 46000,
+    "Name": "Advanced Programming Languages",
+    "Description": "Survey course on the design and implementation of modern programming languages. Includes object-oriented, functional, logic and concurrent/ distributed paradigms."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 48500,
+    "Name": "Numerical Methods II",
+    "Description": "Advanced topics selected from: solution of equations and systems of equations, curve fitting and function approximation, interpolation, differentiation and integration, differential equations. Major project will be assigned."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 49300,
+    "Name": "Honors Seminar",
+    "Description": "Topics include Unix systems programming, computer law, 3D vision, Windows programming, neural networks, speech and language processing, fuzzy systems and other areas. Prerequisites vary with specific topics and are announced prior to registration."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 49366,
+    "Name": "UNIX System Programming",
+    "Description": "An introduction to the key components of the UNIX application programming interface, including files, processes, terminal control, signals, interprocess communication, the ncurses library, and multi-threading. Includes basic of the internal structure of the UNIX operating system, and selected user-level utilities and commands for efficient programming and working in UNIX."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 49600,
+    "Name": "Supervised Research",
+    "Description": "Supervised work under the direction of a faculty member on an original research project. Although student-initiated projects are acceptable, in most cases students will be expected to work within a faculty member's active research area. These courses are repeatable. However, no more than a total of nine (9) Supervised Research credits may be counted toward the computer science major."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 49700,
+    "Name": "Supervised Research",
+    "Description": "Supervised work under the direction of a faculty member on an original research project. Although student-initiated projects are acceptable, in most cases students will be expected to work within a faculty member's active research area. These courses are repeatable. However, no more than a total of nine (9) Supervised Research credits may be counted toward the computer science major."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 49800,
+    "Name": "Supervised Research",
+    "Description": "Supervised work under the direction of a faculty member on an original research project. Although student-initiated projects are acceptable, in most cases students will be expected to work within a faculty member's active research area. These courses are repeatable. However, no more than a total of nine (9) Supervised Research credits may be counted toward the computer science major."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 49900,
+    "Name": "Advanced Applications: A Capstone for Majors",
+    "Description": "A chance for computer science majors to test their mettle on major projects. Working in small groups they will implement systems that involve at least two platforms running programs written in at least three languages. "
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 35300,
+    "Name": "Machine Learning",
+    "Description": "Machine learning is the subfield of artificial intelligence that learns to predict and classify from data. This interdisciplinary course explores <em>how</em> a machine learns to predict and classify."
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 17200,
+    "Name": "Topics in Creative Problem Solving",
+    "Description": "CSCI 172 is a pass/fail (CR/NC) faculty-supervised workshop that meets ten times per semester. Each workshop explores a different applied topic in computer science. An undergraduate peer leader presents slides, guides discussions, and engages the participants in activities that emphasize collaborative problem solving. This course explores the role of teamwork and in-class activities to improve student retention, with particular interest in underrepresented populations in computer science. "
+  },
+  {
+    "Prefix": "CSCI",
+    "Code": 49369,
+    "Name": "Big Data Technology",
+    "Description": "The increasing availability of big data has changed fundamental practices in business, health care, policy making, and scientific research. The primary objective of this course is to enable students to efficiently process, manage, reformulate, and mine an extremely large data set. This is an interdisciplinary course that considers data from many different sources. Students are welcome to work with their own interested domains in addition to the required ones. "
+    }
+  ]
+}

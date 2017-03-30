@@ -1,10 +1,17 @@
 'use strict';
 var router = require('express').Router();
-module.exports = router;
+var p = require('./parser.js')
 
 /* GET classes. */
 router.get('/', function(req, res) {
-  res.render('class', { title: 'CSCI 34000', name: "Operating Systems" });
-});
+  let file = __dirname + '/cs_courses/courses.json';
+
+  p.getJSON(file).then((data) => {
+    let courses = p.parseCoursesJSON(data)
+    res.render('class', {
+      courses: courses
+    })
+  })
+})
 
 module.exports = router;

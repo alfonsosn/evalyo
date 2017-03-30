@@ -18,6 +18,6 @@ exports.parseProfJSON = (data) => {
   return prof
 }
 
-exports.getProf = (file) => {
+exports.getJSON = (file) => {
   return fs.readFileAsync(file, 'utf8');
 }
