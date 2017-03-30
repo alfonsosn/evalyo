@@ -30,7 +30,7 @@ router.get('/:prof/:course', (req, res) => {
   let file = __dirname + '/cs_professors/' + req.params.prof + '.json';
   let courseId = req.params.course.replace(/_/g, " ");
 
-  p.getProf(file).then((data) => {
+  p.getJSON(file).then((data) => {
     const professor = p.parseProfJSON(data);
     const semesters_ratings = h.getSemesters(professor, courseId);
     const times_taught = h.aggregatesExperience(professor, courseId);
