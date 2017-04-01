@@ -17,11 +17,23 @@ var casper = require('casper').create({
 });
 
 
+var username = casper.cli.args[0]
+var password = casper.cli.args[1]
+var lastName = casper.cli.args[2]
+var firstName = casper.cli.args[3]
+
+if (!username || !password || !lastName || !firstName){
+    console.log('')
+    console.log('run the script with arguments [username] [password] [lastName] [firstName]')
+    console.log('i.e. casperjs scraper.js student 123 schweitzer eric')
+    console.log('')
+    this.exit();
+}
 
 // -------- Global Variables -------
 var prof = {
-  firstName: 'Eric',
-  lastName: 'Schweitzer',
+  firstName: firstName,
+  lastName: lastName,
   courses: []
 }
 
@@ -93,6 +105,20 @@ function getCourseData(){
                 }
          })
 
+         // Getting expected grade questions
+         var gradeQuestionArr = document.querySelectorAll('table')[19].children[0].children
+         var gradeQuestion = {
+           id: id++,
+           question:  'Grade you expect in this course',
+           A: gradeQuestionArr[1].children[1].innerText,
+           B: gradeQuestionArr[1].children[4].innerText,
+           C: gradeQuestionArr[2].children[1].innerText,
+           D: gradeQuestionArr[2].children[4].innerText,
+           F: gradeQuestionArr[3].children[1].innerText,
+           'CREDIT / NO CREDIT': gradeQuestionArr[3].children[4].innerText 
+         }
+         thirdQuestionArr.push(gradeQuestion)
+         
          return firstQuestionArr.concat(secondQuestionArr).concat(thirdQuestionArr)
        })
      })
@@ -225,20 +251,27 @@ casper.start().thenOpen("https://www.hunter.cuny.edu/myprof", function() {
 // Populate username and password, and submit the form
 casper.then(function(){
   console.log("Log in using username and password");
-  this.evaluate(function(){
+  this.evaluate(function(username, password){
     // remember to forgot
-        document.getElementById("P101_USERNAME").value='ae538';
-        document.getElementById("P101_PASSWORD").value='#8Burkini';
+        document.getElementById("P101_USERNAME").value= username;
+        document.getElementById("P101_PASSWORD").value= password;
         document.getElementById("P101_LOGIN").click();
+  }, {
+    username: username,
+    password: password
   });
 })
 
  //Wait to be redirected , then search for a professor
  casper.then(function(){
   console.log("logged in");
-   this.evaluate(function(){
-     document.getElementById("P3_LAST_NAME").value = 'SCHWEITZER'
+   this.evaluate(function(firstName, lastName){
+     __utils__.echo('professor: ', lastName + ', ' + firstName)
+     document.getElementById("P3_LAST_NAME").value = lastName + ', ' + firstName;
      document.getElementById("P3_GO").click();
+   }, {
+     firtName: firstName,
+     lastName: lastName
    });
  });
 
@@ -277,6 +310,7 @@ casper.then(function(){
 
 // ---- Begin Casper Run, then save to file as JSON -----
 casper.run(function(){
-   this.saveJSON(prof);
-   this.exit();
+
+  this.saveJSON(prof);
+  this.exit();
 });
