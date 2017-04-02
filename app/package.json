@@ -4,8 +4,7 @@
   "description": "",
   "main": "start.js",
   "scripts": {
-    "start": "nodemon --watch server -e js,html start.js",
-    "postinstall": "gulp"
+    "start": "nodemon --watch server -e js,html start.js"
   },
   "dependencies": {
     "bluebird": "3.5.0",
