@@ -1,7 +1,8 @@
 {
-  "name": "myapp",
+  "name": "evalyo",
   "version": "0.0.1",
-  "description": "",
+  "description": "Teacher Evaluation",
+  "repository": "https://github.com/alfonsosn/evalyo",
   "main": "start.js",
   "scripts": {
     "start": "nodemon --watch server -e js,html start.js"
@@ -20,6 +21,7 @@
     "gulp-livereload": "^3.8.1",
     "handlebars": "4.0.6",
     "lodash": "~4.17.4",
+    "mongoose": "^4.9.2",
     "morgan": "~1.7.0",
     "nodemon": "^1.11.0",
     "pug": "~2.0.0-beta10",
