@@ -12,6 +12,21 @@ footer{
 	display: flex;
 }
 
+table{
+	border-collapse: collapse;
+	width: 75%;
+
+}
+
+td{
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(odd){
+	background-color: #dddddd;
+}
+
 /*TBD*/
 
 .show{
