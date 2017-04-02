@@ -9,70 +9,87 @@
 {{#each this}}
   <semester>
     <h2> <a style="cursor:pointer; text-decoration: underline;color: blue;">{{this.semester}}</a></h2>
-    <div id="review" class="hide" class="mdc-card demo-card">
-      <section class="mdc-card__primary mdc-typography--title">
-        Clarity:
-      </section>
+    <div id="review" class="hide" class="mdc-card demo-card">  
+
+      {{!Clarity Section}} 
+      <section class="mdc-card__primary mdc-typography--title">Clarity</section>  
       <ul class="mdc-list">
+        <table> 
         {{#this.clarity}}
-          <li class="mdc-list-item">
-          <b>{{question}} </b> :
-             {{#if average}}
-               {{average}}
-             {{else}}
-               yes: {{yes}}
-               no: {{no}}
+          <li>
+         <tr> 
+           <td> <b> {{question}}  : </b> </td>
+             <td> {{#if average}} </td>
+              <td> {{average}} </td>
+           <td>  {{else}} </td>
+            <td>   Yes: {{yes}} </td> 
+              <td> No: {{no}} </td>
+         </tr>
              {{/if}}
           </li>
         {{/this.clarity}}
+        </table>
       </ul>
-      <section class="mdc-card__primary mdc-typography--title">
-        Organization:
-      </section>
+      
+
+       {{!Organization Section}} 
+      <section class="mdc-card__primary mdc-typography--title">Organization</section>
       <ul class="mdc-list">
+        <table> 
         {{#this.organization}}
-          <li class="mdc-list-item">
-          <b>{{question}} </b> :
-             {{#if average}}
-               {{average}}
-             {{else}}
-               yes: {{yes}}
-               no: {{no}}
+          <li>
+          <tr> 
+           <td> <b> {{question}}  : </b> </td>
+             <td> {{#if average}} </td>
+              <td> {{average}} </td>
+           <td>  {{else}} </td>
+            <td>   Yes: {{yes}} </td> 
+              <td> No: {{no}} </td>
+         </tr>
              {{/if}}
           </li>
         {{/this.organization}}
+        </table>
       </ul>
-      <section class="mdc-card__primary mdc-typography--title">
-        Experience:
-      </section>
+
+       {{!Experience Section}} 
+      <section class="mdc-card__primary mdc-typography--title">Experience</section>
       <ul class="mdc-list">
+        <table> 
         {{#this.experience}}
-          <li class="mdc-list-item">
-          <b>{{question}} </b> :
-             {{#if average}}
-               {{average}}
-             {{else}}
-               yes: {{yes}}
-               no: {{no}}
+          <li>
+          <tr> 
+           <td> <b> {{question}}  : </b> </td>
+             <td> {{#if average}} </td>
+              <td> {{average}} </td>
+           <td>  {{else}} </td>
+            <td>   Yes: {{yes}} </td> 
+              <td> No: {{no}} </td>
+         </tr>
              {{/if}}
           </li>
         {{/this.experience}}
+        </table> 
       </ul>
-      <section class="mdc-card__primary mdc-typography--title">
-        Personality:
-      </section>
+
+       {{!Personality Section}} 
+      <section class="mdc-card__primary mdc-typography--title">Personality</section>
       <ul class="mdc-list">
+        <table> 
         {{#this.personality}}
-          <li class="mdc-list-item">
-          <b>{{question}} </b> :
-             {{#if average}}
-               {{average}}
-             {{else}}
-               yes: {{yes}}
-               no: {{no}}
+          <li>
+         <tr> 
+           <td> <b> {{question}}  : </b> </td>
+             <td> {{#if average}} </td>
+              <td> {{average}} </td>
+           <td>  {{else}} </td>
+            <td>   Yes: {{yes}} </td> 
+              <td> No: {{no}} </td>
+         </tr>
              {{/if}}
           </li>
         {{/this.personality}}
+        </table> 
       </ul>
     </div>
   </semester>
