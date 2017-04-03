@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 // Initializing models by importing routes
 const ProfessorModel = require('./models/professors');
 const CourseModel = require('./models/courses')
-const ClassModel = require('./models/classes')
+const RatingsModel = require('./models/ratings')
 
 const fs = require('fs')
 const path = require('path');
@@ -21,7 +21,7 @@ const startDb = () => new Promise((resolve) => {
 
 const insertCourses = (courses, firstName, lastName) =>
   new Promise((resolve) => {
-    const recursiveInsert = (courses, index) => {
+    const recursiveInsert = (index) => {
       if (index === courses.length) resolve()
       const course = courses[index]
       const subject = course.subject
@@ -30,22 +30,22 @@ const insertCourses = (courses, firstName, lastName) =>
         firstName: firstName,
         lastName: lastName
       })
-        .then((response) => {
-          console.log('course: ', response)
-          // insert ratings
-          ClassModel.findOrCreate({
-            firstName: firstName,
-            lastName: lastName,
-            semester: course.semester,
-            subject: subject.split(' ')[0] + ' ' + subject.split(' ')[1].slice(0, 3),
-            questions: course.questions
-          }).then((response) => {
-            console.log('class: ', response)
-            recursiveInsert(courses, index + 1)
-          })
+      .then((response) => {
+        console.log('course: ', response)
+        // insert ratings
+        RatingsModel.findOrCreate({
+          firstName: firstName,
+          lastName: lastName,
+          semester: course.semester,
+          subject: subject.split(' ')[0] + ' ' + subject.split(' ')[1].slice(0, 3),
+          questions: course.questions
+        }).then((response) => {
+          console.log('class: ', response)
+          recursiveInsert(index + 1)
         })
+      })
     }
-    recursiveInsert(courses, 0)
+    recursiveInsert(0)
   })
 
 const connect = () => startDb().then(() => {
@@ -64,20 +64,15 @@ const connect = () => startDb().then(() => {
 
         // Finding or creating professor
         // Note: we are not updating anything
-        ProfessorModel.findOneAndUpdate({
+        ProfessorModel.findOrCreate({
           firstName: firstName,
           lastName: lastName
-        }, {}, {
-            upsert: true,
-            new: true
-          }, (err, prof) => {
-            if (err) throw err
-            console.log('prof: ', prof)
+        }).then((response) => {
+          console.log(response)
+          const courses = profObj.courses
+          insertCourses(courses, firstName, lastName).then(() => {
+            console.log('---- done -----')
           })
-
-        const courses = profObj.courses
-        insertCourses(courses, firstName, lastName).then(() => {
-          console.log('---- done -----')
         })
       })
     })
