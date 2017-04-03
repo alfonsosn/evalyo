@@ -3,11 +3,9 @@ var Schema = mongoose.Schema;
 
 
 var ProfessorSchema = new Schema({
- firstname: {type: String, required: true},
- lastName:  {type: String, required: true},
- courses: [Schema.Types.Mixed]
+  firstName: {type: String, required: true},
+  lastName:  {type: String, required: true},
 });
-
 
 
 module.exports = mongoose.model('Professor', ProfessorSchema);
