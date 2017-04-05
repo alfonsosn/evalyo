@@ -21,7 +21,7 @@
 
 - [X] Play with handlebars to add tables.
 
-### Next WEek
+### Next Week
 
 - [X] Marshall is going to DRAW mockups of the apps that are better
 - [X] Alfonso is going to learn REACT on Codeschool
