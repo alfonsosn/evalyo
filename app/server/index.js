@@ -2,6 +2,13 @@
 var path = require('path');
 var express = require('express');
 var app = express();
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/evalyo')
+// Importing models
+// const ProfessorModel = require('../db/models/professors');
+// const CourseModel = require('../db/models/courses')
+// const RatingsModel = require('../db/models/ratings')
+
 module.exports = app;
 
 require('./configure')(app);

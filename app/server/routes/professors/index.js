@@ -2,6 +2,7 @@
 var router = require('express').Router();
 var p = require('./parser.js')
 var h = require('./helpers.js')
+const Course = require('../../../db/models/courses')
 
 // routes
 router.get('/', (req, res) => {
@@ -9,22 +10,31 @@ router.get('/', (req, res) => {
 })
 
 router.get('/:prof', (req, res) => {
-  let file = __dirname + '/cs_professors/' + req.params.prof + '.json';
-
-  p.getJSON(file).then((data) => {
-    let professors = p.parseProfJSON(data)
-
+ console.log(req.params.prof)
+  Course.find({firstName : req.params.prof.toUpperCase()}, (error, courses) => {
+    if (error) console.log(error)
+    
+    const professor = courses[0] ? 
+      { firstName: '', lastName: '' }
+      : { firstName: courses[0].firstName, 
+          lastName: courses[0].lastName }
+         
+    const titles = courses.map(course => course.subject)
+    
     res.render('professor', {
-        professor: professors,
-        courses: professors.courseTitles,
-        helpers: {
-          lower: (word) => {
-            return word.toLowerCase()
-          }
+      professor: professor,
+      courses: titles,
+      helpers: {
+        lower: (word) => {
+          return word.toLowerCase()
         }
-      })
+      }
     })
   })
+  //  let file = __dirname + '/cs_professors/' + req.params.prof + '.json';
+  // p.getJSON(file).then((data) => {
+  //   Course.
+})
 
 router.get('/:prof/:course', (req, res) => {
   let file = __dirname + '/cs_professors/' + req.params.prof + '.json';
