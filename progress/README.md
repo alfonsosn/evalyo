@@ -112,12 +112,10 @@ I've guided Marshall in his interest in learning about front-end design, advisin
 Users of the App (students) Frontend Service
 	- Why would they want to use it?
 	- Useful to find out about their future professor
-	- Ease of Access 
-		- Easy categorization
+	- Ease of Access / Easy categorization
 	- How does it compare to MyProf / RMP
-		- Aggregation: the most amount of information
-		in the least amount of time. Unlike MyProf
-		- More Data == More Accuracy from RMP
+	- Aggregation: the most amount of information in the least amount of time. Unlike MyProf
+	- More Data == More Accuracy from RMP
 	- Sleek User Interface 
 	- RMP doesn’t have course query
 
@@ -133,14 +131,13 @@ Departments we’re going to Scrape
 	- Math (Marshall)
 	- Philosophy (Marshall / Ahmed)
 
-In terms of design (https://wireframe.cc/LUiS9C)
-	- How will we present lists (use icons)
-		- all departments (header is icon)
-		- professors (header is initials)
-		- classes (header is course num)
 
-	- How will we presents tables
-		- aggregate review for every classes 		each semester
-		- https://wireframe.cc/gjHLQg
+How will we present lists (use icons) (https://wireframe.cc/LUiS9C)
+	- all departments (header is icon)
+	- professors (header is initials)
+	- classes (header is course num)
+
+How will we presents tables (https://wireframe.cc/gjHLQg)
+	- aggregate review for every classes each semester
 
 
