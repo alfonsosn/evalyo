@@ -110,34 +110,34 @@ I've guided Marshall in his interest in learning about front-end design, advisin
 ## Week Eight: Spring Break Notes
 
 Users of the App (students) Frontend Service
-	- Why would they want to use it?
-	- Useful to find out about their future professor
-	- Ease of Access / Easy categorization
-	- How does it compare to MyProf / RMP
-	- Aggregation: the most amount of information in the least amount of time. Unlike MyProf
-	- More Data == More Accuracy from RMP
-	- Sleek User Interface 
-	- RMP doesn’t have course query
+	1. Why would they want to use it?
+	2. Useful to find out about their future professor
+	3. Ease of Access / Easy categorization
+	4. How does it compare to MyProf / RMP
+	5. Aggregation: the most amount of information in the least amount of time. Unlike MyProf
+	6. More Data == More Accuracy from RMP
+	7. Sleek User Interface 
+	9. RMP doesn’t have course query
 
 What about the School? Backend Service
-	- Data-tracking / administration
+	1. Data-tracking / administration
 
 Departments we’re going to Scrape 
 (use this http://catalog.hunter.cuny.edu/content.php?catoid=28&navoid=5538)
-	- Computer Science 
-	- Biological Sciences (Ahmed)
-	- Chemistry (alfonso)
-	- Economics (lev)
-	- Math (Marshall)
-	- Philosophy (Marshall / Ahmed)
+	1. Computer Science 
+	2. Biological Sciences (Ahmed)
+	3. Chemistry (alfonso)
+	4. Economics (lev)
+	5. Math (Marshall)
+	6. Philosophy (Marshall / Ahmed)
 
 
 How will we present lists (use icons) (https://wireframe.cc/LUiS9C)
-	- all departments (header is icon)
-	- professors (header is initials)
-	- classes (header is course num)
+	1. all departments (header is icon)
+	2. professors (header is initials)
+	3. classes (header is course num)
 
 How will we presents tables (https://wireframe.cc/gjHLQg)
-	- aggregate review for every classes each semester
+	1. aggregate review for every classes each semester
 
 
