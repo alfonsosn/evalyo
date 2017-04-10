@@ -52,7 +52,7 @@ var selectedIndex = 0;
 // ---------- Functions ----------
 
 casper.saveJSON = function(what) {
-    fs.write('prof.json', JSON.stringify(what, null, '  '), 'w');
+    fs.write(prof.lastName + '.json', JSON.stringify(what, null, '  '), 'w');
     console.log('saved')
 };
 
