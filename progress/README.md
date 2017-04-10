@@ -106,3 +106,41 @@ I've worked so hard on the app and I'm very happy about the progress. I'm glad t
 In terms of Evalyo, Lev has worked on the scrapper and added more functionality to it. I'm happy with his work and I'm glad that he will begin to work on the database models, giving us a fuller application. 
 
 I've guided Marshall in his interest in learning about front-end design, advising him to learn HTML, CSS, and Twitter Bootstrap. With that, he build a pretty nice team website for the team. His next assignment is to learn Jquery and JS to build more interactive sites. In meantime, I assigned Ahmed an assignment to convert and XLS to JSON, which seemed to provide a certain degree of difficulty for him, but it seems that it was a good experience. He learn some python syntax which is good. Now I want to him to focus on Javascript. This might be timely since both him and Marshall will be learning how to use it at the same time. Hopefully, Marshall and Ahmed can collaborate to create a small front-end app that uses the information that Ahmed helped create into a JSON file.
+
+## Week Eight: Spring Break Notes
+
+Users of the App (students) Frontend Service
+	- Why would they want to use it?
+	- Useful to find out about their future professor
+	- Ease of Access 
+		- Easy categorization
+	- How does it compare to MyProf / RMP
+		- Aggregation: the most amount of information
+		in the least amount of time. Unlike MyProf
+		- More Data == More Accuracy from RMP
+	- Sleek User Interface 
+	- RMP doesn’t have course query
+
+What about the School? Backend Service
+	- Data-tracking / administration
+
+Departments we’re going to Scrape 
+(use this http://catalog.hunter.cuny.edu/content.php?catoid=28&navoid=5538)
+	- Computer Science 
+	- Biological Sciences (Ahmed)
+	- Chemistry (alfonso)
+	- Economics (lev)
+	- Math (Marshall)
+	- Philosophy (Marshall / Ahmed)
+
+In terms of design (https://wireframe.cc/LUiS9C)
+	- How will we present lists (use icons)
+		- all departments (header is icon)
+		- professors (header is initials)
+		- classes (header is course num)
+
+	- How will we presents tables
+		- aggregate review for every classes 		each semester
+		- https://wireframe.cc/gjHLQg
+
+
