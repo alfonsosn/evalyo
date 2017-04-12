@@ -19,32 +19,45 @@ const startDb = () => new Promise((resolve) => {
 });
 
 
-const insertCourses = (courses, firstName, lastName) =>
+const insertCourses = (courses, professor) =>
   new Promise((resolve) => {
     const recursiveInsert = (index) => {
-      if (index === courses.length) resolve()
-      const course = courses[index]
-      const subject = course.subject
-      CourseModel.findOrCreate({
-        subject: subject.split(' ')[0] + ' ' + subject.split(' ')[1].slice(0, 3),
-        firstName: firstName,
-        lastName: lastName
-      })
-      .then((response) => {
-        console.log('course: ', response)
-        // insert ratings
-        RatingsModel.findOrCreate({
-          firstName: firstName,
-          lastName: lastName,
-          semester: course.semester,
-          subject: subject.split(' ')[0] + ' ' + subject.split(' ')[1].slice(0, 3),
-          questions: course.questions
-        }).then((response) => {
-          console.log('class: ', response)
-          recursiveInsert(index + 1)
+      console.log('courses length: ', courses.length)
+      console.log('index: ', index)
+      if (index === courses.length){
+        return resolve()
+      }   
+      const current = courses[index]
+      console.log('course: ', courses[index] ? true : false)
+      const subject = current.subject
+      console.log('subject: ', subject)
+
+      CourseModel.findOneAndUpdate(
+        { subject: subject }, 
+        { $addToSet: {"professors": professor._id}},
+        { upsert: true, new: true})
+      .then((course) => {
+        ProfessorModel.findByIdAndUpdate(
+          professor._id,
+          { $addToSet: {"courses": course._id}}
+        )
+        .then(() => {
+          //if (err) throw err
+          RatingsModel.findOrCreate({
+            year: current.semester.split(' ')[1],
+            semester: current.semester.split(' ')[0],
+            subject: course._id,
+            professor: professor._id,
+            questions: current.questions
+          })
+          .then((response) => {
+            console.log('class: ', response)
+            recursiveInsert(index + 1)
+          })
+          .catch((e)=> {console.log(e)})
         })
       })
-    }
+    } 
     recursiveInsert(0)
   })
 
@@ -58,19 +71,19 @@ const connect = () => startDb().then(() => {
       fs.readFile(dirName + '/' + fileName, (err, file) => {
         if (err) throw err
         // Parsing each json file
-        let profObj = JSON.parse(file)
-        let firstName = profObj.firstName
-        let lastName = profObj.lastName
+        let jsonFile = JSON.parse(file)
+        let firstName = jsonFile.firstName
+        let lastName = jsonFile.lastName
 
         // Finding or creating professor
         // Note: we are not updating anything
         ProfessorModel.findOrCreate({
           firstName: firstName,
           lastName: lastName
-        }).then((response) => {
-          console.log(response)
-          const courses = profObj.courses
-          insertCourses(courses, firstName, lastName).then(() => {
+        }).then((professor) => {
+         // console.log('professor:', professor)
+          const courses = jsonFile.courses
+          insertCourses(courses, professor).then(() => {
             console.log('---- done -----')
           })
         })
@@ -80,7 +93,7 @@ const connect = () => startDb().then(() => {
 
 });
 
-//catches ctrl+c event
+// catches ctrl+c event
 process.on('SIGINT', () => {
   mongoose.connection.close()
   console.log('goodbye')

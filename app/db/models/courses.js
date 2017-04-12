@@ -4,21 +4,22 @@ var Schema = mongoose.Schema;
 
 var CourseSchema = new Schema({
   subject: { type: String, required: true },
-  firstName: { type: String, required: true },
-  lastName: { type: String, required: true }
+  name: { type: String, required: false},
+  professors: [{ type: Schema.Types.ObjectId, ref: 'Professor' }]
 });
 
 CourseSchema.statics.findOrCreate = function (query) {
   // console.log(query)
   return new Promise((resolve) => {
-    this.findOne(query, (err, response) => {
+    this.findOne(query, (err, course) => {
       if (err) throw err
-      if (!response) {
-        this.create(query, (err, newCourse) => {
-          resolve('created new course')
+      if (!course) {
+        this.create(query, (err, course) => {
+          if (err) throw err
+          resolve(course)
         })
       } else {
-        resolve('found course')
+        resolve(course)
       }
     })
   })

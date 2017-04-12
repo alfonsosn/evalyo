@@ -3,25 +3,26 @@ var Schema = mongoose.Schema;
 
 
 var RatingsSchema = new Schema({
+  year: { type: String, required: true },
   semester: { type: String, required: true },
-  subject: { type: String, required: true },
-  firstName: { type: String, required: true },
-  lastName: { type: String, required: true },
+  subject: { type: Schema.Types.ObjectId, ref: 'Course' },
+  professor: { type: Schema.Types.ObjectId, ref: 'Professor' },
   questions: [Schema.Types.Mixed]
 });
 
 RatingsSchema.statics.findOrCreate = function (query) {
   // console.log(query)
   return new Promise((resolve) => {
-    this.findOne(query, (err, response) => {
+    this.findOne(query, (err, ratings) => {
       if (err) throw err
-      if (!response) {
-        this.create(query, (err, newRatings) => {
+     // console.log('ratings: ', ratings)
+      if (!ratings) {
+        this.create(query, (err, ratings) => {
           if (err) throw err
-          resolve('created ratings')
+          resolve(ratings)
         })
       } else {
-        resolve('found ratings')
+        resolve(ratings)
       }
     })
   })
