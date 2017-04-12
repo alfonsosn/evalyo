@@ -5,24 +5,34 @@ var gulp = require('gulp');
 var livereload = require('gulp-livereload');
 var eslint = require('gulp-eslint');
 
-// Development tasks
+// Linter tasks
 // --------------------------------------------------------------
 
-// Live reload business.
-gulp.task('reload', function () {
-    livereload.reload();
-});
-
 gulp.task('lintJS', function () {
-
-  return gulp.src(['./server/**/*.js', "!server/public/js/*.js"])
+  return gulp.src(['./browser/js/**/*.js', './server/**/*.js', "!server/public/js/jquery-3.2.0.min.js"])
   .pipe(eslint())
   .pipe(eslint.format())
   .pipe(eslint.failOnError());
 
 });
 
+// In case we end up using gulp to minimify our browser content
+
+// gulp.task('buildJS', ['lintJS'], function () {
+//     return gulp.src(['./browser/js/app.js', './browser/js/**/*.js'])
+//         .pipe(plumber())
+//         .pipe(sourcemaps.init())
+//         .pipe(concat('main.js'))
+//         .pipe(babel())
+//         .pipe(sourcemaps.write())
+//         .pipe(gulp.dest('./public'));
+// });
+
 gulp.task('default', function () {
     livereload.listen();
     gulp.watch(['server/**/*.js'], ['lintJS']);
+
+    // gulp.watch('browser/js/**', function () {
+    //   runSeq('buildJS', 'reload');
+    // });
   })
