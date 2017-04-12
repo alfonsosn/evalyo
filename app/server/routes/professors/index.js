@@ -2,7 +2,8 @@
 var router = require('express').Router();
 var p = require('./parser.js')
 var h = require('./helpers.js')
-const Course = require('../../../db/models/courses')
+require('../../../db/models/courses')
+const Professor = require('../../../db/models/professors')
 
 // routes
 router.get('/', (req, res) => {
@@ -11,15 +12,12 @@ router.get('/', (req, res) => {
 
 router.get('/:prof', (req, res) => {
  console.log(req.params.prof)
-  Course.find({firstName : req.params.prof.toUpperCase()}, (error, courses) => {
+  Professor.findOne({firstName : req.params.prof.toUpperCase()})
+  .populate('courses', 'subject')
+  .exec((error, professor) => {
     if (error) console.log(error)
-    
-    const professor = courses[0] ? 
-      { firstName: '', lastName: '' }
-      : { firstName: courses[0].firstName, 
-          lastName: courses[0].lastName }
-         
-    const titles = courses.map(course => course.subject)
+    console.log(professor)
+    const titles = professor.courses.map(course => course.subject)
     
     res.render('professor', {
       professor: professor,
@@ -31,9 +29,6 @@ router.get('/:prof', (req, res) => {
       }
     })
   })
-  //  let file = __dirname + '/cs_professors/' + req.params.prof + '.json';
-  // p.getJSON(file).then((data) => {
-  //   Course.
 })
 
 router.get('/:prof/:course', (req, res) => {
