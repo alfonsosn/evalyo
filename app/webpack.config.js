@@ -24,7 +24,7 @@ module.exports = {
 
   module: {
     loaders: [{
-      test: path.join(__dirname, 'src'),
+      test: path.join(__dirname, 'server'),
       loader: ['babel-loader'],
       query: {
         cacheDirectory: 'babel_cache',
