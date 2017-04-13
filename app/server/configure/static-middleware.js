@@ -5,7 +5,6 @@ var express = require('express');
 module.exports = function (app) {
 
   var root = app.getValue('projectRoot');
-  // var views = path.join(root, '/server/views');
   var views = path.join(root, '/server/views');
   var staticPath = path.join(root, '/server/static');
   var npmPath = path.join(root, './node_modules');

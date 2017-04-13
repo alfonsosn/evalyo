@@ -13,10 +13,10 @@ var createApplication = function () {
 var startServer = function () {
     createApplication()
 
-    var PORT = process.env.PORT || 8000;
+    const PORT = process.env.PORT || 8000;
+    const ENV = process.env.NODE_ENV || 'PRODUCTION';
 
     server.listen(PORT, function () {
-        console.log(chalk.blue('Server started on port', chalk.magenta(PORT)));
+        console.info(chalk.blue(`Server started. PORT ${chalk.magenta(PORT)} [${chalk.white(ENV)}]`));
     });
-
 }();

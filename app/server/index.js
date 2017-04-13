@@ -5,8 +5,9 @@ import React from 'react';
 import { renderToString } from 'react-dom/server';
 import { match, RouterContext } from 'react-router';
 import routes from './routes/index.ejs';
+import NotFoundPage from './components/NotFoundPage';
 
-var app = express();
+var app = new express();
 module.exports = app;
 
 require('./configure')(app);
@@ -43,30 +44,6 @@ app.get('*', (req, res) => {
     }
   );
 });
-
-
-// // Routes that will be accessed via AJAX should be prepended with
-// // /api so they are isolated from our GET /* wildcard.
-// app.use('/', require('./routes'));
-//
-// /*
-//  This middleware will catch any URLs resembling a file extension
-//  for example: .js, .html, .css
-//  This allows for proper 404s instead of the wildcard '/*' catching
-//  URLs that bypass express.static because the given file does not exist.
-//  */
-//
-// app.use(function (req, res, next) {
-//     if (path.extname(req.path).length > 0) {
-//         res.status(404).end();
-//     } else {
-//         next(null);
-//     }
-// });
-//
-// app.get('/*', function (req, res, next) {
-//     next(null);
-// });
 
 // Error catching endware.
 app.use(function (err, req, res, next) {
