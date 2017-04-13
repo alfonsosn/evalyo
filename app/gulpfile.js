@@ -13,22 +13,11 @@ gulp.task('reload', function () {
 });
 
 gulp.task('lintJS', function () {
-  return gulp.src(['./server/**/*.js', "!server/static/js/jquery-3.2.0.min.js"])
+  return gulp.src(['./server/**/*.js', "!server/static/js/*.js"])
   .pipe(eslint())
   .pipe(eslint.format())
   .pipe(eslint.failOnError());
 });
-
-// In case we end up using gulp to minimify our browser content // staticPath
-// gulp.task('buildJS', ['lintJS'], function () {
-//     return gulp.src(['./browser/js/app.js', './browser/js/**/*.js'])
-//         .pipe(plumber())
-//         .pipe(sourcemaps.init())
-//         .pipe(concat('main.js'))
-//         .pipe(babel())
-//         .pipe(sourcemaps.write())
-//         .pipe(gulp.dest('./static'));
-// });
 
 gulp.task('default', function () {
     livereload.listen();
