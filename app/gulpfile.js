@@ -8,12 +8,15 @@ var eslint = require('gulp-eslint');
 // Linter tasks
 // --------------------------------------------------------------
 
+gulp.task('reload', function () {
+    livereload.reload();
+});
+
 gulp.task('lintJS', function () {
-  return gulp.src(['./browser/js/**/*.js', './server/**/*.js', "!server/public/js/jquery-3.2.0.min.js"])
+  return gulp.src(['./server/**/*.js', "!server/public/js/jquery-3.2.0.min.js"])
   .pipe(eslint())
   .pipe(eslint.format())
   .pipe(eslint.failOnError());
-
 });
 
 // In case we end up using gulp to minimify our browser content
@@ -31,8 +34,4 @@ gulp.task('lintJS', function () {
 gulp.task('default', function () {
     livereload.listen();
     gulp.watch(['server/**/*.js'], ['lintJS']);
-
-    // gulp.watch('browser/js/**', function () {
-    //   runSeq('buildJS', 'reload');
-    // });
   })
