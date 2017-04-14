@@ -5,9 +5,14 @@ import { Link } from 'react-router';
 export default class Layout extends React.Component {
   render() {
     return (
-        <header>
-          <h2> Yo Mama </h2>
-        </header>
+      <div>
+        <nav>
+          <logo>Evalyo</logo>
+          <a href="#">Nevermind</a>
+          <a href="#">Hunter Catalog</a>
+        </nav>
+        <img src={'img/hunter-campus-2.jpg'}></img>
+      </div>
     );
   }
 }

@@ -1,62 +1,49 @@
-/* every page */
-body{
-	font-family: verdana;
-	overflow: scroll;
+nav {
+    background-color: #333;
+    overflow: hidden;
 }
 
-footer{
-  position: fixed !important;
-  bottom: 0 !important;
-	text-align: center;
-	font-size: 1.5em;
-	display: flex;
+/* Style the links inside the navigation bar */
+nav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
-table{
-	border-collapse: collapse;
-	width: 75%;
-
+/* Change the color of links on hover */
+nav a:hover {
+    background-color: #ddd;
+    color: black;
 }
 
-td{
-	text-align: left;
-	padding: 8px;
+/* Add a color to the active/current link */
+nav a.active {
+    background-color: #4CAF50;
+    color: white;
 }
 
-tr:nth-child(odd){
-	background-color: #dddddd;
+/* Style the links inside the navigation bar */
+logo {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
-/*TBD*/
-
-.show{
-	display: block;
+/* Change the color of links on hover */
+logo:hover {
+    background-color: #ddd;
+    color: black;
 }
 
-.hide{
-	display: none;
-}
-
-.viewport{
-  margin-top: 6em;
-	margin-bottom: 6em;
-  overflow: scroll;
-}
-
-
-/*Font-Awesome changes*/
-
-.glyphs{
-	margin: 12px 0px 12px 0px;
-	width: 100%;
-	text-align: center:
-}
-
-.glyphs p {
-	font-size:.5em;
-	margin-top: 0;
-}
-
-.glyphs a {
-	color: inherit;
+/* Add a color to the active/current link */
+logo:active {
+    background-color: #4CAF50;
+    color: white;
 }
