@@ -6,13 +6,16 @@ import Nav from '../components/Nav';
 import IndexPage from '../components/IndexPage';
 import Departments from '../components/Departments';
 import DepartmentsProfessors from '../components/DepartmentsProfessors';
+import Professor from '../components/Professor'
 import NotFoundPage from '../components/NotFoundPage';
 
 const routes = (
   <Route path="/" component={Nav}>
     <IndexRoute component={IndexPage}/>
     <Route path="departments" component={Departments}/>
-    <Route path="departments/:name" component={DepartmentsProfessors}/>
+    <Route path="departments/:name"          component={DepartmentsProfessors}/>
+    <Route path="professor/:prof" component={Professor}
+     />
     <Route path="*" component={NotFoundPage}/>
   </Route>
 );

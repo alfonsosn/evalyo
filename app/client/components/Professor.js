@@ -5,38 +5,42 @@ import { Link } from 'react-router';
 //import professors from '../data/professors.js';
 import $ from "jquery"
 
-export default class DepartmentsProfessors extends React.Component {
+export default class Professor extends React.Component {
   constructor(props){
       super(props);
       this.state = {
-        professors: []
+        courses: []
       };
   }
 
   componentDidMount(){
     $.ajax({
-      // url: '/professors/'
-      url: '/',
+      url: `/api/professors/${this.props.params.prof}`,
       type: 'GET'
     })
-    .done(professors => {
-      this.setState({professors: profs})
+    .done(courses => {
+      console.log('courses:', courses)
+      // this.setState({courses})
     });
   }
 
   render() {
     // console.log(professors)
-    console.log('props', this.props)
+    console.log('props.params', this.props.params)
     return (
       <div>
-        <ul>
-        {this.state.professors.map((name, index)=>
-          <li key={index}>
-            <Link to={`/professor/:name`}> {name}</Link>
-          </li>
-        )}
-        </ul>
+
       </div>
     );
   }
 }
+
+/*
+<ul>
+{this.state.courses.map((name, index)=>
+  <li key={index}>
+    <Link to={`/professor/:name`}> {name}</Link>
+  </li>
+)}
+</ul>
+*/
