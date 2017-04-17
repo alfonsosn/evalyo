@@ -9,7 +9,7 @@ var eslint = require('gulp-eslint');
 // --------------------------------------------------------------
 
 gulp.task('reload', function () {
-    livereload.reload();
+    return livereload.reload();
 });
 
 gulp.task('lintJS', function () {
@@ -21,5 +21,6 @@ gulp.task('lintJS', function () {
 
 gulp.task('default', function () {
     livereload.listen();
+    gulp.watch('./server/static/stylesheets/style.css', ['reload']);
     gulp.watch(['server/**/*.js'], ['lintJS']);
   })
