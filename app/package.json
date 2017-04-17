@@ -36,6 +36,7 @@
     "gulp-eslint": "^3.0.1",
     "gulp-livereload": "^3.8.1",
     "handlebars": "4.0.6",
+    "jquery": "^2.1.4",
     "lodash": "~4.17.4",
     "morgan": "~1.7.0",
     "node-jsx": "^0.13.3",

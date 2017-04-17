@@ -32,3 +32,8 @@ nav a.active {
   height: 90vh;
   background-size: cover;
 }
+
+.center {
+  background: white;
+  width: 30%;
+}
