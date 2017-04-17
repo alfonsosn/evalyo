@@ -1,6 +1,5 @@
 'use strict'
 var chalk = require('chalk');
-
 //Create node server instance!
 var server = require('http').createServer();
 
@@ -9,7 +8,7 @@ var createApplication = function () {
     server.on('request', app); // Attach the Express application.
 };
 
-
+//
 var startServer = function () {
     createApplication();
 

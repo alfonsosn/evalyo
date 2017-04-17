@@ -6,7 +6,8 @@ const path = require('path');
 
 module.exports = {
   devtool: debug ? 'inline-sourcemap' : null,
-  entry: path.join(__dirname, 'server', 'app-client.js'),
+  entry: path.join(__dirname, 'client', 'app-client.js'),
+
   devServer: {
     inline: true,
     port: 3333,
@@ -23,14 +24,17 @@ module.exports = {
   },
 
   module: {
-    loaders: [{
-      test: path.join(__dirname, 'server'),
-      loader: ['babel-loader'],
-      query: {
-        cacheDirectory: 'babel_cache',
-        presets: debug ? ['react', 'es2015', 'react-hmre'] : ['react', 'es2015']
-      }
-    }]
+    loaders: [
+      {
+        test: /\.js$/,
+        exclude: /(node_modules|babel_cache|server)/,
+        loader: ['babel-loader'],
+        query: {
+          cacheDirectory: 'babel_cache',
+          presets: debug ? ['react', 'es2015', 'react-hmre'] : ['react', 'es2015']
+        }
+    }
+  ]
   },
 
   plugins: debug ? [] : [

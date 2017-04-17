@@ -2,10 +2,8 @@
 
 import React from 'react';
 import { Link } from 'react-router';
-import professors from '../data/professors.js';
+//import professors from '../data/professors.js';
 import $ from "jquery"
-
-const profs = ["Schweitzer"];
 
 export default class DepartmentsProfessors extends React.Component {
   constructor(props){
@@ -27,7 +25,7 @@ export default class DepartmentsProfessors extends React.Component {
   }
 
   render() {
-    console.log(professors)
+    // console.log(professors)
     console.log('props', this.props)
     return (
       <div>
