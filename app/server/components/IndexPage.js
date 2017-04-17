@@ -6,7 +6,7 @@ export default class IndexPage extends React.Component {
   render() {
     return (
       <div className="home">
-        <h1> Yo </h1>
+        <img src={'img/thomas-hunter.jpg'}></img>
       </div>
     );
   }
