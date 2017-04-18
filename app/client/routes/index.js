@@ -9,7 +9,7 @@ import DepartmentsProfessors from '../components/DepartmentsProfessors';
 import Professor from '../components/Professor'
 import Review from '../components/Review'
 import NotFoundPage from '../components/NotFoundPage';
-// 
+
 const routes = (
   <Route path="/" component={Nav}>
     <IndexRoute component={IndexPage}/>
