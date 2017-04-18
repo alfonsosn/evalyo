@@ -7,18 +7,16 @@ import IndexPage from '../components/IndexPage';
 import Departments from '../components/Departments';
 import DepartmentsProfessors from '../components/DepartmentsProfessors';
 import Professor from '../components/Professor'
-import ProfessorReviews from '../components/ProfessorReviews'
+import Review from '../components/Review'
 import NotFoundPage from '../components/NotFoundPage';
 // 
 const routes = (
   <Route path="/" component={Nav}>
     <IndexRoute component={IndexPage}/>
     <Route path="departments" component={Departments}/>
-    <Route path="departments/:name"          component={DepartmentsProfessors}/>
+    <Route path="departments/:name" component={DepartmentsProfessors}/>
     <Route path="professor/:prof" component={Professor}
      />
-     <Route path="professor/:prof/:course" component={ProfessorReviews}
-      />
     <Route path="*" component={NotFoundPage}/>
   </Route>
 );

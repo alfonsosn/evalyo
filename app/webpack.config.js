@@ -29,14 +29,31 @@ module.exports = {
         test: /\.js$/,
         exclude: /(node_modules|babel_cache|server)/,
         loader: ['babel-loader'],
+        options: {
+          presets: ['env'],
+          plugins: [require('babel-plugin-transform-class-properties')]
+        },
         query: {
           cacheDirectory: 'babel_cache',
           presets: ['react', 'es2015']
         }
-    }
-  ]
+      },
+      {
+        test: /\.css$/,
+        loaders: [
+          'style-loader',
+          'css-loader?sourceMap&modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss?sourceMap&sourceComments',
+        ]
+      }
+    ]
   },
-
+  postcss: () => {
+    return [
+      /* eslint-disable global-require */
+      require('postcss-cssnext'),
+      /* eslint-enable global-require */
+    ];
+  },
   plugins: debug ? [] : [
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)

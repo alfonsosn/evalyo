@@ -120,7 +120,7 @@ class Evaluation {
       });
       let all_questions = this.aggregateQuestions(semesters)
       let aggregateReview = {}
-      aggregateReview.semester = 'Aggregrate'
+      aggregateReview.semester = 'Aggregate'
       aggregateReview.subject = semesters[0].subject
       aggregateReview.questions = this.aggregator(all_questions)
       this.evaluations.push(new aggRating(aggregateReview, this.times_taught))
