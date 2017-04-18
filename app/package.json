@@ -5,7 +5,9 @@
   "main": "start.js",
   "scripts": {
     "prestart": "webpack client/app-client.js",
-    "start": "nodemon --watch server --watch client start.js"
+    "start": "node start.js",
+    "nodemon": "nodemon --watch server --watch client --ignore server/static/js --exec npm start"
+
   },
   "dependencies": {
     "babel-cli": "^6.11.4",
