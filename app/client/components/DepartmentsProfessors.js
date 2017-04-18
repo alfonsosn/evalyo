@@ -5,12 +5,7 @@ import { Link } from 'react-router';
 //import professors from '../data/professors.js';
 import $ from "jquery"
 
-const profs = ["Zamfirescu, Christina", "Schaffer, Cullen", "Schweitzer, Eric", "Vazquez-Abad, Felisa",
-"Stamos, Ioannis", "Xu, Jia", "Xie, Lei", "Khatchadourian, Raffi", "Mneimneh, Saad", "Debroy, Saptarshi",
-"Weiss, Stewart N.",
-"Shankar, Subash",
-"Epstein, Susan L.",
-"Sakas, William G.",]
+const profs = ["Zamfirescu, Christina", "Schaffer, Cullen", "Schweitzer, Eric", "Vazquez-Abad, Felisa", "Stamos, Ioannis", "Xu, Jia", "Xie, Lei", "Khatchadourian, Raffi", "Mneimneh, Saad", "Debroy, Saptarshi", "Weiss, Stewart N.", "Shankar, Subash", "Epstein, Susan L.", "Sakas, William G.",]
 
 export default class DepartmentsProfessors extends React.Component {
   constructor(props){
@@ -22,7 +17,6 @@ export default class DepartmentsProfessors extends React.Component {
 
   componentDidMount(){
     $.ajax({
-      // url: '/professors/'
       url: '/',
       type: 'GET'
     })
@@ -32,7 +26,6 @@ export default class DepartmentsProfessors extends React.Component {
   }
 
   render() {
-    // console.log(professors)
     console.log('props', this.props)
     return (
       <div>

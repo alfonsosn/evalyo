@@ -9,7 +9,8 @@ router.get('/:prof', function(req, res){
     let professor_courses = p.parseProfJSON(data)
     res.send(professor_courses)
   })
-
 })
+
+
 
 module.exports = router;

@@ -2,14 +2,15 @@
 
 import React from 'react';
 import { Link } from 'react-router';
-//import professors from '../data/professors.js';
 import $ from "jquery"
 
 export default class Professor extends React.Component {
   constructor(props){
       super(props);
       this.state = {
-        courses: []
+        courses: [],
+        courseTitles: [],
+        prof: ''
       };
   }
 
@@ -19,28 +20,27 @@ export default class Professor extends React.Component {
       type: 'GET'
     })
     .done(courses => {
-      console.log('courses:', courses)
-      // this.setState({courses})
+      this.setState({'courses': courses, 'courseTitles': courses.courseTitles, 'prof': this.props.params.prof})
     });
   }
 
   render() {
-    // console.log(professors)
-    console.log('props.params', this.props.params)
     return (
       <div>
+        <h1> {this.state.courses.firstName} {this.state.courses.lastName} </h1>
+        <p> This professor has previously taught: </p>
+
+        <ul>
+          {this.state.courseTitles.map((title, index)=>
+            <li key={index}>
+              <Link to={`/professor/${this.state.prof}/${title}`}>
+              {title}
+              </Link>
+            </li>
+          )}
+        </ul>
 
       </div>
     );
   }
 }
-
-/*
-<ul>
-{this.state.courses.map((name, index)=>
-  <li key={index}>
-    <Link to={`/professor/:name`}> {name}</Link>
-  </li>
-)}
-</ul>
-*/
