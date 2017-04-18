@@ -1,15 +1,17 @@
 'use strict';
+
 import React from 'react';
-import { Link } from 'react-router';
+import AppBar from 'react-toolbox/lib/app_bar';
+import Navigation from 'react-toolbox/lib/navigation';
+import Link from 'react-toolbox/lib/Link';
 
 export default class Nav extends React.Component {
   render() {
     return (
       <div>
-        <nav>
-          <a href="#">Hunter College</a>
-          <a href="#">Hunter Catalog</a>
-        </nav>
+        <AppBar title='Evalyo'>
+
+        </AppBar>
         <div className="app-content">{this.props.children}</div>
        </div>
     );
