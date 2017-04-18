@@ -39,18 +39,11 @@
     "postcss-cssnext": "^2.10.0",
     "pug": "~2.0.0-beta10",
     "react": "^15.5.4",
-<<<<<<< HEAD
     "react-addons-css-transition-group": "^15.4.0",
     "react-dom": "^15.5.4",
     "react-router": "^2.6.1",
     "react-toolbox": "^2.0.0-beta.8",
     "react-transition-group": "^1.1.2",
-=======
-    "react-addons-css-transition-group": "~15.4.0",
-    "react-dom": "^15.5.4",
-    "react-router": "^2.6.1",
-    "react-toolbox": "^2.0.0-beta.8",
->>>>>>> cb953ff9a57c5e7dd864763aac0e7351f2d43ca4
     "serve-favicon": "~2.3.2",
     "webpack": "^1.15.0"
   },

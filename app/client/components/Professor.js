@@ -4,6 +4,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import $ from "jquery";
 import Dropdown from 'react-toolbox/lib/dropdown';
+import { Layout, NavDrawer, Panel, Sidebar } from 'react-toolbox';
 
 export default class Professor extends React.Component {
   constructor(props){
@@ -80,7 +81,7 @@ export default class Professor extends React.Component {
   render() {
     //console.log("state:", this.state)
     return (
-      <div>
+      <Layout>
         <h1> {this.state.courses.firstName} {this.state.courses.lastName} </h1>
         <p> This professor has previously taught: </p>
 
@@ -98,7 +99,7 @@ export default class Professor extends React.Component {
           value={this.state.selectedSemester}
         />
 
-      </div>
+      </Layout>
     );
   }
 }

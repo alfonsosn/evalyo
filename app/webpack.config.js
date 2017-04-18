@@ -43,22 +43,12 @@ module.exports = {
         loaders: [
           'style-loader',
           'css-loader?sourceMap&modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss?sourceMap&sourceComments',
-<<<<<<< HEAD
         ]
       }
     ]
   },
   postcss: () => {
-    return [
-=======
-        ],
-      }
-    ]
-  },
-
-  postcss: () => {
   return [
->>>>>>> cb953ff9a57c5e7dd864763aac0e7351f2d43ca4
       /* eslint-disable global-require */
       require('postcss-cssnext'),
       /* eslint-enable global-require */
