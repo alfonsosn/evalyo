@@ -7,6 +7,7 @@ import IndexPage from '../components/IndexPage';
 import Departments from '../components/Departments';
 import DepartmentsProfessors from '../components/DepartmentsProfessors';
 import Professor from '../components/Professor'
+import ProfessorReviews from '../components/ProfessorReviews'
 import NotFoundPage from '../components/NotFoundPage';
 
 const routes = (
@@ -16,6 +17,8 @@ const routes = (
     <Route path="departments/:name"          component={DepartmentsProfessors}/>
     <Route path="professor/:prof" component={Professor}
      />
+     <Route path="professor/:prof/:course" component={ProfessorReviews}
+      />
     <Route path="*" component={NotFoundPage}/>
   </Route>
 );

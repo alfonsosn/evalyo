@@ -12,7 +12,6 @@ require('./configure')(app);
 app.use('/api', router);
 
 app.get('/*', function(req, res){
-  console.log("req: ", req.url)
   res.sendFile(path.join(__dirname, 'static/index.html'));
 })
 

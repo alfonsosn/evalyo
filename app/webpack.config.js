@@ -31,7 +31,7 @@ module.exports = {
         loader: ['babel-loader'],
         query: {
           cacheDirectory: 'babel_cache',
-          presets: debug ? ['react', 'es2015'] : ['react', 'es2015']
+          presets: ['react', 'es2015']
         }
     }
   ]
