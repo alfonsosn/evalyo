@@ -26,17 +26,10 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.js$/,
-        exclude: /(node_modules|babel_cache|server)/,
-        loader: ['babel-loader'],
-        options: {
-          presets: ['env'],
-          plugins: [require('babel-plugin-transform-class-properties')]
-        },
-        query: {
-          cacheDirectory: 'babel_cache',
-          presets: ['react', 'es2015']
-        }
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
+        loader: 'babel',
+        query: {presets: ['es2015', 'react'], cacheDirectory: true}
       },
       {
         test: /\.css$/,

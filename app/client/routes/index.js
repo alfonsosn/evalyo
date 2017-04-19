@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { Route, IndexRoute } from 'react-router'
-import Nav from '../components/Nav';
+import Layout from '../components/Layout';
 import IndexPage from '../components/IndexPage';
 import Departments from '../components/Departments';
 import DepartmentsProfessors from '../components/DepartmentsProfessors';
@@ -11,7 +11,7 @@ import Review from '../components/Review'
 import NotFoundPage from '../components/NotFoundPage';
 
 const routes = (
-  <Route path="/" component={Nav}>
+  <Route path="/" component={Layout}>
     <IndexRoute component={IndexPage}/>
     <Route path="departments" component={Departments}/>
     <Route path="departments/:name" component={DepartmentsProfessors}/>
