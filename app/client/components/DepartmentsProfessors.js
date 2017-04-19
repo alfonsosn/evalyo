@@ -2,7 +2,6 @@
 
 import React from 'react';
 import { Link } from 'react-router';
-//import professors from '../data/professors.js';
 import $ from "jquery"
 
 const profs = ["Zamfirescu, Christina", "Schaffer, Cullen", "Schweitzer, Eric", "Vazquez-Abad, Felisa", "Stamos, Ioannis", "Xu, Jia", "Xie, Lei", "Khatchadourian, Raffi", "Mneimneh, Saad", "Debroy, Saptarshi", "Weiss, Stewart N.", "Shankar, Subash", "Epstein, Susan L.", "Sakas, William G.",]

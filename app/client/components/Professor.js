@@ -3,8 +3,6 @@ import Review from './Review'
 import React from 'react';
 import { Link } from 'react-router';
 import $ from "jquery";
-import Dropdown from 'react-toolbox/lib/dropdown';
-import { Layout, NavDrawer, Panel, Sidebar } from 'react-toolbox';
 
 export default class Professor extends React.Component {
   constructor(props){
@@ -33,13 +31,13 @@ export default class Professor extends React.Component {
         selectedSemester: semester
       })
     });
-  }  
-  
+  }
+
   generateSemesterTitles(arr, subject){
     return [{
       value: 'Aggregate',
       label: 'Aggregate'
-    }].concat(arr.filter((course) => 
+    }].concat(arr.filter((course) =>
         course.subject === subject)
         .map((course) => {
           return {
@@ -67,10 +65,10 @@ export default class Professor extends React.Component {
     })
     .done(professor => {
       this.setState({
-        'courses': professor.courses, 
-        'courseTitles': professor.courseTitles.map((title) => 
-          { return { value: title, 
-                     label: title } 
+        'courses': professor.courses,
+        'courseTitles': professor.courseTitles.map((title) =>
+          { return { value: title,
+                     label: title }
           }
          ),
         'prof': this.props.params.prof
@@ -79,39 +77,12 @@ export default class Professor extends React.Component {
   }
 
   render() {
-    //console.log("state:", this.state)
     return (
       <Layout>
         <h1> {this.state.courses.firstName} {this.state.courses.lastName} </h1>
         <p> This professor has previously taught: </p>
 
-        <Dropdown
-          auto
-          onChange={this.handleCourseChange}
-          source={this.state.courseTitles}
-          value={this.state.selectedCourse}
-        />
-
-        <Dropdown
-          auto
-          onChange={this.handleSemesterChange}
-          source={this.state.semesterTitles}
-          value={this.state.selectedSemester}
-        />
-
       </Layout>
     );
   }
 }
-
-/*
-        <ul>
-          {this.state.courseTitles.map((title, index)=>
-            <li key={index}>
-              <Link to={`/professor/${this.state.prof}/${title}`}>
-              {title}
-              </Link>
-            </li>
-          )}
-        </ul>
-*/

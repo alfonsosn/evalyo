@@ -49,9 +49,7 @@ module.exports = {
   },
   postcss: () => {
   return [
-      /* eslint-disable global-require */
       require('postcss-cssnext'),
-      /* eslint-enable global-require */
     ];
   },
   plugins: debug ? [] : [

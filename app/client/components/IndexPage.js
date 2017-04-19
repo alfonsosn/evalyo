@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { Link } from 'react-router';
+import { Button } from 'rebass'
 
 export default class IndexPage extends React.Component {
   render() {
@@ -9,9 +10,8 @@ export default class IndexPage extends React.Component {
       <div className="home">
         <div className="center">
           <h1> Welcome </h1>
-          <h2> <a> By Professors  </a></h2>
           <Link to={`/departments/`}>
-            <h2> By Departments </h2>
+            <Button>By Departments</Button>
           </Link>
         </div>
       </div>
