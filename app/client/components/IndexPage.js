@@ -14,7 +14,6 @@ export default class IndexPage extends React.Component {
         <div className="center">
           <h1> Welcome </h1>
           <Link to={`/departments/`}>
-
             <Button>By Departments</Button>
           </Link>
         </div>
