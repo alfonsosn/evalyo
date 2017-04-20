@@ -30,7 +30,6 @@ export default class Professor extends React.Component {
       type: 'GET'
     })
     .done(reviews => {
-      // console.log("reviews: ", reviews[0])
       this.setState({
         selectedSemester: semester,
         reviews: reviews[0]
@@ -45,7 +44,7 @@ export default class Professor extends React.Component {
       value: 'Aggregate',
       label: 'Aggregate'
     }]
-    
+
     const semesterTitles = arr.filter((course) =>
         course.subject === subject)
         .map((course) => {
@@ -55,8 +54,8 @@ export default class Professor extends React.Component {
             }
           }
         )
-    
-    return blankOption.concat(aggregateOption, semesterTitles)  
+
+    return blankOption.concat(aggregateOption, semesterTitles)
   }
 
   handleCourseChange(e){
@@ -71,11 +70,11 @@ export default class Professor extends React.Component {
   generateCourseTitles(titles){
     const blankOption = [{ value: '', children: 'choose one'}]
 
-    const courseTitles = titles.map((title) => { 
+    const courseTitles = titles.map((title) => {
       const title_with_spaces = title.replace(/_/g, " ")
-      return { 
+      return {
         value: title_with_spaces,
-        children: title_with_spaces 
+        children: title_with_spaces
       }
     })
     return blankOption.concat(courseTitles)
@@ -97,8 +96,8 @@ export default class Professor extends React.Component {
   }
 
   render() {
-    const { 
-      selectedCourse, 
+    const {
+      selectedCourse,
       courseTitles,
       selectedSemester,
       semesterTitles,
@@ -112,7 +111,7 @@ export default class Professor extends React.Component {
         <Box sm={12} lg={6}>
           <Panel theme='secondary'>
             <PanelHeader>
-              {profName} 
+              {profName}
             </PanelHeader>
             <Flex  py={2} justify='center' align='center' wrap>
               <Box  sm={4} px={2}>
@@ -121,7 +120,7 @@ export default class Professor extends React.Component {
                     label='Course'
                     value={selectedCourse}
                     onChange={this.handleCourseChange}
-                    options={courseTitles} 
+                    options={courseTitles}
                 />
               </Box>
               <Box  sm={4} px={2}>
@@ -130,7 +129,7 @@ export default class Professor extends React.Component {
                     label='Semester'
                     value={selectedSemester}
                     onChange={this.handleSemesterChange}
-                    options={semesterTitles} 
+                    options={semesterTitles}
                 />
               </Box>
               <Box  sm={12} px={2}>
@@ -143,4 +142,3 @@ export default class Professor extends React.Component {
     );
   }
 }
-
