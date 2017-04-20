@@ -29,8 +29,7 @@ const getSingleRatings = (semester) => {
 // Ratings Class
 class Ratings {
   setQuestions(ids) {
-    return this.ratings.filter((question) =>
-    ids.includes(question.id));
+    return this.ratings.filter((question) => ids.includes(question.id));
   }
 
   constructor(semester, times_taught) {
@@ -39,13 +38,12 @@ class Ratings {
     this.organization = this.setQuestions(organization_q_ids);
     this.clarity = this.setQuestions(clarity_q_ids);
     this.personality = this.setQuestions(personality_q_ids);
-    this.experience = this.setQuestions(experience_q_ids);
     this.times_taught = times_taught;
-    this.experience.push({
+    this.experience = this.setQuestions(experience_q_ids).concat([{
       id: 'XX',
       question: 'Times the professor taught this class',
       average: times_taught
-    });
+    }]);
   }
 }
 
