@@ -22,5 +22,3 @@ export default class IndexPage extends React.Component {
     );
   }
 }
-
-// <Button style={{backgroundColor: 'rgb(238, 85, 68)'}}>By Departments</Button>
