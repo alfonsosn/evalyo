@@ -13,7 +13,7 @@ export default class Layout extends React.Component {
           <Toolbar>
               <NavItem is="a">
                 <Link to={`/`}>
-                  <img id="logo" src="/icons/white_icon.png"></img>
+                  <img className="logo" src="/icons/white_icon.png"></img>
                 </Link>
               </NavItem>
               <Link to={`/`}>

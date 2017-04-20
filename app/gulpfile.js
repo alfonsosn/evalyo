@@ -13,7 +13,7 @@ gulp.task('reload', function () {
 });
 
 gulp.task('lintJS', function () {
-  return gulp.src(['./server/**/*.js', "!server/static/js/*.js"])
+  return gulp.src(['./server/**/*.js', "!server/static/bundle/*.js"])
   .pipe(eslint())
   .pipe(eslint.format())
   .pipe(eslint.failOnError());
