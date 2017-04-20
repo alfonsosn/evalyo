@@ -7,16 +7,16 @@ import $ from "jquery";
 export default class Review extends React.Component {
   render() {
     const reviews = this.props.reviews
-     
+    console.log(reviews)
     return (
       <div>
         {Object.keys(reviews).map((key) =>        
           reviews[key] instanceof Array ?
              reviews[key].map((topic) => (
                 <ul style={{listStyleType: 'none'}}>
-                  { Object.keys(topic).map((key) => 
+                  { Object.keys(topic).map((key, index) => 
                       key === 'id' ? null
-                      : <li> <b>{key}</b>: {topic[key]} </li>
+                      : <li key={index}> <b>{key}</b>: {topic[key]} </li>
                     )
                   }
                 </ul>

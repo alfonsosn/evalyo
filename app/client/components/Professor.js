@@ -24,8 +24,9 @@ export default class Professor extends React.Component {
 
   handleSemesterChange(e){
     const semester = e.target.value
-    // console.log("selected semster: ", semester)
-     $.ajax({
+    // if 'choose one' option was selected
+    if (semester === '') return
+    $.ajax({
       url: `/api/professors/${this.state.prof}/${this.state.selectedCourse}/${semester}`,
       type: 'GET'
     })
@@ -61,6 +62,10 @@ export default class Professor extends React.Component {
   handleCourseChange(e){
     // const subject = course.replace(/_/g, " ")
     const course = e.target.value
+
+    // if blank option was chosen
+    if (course === '') return
+
     this.setState({
       selectedCourse: course,
       semesterTitles: this.generateSemesterTitles(this.state.courses, course)
@@ -85,7 +90,7 @@ export default class Professor extends React.Component {
       url: `/api/professors/${this.props.params.prof}`,
       type: 'GET'
     })
-    .done(professor => {
+    .done((professor) => {
       this.setState({
         'courses': professor.courses,
         'courseTitles': this.generateCourseTitles(professor.courseTitles),
@@ -105,7 +110,6 @@ export default class Professor extends React.Component {
       profName
     } = this.state
 
-    // console.log(this.state)
     return (
       <Flex  py={2} justify='center' align='center' wrap>
         <Box sm={12} lg={6}>
