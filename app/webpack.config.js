@@ -1,26 +1,18 @@
 "use strict";
 
-const debug = process.env.NODE_ENV !== "production";
 const webpack = require('webpack');
 const path = require('path');
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
+
 
 module.exports = {
-  devtool: debug ? 'inline-sourcemap' : null,
+  devtool: 'inline-sourcemap',
   entry: path.join(__dirname, 'client', 'app-client.js'),
 
-  devServer: {
-    inline: true,
-    port: 3333,
-    contentBase: "server/static/",
-    historyApiFallback: {
-      index: '/index.html'
-    }
-  },
-
   output: {
-    path: path.join(__dirname, 'server', 'static', 'js'),
-    publicPath: "/js/",
-    filename: 'bundle.js'
+    path: path.join(__dirname, 'server', 'static', 'bundle'),
+    filename: 'bundle.js',
+    libraryTarget: 'umd' // this is super important
   },
 
   module: {
@@ -28,35 +20,17 @@ module.exports = {
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
-        loader: 'babel',
-        query: {presets: ['es2015', 'react'], cacheDirectory: true}
+        loader: 'babel-loader'
       },
       {
         test: /\.css$/,
-        loaders: [
-          'style-loader',
-          'css-loader?sourceMap&modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss?sourceMap&sourceComments',
-        ]
+        include: __dirname + '/node_modules/uswds/dist/',
+        exclude: /node_modules/,
+        loader: ExtractTextPlugin.extract('css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]'),
       }
     ]
   },
-  postcss: () => {
-  return [
-      require('postcss-cssnext'),
-    ];
-  },
-  plugins: debug ? [] : [
-    new webpack.DefinePlugin({
-      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
-    }),
-    new webpack.optimize.DedupePlugin(),
-    new webpack.optimize.OccurenceOrderPlugin(),
-    new webpack.optimize.UglifyJsPlugin({
-      compress: { warnings: false },
-      mangle: true,
-      sourcemap: false,
-      beautify: false,
-      dead_code: true
-    }),
+  plugins: [
+    new ExtractTextPlugin("styles.css")
   ]
 };

@@ -3,10 +3,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router';
-import { Button } from 'rebass'
-import { Toolbar } from 'rebass'
-import { NavItem } from 'rebass'
-import { Space } from 'rebass'
+import { Button, Toolbar, NavItem, Space } from 'rebass'
 
 export default class Layout extends React.Component {
   render() {
