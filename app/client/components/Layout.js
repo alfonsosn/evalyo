@@ -13,19 +13,13 @@ export default class Layout extends React.Component {
       return (
         <div>
           <Toolbar>
-          <NavItem is="a">
-          Toolbar
-          </NavItem>
-          <NavItem is="a">
-          NavItem
-          </NavItem>
-          <Space
-          auto
-          x={1}
-          />
-          <NavItem is="a">
-          NavItem
-          </NavItem>
+            <NavItem is="a">
+              <img id="logo" src="/icons/white_icon.png"></img>
+            </NavItem>
+            <NavItem is="a">
+              Evalyo
+            </NavItem>
+            <Space auto x={1}/>
           </Toolbar>
           <div className="app-content">{this.props.children}</div>
          </div>

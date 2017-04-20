@@ -17,3 +17,9 @@ body{
 Button{
   background-color: rgb(238, 85, 68) !important;
 }
+
+#logo{
+  object-fit: cover;
+  width: 30px;
+  height: 30px;
+}
