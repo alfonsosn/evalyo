@@ -3,8 +3,9 @@
 import React from 'react';
 import { Link } from 'react-router';
 import $ from "jquery";
+import PropTypes from 'prop-types';
 
-export default class Review extends React.Component {
+class Review extends React.Component {
   render() {
     const reviews = this.props.reviews
     console.log(reviews)
@@ -28,3 +29,9 @@ export default class Review extends React.Component {
     );
   }
 }
+
+Review.propTypes = {
+  reviews: PropTypes.object.isRequired
+}
+
+export default Review
