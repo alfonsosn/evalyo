@@ -11,11 +11,11 @@ class Review extends React.Component {
     console.log(reviews)
     return (
       <div>
-        {Object.keys(reviews).map((key) =>        
+        {Object.keys(reviews).map((key) =>
           reviews[key] instanceof Array ?
              reviews[key].map((topic) => (
                 <ul style={{listStyleType: 'none'}}>
-                  { Object.keys(topic).map((key, index) => 
+                  { Object.keys(topic).map((key, index) =>
                       key === 'id' ? null
                       : <li key={index}> <b>{key}</b>: {topic[key]} </li>
                     )
@@ -23,7 +23,7 @@ class Review extends React.Component {
                 </ul>
               )
             )
-          : null      
+          : null
         )}
       </div>
     );

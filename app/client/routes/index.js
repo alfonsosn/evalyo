@@ -13,10 +13,9 @@ import NotFoundPage from '../components/NotFoundPage';
 const routes = (
   <Route path="/" component={Layout}>
     <IndexRoute component={IndexPage}/>
-    <Route path="departments" component={Departments}/>
-    <Route path="departments/:name" component={DepartmentsProfessors}/>
-    <Route path="professor/:prof" component={Professor}
-     />
+    <Route path="/departments" component={Departments}/>
+    <Route path="/departments/:name" component={DepartmentsProfessors}/>
+    <Route path="/professor/:prof" component={Professor}/>
     <Route path="*" component={NotFoundPage}/>
   </Route>
 );

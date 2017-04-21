@@ -2,9 +2,11 @@
 
 import React from 'react';
 import { Link } from 'react-router';
+import { Flex, Box } from 'reflexbox'
 import $ from "jquery"
 
-const dpmts = ["Biology", "Computer Science", "Math", "Philosophy", "Political Science"];
+const dpmts = ["Biology", "Chemistry", "Computer Science", "Economics", "Math", "Philosophy"];
+const icons = {"Biology":"bio.png", "Chemistry": "chem.png", "Computer Science": "csci.png", "Economics": "econ.png", "Math":"math.png", "Philosophy":"philo.png"};
 
 export default class Departments extends React.Component {
   constructor(props){
@@ -27,13 +29,14 @@ export default class Departments extends React.Component {
   render() {
     return (
       <div>
-        <ul>
+        <Flex wrap align="center" pt={6} py={6}>
         {this.state.departments.map((name, index)=>
-          <li key={index}>
+          <Box key={index}>
+            <img className="logo" src={`/icons/${icons[name]}`}></img>
             <Link to={`/departments/${name.toLowerCase().split(' ').join('_')}`}>{name}</Link>
-          </li>
+          </Box>
         )}
-        </ul>
+          </Flex>
       </div>
     );
   }

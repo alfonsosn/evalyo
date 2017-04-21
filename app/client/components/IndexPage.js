@@ -8,26 +8,28 @@ import { Flex, Box } from 'reflexbox'
 export default class IndexPage extends React.Component {
   render() {
     return (
-      <div>
-        <Flex
-          className="home"
-          flexColumn={true}
-          justify="center">
-            <box
-              p={2}
-              className="center">
-                <h1> Welcome </h1>
-                <Link
-                  to={`/departments/`}>
-                    <Button>By Departments</Button>
-                </Link>
-            </box>
-        </Flex>
+      <section>
+        <div className="home">
+          <Flex wrap align="center" pt={6} py={6}>
+            <Box col={12} lg={4} sm={6}></Box>
+            <Box col={12} lg={4} sm={6}>
+              <div className="card action">
+                  <h1> Try out Evalyo </h1>
+                  <h2>   </h2>
+                  <Link
+                    to={`/departments/`}>
+                      <Button> Click here to get started! </Button>
+                  </Link>
+              </div>
+            </Box>
+            <Box col={12} lg={4} sm={6}></Box>
+          </Flex>
+        </div>
         <div
           className="info">
             <h1> More info here </h1>
         </div>
-      </div>
+      </section>
     );
   }
 }

@@ -24,13 +24,12 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        include: __dirname + '/node_modules/uswds/dist/',
-        exclude: /node_modules/,
-        loader: ExtractTextPlugin.extract('css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]'),
+        include: [__dirname + './node_modules/uswds/dist', __dirname + '/server/static/stylesheets'],
+        loader: ExtractTextPlugin.extract("css")
       }
     ]
   },
   plugins: [
-    new ExtractTextPlugin("styles.css")
+    new ExtractTextPlugin("server/static/stylesheets/styles.css")
   ]
 };

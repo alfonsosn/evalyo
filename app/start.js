@@ -8,7 +8,6 @@ var createApplication = function () {
     server.on('request', app); // Attach the Express application.
 };
 
-//
 var startServer = function () {
     createApplication();
 
