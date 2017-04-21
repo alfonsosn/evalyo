@@ -43,6 +43,7 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-router": "^2.6.1",
+    "react-sanfona": "^0.2.1",
     "rebass": "^0.3.4",
     "reflexbox": "^2.2.3",
     "serve-favicon": "~2.3.2",
