@@ -11,8 +11,8 @@ export default class IndexPage extends React.Component {
       <section>
         <div className="home">
           <Flex wrap align="center" pt={6} py={6}>
-            <Box col={12} lg={4} sm={6}></Box>
-            <Box col={12} lg={4} sm={6}>
+            <Box col={12} lg={4} sm={12}></Box>
+            <Box col={12} lg={4} sm={12}>
               <div className="card action">
                   <h1> Try out Evalyo </h1>
                   <h2>   </h2>
@@ -22,7 +22,7 @@ export default class IndexPage extends React.Component {
                   </Link>
               </div>
             </Box>
-            <Box col={12} lg={4} sm={6}></Box>
+            <Box col={12} lg={4} sm={12}></Box>
           </Flex>
         </div>
         <div

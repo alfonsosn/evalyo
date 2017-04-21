@@ -16,20 +16,28 @@ module.exports = {
   },
 
   module: {
-    loaders: [
+    loaders:
+    [
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
         loader: 'babel-loader'
-      },
-      {
-        test: /\.css$/,
-        include: [__dirname + './node_modules/uswds/dist', __dirname + '/server/static/stylesheets'],
-        loader: ExtractTextPlugin.extract("css")
       }
-    ]
-  },
-  plugins: [
-    new ExtractTextPlugin("server/static/stylesheets/styles.css")
-  ]
-};
+    }
+  }
+
+
+
+
+
+  //   },
+  //   {
+  //     test: /\.css$/,
+  //     include: __dirname + 'node_modules/uswds/dist',
+  //     loader: ExtractTextPlugin.extract("css")
+  //   }
+]
+// },
+// plugins: [
+//   new ExtractTextPlugin("server/static/stylesheets/styles.css")
+// ]
