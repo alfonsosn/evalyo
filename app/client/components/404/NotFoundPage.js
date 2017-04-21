@@ -13,6 +13,6 @@ export default class NotFoundPage extends React.Component {
           <Link to="/">Go back to the main page</Link>
         </p>
       </div>
-    );
+    )
   }
 }

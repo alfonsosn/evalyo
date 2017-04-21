@@ -1,5 +1,5 @@
 'use strict';
-import Review from './Review'
+import Review from '../review/Review'
 import React from 'react';
 import { Link } from 'react-router';
 import $ from "jquery";

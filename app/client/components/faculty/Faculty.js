@@ -6,7 +6,7 @@ import $ from "jquery"
 
 const profs = ["Zamfirescu, Christina", "Schaffer, Cullen", "Schweitzer, Eric", "Vazquez-Abad, Felisa", "Stamos, Ioannis", "Xu, Jia", "Xie, Lei", "Khatchadourian, Raffi", "Mneimneh, Saad", "Debroy, Saptarshi", "Weiss, Stewart N.", "Shankar, Subash", "Epstein, Susan L.", "Sakas, William G.",]
 
-export default class DepartmentsProfessors extends React.Component {
+export default class Faculty extends React.Component {
   constructor(props){
       super(props);
       this.state = {

@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 import { Button } from 'rebass'
 import { Flex, Box } from 'reflexbox'
 
-export default class IndexPage extends React.Component {
+export default class Index extends React.Component {
   render() {
     return (
       <section>

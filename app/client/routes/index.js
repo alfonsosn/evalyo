@@ -2,19 +2,19 @@
 
 import React from 'react'
 import { Route, IndexRoute } from 'react-router'
-import Layout from '../components/Layout';
-import IndexPage from '../components/IndexPage';
-import Departments from '../components/Departments';
-import DepartmentsProfessors from '../components/DepartmentsProfessors';
-import Professor from '../components/Professor'
-import Review from '../components/Review'
-import NotFoundPage from '../components/NotFoundPage';
+import Layout from '../components/layout/Layout.js';
+import Index from '../components/index/Index.js';
+import Departments from '../components/Departments/Departments.js';
+import Faculty from '../components/faculty/Faculty.js';
+import Professor from '../components/professor/Professor.js'
+import Review from '../components/review/Review.js'
+import NotFoundPage from '../components/404/NotFoundPage';
 
 const routes = (
   <Route path="/" component={Layout}>
-    <IndexRoute component={IndexPage}/>
+    <IndexRoute component={Index}/>
     <Route path="/departments" component={Departments}/>
-    <Route path="/departments/:name" component={DepartmentsProfessors}/>
+    <Route path="/departments/:name" component={Faculty}/>
     <Route path="/professor/:prof" component={Professor}/>
     <Route path="*" component={NotFoundPage}/>
   </Route>

@@ -4,7 +4,6 @@ import React from 'react';
 import { Link } from 'react-router';
 import $ from "jquery";
 import PropTypes from 'prop-types';
-
 const categories = ['clarity', 'experience', 'organization', 'personality'];
 
 class Review extends React.Component {
@@ -14,7 +13,8 @@ class Review extends React.Component {
     console.log(reviews)
     return (
       <div>
-        {Object.keys(reviews).map((key) =>
+        {
+          Object.keys(reviews).map((key) =>
           reviews[key] instanceof Array ?
              reviews[key].map((topic) => (
                 <ul style={{listStyleType: 'none'}}>
