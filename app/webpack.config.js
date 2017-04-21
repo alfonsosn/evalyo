@@ -23,8 +23,9 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'babel-loader'
       }
-    }
+    ]
   }
+}
 
 
 
@@ -36,7 +37,7 @@ module.exports = {
   //     include: __dirname + 'node_modules/uswds/dist',
   //     loader: ExtractTextPlugin.extract("css")
   //   }
-]
+// ]
 // },
 // plugins: [
 //   new ExtractTextPlugin("server/static/stylesheets/styles.css")
