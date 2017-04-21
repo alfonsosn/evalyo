@@ -1,0 +1,54 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: "Helvetica-Neueu", "Helvetica", "Sans";
+}
+
+.card{
+  margin: 5px;
+  padding: 5px;
+  background: #fcfcfc;
+  border: 1px solid #e6e6e6 !important;
+  border-radius: 5px;
+  box-shadow: .2px .2px .2px lightgrey;
+}
+
+.home {
+  background-image: url("../img/thomas-hunter.jpg");
+  width: 100%;
+  height: 65vh;
+  background-size: cover;
+}
+
+.center {
+  background: white;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+}
+
+.action{
+  height: 25vh;
+}
+
+.info{
+  height: 1000px;
+}
+
+.Toolbar{
+  position: fixed !important;
+  width: 100%;
+}
+
+Button{
+  background-color: rgb(238, 85, 68) !important;
+}
+
+#logo{
+  object-fit: cover;
+  width: 30px;
+  height: 30px;
+}

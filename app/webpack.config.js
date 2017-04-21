@@ -16,29 +16,32 @@ module.exports = {
   },
 
   module: {
-    loaders:
+    rules:
     [
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
-        loader: 'babel-loader'
+        use:
+        [
+          'babel-loader'
+        ]
+      },
+      {
+        test: /\.css$/,
+        use:
+        [
+          'style-loader',
+          'css-loader'
+        ]
+      },
+      {
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        use: [
+          'url-loader?limit=10000',
+          'file-loader',
+          'img-loader'
+        ]
       }
     ]
   }
 }
-
-
-
-
-
-  //   },
-  //   {
-  //     test: /\.css$/,
-  //     include: __dirname + 'node_modules/uswds/dist',
-  //     loader: ExtractTextPlugin.extract("css")
-  //   }
-// ]
-// },
-// plugins: [
-//   new ExtractTextPlugin("server/static/stylesheets/styles.css")
-// ]

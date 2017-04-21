@@ -4,6 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router';
 import { Button, Toolbar, NavItem, Space } from 'rebass'
+import style from '../styles.css'
 
 export default class Layout extends React.Component {
   render() {
@@ -13,7 +14,7 @@ export default class Layout extends React.Component {
           <Toolbar>
               <NavItem is="a">
                 <Link to={`/`}>
-                  <img className="logo" src="/icons/white_icon.png"></img>
+                  <img className="logo" src="../../icons/white_icon.png"></img>
                 </Link>
               </NavItem>
               <Link to={`/`}>
