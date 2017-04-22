@@ -4,7 +4,7 @@ import React from 'react'
 import { Route, IndexRoute } from 'react-router'
 import Layout from '../components/layout/Layout.js';
 import Index from '../components/index/Index.js';
-import Departments from '../components/Departments/Departments.js';
+import Departments from '../components/departments/Departments.js';
 import Faculty from '../components/faculty/Faculty.js';
 import Professor from '../components/professor/Professor.js'
 import Review from '../components/review/Review.js'
