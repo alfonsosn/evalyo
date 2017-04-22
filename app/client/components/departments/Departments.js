@@ -32,7 +32,7 @@ export default class Departments extends React.Component {
         <Flex wrap align="center" pt={6} py={6}>
         {this.state.departments.map((name, index)=>
           <Box key={index}>
-            <img className="logo" src={`../../icons/${icons[name]}`}></img>
+            <img className="logo" src={require(`../../icons/${icons[name]}`)}></img>
             <Link to={`/departments/${name.toLowerCase().split(' ').join('_')}`}>{name}</Link>
           </Box>
         )}

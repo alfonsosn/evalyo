@@ -4,7 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router';
 import { Button, Toolbar, NavItem, Space } from 'rebass'
-import style from '../styles.css'
+require('../styles.css')
 import icons from '../../icons/white_icon.png'
 
 export default class Layout extends React.Component {

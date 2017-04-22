@@ -8,9 +8,7 @@ import { Flex, Box } from 'reflexbox'
 export default class Index extends React.Component {
   render() {
     return (
-      <section style={{
-        backgroundImage: 'url("thomas-hunter.jpg")'
-      }}>
+      <section>
         <div className="home">
           <Flex wrap align="center" pt={6} py={6}>
             <Box col={12} lg={4} sm={12}></Box>
