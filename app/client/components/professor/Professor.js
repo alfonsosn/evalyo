@@ -114,7 +114,7 @@ export default class Professor extends React.Component {
 
     return (
       <Flex  py={6} justify='center' align='center' wrap>
-        <Box sm={12} lg={6}>
+        <Box sm={12} lg={8}>
           <Panel theme='secondary'>
             <PanelHeader>
               {profName}
@@ -138,7 +138,8 @@ export default class Professor extends React.Component {
                     options={semesterTitles}
                 />
               </Box>
-              <Box  sm={12} px={2}>
+          
+              <Box py={4} sm={12} px={2}>
                 <Review reviews={reviews}/>
               </Box>
             </Flex>
