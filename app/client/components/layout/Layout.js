@@ -11,7 +11,7 @@ import { Flex, Box } from 'reflexbox'
 export default class Layout extends React.Component {
   render() {
       return (
-        <div>
+        <div className="home">
           <Toolbar>
               <NavItem is="a">
                 <Link to={`/`}>

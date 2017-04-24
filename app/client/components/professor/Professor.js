@@ -114,13 +114,14 @@ export default class Professor extends React.Component {
 
     return (
       <Flex  py={6} justify='center' align='center' wrap>
-        <Box sm={12} lg={8}>
+        <Box col={12} lg={2} sm={0}></Box>
+        <Box lg={8} sm={12}>
           <Panel theme='secondary'>
             <PanelHeader>
               <h1> All available reviews for {profName} </h1>
             </PanelHeader>
-            <Flex  py={2} justify='center' align='center' wrap>
-              <Box  sm={4} px={2}>
+            <Flex wrap>
+              <Box col={12} lg={6} md={6} sm={12} px={2}>
                 <Select
                     name='course'
                     label='Course'
@@ -129,7 +130,7 @@ export default class Professor extends React.Component {
                     options={courseTitles}
                 />
               </Box>
-              <Box  sm={4} px={2}>
+              <Box col={12} lg={6} md={6} sm={12} px={2}>
                 <Select
                     name='semester'
                     label='Semester'
@@ -138,13 +139,15 @@ export default class Professor extends React.Component {
                     options={semesterTitles}
                 />
               </Box>
-
+            </Flex>
+            <Flex>
               <Box py={4} sm={12} px={2}>
                 <Review reviews={reviews}/>
               </Box>
             </Flex>
           </Panel>
         </Box>
+        <Box col={12} lg={2} sm={0}></Box>
       </Flex>
     );
   }
