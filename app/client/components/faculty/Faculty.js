@@ -36,7 +36,15 @@ export default class Faculty extends React.Component {
   render() {
     console.log('props', this.props)
     return (
-      <Flex  py={6} justify='center' align='center' wrap>
+      <div>
+      <Flex pt={6}>
+        <Box col={12} lg={2} sm={12}></Box>
+        <Box col={12} lg={8} sm={12} pt={2} className="card action">
+          <h1> Choose your Professor </h1>
+        </Box>
+        <Box col={12} lg={2} sm={12}></Box>
+      </Flex>
+      <Flex justify='center' align='center' wrap>
         <Box sm={12} lg={8}>
           <Flex  py={2} justify='center' align='center' wrap>
               {this.state.professors.map((name, index)=>
@@ -69,6 +77,7 @@ export default class Faculty extends React.Component {
           </Flex>
         </Box>
       </Flex>
+      </div>
     );
   }
 }

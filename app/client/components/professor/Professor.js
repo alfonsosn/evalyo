@@ -117,7 +117,7 @@ export default class Professor extends React.Component {
         <Box sm={12} lg={8}>
           <Panel theme='secondary'>
             <PanelHeader>
-              {profName}
+              <h1> All available reviews for {profName} </h1>
             </PanelHeader>
             <Flex  py={2} justify='center' align='center' wrap>
               <Box  sm={4} px={2}>
