@@ -9,6 +9,7 @@ import { Accordion, AccordionItem } from 'react-sanfona';
 import { Flex, Box } from 'reflexbox'
 
 require('normalize.css');
+require('../styles.scss')
 require('./style.scss')
 
 class Review extends React.Component {

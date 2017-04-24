@@ -47,9 +47,11 @@ export default class Departments extends React.Component {
                    </Box>
                    <Box auto
                         p={3}>
-                    <h3>
-                      <Link to={`/departments/${name.toLowerCase().split(' ').join('_')}`}>{name}</Link>
-                    </h3>
+                    <Link to={`/departments/${name.toLowerCase().split(' ').join('_')}`}>
+                      <h3 className="secondaryLink">
+                        {name}
+                      </h3>
+                    </Link>
                     <p> Number of current faculty: {Math.round((Math.random()*10))} </p>
                    </Box>
                    </Flex>

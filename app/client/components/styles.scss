@@ -1,0 +1,81 @@
+$primary-font: 'Merriweather', serif;
+$secondary-font: 'Open Sans', sans-serif;
+$blue: rgb(0, 136, 238) !important;
+$red: rgb(238, 85, 68) !important;
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: $secondary-font
+}
+
+h1, h2, h3 {
+  font-family: $primary-font
+}
+
+p {
+  font-family: $secondary-font
+}
+
+.card{
+  background: #fcfcfc;
+  border: 1px solid #e6e6e6 !important;
+  border-radius: 5px;
+  box-shadow: .2px .2px .2px lightgrey;
+}
+
+.home {
+  background-image: url("../img/bg_pattern.png");
+  width: 100%;
+  height: 100vh;
+}
+
+.center {
+  background: white;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+}
+
+.action{
+  border: 5px dashed rgb(0, 136, 238) !important;
+  text-align: center;
+  height: inherit;
+  padding: 0px 15px 35px 15px;
+}
+
+.info{
+  height: 1000px;
+}
+
+.Toolbar{
+  position: fixed !important;
+  width: 100%;
+}
+
+Button{
+  background-color: $red
+}
+
+#logo{
+  object-fit: cover;
+  width: 30px;
+  height: 30px;
+}
+
+.banner{
+  width: 100% !important;
+}
+
+.link{
+  color:white;
+  text-decoration: none;
+}
+
+.secondaryLink{
+  color: $blue
+
+}
