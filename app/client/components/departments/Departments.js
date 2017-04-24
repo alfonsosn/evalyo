@@ -43,7 +43,7 @@ export default class Departments extends React.Component {
                      >
                    <Box p={3}
                         align="center">
-                          <img className="logo" src={require(`../../icons/${icons[name]}`)}></img>
+                        <img className="logo" src={require(`../../icons/${icons[name]}`)}></img>
                    </Box>
                    <Box auto
                         p={3}>

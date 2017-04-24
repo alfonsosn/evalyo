@@ -36,9 +36,9 @@ export default class Faculty extends React.Component {
   render() {
     console.log('props', this.props)
     return (
-      <Flex wrap justify="center"
-            align="center"
-            pt={6} py={4}>
+      <Flex  py={6} justify='center' align='center' wrap>
+        <Box sm={12} lg={8}>
+          <Flex  py={2} justify='center' align='center' wrap>
               {this.state.professors.map((name, index)=>
               <Box lg={6}
                    sm={6}
@@ -46,7 +46,8 @@ export default class Faculty extends React.Component {
                      <Flex align="center"
                            justify="space-between">
                      <Box p={3}
-                          align="center">
+                          align="center"
+                          className="init">
                          <h1> {this.obtainInitials(name)} </h1>
                      </Box>
                      <Box auto
@@ -54,16 +55,19 @@ export default class Faculty extends React.Component {
                       <h3>
                         <Link to={`/professor/${name.toLowerCase().split(' ')[1]}`}>{name}</Link>
                       </h3>
+                      <br></br>
                       <h4>
-
+                        <p> Number of classes Taught {Math.round((Math.random()*13))} </p>
                       </h4>
                       <h5>
-
+                        <p> Years taught at Hunter College {Math.round((Math.random()*8))} </p>
                       </h5>
                      </Box>
                      </Flex>
               </Box>
-        )}
+            )}
+          </Flex>
+        </Box>
       </Flex>
     );
   }
