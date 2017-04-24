@@ -51,7 +51,7 @@ module.exports = {
           options: {
               name: '[name].[ext]'
           }
-        }]       
+        }]
       },
       {
         test: /\.png$/i,
@@ -60,17 +60,8 @@ module.exports = {
           options: {
               name: '[name].[ext]'
           }
-        }]       
+        }]
       },
     ]
   }
 }
-
-/* 
-{
-  loader: 'file-loader',
-  options: {
-      name: '[path][name].[hash].[ext]'
-  }
-}     
-*/

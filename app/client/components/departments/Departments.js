@@ -29,14 +29,35 @@ export default class Departments extends React.Component {
   render() {
     return (
       <div>
-        <Flex wrap align="center" pt={6} py={6}>
-        {this.state.departments.map((name, index)=>
-          <Box key={index}>
-            <img className="logo" src={require(`../../icons/${icons[name]}`)}></img>
-            <Link to={`/departments/${name.toLowerCase().split(' ').join('_')}`}>{name}</Link>
+      <Flex  py={6} justify='center' align='center' wrap>
+        <Box sm={12} lg={8}>
+        <Flex  py={2} justify='center' align='center' wrap>
+            {this.state.departments.map((name, index)=>
+              <Box col={12}
+                   lg={6}
+                   sm={6}
+                   key={index} className="card">
+                   <Flex
+                     align="center"
+                     justify="space-between"
+                     >
+                   <Box p={3}
+                        align="center">
+                          <img className="logo" src={require(`../../icons/${icons[name]}`)}></img>
+                   </Box>
+                   <Box auto
+                        p={3}>
+                    <h3>
+                      <Link to={`/departments/${name.toLowerCase().split(' ').join('_')}`}>{name}</Link>
+                    </h3>
+                    <p> Number of current faculty: {Math.round((Math.random()*10))} </p>
+                   </Box>
+                   </Flex>
+              </Box>
+            )}
+            </Flex>
           </Box>
-        )}
-          </Flex>
+        </Flex>
       </div>
     );
   }

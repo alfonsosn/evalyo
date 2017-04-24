@@ -138,7 +138,7 @@ export default class Professor extends React.Component {
                     options={semesterTitles}
                 />
               </Box>
-          
+
               <Box py={4} sm={12} px={2}>
                 <Review reviews={reviews}/>
               </Box>
