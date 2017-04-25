@@ -38,14 +38,14 @@ export default class Departments extends React.Component {
       </Flex>
       <Flex justify='center' align='center' wrap>
         <Box sm={12} lg={8}>
-        <Flex  py={2} justify='center' align='center' wrap>
+        <Flex  py={2} justify='center' align='stretch' wrap>
             {this.state.departments.map((name, index)=>
               <Box col={12}
                    lg={6}
                    sm={6}
                    key={index} className="card">
                    <Flex
-                     align="center"
+                     align="stretch"
                      justify="space-between"
                      >
                    <Box p={3}

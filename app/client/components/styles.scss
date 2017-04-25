@@ -7,15 +7,12 @@ $red: rgb(238, 85, 68) !important;
   margin:0;
   padding:0;
   box-sizing:border-box;
-  font-family: $secondary-font
-}
+  font-family: $secondary-font;
 
-h1, h2, h3 {
-  font-family: $primary-font
-}
+  h1, h2, h3 {
+    font-family: $primary-font
+  }
 
-p {
-font-family: $secondary-font
 }
 
 .card{
@@ -23,12 +20,6 @@ font-family: $secondary-font
   border: 1px solid #e6e6e6 !important;
   border-radius: 5px;
   box-shadow: .2px .2px .2px lightgrey;
-}
-
-.home {
-  background-image: url("../img/bg_pattern.png");
-  width: 100%;
-  height: 170vh;
 }
 
 .center {
@@ -49,21 +40,6 @@ font-family: $secondary-font
 
 .info{
   height: 1000px;
-}
-
-.Toolbar{
-  position: fixed !important;
-  width: 100%;
-}
-
-Button{
-  background-color: $red
-}
-
-#logo{
-  object-fit: cover;
-  width: 30px;
-  height: 30px;
 }
 
 .banner{
