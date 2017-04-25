@@ -29,7 +29,14 @@ export default class Departments extends React.Component {
   render() {
     return (
       <div>
-      <Flex  py={6} justify='center' align='center' wrap>
+      <Flex pt={6} wrap>
+        <Box col={12} lg={2} sm={0}></Box>
+        <Box col={12} lg={8} sm={12} pt={2} className="card action">
+          <h1> Choose your Department </h1>
+        </Box>
+        <Box col={12} lg={2} sm={0}></Box>
+      </Flex>
+      <Flex justify='center' align='center' wrap>
         <Box sm={12} lg={8}>
         <Flex  py={2} justify='center' align='center' wrap>
             {this.state.departments.map((name, index)=>
@@ -43,13 +50,15 @@ export default class Departments extends React.Component {
                      >
                    <Box p={3}
                         align="center">
-                          <img className="logo" src={require(`../../icons/${icons[name]}`)}></img>
+                        <img className="logo" src={require(`../../icons/${icons[name]}`)}></img>
                    </Box>
                    <Box auto
                         p={3}>
-                    <h3>
-                      <Link to={`/departments/${name.toLowerCase().split(' ').join('_')}`}>{name}</Link>
-                    </h3>
+                    <Link to={`/departments/${name.toLowerCase().split(' ').join('_')}`}>
+                      <h3 className="secondaryLink">
+                        {name}
+                      </h3>
+                    </Link>
                     <p> Number of current faculty: {Math.round((Math.random()*10))} </p>
                    </Box>
                    </Flex>

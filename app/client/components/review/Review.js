@@ -9,18 +9,19 @@ import { Accordion, AccordionItem } from 'react-sanfona';
 import { Flex, Box } from 'reflexbox'
 
 require('normalize.css');
+require('../styles.scss')
 require('./style.scss')
 
 class Review extends React.Component {
 
   render() {
-    const reviews = this.props.reviews
+  const reviews = this.props.reviews
     const tp = (<h2> title </h2>)
     console.log(reviews)
     return (
         <Accordion>
         {
-         Object.keys(reviews).map((topic) =>  
+         Object.keys(reviews).map((topic) =>
           categories.indexOf(topic) === -1 ? null
           : <AccordionItem title={topic} key={topic} openNextAccordionItem={true}>
                 {
@@ -42,9 +43,9 @@ class Review extends React.Component {
             </AccordionItem>
          )
       }
-      </Accordion> 
+      </Accordion>
     );
-    
+
   }
 }
 
@@ -56,5 +57,5 @@ export default Review
 
 
 /*
-   
+
 */
