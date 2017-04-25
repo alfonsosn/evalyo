@@ -12,6 +12,7 @@ export default class Layout extends React.Component {
   render() {
       return (
         <div className="home">
+
           <Toolbar>
               <NavItem is="a">
                 <Link to={`/`}>
@@ -25,6 +26,7 @@ export default class Layout extends React.Component {
               </Link>
             <Space auto x={1}/>
           </Toolbar>
+
           <div className="home">
           <div className="app-content">{this.props.children}</div>
           </div>

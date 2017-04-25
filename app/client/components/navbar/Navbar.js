@@ -4,9 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router';
 import { Button, Toolbar, NavItem, Space } from 'rebass'
-require('../styles.scss')
 import icon from '../../icons/white_icon.png'
-import { Flex, Box } from 'reflexbox'
 
 export default class Nav extends React.Component {
   render(){
