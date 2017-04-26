@@ -7,10 +7,10 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
   devtool: 'inline-sourcemap',
-  entry: path.join(__dirname, 'client/app-client.js'),
+  entry: path.join(__dirname, 'client', 'app-client.js'),
 
   output: {
-    path: path.join(__dirname, 'server/static'),
+    path: path.join(__dirname, 'server', 'static', 'bundle'),
     filename: 'bundle.js',
     publicPath: '/',
     libraryTarget: 'umd' // this is super important
@@ -49,7 +49,7 @@ module.exports = {
         use: [{
           loader: 'file-loader',
           options: {
-              name: '[name].[ext]'
+              name: './bundle/[name].[ext]'
           }
         }]
       },
@@ -58,7 +58,7 @@ module.exports = {
         use: [{
           loader: 'file-loader',
           options: {
-              name: '[name].[ext]'
+              name: './bundle/[name].[ext]'
           }
         }]
       },
