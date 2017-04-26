@@ -23,9 +23,12 @@ module.exports = {
         test: /\.jsx?$/,
         exclude: /node_modules/,
         use:
-        [
-          'babel-loader'
-        ]
+        [{
+          loader: 'babel-loader',
+          options: {
+            plugins: ["transform-class-properties", "transform-object-rest-spread"]
+          }
+        }]
       },
       {
         test: /\.css$/,

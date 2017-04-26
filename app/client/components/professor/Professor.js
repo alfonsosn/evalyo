@@ -5,7 +5,9 @@ import { Link } from 'react-router';
 import $ from "jquery";
 import {Panel, PanelHeader, Select, Text} from 'rebass'
 import { Flex, Box } from 'reflexbox'
+import helpers from './helpers'
 
+const AGGREGATE_ID = '-1'
 export default class Professor extends React.Component {
   constructor(props){
       super(props);
@@ -15,8 +17,9 @@ export default class Professor extends React.Component {
         selectedCourse: '',
         semesterTitles: [],
         selectedSemester: '',
-        reviews: {},
-        prof: ''
+        ratings: [],
+        questions: [],
+        profName: ''
       };
       this.handleCourseChange = this.handleCourseChange.bind(this)
       this.handleSemesterChange = this.handleSemesterChange.bind(this)
@@ -29,78 +32,91 @@ export default class Professor extends React.Component {
       type: 'GET'
     })
     .done((professor) => {
+      console.log('prof :', professor)
       this.setState({
         'courses': professor.courses,
-        'courseTitles': this.generateCourseTitles(professor.courseTitles),
+        'courseTitles': this.generateCourseTitles(professor.courses),
         'profName': professor.firstName + ' ' + professor.lastName,
-        'prof': this.props.params.prof
+        'profId': professor._id
       })
     });
   }
 
 
-  generateCourseTitles(titles){
+  generateCourseTitles(courses){
     const blankOption = [{ value: '', children: 'choose one'}]
 
-    const courseTitles = titles.map((title) => {
-      const title_with_spaces = title.replace(/_/g, " ")
+    const courseTitles = courses.map((course) => {
+      const title_with_spaces = course.subject.replace(/_/g, " ")
       return {
-        value: title_with_spaces,
+        value: course._id,
         children: title_with_spaces
       }
     })
     return blankOption.concat(courseTitles)
   }
 
-  handleCourseChange(e){
-    // const subject = course.replace(/_/g, " ")
-    const courseTitle = e.target.value
-
-    // if blank option was chosen
-    if (courseTitle === '') return
-
-    this.setState({
-      selectedCourse: courseTitle,
-      semesterTitles: this.generateSemesterTitles(this.state.courses, courseTitle)
-    });
- }
-
- generateSemesterTitles(arr, subject){
+ generateSemesterTitles(ratings){
    const blankOption = [{ value: '', children: 'choose one'}]
 
    const aggregateOption = [{
-     value: 'Aggregate',
+     value: AGGREGATE_ID,
      label: 'Aggregate'
    }]
 
-   const semesterTitles = arr.filter((course) =>
-       course.subject === subject)
-       .map((course) => {
-         return {
-             value: course.semester,
-             children: course.semester
-           }
-         }
-       )
+   const semesterTitles = ratings.map((rating) => {
+        return {
+            value: rating._id,
+            children: rating.semester + ' ' + rating.year
+        }
+   })
 
    return blankOption.concat(aggregateOption, semesterTitles)
   }
 
-   handleSemesterChange(e){
-     const semester = e.target.value
-     // if 'choose one' option was selected
-     if (semester === '') return
-     $.ajax({
-       url: `/api/professors/${this.state.prof}/${this.state.selectedCourse}/${semester}`,
-       type: 'GET'
-     })
-     .done(reviews => {
-       this.setState({
-         selectedSemester: semester,
-         reviews: reviews[0]
-       })
-     });
-   }
+  handleCourseChange(e){
+      const course_id = e.target.value
+
+      // if 'choose one' option was selected
+      if (course_id === '') return
+
+      $.ajax({
+        url: `/api/professors/${this.state.profId}/${course_id}`,
+        type: 'GET'
+      })
+      .done((ratings) => {
+        this.setState({
+          selectedCourse: course_id,
+          ratings: ratings,
+          semesterTitles: this.generateSemesterTitles(ratings)
+        });
+      })
+  }
+
+
+
+  handleSemesterChange(e){
+    const rating_id = e.target.value
+    // if 'choose one' option was selected
+    if (rating_id === '') return
+
+    console.log('rating id: ', rating_id)
+    const selectedRatings = 
+      rating_id === AGGREGATE_ID ? 
+        []
+      : this.state.ratings.filter((rating) => rating._id === rating_id)
+
+    const sortedRatings =
+      rating_id === AGGREGATE_ID ? 
+        {}
+      : helpers.sortRatings(selectedRatings[0].questions)
+      
+    console.log('selected: ', selectedRatings)
+    this.setState({
+      questions: sortedRatings,
+      selectedSemester: rating_id
+    })
+  }
 
   render() {
     const {
@@ -108,20 +124,20 @@ export default class Professor extends React.Component {
       courseTitles,
       selectedSemester,
       semesterTitles,
-      reviews,
+      questions,
       profName
     } = this.state
 
+    console.log('state: ', this.state)
     return (
       <Flex  py={6} justify='center' align='center' wrap>
-        <Box col={12} lg={2} sm={0}></Box>
-        <Box lg={8} sm={12}>
+        <Box sm={12} lg={8}>
           <Panel theme='secondary'>
             <PanelHeader>
-              <h1> All available reviews for {profName} </h1>
+              {profName}
             </PanelHeader>
-            <Flex wrap>
-              <Box col={12} lg={6} md={6} sm={12} px={2}>
+            <Flex  py={2} justify='center' align='center' wrap>
+              <Box  sm={4} px={2}>
                 <Select
                     name='course'
                     label='Course'
@@ -130,7 +146,7 @@ export default class Professor extends React.Component {
                     options={courseTitles}
                 />
               </Box>
-              <Box col={12} lg={6} md={6} sm={12} px={2}>
+              <Box  sm={4} px={2}>
                 <Select
                     name='semester'
                     label='Semester'
@@ -139,15 +155,13 @@ export default class Professor extends React.Component {
                     options={semesterTitles}
                 />
               </Box>
-            </Flex>
-            <Flex>
+
               <Box py={4} sm={12} px={2}>
-                <Review reviews={reviews}/>
+                <Review reviews={questions}/>
               </Box>
             </Flex>
           </Panel>
         </Box>
-        <Box col={12} lg={2} sm={0}></Box>
       </Flex>
     );
   }

@@ -133,7 +133,7 @@ class Evaluation {
 
 // EXPORT FUNCTIONS
 
-exports.aggregatesExperience = (professors, courseId) => (
+exports.getTimesTaught = (professors, courseId) => (
   professors.courses.reduce((total, course) =>
     course.subject === courseId ? total + 1 : total , 0)
 )

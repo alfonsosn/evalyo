@@ -34,6 +34,7 @@
     "handlebars": "4.0.6",
     "jquery": "^2.1.4",
     "lodash": "~4.17.4",
+    "mongoose": "^4.9.6",
     "morgan": "~1.7.0",
     "node-jsx": "^0.13.3",
     "nodemon": "^1.11.0",
@@ -54,6 +55,7 @@
   },
   "devDependencies": {
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "css-loader": "^0.28.0",
     "extract-text-webpack-plugin": "^2.1.0",
     "http-server": "^0.9.0",

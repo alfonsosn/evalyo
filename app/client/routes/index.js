@@ -14,7 +14,7 @@ const routes = (
   <Route path="/" component={Layout}>
     <IndexRoute component={Index}/>
     <Route path="/departments" component={Departments}/>
-    <Route path="/departments/:name" component={Faculty}/>
+    <Route path="/departments/:dept" component={Faculty}/>
     <Route path="/professor/:prof" component={Professor}/>
     <Route path="*" component={NotFoundPage}/>
   </Route>

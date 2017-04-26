@@ -30,11 +30,11 @@ const insertCourses = (courses, professor) =>
       }   
       const current = courses[index]
       console.log('course: ', courses[index] ? true : false)
-      const subject = current.subject
-      console.log('subject: ', subject)
+      const subject = current.subject.split(' ')
+      // console.log('subject: ', subject)
 
       CourseModel.findOneAndUpdate(
-        { subject: subject }, 
+        { subject: subject[0] + ' ' + subject[1] }, 
         { $addToSet: {"professors": professor._id}},
         { upsert: true, new: true})
       .then((course) => {
@@ -51,9 +51,14 @@ const insertCourses = (courses, professor) =>
             professor: professor._id,
             questions: current.questions
           })
-          .then((response) => {
-            console.log('class: ', response)
-            recursiveInsert(index + 1)
+          .then((rating) => {
+            // console.log('class: ', response)
+            ProfessorModel.findByIdAndUpdate(
+              professor._id,
+              { $addToSet: {"ratings": rating._id}}
+            ).then(() => {
+              recursiveInsert(index + 1)
+            })
           })
           .catch((e)=> {console.log(e)})
         })
