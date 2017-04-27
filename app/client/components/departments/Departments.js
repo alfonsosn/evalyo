@@ -29,7 +29,7 @@ export default class Departments extends React.Component {
   render() {
     return (
       <div>
-      <Flex pt={6} wrap>
+      <Flex pt={1} wrap>
         <Box col={12} lg={2} sm={0}></Box>
         <Box col={12} lg={8} sm={12} pt={2} className="card action">
           <h1> Choose your Department </h1>

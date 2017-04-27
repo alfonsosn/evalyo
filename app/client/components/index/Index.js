@@ -10,7 +10,7 @@ export default class Index extends React.Component {
   render() {
     return (
         <div className="home">
-          <Flex wrap align="center" pt={6} >
+          <Flex wrap align="center" pt={1} >
             <Box col={12} lg={2} sm={12}></Box>
             <Box col={12} lg={8} sm={12} className="card action">
               <h1> Find Your Professor The Right Way </h1>

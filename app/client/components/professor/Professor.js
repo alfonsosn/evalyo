@@ -113,7 +113,7 @@ export default class Professor extends React.Component {
     } = this.state
 
     return (
-      <Flex  py={6} justify='center' align='center' wrap>
+      <Flex  pt={1} justify='center' align='center' wrap>
         <Box col={12} lg={2} sm={0}></Box>
         <Box lg={8} sm={12}>
           <Panel theme='secondary'>
