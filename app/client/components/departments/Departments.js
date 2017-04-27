@@ -4,9 +4,10 @@ import React from 'react';
 import { Link } from 'react-router';
 import { Flex, Box } from 'reflexbox'
 import $ from "jquery"
+require('./style.scss')
 
 const dpmts = ["Biology", "Chemistry", "Computer Science", "Economics", "Math", "Philosophy"];
-const icons = {"Biology":"bio.png", "Chemistry": "chem.png", "Computer Science": "csci.png", "Economics": "econ.png", "Math":"math.png", "Philosophy":"philo.png"};
+const icons = {"Biology":"bio", "Chemistry": "chem", "Computer Science": "csci", "Economics": "econ", "Math":"math", "Philosophy":"philo"};
 
 export default class Departments extends React.Component {
   constructor(props){
@@ -49,8 +50,9 @@ export default class Departments extends React.Component {
                      justify="space-between"
                      >
                    <Box p={3}
-                        align="center">
-                        <img className="logo" src={require(`../../icons/${icons[name]}`)}></img>
+                        align="center"
+                        className={`${name.toLowerCase()}`}
+                        >
                    </Box>
                    <Box auto
                         p={3}>

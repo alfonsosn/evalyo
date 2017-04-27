@@ -37,7 +37,7 @@ export default class Faculty extends React.Component {
     console.log('props', this.props)
     return (
       <div className="home">
-      <Flex pt={6} wrap>
+      <Flex pt={1} wrap>
         <Box col={12} lg={2} sm={0}></Box>
         <Box col={12} lg={8} sm={12} pt={2} className="card action">
           <h1> Choose your Professor </h1>
