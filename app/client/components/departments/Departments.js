@@ -4,9 +4,10 @@ import React from 'react';
 import { Link } from 'react-router';
 import { Flex, Box } from 'reflexbox'
 import $ from "jquery"
+require('./style.scss')
 
 const dpmts = ["Biology", "Chemistry", "Computer Science", "Economics", "Math", "Philosophy"];
-const icons = {"BIO":"bio.png", "CHEM": "chem.png", "CSCI": "csci.png", "ECON": "econ.png", "MATH":"math.png", "PHILO":"philo.png"};
+const icons = {"Biology":"bio", "Chemistry": "chem", "Computer Science": "csci", "Economics": "econ", "Math":"math", "Philosophy":"philo"};
 
 export default class Departments extends React.Component {
   constructor(props){
@@ -30,7 +31,14 @@ export default class Departments extends React.Component {
   render() {
     return (
       <div>
-      <Flex  py={6} justify='center' align='center' wrap>
+      <Flex pt={1} wrap>
+        <Box col={12} lg={2} sm={0}></Box>
+        <Box col={12} lg={8} sm={12} pt={2} className="card action">
+          <h1> Choose your Department </h1>
+        </Box>
+        <Box col={12} lg={2} sm={0}></Box>
+      </Flex>
+      <Flex justify='center' align='center' wrap>
         <Box sm={12} lg={8}>
         <Flex  py={2} justify='center' align='center' wrap>
             {this.state.departments.map((dept, index)=>
@@ -43,8 +51,9 @@ export default class Departments extends React.Component {
                      justify="space-between"
                      >
                    <Box p={3}
-                        align="center">
-                          <img className="logo" src={require(`../../icons/${icons[dept.name]}`)}></img>
+                        align="center"
+                        className={`${name.toLowerCase()}`}
+                        >
                    </Box>
                    <Box auto
                         p={3}>

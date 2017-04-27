@@ -101,16 +101,16 @@ export default class Professor extends React.Component {
     if (rating_id === '') return
 
     console.log('rating id: ', rating_id)
-    const selectedRatings = 
-      rating_id === AGGREGATE_ID ? 
+    const selectedRatings =
+      rating_id === AGGREGATE_ID ?
         []
       : this.state.ratings.filter((rating) => rating._id === rating_id)
 
     const sortedRatings =
-      rating_id === AGGREGATE_ID ? 
+      rating_id === AGGREGATE_ID ?
         {}
       : helpers.sortRatings(selectedRatings[0].questions)
-      
+
     console.log('selected: ', selectedRatings)
     this.setState({
       questions: sortedRatings,
@@ -130,8 +130,9 @@ export default class Professor extends React.Component {
 
     console.log('state: ', this.state)
     return (
-      <Flex  py={6} justify='center' align='center' wrap>
-        <Box sm={12} lg={8}>
+      <Flex pt={1} justify='center' align='center' wrap>
+        <Box col={12} lg={2} sm={0}></Box>
+        <Box lg={8} sm={12}>
           <Panel theme='secondary'>
             <PanelHeader>
               {profName}

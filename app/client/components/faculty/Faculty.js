@@ -37,10 +37,18 @@ export default class Faculty extends React.Component {
   render() {
     console.log('props', this.props)
     return (
-      <Flex wrap justify="center"
-            align="center"
-            pt={6} py={4}>
-              {this.state.professors.map((prof, index)=>
+      <div className="home">
+      <Flex pt={1} wrap>
+        <Box col={12} lg={2} sm={0}></Box>
+        <Box col={12} lg={8} sm={12} pt={2} className="card action">
+          <h1> Choose your Professor </h1>
+        </Box>
+        <Box col={12} lg={2} sm={0}></Box>
+      </Flex>
+      <Flex justify='center' align='center' wrap>
+        <Box sm={12} lg={8}>
+          <Flex  py={2} justify='center' align='center' wrap>
+              {this.state.professors.map((name, index)=>
               <Box lg={6}
                    sm={6}
                    key={index} className="card">
