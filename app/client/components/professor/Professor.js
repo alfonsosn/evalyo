@@ -8,6 +8,7 @@ import { Flex, Box } from 'reflexbox'
 import helpers from './helpers'
 
 const AGGREGATE_ID = '-1'
+
 export default class Professor extends React.Component {
   constructor(props){
       super(props);
@@ -56,22 +57,22 @@ export default class Professor extends React.Component {
     return blankOption.concat(courseTitles)
   }
 
- generateSemesterTitles(ratings){
-   const blankOption = [{ value: '', children: 'choose one'}]
+  generateSemesterTitles(ratings){
+    const blankOption = [{ value: '', children: 'choose one'}]
 
-   const aggregateOption = [{
-     value: AGGREGATE_ID,
-     label: 'Aggregate'
-   }]
+    const aggregateOption = [{
+      value: AGGREGATE_ID,
+      label: 'Aggregate'
+    }]
 
-   const semesterTitles = ratings.map((rating) => {
-        return {
-            value: rating._id,
-            children: rating.semester + ' ' + rating.year
-        }
-   })
+    const semesterTitles = ratings.map((rating) => {
+          return {
+              value: rating._id,
+              children: rating.semester + ' ' + rating.year
+          }
+    })
 
-   return blankOption.concat(aggregateOption, semesterTitles)
+    return blankOption.concat(aggregateOption, semesterTitles)
   }
 
   handleCourseChange(e){
@@ -88,7 +89,9 @@ export default class Professor extends React.Component {
         this.setState({
           selectedCourse: course_id,
           ratings: ratings,
-          semesterTitles: this.generateSemesterTitles(ratings)
+          semesterTitles: this.generateSemesterTitles(ratings),
+          questions: [],
+          selectedSemester: ''
         });
       })
   }
@@ -100,18 +103,16 @@ export default class Professor extends React.Component {
     // if 'choose one' option was selected
     if (rating_id === '') return
 
-    console.log('rating id: ', rating_id)
     const selectedRatings = 
       rating_id === AGGREGATE_ID ? 
-        []
+        helpers.aggregate(this.state.ratings)
       : this.state.ratings.filter((rating) => rating._id === rating_id)
 
     const sortedRatings =
       rating_id === AGGREGATE_ID ? 
-        {}
-      : helpers.sortRatings(selectedRatings[0].questions)
+        helpers.sortRatings(selectedRatings, this.state.ratings.length)
+      : helpers.sortRatings(selectedRatings[0].questions, this.state.ratings.length)
       
-    console.log('selected: ', selectedRatings)
     this.setState({
       questions: sortedRatings,
       selectedSemester: rating_id

@@ -13,6 +13,10 @@ require('./style.scss')
 
 class Review extends React.Component {
   
+  normalizeYesNo(rating){
+    return Math.round((Number(rating.yes) / 
+          (Number(rating.yes) + Number(rating.no))).toFixed(2) * 100)
+  }
   render() {
     const ratings = this.props.reviews
     
@@ -34,8 +38,7 @@ class Review extends React.Component {
                       <span style={{float:'right'}}>
                       {
                         rating.average? rating.average
-                        : Math.round((rating.yes * 100) /
-                           (rating.yes + rating.no))
+                        : this.normalizeYesNo(rating)
                       }
                       </span>
                     </p>
