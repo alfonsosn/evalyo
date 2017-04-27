@@ -50,7 +50,7 @@ export default class Departments extends React.Component {
                      align="center"
                      justify="space-between"
                      >
-                   <Box p={3}
+                   <Box p={3} py={1}
                         align="center"
                         className={`${name.toLowerCase()}`}
                         >

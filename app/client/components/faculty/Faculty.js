@@ -17,20 +17,19 @@ export default class Faculty extends React.Component {
   }
 
 
-  obtainInitials(prof){
-    let initials = prof.firstName[0] + prof.lastName[0]
-    return initials
+  obtainInitials(name){
+    let initials = name.split(' ')
+    return (initials[1][0] + initials[0][0])
   }
 
 
   componentDidMount(){
     $.ajax({
-      url: `/api/departments/${this.props.params.dept}`,
+      url: '/',
       type: 'GET'
     })
-    .done(dept => {
-
-      this.setState({professors: dept.professors})
+    .done(professors => {
+      this.setState({professors: profs})
     });
   }
 
@@ -38,7 +37,7 @@ export default class Faculty extends React.Component {
     console.log('props', this.props)
     return (
       <div className="home">
-      <Flex pt={1} wrap>
+      <Flex pt={6} wrap>
         <Box col={12} lg={2} sm={0}></Box>
         <Box col={12} lg={8} sm={12} pt={2} className="card action">
           <h1> Choose your Professor </h1>
@@ -55,27 +54,30 @@ export default class Faculty extends React.Component {
                      <Flex align="center"
                            justify="space-between">
                      <Box p={3}
-                          align="center">
-                         <h1> {this.obtainInitials(prof)} </h1>
+                          align="center"
+                          className="init">
+                         <h1> {this.obtainInitials(name)} </h1>
                      </Box>
                      <Box auto
                           p={3}>
                       <h3>
-                        <Link to={`/professor/${prof.firstName}`}>
-                          {prof.firstName} {prof.lastName}
-                        </Link>
+                        <Link to={`/professor/${name.toLowerCase().split(' ')[1]}`}>{name}</Link>
                       </h3>
+                      <br></br>
                       <h4>
-
+                        <p> Number of classes Taught {Math.round((Math.random()*13))} </p>
                       </h4>
                       <h5>
-
+                        <p> Years taught at Hunter College {Math.round((Math.random()*8))} </p>
                       </h5>
                      </Box>
                      </Flex>
               </Box>
-        )}
+            )}
+          </Flex>
+        </Box>
       </Flex>
+      </div>
     );
   }
 }
