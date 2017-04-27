@@ -61,8 +61,8 @@ export default class Faculty extends React.Component {
                      <Box auto
                           p={3}>
                       <h3>
-                        <Link to={`/professor/${prof._id}`}>
-                          {prof.firstName} {prof.lastName}
+                        <Link to={`/professor/${name._id}`}>
+                          {name.firstName} {name.lastName}
                         </Link>
                       </h3>
                       <br></br>
