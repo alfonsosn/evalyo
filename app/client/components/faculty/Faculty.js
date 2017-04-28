@@ -29,7 +29,6 @@ export default class Faculty extends React.Component {
       type: 'GET'
     })
     .done(professors => {
-      console.log(profs)
       this.setState({professors: profs})
     });
   }
@@ -63,7 +62,7 @@ export default class Faculty extends React.Component {
                           p={3}>
                       <h3>
                         <Link to={`/professor/${name._id}`}>
-                          <p> {name}</p>
+                          {name.firstName} {name.lastName}
                         </Link>
                       </h3>
                       <br></br>
