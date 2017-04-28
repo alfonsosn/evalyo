@@ -10,7 +10,7 @@ module.exports = {
 
   output: {
     path: path.join(__dirname, 'server', 'static', 'bundle'),
-    publicPath: '/',
+    publicPath: '/bundle/',
     filename: 'bundle.js',
     libraryTarget: 'umd' // this is super important
   },
@@ -51,9 +51,7 @@ module.exports = {
         use: [{
           loader: 'file-loader',
           options: {
-              name: '[name].[ext]',
-              publicPath: '/',
-              outputPath: 'bundle/'
+              name: '[name].[ext]'
           }
         }]
       },
@@ -62,9 +60,7 @@ module.exports = {
         use: [{
           loader: 'file-loader',
           options: {
-              name: '[name].[ext]',
-              publicPath: '/',
-              outputPath: 'bundle/'
+              name: '[name].[ext]'
           }
         }]
       },
