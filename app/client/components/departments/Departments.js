@@ -7,7 +7,7 @@ import $ from "jquery"
 require('./style.scss')
 
 const dpmts = ["Biology", "Chemistry", "Computer Science", "Economics", "Math", "Philosophy"];
-const icons = {"Biology":"bio", "Chemistry": "chem", "Computer Science": "csci", "Economics": "econ", "Math":"math", "Philosophy":"philo"};
+const icons = {"BIO":"biology", "CHEM": "chemistry", "CSCI": "computer", "ECON": "economics", "MATH":"math", "PHILO":"philosophy"};
 
 export default class Departments extends React.Component {
   constructor(props){
@@ -50,9 +50,9 @@ export default class Departments extends React.Component {
                      align="center"
                      justify="space-between"
                      >
-                   <Box p={3} py={1}
+                   <Box p={3}
                         align="center"
-                        className={`${name.toLowerCase()}`}
+                        className={`${icons[dept.name].toLowerCase()}`}
                         >
                    </Box>
                    <Box auto
