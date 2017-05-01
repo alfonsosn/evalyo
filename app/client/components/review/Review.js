@@ -20,8 +20,6 @@ class Review extends React.Component {
   render() {
     const ratings = this.props.reviews
     
-    // const tp = (<h2> title </h2>)
-    // console.log("sorted_reviews: ", sorted_reviews)
     return (
         ratings.length === 0 ? null
         :

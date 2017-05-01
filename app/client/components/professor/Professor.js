@@ -6,7 +6,7 @@ import $ from "jquery";
 import {Panel, PanelHeader, Select, Text} from 'rebass'
 import { Flex, Box } from 'reflexbox'
 import helpers from './helpers'
-
+import SelectUI from '../select/select.js'
 const AGGREGATE_ID = '-1'
 
 export default class Professor extends React.Component {
@@ -19,7 +19,7 @@ export default class Professor extends React.Component {
         semesterTitles: [],
         selectedSemester: '',
         ratings: [],
-        questions: [],
+        questions: {},
         profName: ''
       };
       this.handleCourseChange = this.handleCourseChange.bind(this)
@@ -46,7 +46,7 @@ export default class Professor extends React.Component {
 
   generateCourseTitles(courses){
     const blankOption = [{ value: '', children: 'choose one'}]
-
+    
     const courseTitles = courses.map((course) => {
       const title_with_spaces = course.subject.replace(/_/g, " ")
       return {
@@ -56,7 +56,7 @@ export default class Professor extends React.Component {
     })
     return blankOption.concat(courseTitles)
   }
-
+  
   generateSemesterTitles(ratings){
     const blankOption = [{ value: '', children: 'choose one'}]
 
@@ -103,16 +103,7 @@ export default class Professor extends React.Component {
     // if 'choose one' option was selected
     if (rating_id === '') return
 
-    const selectedRatings =
-      rating_id === AGGREGATE_ID ?
-        helpers.aggregate(this.state.ratings)
-      : this.state.ratings.filter((rating) => rating._id === rating_id)
-
-    const sortedRatings =
-      rating_id === AGGREGATE_ID ?
-        helpers.sortRatings(selectedRatings, this.state.ratings.length)
-      : helpers.sortRatings(selectedRatings[0].questions, this.state.ratings.length)
-
+  
     this.setState({
       questions: sortedRatings,
       selectedSemester: rating_id
@@ -132,7 +123,7 @@ export default class Professor extends React.Component {
     console.log('state: ', this.state)
     return (
       <Flex pt={1} justify='center' align='center' wrap>
-        <Box col={12} lg={2} sm={0}></Box>
+        <Box col={12} lg={2}></Box>
         <Box lg={8} sm={12}>
           <Panel theme='secondary'>
             <PanelHeader>
@@ -140,13 +131,11 @@ export default class Professor extends React.Component {
             </PanelHeader>
             <Flex  py={2} justify='center' align='center' wrap>
               <Box  sm={4} px={2}>
-                <Select
-                    name='course'
-                    label='Course'
-                    value={selectedCourse}
-                    onChange={this.handleCourseChange}
-                    options={courseTitles}
-                />
+              <SelectUI 
+                value={selectedCourse}
+                onChange={this.handleCourseChange}
+                options={courseTitles}
+              />
               </Box>
               <Box  sm={4} px={2}>
                 <Select
@@ -168,3 +157,13 @@ export default class Professor extends React.Component {
     );
   }
 }
+
+/*
+<Select
+    name='course'
+    label='Course'
+    value={selectedCourse}
+    onChange={this.handleCourseChange}
+    options={courseTitles}
+/>
+*/
