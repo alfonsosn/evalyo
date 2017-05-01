@@ -103,7 +103,17 @@ export default class Professor extends React.Component {
     // if 'choose one' option was selected
     if (rating_id === '') return
 
-  
+    const selectedRatings =
+        rating_id === AGGREGATE_ID ?
+            helpers.aggregate(this.state.ratings)
+          : this.state.ratings.filter((rating) => rating._id === rating_id)
+
+    const sortedRatings =
+        rating_id === AGGREGATE_ID ?
+            helpers.sortRatings(selectedRatings, this.state.ratings.length)
+          : helpers.sortRatings(selectedRatings[0].questions, this.state.ratings.length)
+          
+      
     this.setState({
       questions: sortedRatings,
       selectedSemester: rating_id
