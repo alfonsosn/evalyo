@@ -1,13 +1,12 @@
 'use strict';
-import Review from '../review/Review'
 import React from 'react';
 import { Link } from 'react-router';
-import $ from "jquery";
-import {Panel, PanelHeader, Select, Text} from 'rebass'
+import { Panel, PanelHeader, Select, Text} from 'rebass'
 import { Flex, Box } from 'reflexbox'
+import Review from '../review/Review'
 import helpers from './helpers'
 import SelectUI from '../select/select.js'
-const AGGREGATE_ID = '-1'
+import ajax from './ajax'
 
 export default class Professor extends React.Component {
   constructor(props){
@@ -28,11 +27,8 @@ export default class Professor extends React.Component {
 
 
   componentDidMount(){
-    $.ajax({
-      url: `/api/professors/${this.props.params.prof}`,
-      type: 'GET'
-    })
-    .done((professor) => {
+    ajax.getProfessor(this.props.params.prof)
+    .then((professor) => {
       console.log('prof :', professor)
       this.setState({
         'courses': professor.courses,
@@ -43,36 +39,14 @@ export default class Professor extends React.Component {
     });
   }
 
-
+  
   generateCourseTitles(courses){
-    const blankOption = [{ value: '', children: 'choose one'}]
-    
-    const courseTitles = courses.map((course) => {
-      const title_with_spaces = course.subject.replace(/_/g, " ")
-      return {
-        value: course._id,
-        children: title_with_spaces
-      }
-    })
-    return blankOption.concat(courseTitles)
+    return helpers.generateCourseTitles(courses)
   }
   
   generateSemesterTitles(ratings){
-    const blankOption = [{ value: '', children: 'choose one'}]
-
-    const aggregateOption = [{
-      value: AGGREGATE_ID,
-      label: 'Aggregate'
-    }]
-
-    const semesterTitles = ratings.map((rating) => {
-          return {
-              value: rating._id,
-              children: rating.semester + ' ' + rating.year
-          }
-    })
-
-    return blankOption.concat(aggregateOption, semesterTitles)
+    return [helpers.aggregateOption, 
+            ...helpers.generateSemesterTitles(ratings)]
   }
 
   handleCourseChange(e){
@@ -81,11 +55,8 @@ export default class Professor extends React.Component {
       // if 'choose one' option was selected
       if (course_id === '') return
 
-      $.ajax({
-        url: `/api/professors/${this.state.profId}/${course_id}`,
-        type: 'GET'
-      })
-      .done((ratings) => {
+      ajax.getRatings(this.state.profId, course_id)
+      .then((ratings) => {
         this.setState({
           selectedCourse: course_id,
           ratings: ratings,
@@ -96,24 +67,17 @@ export default class Professor extends React.Component {
       })
   }
 
-
-
   handleSemesterChange(e){
     const rating_id = e.target.value
     // if 'choose one' option was selected
     if (rating_id === '') return
 
-    const selectedRatings =
-        rating_id === AGGREGATE_ID ?
-            helpers.aggregate(this.state.ratings)
-          : this.state.ratings.filter((rating) => rating._id === rating_id)
+    const times_taught = this.state.ratings.length    
+    const sortedRatings = 
+      rating_id === helpers.AGGREGATE_Q_ID ?
+        helpers.getAggregateRating(this.state.ratings, times_taught)
+        : helpers.getRatingById(this.state.ratings, rating_id, times_taught)
 
-    const sortedRatings =
-        rating_id === AGGREGATE_ID ?
-            helpers.sortRatings(selectedRatings, this.state.ratings.length)
-          : helpers.sortRatings(selectedRatings[0].questions, this.state.ratings.length)
-          
-      
     this.setState({
       questions: sortedRatings,
       selectedSemester: rating_id
@@ -142,19 +106,19 @@ export default class Professor extends React.Component {
             <Flex  py={2} justify='center' align='center' wrap>
               <Box  sm={4} px={2}>
               <SelectUI 
+                name='course'
                 value={selectedCourse}
                 onChange={this.handleCourseChange}
                 options={courseTitles}
               />
               </Box>
               <Box  sm={4} px={2}>
-                <Select
-                    name='semester'
-                    label='Semester'
-                    value={selectedSemester}
-                    onChange={this.handleSemesterChange}
-                    options={semesterTitles}
-                />
+               <SelectUI 
+                name='semester'
+                value={selectedSemester}
+                onChange={this.handleSemesterChange}
+                options={semesterTitles}
+              />
               </Box>
 
               <Box py={4} sm={12} px={2}>

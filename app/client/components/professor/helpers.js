@@ -1,8 +1,17 @@
+import {pipe, map, find, filter, prop, head, groupBy, concat} from 'ramda'
+
 // category arrays
 const organization_q_ids = [3, 15, 16, 19, 20, 17];
 const experience_q_ids = [11, 12, 14, 8, -1];
 const clarity_q_ids = [1, 4, 5, 6, 13];
 const personality_q_ids = [2, 7, 10];
+const AGGREGATE_Q_ID = '-1'
+const aggregateOption =  {
+      value: AGGREGATE_Q_ID,
+      label: 'Aggregate'
+    }
+
+
 
 /**
  * Rating Object
@@ -14,6 +23,11 @@ const personality_q_ids = [2, 7, 10];
  * @property {string} [no]
  */
 
+const timesTaughtRating = (timesTaught) => ({
+  id: -1,
+  question: 'Times the professor taught this class',
+  average: timesTaught  
+})
 
 const roundAverage = (element, num) => Math.round(element.average / num * 100)
 
@@ -65,7 +79,7 @@ const addRatingsArray = (first, second) =>
 const addReduce = (arrOfArrs) => arrOfArrs.reduce(addRatingsArray)
  
 
-const divide = (added, numOfRatings) => added.map((rating) => 
+const divideBy = (numOfRatings) => (arr) => arr.map((rating) => 
   rating.id <= 14 ?
     {...rating,
       average: rating.average / numOfRatings
@@ -77,6 +91,7 @@ const divide = (added, numOfRatings) => added.map((rating) =>
   }
 )
 
+
 /** 
 * @function generate aggregate ratings
 * @param  {Array.<Object[]>} ratings {}
@@ -87,24 +102,29 @@ const aggregateRatings = (ratings) => {
   const arrOfArrs = ratings.map(rating => rating.questions)
   const numOfRatings = arrOfArrs.length
   // convert to a single array with values added up
-  const addReduced = addReduce(arrOfArrs)
+ // const addReduced = addReduce(arrOfArrs)
   // divide values by number of ratings
-  return divide(addReduced, numOfRatings)
-
-  // R.pipe(addReduce, divide(num))
+  return pipe(addReduce, divideBy(numOfRatings))(arrOfArrs)
 }
 
 /**
-* @function generateSortedRatings
+* @function sortRatings
 * @param  {Array.<Object>} ratings      {description}
 * @param  {Number} times_taught {description}
 */
-const generateSortedRatings = (ratings, times_taught) => {
-  const normalized = normalizeAverages(ratings).concat([{
-      id: -1,
-      question: 'Times the professor taught this class',
-      average: times_taught
-    }])
+const sortRatings = (timesTaught) => (ratings) => {
+  const normalized = [...normalizeAverages(ratings), 
+                      timesTaughtRating(timesTaught)]
+  //  return pipe(normalizeAverages, 
+  //       concat([timesTaughtRating(timesTaught)]),
+  //       groupBy((rating) => 
+  //         organization_q_ids.includes(rating.id) ? 'organization'
+  //         : experience_q_ids.includes(rating.id) ? 'experience' 
+  //         : clarity_q_ids.includes(rating.id) ? 'clarity'
+  //         : personality_q_ids.includes(rating.id) ? 'personality'
+  //         : 'other'
+  //       )
+  //   )(ratings)                    
 
   return {
         organization: normalized.filter(rating => 
@@ -119,14 +139,45 @@ const generateSortedRatings = (ratings, times_taught) => {
 }
 
 
-// EXPORT FUNCTIONS
-export default {
-  getTimesTaught: (professors, courseId) => (
+const makeSemesterOption = (rating) => ({
+  value: rating._id,
+  children: rating.semester + ' ' + rating.year
+}) 
+
+const generateSemesterTitles = (ratings) => ratings.map(makeSemesterOption)
+
+const replaceSpaces = (string) =>  string.replace(/_/g, " ")
+
+const makeCourseOption = (course) => ({
+    value: course._id,
+    children: replaceSpaces(course.subject)
+})
+
+const generateCourseTitles = (courses) => courses.map(makeCourseOption)
+
+const getTimesTaught = (professors, courseId) => 
     professors.courses.reduce((total, course) => (
       course.subject === courseId ? total + 1 : total
     ), 0)
-  ),
 
-  sortRatings: (ratings, times_taught) => generateSortedRatings(ratings, times_taught),
-  aggregate: (ratings) => aggregateRatings(ratings)
+const getAggregateRating = (ratings, times_taught) =>
+    pipe(aggregateRatings,
+         sortRatings(times_taught))(ratings)
+
+const getRatingById =  (ratings, ratingId, timesTaught) =>
+    pipe(find(rating => rating._id === ratingId), // propEq('_id', ratingId)
+         prop('questions'), 
+         sortRatings(timesTaught))(ratings)
+
+// EXPORT FUNCTIONS
+export default {
+  getTimesTaught,
+  sortRatings,
+  aggregateRatings,
+  generateSemesterTitles,
+  generateCourseTitles,
+  getAggregateRating,
+  getRatingById,
+  aggregateOption,
+  AGGREGATE_Q_ID
 }
