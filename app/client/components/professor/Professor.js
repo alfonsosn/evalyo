@@ -38,6 +38,18 @@ export default class Professor extends React.Component {
     });
   }
 
+  grades(score) {
+    if ((score > 60) && (score < 70)) return "D"
+    if ((score > 71) && (score < 80)) return "C"
+    if ((score > 81) && (score < 90)) return "B"
+    if ((score > 91) && (score < 100)) return "A"
+  }
+
+  getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min)) + min;
+  }
 
   generateCourseTitles(titles){
     const blankOption = [{ value: '', children: 'choose one'}]
@@ -114,7 +126,7 @@ export default class Professor extends React.Component {
 
     return (
       <Flex pt={1} justify='center' align='center' wrap>
-        <Box col={12} lg={2} sm={0}></Box>
+        <Box col={12} lg={2}></Box>
         <Box lg={8} sm={12}>
           <Panel theme='secondary'>
             <PanelHeader>
@@ -140,6 +152,24 @@ export default class Professor extends React.Component {
                 />
               </Box>
             </Flex>
+            <Flex pt={1} wrap>
+              <Box col={12} lg={12} sm={12} pt={2} className="card action">
+                <Flex pt={1} wrap>
+                <Box col={12} lg={3}>
+                  <h2>Ratings for: <p>{selectedCourse}</p></h2>
+                </Box>
+                <Box col={12} lg={3}>
+                  <h2>Overall rating <p> {this.getRandomInt(80, 95)} </p></h2>
+                </Box>
+                <Box col={12} lg={3}>
+                  <h2>Likely Grade <p> {this.grades(this.getRandomInt(50, 100))} </p></h2>
+                </Box>
+                <Box col={12} lg={3}>
+
+                </Box>
+                </Flex>
+              </Box>
+            </Flex>
             <Flex>
               <Box py={4} sm={12} px={2}>
                 <Review reviews={reviews}/>
@@ -147,7 +177,7 @@ export default class Professor extends React.Component {
             </Flex>
           </Panel>
         </Box>
-        <Box col={12} lg={2} sm={0}></Box>
+        <Box col={12} lg={2}></Box>
       </Flex>
     );
   }

@@ -15,7 +15,7 @@ const chalk = require('chalk');
 
 
 const startDb = () => new Promise((resolve) => {
-  mongoose.connect('mongodb://localhost/evalyo');
+  mongoose.connect('mongodb://localhost/ReViews');
   resolve()
 });
 

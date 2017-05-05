@@ -16,7 +16,7 @@ export default class Nav extends React.Component {
           </NavItem>
           <Link to={`/`}>
           <NavItem is="a">
-            <h3 className="link">Evalyo</h3>
+            <h3 className="link">ReViews</h3>
           </NavItem>
           </Link>
         <Space auto x={1}/>

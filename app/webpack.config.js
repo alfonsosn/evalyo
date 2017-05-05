@@ -10,7 +10,7 @@ module.exports = {
 
   output: {
     path: path.join(__dirname, 'server', 'static', 'bundle'),
-    publicPath: '/',
+    publicPath: '/bundle/',
     filename: 'bundle.js',
     libraryTarget: 'umd' // this is super important
   },
@@ -22,9 +22,12 @@ module.exports = {
         test: /\.jsx?$/,
         exclude: /node_modules/,
         use:
-        [
-          'babel-loader'
-        ]
+        [{
+          loader: 'babel-loader',
+          options: {
+            plugins: ["transform-class-properties", "transform-object-rest-spread"]
+          }
+        }]
       },
       {
         test: /\.css$/,
@@ -49,8 +52,7 @@ module.exports = {
           loader: 'file-loader',
           options: {
               name: '[name].[ext]',
-              publicPath: '/',
-              outputPath: 'bundle/'
+              outputPath: 'img/'
           }
         }]
       },
@@ -60,8 +62,7 @@ module.exports = {
           loader: 'file-loader',
           options: {
               name: '[name].[ext]',
-              publicPath: '/',
-              outputPath: 'bundle/'
+              outputPath: 'icons/'
           }
         }]
       },
