@@ -29,7 +29,11 @@ export default class Index extends React.Component {
                     <li>Student Friendly Design</li>
                   </ul>
                   <Link to={`/departments/`}>
-                      <Button> Click here to get started! </Button>
+                      <Button> Browse Departments </Button>
+                  </Link>
+                  <br/><br/>
+                  <Link to={`/search/`}>
+                      <Button> Search </Button>
                   </Link>
                 </Box>
               </Flex>
@@ -44,7 +48,7 @@ export default class Index extends React.Component {
                 <Box col={12} lg={6} sm={12}>
                   <h2> Technologies </h2>
                   <div className="divider"></div>
-                  <p> Our team is going to the web framework, REACT (made by Facebook), to present the app with modern design in mind. Moreover, we would use a relational database known as MongoDB that would allow for more interesting ways to present the data.</p>
+                  <p> Our team is using the React library to create an app with modern interfaces and improved usability. We also form the UI with design in mind. Moreover, we would use the non-relational database MongoDB that allows for more intuitive ways to represent the data.</p>
                 </Box>
                 <Box col={12} lg={6} sm={12}>
                   <h2> Goals </h2>

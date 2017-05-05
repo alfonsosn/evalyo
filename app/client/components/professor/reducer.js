@@ -1,4 +1,4 @@
-import * as actionTypes from './actionTypes'
+import actions as actionTypes from './actionTypes'
 
 const initialState = {
   courses: {
@@ -25,6 +25,7 @@ const courseReducer = (state = initialState.courses, action) => {
       return state
   }
 }
+
 const reducer = (state = initialState, action) => {
   switch(action.type){
     case 
@@ -35,13 +36,3 @@ const reducer = (state = initialState, action) => {
 }
 
 
-const selectedRatings =
-    rating_id === AGGREGATE_ID ?
-        helpers.aggregate(this.state.ratings)
-      : this.state.ratings.filter((rating) => rating._id === rating_id)
-
-const sortedRatings =
-    rating_id === AGGREGATE_ID ?
-        helpers.sortRatings(selectedRatings, this.state.ratings.length)
-      : helpers.sortRatings(selectedRatings[0].questions, this.state.ratings.length)
-      

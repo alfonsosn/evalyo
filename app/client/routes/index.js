@@ -9,13 +9,14 @@ import Faculty from '../components/faculty/Faculty.js';
 import Professor from '../components/professor/Professor.js'
 import Review from '../components/review/Review.js'
 import NotFoundPage from '../components/404/NotFoundPage';
-
+import Search from '../components/search/Search.js'
 const routes = (
   <Route path="/" component={Layout}>
     <IndexRoute component={Index}/>
     <Route path="/departments" component={Departments}/>
     <Route path="/departments/:dept" component={Faculty}/>
     <Route path="/professor/:prof" component={Professor}/>
+    <Route path="/search" component={Search}/>
     <Route path="*" component={NotFoundPage}/>
   </Route>
 );

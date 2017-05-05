@@ -35,7 +35,8 @@ class Review extends React.Component {
                       </span>
                       <span style={{float:'right'}}>
                       {
-                        rating.average? rating.average
+                        rating.average? 
+                          rating.average
                         : this.normalizeYesNo(rating)
                       }
                       </span>

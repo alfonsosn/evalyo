@@ -7,6 +7,14 @@ const ProfessorModel = require('../models/professors');
 const CourseModel = require('../models/courses')
 const RatingsModel = require('../models/ratings')
 
+router.get('/search/:name', (req, res) => {
+  const name = req.params.name
+  ProfessorModel.find({$text: { $search: name }})
+  .then((prof) => {
+    res.send(prof)
+  })
+})
+
 router.get('/:prof', (req, res) => {
   ProfessorModel.findOne({_id: req.params.prof})
   .populate('courses')
@@ -16,8 +24,6 @@ router.get('/:prof', (req, res) => {
 })
 
 router.get('/:prof/:course', (req, res) => {
-  // let file = __dirname + '/data/cs_professors/' + req.params.prof + '.json';
-  // let course_id = req.params.course.replace(/_/g, " ");
  const course_id = req.params.course
  const prof_id = req.params.prof
 

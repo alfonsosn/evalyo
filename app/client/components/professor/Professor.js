@@ -5,8 +5,8 @@ import { Panel, PanelHeader, Select, Text} from 'rebass'
 import { Flex, Box } from 'reflexbox'
 import Review from '../review/Review'
 import helpers from './helpers'
-import SelectUI from '../select/select.js'
-import ajax from './ajax'
+import SelectUI from '../select/select'
+import ajax from '../../ajax/index'
 
 export default class Professor extends React.Component {
   constructor(props){
@@ -61,7 +61,7 @@ export default class Professor extends React.Component {
           selectedCourse: course_id,
           ratings: ratings,
           semesterTitles: this.generateSemesterTitles(ratings),
-          questions: [],
+          questions: {},
           selectedSemester: ''
         });
       })

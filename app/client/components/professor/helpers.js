@@ -79,6 +79,19 @@ const addRatingsArray = (first, second) =>
 const addReduce = (arrOfArrs) => arrOfArrs.reduce(addRatingsArray)
  
 
+
+/**
+ * @typedef divideByCallback
+ * @type {function}
+ * @param {Array} arr
+ * 
+ */
+
+/**
+* @function divideBy
+* @param  {Number} numOfRatings {description}
+* @param {divideByCallback} arr {}
+*/
 const divideBy = (numOfRatings) => (arr) => arr.map((rating) => 
   rating.id <= 14 ?
     {...rating,
