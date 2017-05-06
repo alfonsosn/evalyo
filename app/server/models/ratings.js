@@ -5,6 +5,7 @@ var Schema = mongoose.Schema;
 var RatingsSchema = new Schema({
   year: { type: String, required: true },
   semester: { type: String, required: true },
+  section: { type: String },
   subject: { type: Schema.Types.ObjectId, ref: 'Course' },
   professor: { type: Schema.Types.ObjectId, ref: 'Professor' },
   questions: [Schema.Types.Mixed]

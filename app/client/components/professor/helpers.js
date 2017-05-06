@@ -62,12 +62,12 @@ const addRatingsArray = (first, second) =>
     first.map((rating, index) => 
       rating.id <= 14 ? 
         {...rating,
-         average: Number(first[index].average) + Number(second[index].average)
+          average: Number(first[index].average) + Number(second[index].average)
         }
       : {...rating,
-         yes: Number(first[index].yes) + Number(second[index].yes),
-         no: Number(first[index].no) + Number(second[index].no),
-         noAnswer: Number(first[index].noAnswer) + Number(second[index].noAnswer)
+          yes: Number(first[index].yes) + Number(second[index].yes),
+          no: Number(first[index].no) + Number(second[index].no),
+          noAnswer: Number(first[index].noAnswer) + Number(second[index].noAnswer)
         }
     )
 
@@ -78,14 +78,6 @@ const addRatingsArray = (first, second) =>
 */
 const addReduce = (arrOfArrs) => arrOfArrs.reduce(addRatingsArray)
  
-
-
-/**
- * @typedef divideByCallback
- * @type {function}
- * @param {Array} arr
- * 
- */
 
 /**
 * @function divideBy
@@ -152,10 +144,13 @@ const sortRatings = (timesTaught) => (ratings) => {
 }
 
 
-const makeSemesterOption = (rating) => ({
-  value: rating._id,
-  children: rating.semester + ' ' + rating.year
-}) 
+const makeSemesterOption = (rating) => {
+  const section = rating.section? 'sec ' + rating.section : ''
+  return {
+    value: rating._id,
+    children: rating.semester + ' ' + rating.year + ' ' + section
+  }
+} 
 
 const generateSemesterTitles = (ratings) => ratings.map(makeSemesterOption)
 

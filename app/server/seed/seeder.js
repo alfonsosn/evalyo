@@ -22,6 +22,7 @@ const startDb = () => new Promise((resolve) => {
 
 const insertCourses = (courses, professor) =>
   new Promise((resolve) => {
+
     const recursiveInsert = (index) => {
       console.log('courses length: ', courses.length)
       console.log('index: ', index)
@@ -47,6 +48,7 @@ const insertCourses = (courses, professor) =>
           RatingsModel.findOrCreate({
             year: current.semester.split(' ')[1],
             semester: current.semester.split(' ')[0],
+            section: subject[3],
             subject: course._id,
             professor: professor._id,
             questions: current.questions
@@ -109,6 +111,11 @@ const getDirectories = (src) => (
 
 const connect = () => startDb().then(() => {
   console.log(chalk.green('MongoDB connection opened'));
+  // Create text index on Professor collection
+  ProfessorModel.collection.createIndex({
+     firstName: "text",
+     lastName: "text"
+  })
   // Read all json files from json dir
   const dirList = getDirectories(path.resolve(__dirname) + '/json')
 

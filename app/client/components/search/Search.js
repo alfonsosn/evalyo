@@ -6,13 +6,13 @@ import ajax from '../../ajax/index'
 
 export default class Search extends React.Component {
   constructor(props){
-        super(props);
-        this.state = {
-          input: '',
-          professors: []
-        }
-        this.onClick = this.onClick.bind(this)
-        this.onInputChange = this.onInputChange.bind(this)
+    super(props);
+    this.state = {
+      input: '',
+      professors: []
+    }
+    this.onClick = this.onClick.bind(this)
+    this.onInputChange = this.onInputChange.bind(this)
   }
 
   onInputChange(e){
@@ -54,8 +54,7 @@ export default class Search extends React.Component {
                           {prof.firstName} {prof.lastName}
                         </Link>
                       </li>
-                    ))
-                }
+                    ))}
                 </ul>
               </Box>
             </Flex>
