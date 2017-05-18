@@ -17,6 +17,7 @@ export default class Professor extends React.Component {
         selectedCourse: '',
         semesterTitles: [],
         selectedSemester: '',
+        currentTitle: '',
         ratings: [],
         questions: {},
         profName: ''
@@ -39,14 +40,32 @@ export default class Professor extends React.Component {
     });
   }
 
-  
   generateCourseTitles(courses){
     return helpers.generateCourseTitles(courses)
   }
-  
+
   generateSemesterTitles(ratings){
-    return [helpers.aggregateOption, 
+    return [helpers.aggregateOption,
             ...helpers.generateSemesterTitles(ratings)]
+  }
+
+  grades(score) {
+    if ((score > 60) && (score < 70)) return "D"
+    if ((score > 71) && (score < 80)) return "C"
+    if ((score > 81) && (score < 90)) return "B"
+    if ((score > 91) && (score < 100)) return "A"
+  }
+
+  getCurrentTitle(courseKey){
+    return this.state.courseTitles.find(function(element){
+      return element.value === courseKey
+    }).children
+  }
+
+  getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min)) + min;
   }
 
   handleCourseChange(e){
@@ -61,6 +80,7 @@ export default class Professor extends React.Component {
           selectedCourse: course_id,
           ratings: ratings,
           semesterTitles: this.generateSemesterTitles(ratings),
+          currentTitle: this.getCurrentTitle(course_id),
           questions: {},
           selectedSemester: ''
         });
@@ -72,8 +92,8 @@ export default class Professor extends React.Component {
     // if 'choose one' option was selected
     if (rating_id === '') return
 
-    const times_taught = this.state.ratings.length    
-    const sortedRatings = 
+    const times_taught = this.state.ratings.length
+    const sortedRatings =
       rating_id === helpers.AGGREGATE_Q_ID ?
         helpers.getAggregateRating(this.state.ratings, times_taught)
         : helpers.getRatingById(this.state.ratings, rating_id, times_taught)
@@ -91,13 +111,13 @@ export default class Professor extends React.Component {
       selectedSemester,
       semesterTitles,
       questions,
+      currentTitle,
       profName
     } = this.state
 
     console.log('state: ', this.state)
     return (
-      <Flex pt={1} justify='center' align='center' wrap>
-        <Box col={12} lg={2}></Box>
+      <Flex pt={2} justify='center' align='center' wrap>
         <Box lg={8} sm={12}>
           <Panel theme='secondary'>
             <PanelHeader>
@@ -105,7 +125,7 @@ export default class Professor extends React.Component {
             </PanelHeader>
             <Flex  py={2} justify='center' align='center' wrap>
               <Box  sm={4} px={2}>
-              <SelectUI 
+              <SelectUI
                 name='course'
                 value={selectedCourse}
                 onChange={this.handleCourseChange}
@@ -113,31 +133,42 @@ export default class Professor extends React.Component {
               />
               </Box>
               <Box  sm={4} px={2}>
-               <SelectUI 
+               <SelectUI
                 name='semester'
                 value={selectedSemester}
                 onChange={this.handleSemesterChange}
                 options={semesterTitles}
               />
               </Box>
+            </Flex>
 
+            <Flex pt={1} wrap>
+              <Box col={12} lg={12} sm={12} pt={2} className="card action">
+                <Flex pt={1} wrap>
+                <Box col={12} lg={3}>
+                  <h2>Ratings for: <p>{currentTitle}</p></h2>
+                </Box>
+                <Box col={12} lg={3}>
+                  <h2>Overall rating <p> {this.getRandomInt(80, 95)} </p></h2>
+                </Box>
+                <Box col={12} lg={3}>
+                  <h2>Likely Grade <p> {this.grades(this.getRandomInt(50, 100))} </p></h2>
+                </Box>
+                <Box col={12} lg={3}>
+                </Box>
+                </Flex>
+              </Box>
+            </Flex>
+
+            <Flex>
               <Box py={4} sm={12} px={2}>
                 <Review reviews={questions}/>
               </Box>
             </Flex>
+
           </Panel>
         </Box>
       </Flex>
     );
   }
 }
-
-/*
-<Select
-    name='course'
-    label='Course'
-    value={selectedCourse}
-    onChange={this.handleCourseChange}
-    options={courseTitles}
-/>
-*/

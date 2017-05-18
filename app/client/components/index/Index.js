@@ -20,7 +20,7 @@ export default class Index extends React.Component {
                 </Box>
                 <Box lg={6} sm={12} p={2}>
                   <h2> No More Rate My Professors! </h2>
-                  <p> We are Evalyo, a team of computer science students at Hunter College. Our team is working on our data-science capstone project, and we envision a web application to improve the Teacher Evaluation site at Hunter.</p>
+                  <p> We are ReViews, a team of computer science students at Hunter College. Our team is working on our data-science capstone project, and we envision a web application to improve the Teacher Evaluation site at Hunter.</p>
                   <div className="divider_two"></div>
                   <h3> Some of our features: </h3>
                   <ul>
