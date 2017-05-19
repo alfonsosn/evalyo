@@ -2,9 +2,10 @@ import React from 'react'
 import {InlineForm, Panel, PanelHeader} from 'rebass'
 import { Flex, Box } from 'reflexbox'
 import { Link } from 'react-router';
-import ajax from '../../ajax/index'
+import { compose } from 'recompose'
+import withAjax from './ajax'
 
-export default class Search extends React.Component {
+class Search extends React.Component {
   constructor(props){
     super(props);
     this.state = {
@@ -20,11 +21,12 @@ export default class Search extends React.Component {
   }
   onClick(e){
     e.preventDefault()
-    ajax.getProfessorsByName(this.state.input)
+    this.props.getProfessorsByName(this.state.input)
     .then((professors) => {
         this.setState({ professors: professors })
     })
   }
+
   render(){
     const { professors } = this.state
     return(
@@ -65,3 +67,5 @@ export default class Search extends React.Component {
     )
   }
 }
+
+export default compose(withAjax)(Search)

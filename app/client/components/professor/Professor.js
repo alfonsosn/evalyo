@@ -18,9 +18,9 @@ class Professor extends React.Component {
 
   getLetterGrade(score) {
     if ((score > 60) && (score < 70)) return "D"
-    if ((score > 71) && (score < 80)) return "C"
-    if ((score > 81) && (score < 90)) return "B"
-    if ((score > 91) && (score < 100)) return "A"
+    else if ((score > 71) && (score < 80)) return "C"
+    else if ((score > 81) && (score < 90)) return "B"
+    else return "A"
   }
 
   render() {

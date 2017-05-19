@@ -1,5 +1,5 @@
 import $ from 'jquery'
-import {compose, withProps } from 'recompose'
+import { withProps } from 'recompose'
 
 const getProfessor = (profId) =>
   new Promise((resolve, reject) => {

@@ -2,13 +2,11 @@
 import React from 'react';
 import { Link } from 'react-router';
 import PropTypes from 'prop-types';
-import { compose as _compose } from 'recompose'
+import { compose } from 'recompose'
 
 import withAjax from './ajax'
 import withHelpers from './helpers'
 import Professor from './Professor'
-
-import {find, prop, propEq, isEmpty, compose, ifElse} from 'ramda'
 
 class ProfContainer extends React.Component {
   constructor(props){
@@ -47,7 +45,7 @@ class ProfContainer extends React.Component {
   handleCourseChange(e){
       const course_id = e.target.value
 
-      // if blank option was selected
+      // if 'choose' option was selected
       if (course_id === '') return
 
       this.props.getRatings(this.state.professor._id, course_id)
@@ -77,7 +75,7 @@ class ProfContainer extends React.Component {
 
   handleSemesterChange(e){
     const rating_id = e.target.value
-    // if 'choose one' option was selected
+    // if 'choose' option was selected
     if (rating_id === '') return
 
     this.setState({
@@ -97,9 +95,6 @@ class ProfContainer extends React.Component {
       ratings,
       professor
     } = this.state
-
-
-    console.log(this.state)
 
     const name = professor?  professor.firstName + ' ' + professor.lastName : ''
     const courseTitles = professor? this.generateCourseTitles(professor.courses) : []
@@ -126,4 +121,4 @@ class ProfContainer extends React.Component {
   }
 }
 
-export default _compose(withHelpers, withAjax)(ProfContainer)
+export default compose(withHelpers, withAjax)(ProfContainer)
