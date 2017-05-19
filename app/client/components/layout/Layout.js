@@ -21,7 +21,7 @@ export default class Layout extends React.Component {
               </NavItem>
               <Link to={`/`}>
               <NavItem is="a">
-                <h3 className="link">Evalyo</h3>
+                <h3 className="link">ReViews</h3>
               </NavItem>
               </Link>
             <Space auto x={1}/>
@@ -33,7 +33,7 @@ export default class Layout extends React.Component {
            <footer>
               <Flex>
                   <Box col={4}>
-                      <span className="copyright">Copyright &copy; Evalyo 2017</span>
+                      <span className="copyright">Copyright &copy; ReViews 2017</span>
                   </Box>
                   <Box col={4}>
                   </Box>
