@@ -2,11 +2,13 @@
 import React from 'react';
 import { Link } from 'react-router';
 import PropTypes from 'prop-types';
-import { compose } from 'recompose'
+import { compose as _compose } from 'recompose'
 
 import withAjax from './ajax'
 import withHelpers from './helpers'
 import Professor from './Professor'
+
+import {find, prop, propEq, isEmpty, compose, ifElse} from 'ramda'
 
 class ProfContainer extends React.Component {
   constructor(props){
@@ -83,6 +85,11 @@ class ProfContainer extends React.Component {
     })
   }
 
+  getCourseTitle(courseTitles, courseId){
+    const courseTitle =  courseTitles.find(course => course.value === courseId)
+    return courseTitle? courseTitle.children : ''
+  }
+
   render() {  
     const {
       selectedCourse,
@@ -98,23 +105,25 @@ class ProfContainer extends React.Component {
     const courseTitles = professor? this.generateCourseTitles(professor.courses) : []
     const reviews = selectedSemester? this.generateReviews(selectedSemester): {}
     const semesterTitles = ratings? this.generateSemesterTitles(ratings): []
-
+    const currentTitle = courseTitles && selectedCourse ? 
+      this.getCourseTitle(courseTitles, selectedCourse): ''
+    
     return (
-      !professor? 
-        <div>Loading...</div>
-      : <Professor
-        name={name}
-        courseTitles={courseTitles}
-        selectedCourse={selectedCourse}
-        changeCourse={this.handleCourseChange}
-        semesterTitles={semesterTitles}
-        selectedSemester={selectedSemester}
-        changeSemester={this.handleSemesterChange}
-        reviews={reviews}
-      />
-     
+      professor? 
+        <Professor
+          name={name}
+          currentTitle={currentTitle}
+          courseTitles={courseTitles}
+          selectedCourse={selectedCourse}
+          changeCourse={this.handleCourseChange}
+          semesterTitles={semesterTitles}
+          selectedSemester={selectedSemester}
+          changeSemester={this.handleSemesterChange}
+          reviews={reviews}
+        />
+      : <div>Loading...</div>
     );
   }
 }
 
-export default compose(withHelpers, withAjax)(ProfContainer)
+export default _compose(withHelpers, withAjax)(ProfContainer)
