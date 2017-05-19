@@ -18,17 +18,15 @@ class Review extends React.Component {
           (Number(rating.yes) + Number(rating.no))).toFixed(2) * 100)
   }
   render() {
-    const ratings = this.props.reviews
-    
-    return (
-        ratings.length === 0 ? null
-        :
+    const {reviews} = this.props
+
+    return (        
         <Accordion>
         {
-         Object.keys(ratings).map((category) =>
-          <AccordionItem title={category} key={category} openNextAccordionItem={true}>
+         Object.keys(reviews).map((category) =>
+          <AccordionItem title={category} key={category} >
                 {
-                  ratings[category].map((rating)=>
+                  reviews[category].map((rating)=>
                     <p key={rating.id}>
                       <span>
                        {rating.question}

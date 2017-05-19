@@ -1,22 +1,30 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 import {Select} from 'rebass'
-import {prependBlank} from './helpers'
+import {withProps} from 'recompose'
 
-const SelectUI = ({name, value, onChange, options}) => 
+const CustomSelect = ({name, value, onChange, options, generateOptions}) => 
     <Select
       name= {name}
       label= {name}
-      value={value}
+      value={value || ''}
       onChange={onChange}
-      options={prependBlank(options)}
+      options={generateOptions(options)}
     /> 
 
-SelectUI.propTypes = {
+const enhance = withProps({
+  generateOptions: (arr) => [{ value: '', children: 'choose one'}, ...arr]
+})
+
+const SelectWithProps = enhance(CustomSelect)
+
+CustomSelect.propTypes = {
   name: PropTypes.string.isRequired,
   value: PropTypes.string,
   onChange: PropTypes.func.isRequired,
-  options: PropTypes.arrayOf(PropTypes.object)
+  options: PropTypes.arrayOf(PropTypes.object),
+  generateOptions: PropTypes.func.isRequired
 }
 
-export default SelectUI
+
+export default SelectWithProps

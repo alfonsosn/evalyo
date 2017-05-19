@@ -1,4 +1,5 @@
 import {pipe, map, find, filter, prop, head, groupBy, concat} from 'ramda'
+import {withProps } from 'recompose'
 
 // category arrays
 const organization_q_ids = [3, 15, 16, 19, 20, 17];
@@ -119,17 +120,7 @@ const aggregateRatings = (ratings) => {
 */
 const sortRatings = (timesTaught) => (ratings) => {
   const normalized = [...normalizeAverages(ratings), 
-                      timesTaughtRating(timesTaught)]
-  //  return pipe(normalizeAverages, 
-  //       concat([timesTaughtRating(timesTaught)]),
-  //       groupBy((rating) => 
-  //         organization_q_ids.includes(rating.id) ? 'organization'
-  //         : experience_q_ids.includes(rating.id) ? 'experience' 
-  //         : clarity_q_ids.includes(rating.id) ? 'clarity'
-  //         : personality_q_ids.includes(rating.id) ? 'personality'
-  //         : 'other'
-  //       )
-  //   )(ratings)                    
+                      timesTaughtRating(timesTaught)]              
 
   return {
         organization: normalized.filter(rating => 
@@ -178,7 +169,7 @@ const getRatingById =  (ratings, ratingId, timesTaught) =>
          sortRatings(timesTaught))(ratings)
 
 // EXPORT FUNCTIONS
-export default {
+export default withProps({
   getTimesTaught,
   sortRatings,
   aggregateRatings,
@@ -188,4 +179,4 @@ export default {
   getRatingById,
   aggregateOption,
   AGGREGATE_Q_ID
-}
+})

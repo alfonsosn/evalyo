@@ -1,4 +1,5 @@
 import $ from 'jquery'
+import {compose, withProps } from 'recompose'
 
 const getProfessor = (profId) =>
   new Promise((resolve, reject) => {
@@ -22,7 +23,19 @@ const getRatings = (profId, courseId) =>
     })
   })
 
-export default {
+const getProfessorsByName = (name) =>
+ new Promise((resolve, reject) => {
+    $.ajax({
+      url: `/api/professors/search/${name}`,
+      type: 'GET'
+    })
+    .done((professors) => {
+      resolve(professors)
+    })
+  }) 
+
+export default withProps({
   getProfessor,
-  getRatings
-}
+  getRatings,
+  getProfessorsByName
+})

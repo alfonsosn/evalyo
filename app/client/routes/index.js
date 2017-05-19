@@ -2,14 +2,13 @@
 
 import React from 'react'
 import { Route, IndexRoute } from 'react-router'
-import Layout from '../components/layout/Layout.js';
-import Index from '../components/index/Index.js';
-import Departments from '../components/departments/Departments.js';
-import Faculty from '../components/faculty/Faculty.js';
-import Professor from '../components/professor/Professor.js'
-import Review from '../components/review/Review.js'
+import Layout from '../components/layout/Layout';
+import Index from '../components/index/Index';
+import Departments from '../components/departments/Departments';
+import Faculty from '../components/faculty/Faculty';
+import Professor from '../components/professor/ProfContainer'
 import NotFoundPage from '../components/404/NotFoundPage';
-import Search from '../components/search/Search.js'
+import Search from '../components/search/Search'
 const routes = (
   <Route path="/" component={Layout}>
     <IndexRoute component={Index}/>
