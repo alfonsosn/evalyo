@@ -34,7 +34,7 @@ export default class Departments extends React.Component {
 
       <Flex pt={1} wrap>
         <Box col={12} lg={12} sm={12} className="card action">
-          <h1> Choose your Department </h1>
+          <h2> Step One: Choose your Department </h2>
         </Box>
       </Flex>
 
