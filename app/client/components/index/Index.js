@@ -5,6 +5,7 @@ import { Link } from 'react-router';
 import { Button } from 'rebass'
 import { Flex, Box } from 'reflexbox'
 import banner from '../../img/thomas-hunter.jpg'
+import Departments from '../departments/Departments.js'
 
 export default class Index extends React.Component {
   render() {
@@ -14,29 +15,8 @@ export default class Index extends React.Component {
             <Box col={12} lg={2} sm={12}></Box>
             <Box col={12} lg={8} sm={12} className="card action">
               <h1> Find Your Professor The Right Way </h1>
-              <Flex wrap align="stretch" >
-                <Box lg={6} sm={12} p={0}>
-                  <img className="banner" src={banner}></img>
-                </Box>
-                <Box lg={6} sm={12} p={2}>
-                  <h2> No More Rate My Professors! </h2>
-                  <p> We are ReViews, a team of computer science students at Hunter College. Our team is working on our data-science capstone project, and we envision a web application to improve the Teacher Evaluation site at Hunter.</p>
-                  <div className="divider_two"></div>
-                  <h3> Some of our features: </h3>
-                  <ul>
-                    <li>Professor Based Querying</li>
-                    <li>Historical Aggregation</li>
-                    <li>Student Friendly Design</li>
-                  </ul>
-                  <Link to={`/departments/`}>
-                      <Button> Browse Departments </Button>
-                  </Link>
-                  <br/><br/>
-                  <Link to={`/search/`}>
-                      <Button> Search </Button>
-                  </Link>
-                </Box>
-              </Flex>
+              <p> We are Reviews, a team of computer science students at Hunter College. Our team is working on our data-science capstone project, and we envision a web application to improve the Teacher Evaluation site at Hunter.</p>
+              <Departments></Departments>
             </Box>
             <Box col={12} lg={2} sm={12}></Box>
           </Flex>

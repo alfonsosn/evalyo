@@ -13,39 +13,30 @@ export default class Layout extends React.Component {
       return (
         <div className="home">
 
-          <Toolbar>
+          <Toolbar
+            backgroundColor="purple"
+          >
               <NavItem is="a">
                 <Link to={`/`}>
                   <img className="logo" src={icon}></img>
                 </Link>
               </NavItem>
+
               <Link to={`/`}>
               <NavItem is="a">
-                <h3 className="link">ReViews</h3>
+                <h3 className="link">Reviews</h3>
               </NavItem>
               </Link>
+
             <Space auto x={1}/>
+
           </Toolbar>
 
           <div className="home">
-          <div className="app-content">{this.props.children}</div>
+            <div className="app-content">{this.props.children}</div>
           </div>
-           <footer>
-              <Flex>
-                  <Box col={4}>
-                      <span className="copyright">Copyright &copy; ReViews 2017</span>
-                  </Box>
-                  <Box col={4}>
-                  </Box>
-                  <Box col={4}>
-                      <ul className="list-inline quicklinks">
-                          <a href="#">Privacy Policy</a> |
-                          <a href="#">Terms of Use</a>
-                      </ul>
-                  </Box>
-              </Flex>
-          </footer>
-          </div>
+
+        </div>
       );
     }
   }
