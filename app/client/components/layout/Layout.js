@@ -36,9 +36,9 @@ export default class Layout extends React.Component {
             <div className="app-content">
 
             <div className="home">
-              <Flex wrap align="center" pt={1} >
+              <Flex wrap align="center" >
                 <Box col={12} lg={2} sm={12}></Box>
-                <Box col={12} lg={8} sm={12} className="card action">
+                <Box col={12} lg={8} sm={12} className="card">
                   <Sub></Sub>
                   {this.props.children}
                 </Box>
