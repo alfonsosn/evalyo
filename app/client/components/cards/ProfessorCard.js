@@ -3,9 +3,16 @@
 import React from 'react';
 import { Link } from 'react-router';
 import { Flex, Box } from 'reflexbox'
-
+import $ from "jquery";
 
 export default class ProfessorCard extends React.Component{
+  constructor(props){
+      super(props);
+      this.state = {
+        reviews_num: ''
+      };
+  }
+
   getRandomInt(min, max){
       min = Math.ceil(min);
       max = Math.floor(max);
@@ -15,6 +22,16 @@ export default class ProfessorCard extends React.Component{
   obtainInitials(prof){
     let initials = prof.firstName[0] + prof.lastName[0]
     return initials
+  }
+
+  componentDidMount(){
+    $.ajax({
+      url: `/api/professors/${this.props.prof._id}`,
+      type: 'GET'
+    })
+    .done((reviews) => {
+      this.setState({reviews_num: reviews.ratings.length})
+    })
   }
 
   render(){
@@ -38,8 +55,7 @@ export default class ProfessorCard extends React.Component{
                     {this.props.prof.firstName.toUpperCase()} {this.props.prof.lastName.toUpperCase()}
                   </Link>
                 </h3>
-                <p> Reviews Avaialable: {this.getRandomInt(10, 4)} </p>
-                <p> Classes Avaialable: {this.getRandomInt(10, 4)} </p>
+                <p> Total Reviews Avaialable: {this.state.reviews_num} </p>
              </Box>
              </Flex>
       </Box>
