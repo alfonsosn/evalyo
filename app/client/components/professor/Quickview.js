@@ -25,13 +25,13 @@ export default class Quickview extends React.Component {
            <Box col={12} lg={12} sm={12} pt={2} className="card action">
              <Flex pt={1} wrap>
              <Box col={12} lg={3}>
-               <h2>Ratings for: <p>{this.props.course}</p></h2>
+               <h2>Course: <p>{this.props.course}</p></h2>
              </Box>
              <Box col={12} lg={3}>
-               <h2>Overall rating <p> {this.getRandomInt(80, 95)} </p></h2>
+              <h2>Grade: <p> {this.getLetterGrade(this.getRandomInt(50, 100))} </p></h2>
              </Box>
              <Box col={12} lg={3}>
-               <h2>Likely Grade <p> {this.getLetterGrade(this.getRandomInt(50, 100))} </p></h2>
+               <h2>Overall: <p> {this.getRandomInt(80, 95)} </p></h2>
              </Box>
              <Box col={12} lg={3}>
              </Box>
