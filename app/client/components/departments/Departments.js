@@ -3,6 +3,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 import { Flex, Box } from 'reflexbox'
+import Search from '../search/Search.js'
 import $ from "jquery"
 require('./style.scss')
 
@@ -32,6 +33,8 @@ export default class Departments extends React.Component {
     return (
     <div className="action">
 
+    <Search></Search>
+
       <Flex pt={3} wrap>
         <Box col={12} lg={12} sm={12} >
           <h2> Step One: Choose your Department </h2>
@@ -55,6 +58,7 @@ export default class Departments extends React.Component {
                               className={`${icons[dept.name].toLowerCase()}`}
                               >
                          </Box>
+
                          <Box auto
                               p={3}>
                           <h3>
@@ -62,6 +66,7 @@ export default class Departments extends React.Component {
                           </h3>
                           <p> Number of current faculty: {Math.round((Math.random()*10))} </p>
                          </Box>
+
                      </Flex>
                 </Box>
               )}

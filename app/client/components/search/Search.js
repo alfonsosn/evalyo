@@ -3,6 +3,7 @@ import {InlineForm, Panel, PanelHeader} from 'rebass'
 import { Flex, Box } from 'reflexbox'
 import { Link } from 'react-router';
 import { compose } from 'recompose'
+import ProfessorCard from '../cards/ProfessorCard.js';
 import withAjax from './ajax'
 
 class Search extends React.Component {
@@ -30,40 +31,36 @@ class Search extends React.Component {
   render(){
     const { professors } = this.state
     return(
-        <Flex pt={1} justify='center' align='center' wrap>
-        <Box col={12} lg={2}></Box>
-        <Box lg={8} sm={12}>
-          <Panel theme='secondary'>
-            <PanelHeader>
-              Search
-            </PanelHeader>
-            <Flex  py={2} justify='center' align='center' wrap>
-              <Box  sm={8} px={2}>
-                <InlineForm
-                  buttonLabel="Go"
-                  label="ProfSearch"
-                  name="prof_search"
-                  onChange={this.onInputChange}
-                  onClick={this.onClick}
-                />
-                <br/><br/>
-                <ul>
-                {professors.length === 0 ?
-                  <div> ---- </div>
-                  : professors.map((prof, index) => (
-                      <li key={index}> 
-                        <Link to={`/professor/${prof._id}`}>
-                          {prof.firstName} {prof.lastName}
-                        </Link>
-                      </li>
-                    ))}
-                </ul>
-              </Box>
-            </Flex>
-          </Panel>
+      <div>
+
+      <Flex pt={3} wrap>
+        <Box col={12} lg={12} sm={12} >
+          <h2> Search for your Professor: </h2>
+        </Box>
+        <Box col={12} lg={12} sm={12} pt={2}>
+          <InlineForm
+            buttonLabel="Go"
+            label="ProfSearch"
+            name="prof_search"
+            onChange={this.onInputChange}
+            onClick={this.onClick}
+          />
         </Box>
       </Flex>
-    
+
+      <Flex justify='center'
+            align='center'
+            wrap>
+
+          {professors.length === 0 ?
+            <div>  </div>
+            : professors.map((prof, index) => (
+                <ProfessorCard key={index} prof={prof}></ProfessorCard>
+              ))}
+
+      </Flex>
+
+      </div>
     )
   }
 }

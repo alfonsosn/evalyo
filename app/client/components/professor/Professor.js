@@ -43,7 +43,7 @@ class Professor extends React.Component {
                   px={2}>
 
               <CustomSelect
-                name='Pick a Course'
+                name='i. Pick a Course'
                 value={selectedCourse}
                 onChange={changeCourse}
                 options={courseTitles}
@@ -55,7 +55,7 @@ class Professor extends React.Component {
                   sm={12}
                   px={2}>
                <CustomSelect
-                name='Choose a Semester'
+                name='ii. Choose a Semester'
                 value={selectedSemester}
                 onChange={changeSemester}
                 options={semesterTitles}
