@@ -24,7 +24,7 @@ export default class Layout extends React.Component {
 
               <Link to={`/`}>
               <NavItem is="a">
-                <h3 className="link">Reviews</h3>
+                <h3 className="link">REVIEWS</h3>
               </NavItem>
               </Link>
 

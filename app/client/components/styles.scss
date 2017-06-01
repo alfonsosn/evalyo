@@ -14,7 +14,12 @@ $red: rgb(238, 85, 68) !important;
 
 }
 
+body {
+  background-color: lightgrey;
+}
+
 .card{
+  background-color: white;
   border-radius: 5px;
   box-shadow: .2px .2px .2px lightgrey;
 }
@@ -30,11 +35,12 @@ $red: rgb(238, 85, 68) !important;
 
 .home {
   width: 100%;
-  height: 170vh;
+  height: inherit;
 }
 
 .action{
-  text-align: center;
+  background-color: white;
+  text-align: left;
   height: inherit;
   padding: 0px 15px 35px 15px;
 }

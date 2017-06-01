@@ -30,10 +30,10 @@ export default class Departments extends React.Component {
 
   render() {
     return (
-    <div>
+    <div className="action">
 
-      <Flex pt={1} wrap>
-        <Box col={12} lg={12} sm={12} className="card action">
+      <Flex pt={3} wrap>
+        <Box col={12} lg={12} sm={12} >
           <h2> Step One: Choose your Department </h2>
         </Box>
       </Flex>
@@ -56,7 +56,7 @@ export default class Departments extends React.Component {
                  <Box auto
                       p={3}>
                   <h3>
-                    <Link to={`/departments/${dept.name.toLowerCase().split(' ').join('_')}`}>{dept.name}</Link>
+                    <Link to={`/departments/${dept.name.toLowerCase().split(' ').join('_')}`}>{icons[dept.name].charAt(0).toUpperCase() + icons[dept.name].slice(1)}</Link>
                   </h3>
                   <p> Number of current faculty: {Math.round((Math.random()*10))} </p>
                  </Box>

@@ -18,11 +18,9 @@ export default class Index extends React.Component {
             <Box col={12} lg={8} sm={12} className="card action">
               <Sub></Sub>
               <Departments></Departments>
-              <Info></Info>
             </Box>
             <Box col={12} lg={2} sm={12}></Box>
           </Flex>
-
         </div>
     );
   }
