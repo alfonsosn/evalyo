@@ -38,31 +38,33 @@ export default class Departments extends React.Component {
         </Box>
       </Flex>
 
-      <Flex  py={2} justify='center' align='center' wrap>
-          {this.state.departments.map((dept, index)=>
-            <Box col={12}
-                 lg={6}
-                 sm={6}
-                 key={index} className="card">
-                 <Flex
-                   align="center"
-                   justify="space-between"
-                   >
-                 <Box p={3}
-                      align="center"
-                      className={`${icons[dept.name].toLowerCase()}`}
-                      >
-                 </Box>
-                 <Box auto
-                      p={3}>
-                  <h3>
-                    <Link to={`/departments/${dept.name.toLowerCase().split(' ').join('_')}`}>{icons[dept.name].charAt(0).toUpperCase() + icons[dept.name].slice(1)}</Link>
-                  </h3>
-                  <p> Number of current faculty: {Math.round((Math.random()*10))} </p>
-                 </Box>
-                 </Flex>
-            </Box>
-          )}
+      <Flex py={2}
+            justify='center'
+            align='center'
+            wrap>
+              {this.state.departments.map((dept, index)=>
+                <Box col={12}
+                     lg={6}
+                     sm={6}
+                     key={index}
+                     className="card">
+                       <Flex align="center"
+                             justify="space-between">
+                         <Box p={3}
+                              align="center"
+                              className={`${icons[dept.name].toLowerCase()}`}
+                              >
+                         </Box>
+                         <Box auto
+                              p={3}>
+                          <h3>
+                            <Link to={`/departments/${dept.name.toLowerCase().split(' ').join('_')}`}>{icons[dept.name].charAt(0).toUpperCase() + icons[dept.name].slice(1)}</Link>
+                          </h3>
+                          <p> Number of current faculty: {Math.round((Math.random()*10))} </p>
+                         </Box>
+                     </Flex>
+                </Box>
+              )}
           </Flex>
 
       </div>

@@ -5,8 +5,6 @@ import { Link } from 'react-router';
 import { Flex, Box } from 'reflexbox'
 import $ from "jquery"
 
-const profs = ["Zamfirescu, Christina", "Schaffer, Cullen", "Schweitzer, Eric", "Vazquez-Abad, Felisa", "Stamos, Ioannis", "Xu, Jia", "Xie, Lei", "Khatchadourian, Raffi", "Mneimneh, Saad", "Debroy, Saptarshi", "Weiss, Stewart N.", "Shankar, Subash", "Epstein, Susan L.", "Sakas, William G."]
-
 export default class Faculty extends React.Component {
   constructor(props){
       super(props);
@@ -37,37 +35,44 @@ export default class Faculty extends React.Component {
   render() {
     console.log('props', this.props)
     return (
-      <Flex wrap justify="center"
+      <div className="action">
+
+      <Flex pt={3} wrap>
+        <Box col={12} lg={12} sm={12} >
+          <h2> Step Two: Choose your Professor </h2>
+        </Box>
+      </Flex>
+
+      <Flex justify="center"
             align="center"
-            pt={6} py={4}>
+            py={2}
+            wrap>
               {this.state.professors.map((prof, index)=>
-              <Box lg={6}
+
+              <Box col={12}
+                   lg={6}
                    sm={6}
-                   key={index} className="card">
+                   key={index} className="card action">
                      <Flex align="center"
                            justify="space-between">
-                     <Box p={3}
-                          align="center">
-                         <h1> {this.obtainInitials(prof)} </h1>
-                     </Box>
-                     <Box auto
-                          p={3}>
-                      <h3>
-                        <Link to={`/professor/${prof._id}`}>
-                          {prof.firstName} {prof.lastName}
-                        </Link>
-                      </h3>
-                      <h4>
-
-                      </h4>
-                      <h5>
-
-                      </h5>
+                       <Box p={3}
+                            align="center">
+                           <h1> {this.obtainInitials(prof)} </h1>
+                       </Box>
+                       <Box auto
+                            p={3}>
+                        <h3>
+                          <Link to={`/professor/${prof._id}`}>
+                            {prof.firstName} {prof.lastName}
+                          </Link>
+                        </h3>
                      </Box>
                      </Flex>
               </Box>
+
         )}
       </Flex>
+      </div>
     );
   }
 }
