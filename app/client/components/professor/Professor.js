@@ -29,7 +29,7 @@ class Professor extends React.Component {
 
         <Flex pt={3} wrap>
           <Box col={12} lg={12} sm={12} >
-            <h2> Step Three: Choose a Review for {name} </h2>
+            <h2> Select a Review for {name} </h2>
           </Box>
         </Flex>
 

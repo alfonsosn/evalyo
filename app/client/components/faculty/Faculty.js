@@ -31,7 +31,7 @@ export default class Faculty extends React.Component {
 
       <Flex pt={3} wrap>
         <Box col={12} lg={12} sm={12} >
-          <h2> Step Two: Choose your Professor </h2>
+          <h2> Choose A Professor: </h2>
         </Box>
       </Flex>
 

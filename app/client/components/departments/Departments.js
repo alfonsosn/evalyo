@@ -33,7 +33,7 @@ export default class Departments extends React.Component {
 
       <Flex pt={3} wrap>
         <Box col={12} lg={12} sm={12} >
-          <h2> Step One: Choose your Department </h2>
+          <h2> Or Browse Through Departments </h2>
         </Box>
       </Flex>
 
