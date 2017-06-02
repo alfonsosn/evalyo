@@ -9,7 +9,7 @@ require('./style.scss')
 const dpmts = ["Biology", "Chemistry", "Computer Science", "Economics", "Math", "Philosophy"];
 const icons = {"BIO":"biology", "CHEM": "chemistry", "CSCI": "computer", "ECON": "economics", "MATH":"math", "PHILO":"philosophy"};
 
-export default class DeparmentCard extends React.Component{
+export default class DepartmentCard extends React.Component{
   constructor(props){
       super(props);
       this.state = {
@@ -19,21 +19,23 @@ export default class DeparmentCard extends React.Component{
 
   componentDidMount(){
     $.ajax({
-      url: `/api/professors/${this.props.dept}`,
+      url: `/api/departments/${this.props.dept.name.toLowerCase()}`,
       type: 'GET'
     })
     .done(dept => {
+      console.log("hello")
+      console.log(dept.professors)
       this.setState({faculty_num: dept.professors.length})
     });
   }
 
   render(){
+    console.log(this.props.dept.name)
 
     return(
       <Box col={12}
            lg={6}
            sm={6}
-           key={index}
            className="card">
              <Flex align="center"
                    justify="space-between">

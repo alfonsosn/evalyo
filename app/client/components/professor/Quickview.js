@@ -21,23 +21,14 @@ export default class Quickview extends React.Component {
 
   render() {
     return (
-        <Flex wrap>
-           <Box col={12} lg={12} sm={12} pt={2} className="card action">
-             <Flex pt={1} wrap>
-             <Box col={12} lg={3}>
-               <h2>Course: <p>{this.props.course}</p></h2>
-             </Box>
-             <Box col={12} lg={3}>
-              <h2>Grade: <p> {this.getLetterGrade(this.getRandomInt(50, 100))} </p></h2>
-             </Box>
-             <Box col={12} lg={3}>
-               <h2>Overall: <p> {this.getRandomInt(80, 95)} </p></h2>
-             </Box>
-             <Box col={12} lg={3}>
-             </Box>
-             </Flex>
+       <Flex col={12} lg={12} sm={12} pt={2} className="card action">
+           <Box col={12} lg={6} sm={12} className="card action">
+              <h3>Likely Grade: {this.getLetterGrade(this.getRandomInt(50, 100))} </h3>
            </Box>
-        </Flex>
+           <Box col={12} lg={6} sm={12} className="card action">
+               <h3>Overall Score: {this.getRandomInt(80, 95)} </h3>
+           </Box>
+       </Flex>
       )
     }
   }

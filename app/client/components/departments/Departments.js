@@ -4,6 +4,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import { Flex, Box } from 'reflexbox'
 import Search from '../search/Search.js'
+import DepartmentCard from '../cards/DepartmentCard.js'
 import $ from "jquery"
 
 export default class Departments extends React.Component {
@@ -20,7 +21,6 @@ export default class Departments extends React.Component {
       type: 'GET'
     })
     .done(departments => {
-      console.log(departments)
       this.setState({departments: departments})
     });
   }
@@ -42,7 +42,7 @@ export default class Departments extends React.Component {
             align='center'
             wrap>
               {this.state.departments.map((dept, index)=>
-                <DeparmentCard key={index} dept={dept}></DeparmentCard>
+                <DepartmentCard key={index} dept={dept}></DepartmentCard>
               )}
           </Flex>
 
