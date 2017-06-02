@@ -21,11 +21,11 @@ export default class Quickview extends React.Component {
 
   render() {
     return (
-       <Flex col={12} lg={12} sm={12} pt={2} className="card action">
-           <Box col={12} lg={6} sm={12} className="card action">
+       <Flex col={12} lg={12} sm={12} pt={2} className="card">
+           <Box col={12} lg={6} sm={12} p={3} className="card">
               <h3>Likely Grade: {this.getLetterGrade(this.getRandomInt(50, 100))} </h3>
            </Box>
-           <Box col={12} lg={6} sm={12} className="card action">
+           <Box col={12} lg={6} sm={12} p={3} className="card">
                <h3>Overall Score: {this.getRandomInt(80, 95)} </h3>
            </Box>
        </Flex>

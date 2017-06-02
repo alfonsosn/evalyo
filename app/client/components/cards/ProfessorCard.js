@@ -55,7 +55,7 @@ export default class ProfessorCard extends React.Component{
                     {this.props.prof.firstName.toUpperCase()} {this.props.prof.lastName.toUpperCase()}
                   </Link>
                 </h3>
-                <p> Total Reviews Avaialable: {this.state.reviews_num} </p>
+                <p> Reviews Avaialable: {this.state.reviews_num} </p>
              </Box>
              </Flex>
       </Box>

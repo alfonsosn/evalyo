@@ -48,9 +48,9 @@ export default class DepartmentCard extends React.Component{
                <Box auto
                     p={3}>
                 <h3>
-                  <Link to={`/departments/${this.props.dept.name.toLowerCase().split(' ').join('_')}`}>{icons[this.props.dept.name].charAt(0).toUpperCase() + icons[this.props.dept.name].slice(1)}</Link>
+                  <Link to={`/departments/${this.props.dept.name.toLowerCase().split(' ').join('_')}`}>{icons[this.props.dept.name].toUpperCase()}</Link>
                 </h3>
-                <p> Number of current faculty: {this.state.faculty_num} </p>
+                <p> Number of faculty: {this.state.faculty_num} </p>
                </Box>
 
            </Flex>
