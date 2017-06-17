@@ -8,12 +8,12 @@ import { Flex, Box } from 'reflexbox'
 import CustomSelect from '../select/select'
 import Review from '../review/review'
 
-class Professor extends React.Component {
+export default class Prof extends React.Component {
   
   getRandomInt(min, max){
-      min = Math.ceil(min);
-      max = Math.floor(max);
-      return Math.floor(Math.random() * (max - min)) + min;
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min)) + min;
   }
 
   getLetterGrade(score) {
@@ -26,10 +26,10 @@ class Professor extends React.Component {
   render() {
     const {
       name,
-      courseTitles,
+      courseOptions,
       selectedCourse,
       changeCourse,
-      semesterTitles,
+      semesterOptions,
       selectedSemester,
       changeSemester,
       currentTitle,
@@ -51,7 +51,7 @@ class Professor extends React.Component {
                 name='course'
                 value={selectedCourse}
                 onChange={changeCourse}
-                options={courseTitles}
+                options={courseOptions}
               />
               </Box>
               <Box  sm={4} px={2}>
@@ -59,7 +59,7 @@ class Professor extends React.Component {
                 name='semester'
                 value={selectedSemester}
                 onChange={changeSemester}
-                options={semesterTitles}
+                options={semesterOptions}
               />
               </Box>
                <Flex pt={1} wrap>
@@ -81,15 +81,15 @@ class Professor extends React.Component {
               </Box>
             </Flex>
 
-              <Box py={4} sm={12} px={2}>
-                <Review reviews={reviews}/>
-              </Box>
-            </Flex>
-          </Panel>
-        </Box>
-      </Flex>
-    );
+            <Box py={4} sm={12} px={2}>
+              <Review reviews={reviews}/>
+            </Box>
+          </Flex>
+        </Panel>
+      </Box>
+    </Flex>
+   )
   }
 }
 
-export default Professor
+

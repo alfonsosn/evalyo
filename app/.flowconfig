@@ -1,0 +1,12 @@
+[ignore]
+.*/node_modules/fbjs/.*
+.*/node_modules/config-chain/.*
+.*/node_modules/npmconf/.*
+.*/node_modules/invariant/.*
+.*/node_modules/editions/.*
+[include]
+[libs]
+[options]
+experimental.const_params=true
+esproposal.class_instance_fields=enable
+esproposal.class_static_fields=enable

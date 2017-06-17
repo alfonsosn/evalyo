@@ -4,51 +4,50 @@ import { Link } from 'react-router';
 import PropTypes from 'prop-types';
 import { compose } from 'recompose'
 
-import withAjax from './ajax'
-import withHelpers from './helpers'
-import Professor from './Professor'
+import ajax from './ajax'
+import helpers from './helpers'
+import Prof from './Prof'
 
-class ProfContainer extends React.Component {
-  constructor(props){
-      super(props);
-      this.state = {
-        courses: [],
-        ratings: null,
-        professor: null,
-        selectedCourse: '',
-        selectedSemester: null,
-      };
-      this.handleCourseChange = this.handleCourseChange.bind(this)
-      this.handleSemesterChange = this.handleSemesterChange.bind(this)
-  }
-
+export default class ProfContainer extends React.Component {
+   // Prop types
+   props: {
+      params: { prof: string }
+  };
+  // Initial state
+  state = {
+      courses: [],
+      ratings: [],
+      professor: {},
+      selectedCourse: '',
+      selectedSemester: ''
+  }; 
 
   componentDidMount(){
-    this.props.getProfessor(this.props.params.prof)
+    ajax.getProfessor(this.props.params.prof)
     .then((professor) => {
       this.setState({
-        'professor': professor
+        professor: professor
       })
     });
   }
  
-  generateCourseTitles(courses){
-    return this.props.generateCourseTitles(courses)
+  createCourseOptions(courses){
+    return helpers.createCourseOptions(courses)
   }
   
-  generateSemesterTitles(ratings){
-    const { aggregateOption, generateSemesterTitles } = this.props
+  createSemesterOptions(ratings){
+    const { aggregateOption, createSemesterOptions } = helpers
     return [aggregateOption, 
-            ...generateSemesterTitles(ratings)]
+            ...createSemesterOptions(ratings)]
   }
 
-  handleCourseChange(e){
+  handleCourseChange = (e) => {
       const course_id = e.target.value
 
       // if 'choose' option was selected
       if (course_id === '') return
 
-      this.props.getRatings(this.state.professor._id, course_id)
+      ajax.getRatings(this.state.professor._id, course_id)
       .then((ratings) => {
         this.setState({
           selectedCourse: course_id,
@@ -56,12 +55,12 @@ class ProfContainer extends React.Component {
           selectedSemester: ''
         });
       })
-  }
+  };
   
   generateReviews(rating_id){
     const { AGGREGATE_Q_ID, 
             getAggregateRating,
-            getRatingById } = this.props
+            getRatingById } = helpers
 
     const {ratings} = this.state
     const times_taught = ratings.length 
@@ -73,7 +72,7 @@ class ProfContainer extends React.Component {
     }
   }
 
-  handleSemesterChange(e){
+  handleSemesterChange = (e) => {
     const rating_id = e.target.value
     // if 'choose' option was selected
     if (rating_id === '') return
@@ -81,7 +80,7 @@ class ProfContainer extends React.Component {
     this.setState({
       selectedSemester: rating_id
     })
-  }
+  };
 
   getCourseTitle(courseTitles, courseId){
     const courseTitle =  courseTitles.find(course => course.value === courseId)
@@ -97,21 +96,21 @@ class ProfContainer extends React.Component {
     } = this.state
 
     const name = professor?  professor.firstName + ' ' + professor.lastName : ''
-    const courseTitles = professor? this.generateCourseTitles(professor.courses) : []
+    const courseOptions = professor.courses? this.createCourseOptions(professor.courses) : []
     const reviews = selectedSemester? this.generateReviews(selectedSemester): {}
-    const semesterTitles = ratings? this.generateSemesterTitles(ratings): []
-    const currentTitle = courseTitles && selectedCourse ? 
-      this.getCourseTitle(courseTitles, selectedCourse): ''
+    const semesterOptions = ratings? this.createSemesterOptions(ratings): []
+    const selectedCourseTitle = courseOptions && selectedCourse ? 
+        this.getCourseTitle(courseOptions, selectedCourse): ''
     
     return (
       professor? 
-        <Professor
+        <Prof
           name={name}
-          currentTitle={currentTitle}
-          courseTitles={courseTitles}
+          selectedCourseTitle={selectedCourseTitle}
+          courseOptions={courseOptions}
           selectedCourse={selectedCourse}
           changeCourse={this.handleCourseChange}
-          semesterTitles={semesterTitles}
+          semesterOptions={semesterOptions}
           selectedSemester={selectedSemester}
           changeSemester={this.handleSemesterChange}
           reviews={reviews}
@@ -121,4 +120,3 @@ class ProfContainer extends React.Component {
   }
 }
 
-export default compose(withHelpers, withAjax)(ProfContainer)

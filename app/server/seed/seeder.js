@@ -14,11 +14,26 @@ const path = require('path');
 const chalk = require('chalk');
 
 
+
 const startDb = () => new Promise((resolve) => {
   mongoose.connect('mongodb://localhost/ReViews');
   resolve()
 });
 
+const convertReviewsToNumberType = (reviews) =>
+  reviews.map((review) => 
+    review.id <= 14 ? 
+      Object.assign({}, review, {average: Number(review.average)})
+    : review.id <= 20 ?
+       Object.assign({}, 
+        review, {
+          yes: Number(review.yes),
+          no: Number(review.no),
+          noAnswer: Number(review.noAnswer)
+        }
+       )
+    : review
+  )  
 
 const insertCourses = (courses, professor) =>
   new Promise((resolve) => {
@@ -44,14 +59,16 @@ const insertCourses = (courses, professor) =>
           { $addToSet: {"courses": course._id}}
         )
         .then(() => {
-          //if (err) throw err
+          // Convert review properties from string to number
+          const reviews = convertReviewsToNumberType(current.questions)
+
           RatingsModel.findOrCreate({
             year: current.semester.split(' ')[1],
             semester: current.semester.split(' ')[0],
             section: subject[3],
             subject: course._id,
             professor: professor._id,
-            questions: current.questions
+            reviews: reviews
           })
           .then((rating) => {
             // console.log('class: ', response)

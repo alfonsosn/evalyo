@@ -23,12 +23,13 @@ router.get('/:prof', (req, res) => {
   })
 })
 
-router.get('/:prof/:course', (req, res) => {
- const course_id = req.params.course
- const prof_id = req.params.prof
 
- RatingsModel.find({professor: prof_id, subject: course_id})
-    .then((ratings) => { 
+router.get('/:prof/:course', (req, res) => {
+  const course_id = req.params.course
+  const prof_id = req.params.prof
+
+  RatingsModel.find({professor: prof_id, subject: course_id})
+    .then((ratings) => {
        res.send(ratings) 
     })
 })

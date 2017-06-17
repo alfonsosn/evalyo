@@ -8,7 +8,7 @@ var RatingsSchema = new Schema({
   section: { type: String },
   subject: { type: Schema.Types.ObjectId, ref: 'Course' },
   professor: { type: Schema.Types.ObjectId, ref: 'Professor' },
-  questions: [Schema.Types.Mixed]
+  reviews: [Schema.Types.Mixed]
 });
 
 RatingsSchema.statics.findOrCreate = function (query) {

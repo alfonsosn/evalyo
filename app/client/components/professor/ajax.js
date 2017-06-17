@@ -1,19 +1,29 @@
+// @flow
+
 import $ from 'jquery'
 import { withProps } from 'recompose'
+import type {Professor, Rating} from './types'
 
-const getProfessor = (profId) =>
-  new Promise((resolve, reject) => {
+/**
+ *  Fetches professor from the server by prof ID
+ */
+function getProfessor(profId: string): Promise<Professor> {
+ return new Promise((resolve, reject) => {
     $.ajax({
       url: `/api/professors/${profId}`,
       type: 'GET'
     })
-    .done((professor) => {
+    .done((professor:Professor) => {
       resolve(professor)
     })
   })
+}
 
-const getRatings = (profId, courseId) =>
-  new Promise((resolve, reject) => {
+/**
+ * Fetch Ratings from the server by prof ID and course ID
+ */
+function getRatings (profId: string, courseId: string): Promise<Rating[]>{
+  return new Promise((resolve, reject) => {
     $.ajax({
       url: `/api/professors/${profId}/${courseId}`,
       type: 'GET'
@@ -22,9 +32,13 @@ const getRatings = (profId, courseId) =>
       resolve(ratings)
     })
   })
+}
 
-const getProfessorsByName = (name) =>
- new Promise((resolve, reject) => {
+/**
+ *  Fetch professors from the server by name
+ */
+function getProfessorsByName (name: string): Promise<Professor[]> {
+ return new Promise((resolve, reject) => {
     $.ajax({
       url: `/api/professors/search/${name}`,
       type: 'GET'
@@ -33,9 +47,10 @@ const getProfessorsByName = (name) =>
       resolve(professors)
     })
   }) 
+}
 
-export default withProps({
+export default {
   getProfessor,
   getRatings,
   getProfessorsByName
-})
+}
