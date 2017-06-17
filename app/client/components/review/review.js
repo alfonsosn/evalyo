@@ -11,40 +11,43 @@ require('normalize.css');
 require('../styles.scss')
 require('./style.scss')
 
+
 class Review extends React.Component {
-  
+
   normalizeYesNo(rating){
-    return Math.round((Number(rating.yes) / 
+    return Math.round((Number(rating.yes) /
           (Number(rating.yes) + Number(rating.no))).toFixed(2) * 100)
   }
+
   render() {
     const {reviews} = this.props
 
-    return (        
-        <Accordion>
-        {
-         Object.keys(reviews).map((category) =>
-          <AccordionItem title={category} key={category} >
-                {
-                  reviews[category].map((rating)=>
-                    <p key={rating.id}>
-                      <span>
-                       {rating.question}
-                      </span>
-                      <span style={{float:'right'}}>
-                      {
-                        rating.average? 
-                          rating.average
-                        : this.normalizeYesNo(rating)
-                      }
-                      </span>
-                    </p>
-                  )
-                }
-            </AccordionItem>
-         )
-      }
-      </Accordion>
+    return (
+
+      <Accordion>
+      {
+       Object.keys(reviews).map((category) =>
+        <AccordionItem title={category} key={category} >
+              {
+                reviews[category].map((rating)=>
+                  <p key={rating.id}>
+                    <span>
+                     {rating.question}
+                    </span>
+                    <span style={{float:'right'}}>
+                    {
+                      rating.average?
+                        rating.average
+                      : this.normalizeYesNo(rating)
+                    }
+                    </span>
+                  </p>
+                )
+              }
+          </AccordionItem>
+       )
+    }
+    </Accordion>
     );
 
   }
