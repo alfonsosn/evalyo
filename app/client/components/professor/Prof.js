@@ -8,7 +8,7 @@ import CustomSelect from '../select/select'
 import Quickview from './Quickview.js'
 import Review from '../review/review'
 
-class Professor extends React.Component {
+export default class Professor extends React.Component {
 
   render() {
     const {
