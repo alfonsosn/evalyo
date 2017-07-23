@@ -1,6 +1,3 @@
-[Main](#) | [Our Team](../master/our_team/README.md) | [Weekly Reports](../master/weekly_reports/) | [Progress Journal](../master/progress/)
-------- | ------- | ------- | -------
----
 # EVALYO APP
 
 *Find your next professor, the right way.*
