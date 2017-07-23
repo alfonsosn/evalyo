@@ -8,7 +8,7 @@ var createApplication = function () {
     server.on('request', app); // Attach the Express application.
 };
 
-mongoose.connect('mongodb://localhost/evalyo')
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/evalyo')
 const db = mongoose.connection
 
 var startServer = function () {

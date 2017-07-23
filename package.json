@@ -4,8 +4,8 @@
   "description": "",
   "main": "start.js",
   "scripts": {
-    "start": "nodemon --watch server --ignore server/static/bundle start.js & npm run webpack",
-    "webpack": "webpack --progress --watch"
+    "build": "webpack -p --progress",
+    "start": "node start.js"
   },
   "dependencies": {
     "babel-cli": "^6.11.4",
