@@ -4,7 +4,7 @@
   "description": "",
   "main": "start.js",
   "scripts": {
-    "build": "webpack -p --progress",
+    "postinstall": "webpack -p --progress",
     "start": "node start.js"
   },
   "dependencies": {

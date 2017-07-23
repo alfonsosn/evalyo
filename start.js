@@ -8,12 +8,12 @@ var createApplication = function () {
     server.on('request', app); // Attach the Express application.
 };
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/evalyo')
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/ReViews')
 const db = mongoose.connection
 
 var startServer = function () {
     createApplication();
-
+    console.log(`mongo URI: ${process.env.MONGODB_URI}`)
     const PORT = process.env.PORT || 8000;
     const ENV = process.env.NODE_ENV || 'DEVELOPMENT';
 
