@@ -1,15 +1,17 @@
+// @flow
+
 'use strict';
 import React from 'react';
-import { Link } from 'react-router';
-import PropTypes from 'prop-types';
-import { Panel, PanelHeader, Text} from 'rebass'
 import { Flex, Box } from 'reflexbox'
 import CustomSelect from '../select/select'
 import Quickview from './Quickview.js'
 import Review from '../review/review'
 
 export default class Professor extends React.Component {
-
+   // Prop types
+   props: {
+      name: string
+  };
   render() {
     const {
       name,

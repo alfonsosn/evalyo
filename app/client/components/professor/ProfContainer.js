@@ -1,48 +1,64 @@
+// @flow
 'use strict';
 import React from 'react';
-import { Link } from 'react-router';
-import PropTypes from 'prop-types';
-import { compose } from 'recompose'
+// import { Link } from 'react-router';
+// import PropTypes from 'prop-types';
+// import { compose } from 'recompose'
 
 import ajax from './ajax'
 import helpers from './helpers'
 import Prof from './Prof'
 
+import type {Review, Option, Rating, Course, Professor, SortedReviews, ChangeFunction} from './types.js'
+
 export default class ProfContainer extends React.Component {
    // Prop types
-   props: {
+  props: {
       params: { prof: string }
   };
-  // Initial state
-  state = {
+  // State variable types
+  state: {
+      courses: Course[],
+      ratings: Rating[],
+      professor: Professor | {},
+      selectedCourse: string,
+      selectedSemester: string
+  }; 
+
+  constructor(props){
+    super(props)
+    this.state = {
       courses: [],
       ratings: [],
       professor: {},
       selectedCourse: '',
       selectedSemester: ''
-  }; 
+    }
+  }
 
   componentDidMount(){
     ajax.getProfessor(this.props.params.prof)
-    .then((professor) => {
+    .then((professor: Professor) => {
       this.setState({
         professor: professor
       })
-    });
+    })
   }
  
-  createCourseOptions(courses){
-    return helpers.createCourseOptions(courses)
-  }
-  
-  createSemesterOptions(ratings){
+  createSemesterOptions(ratings: Rating[]){
     const { aggregateOption, createSemesterOptions } = helpers
     return [aggregateOption, 
             ...createSemesterOptions(ratings)]
   }
 
-  handleCourseChange = (e) => {
-      const course_id = e.target.value
+  createCourseOptions(courses: Course[]): Option[]{
+    return helpers.createCourseOptions(courses)
+  }
+  
+ 
+
+  handleCourseChange: ChangeFunction = (e: SyntheticInputEvent) => {
+      const course_id: number = e.target.value
 
       // if 'choose' option was selected
       if (course_id === '') return
@@ -53,11 +69,11 @@ export default class ProfContainer extends React.Component {
           selectedCourse: course_id,
           ratings: ratings,
           selectedSemester: ''
-        });
+        })
       })
   };
   
-  generateReviews(rating_id){
+  generateReviews(rating_id: number): SortedReviews{
     const { AGGREGATE_Q_ID, 
             getAggregateRating,
             getRatingById } = helpers
@@ -72,7 +88,7 @@ export default class ProfContainer extends React.Component {
     }
   }
 
-  handleSemesterChange = (e) => {
+  handleSemesterChange = (e: SelectEvent) => {
     const rating_id = e.target.value
     // if 'choose' option was selected
     if (rating_id === '') return
@@ -101,7 +117,7 @@ export default class ProfContainer extends React.Component {
     const semesterOptions = ratings? this.createSemesterOptions(ratings): []
     const selectedCourseTitle = courseOptions && selectedCourse ? 
         this.getCourseTitle(courseOptions, selectedCourse): ''
-    
+
     return (
       professor? 
         <Prof

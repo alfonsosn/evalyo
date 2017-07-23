@@ -1,3 +1,4 @@
+// @flow
 // flow-typed signature: dfe9e7dd59fee10f50e3604dd5cab0f8
 // flow-typed version: a9e64f6272/ramda_v0.x.x/flow_>=v0.34.x
 

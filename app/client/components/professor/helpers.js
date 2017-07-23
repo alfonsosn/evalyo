@@ -1,8 +1,7 @@
 // @flow
 
 
-import {pipe, map, find, filter, prop, head, groupBy, concat} from 'ramda'
-import {withProps } from 'recompose'
+import {pipe, find, prop} from 'ramda'
 
 // import type aliases
 import type {Review, Option, Rating, Course, Professor, SortedReviews} from './types.js'
@@ -15,7 +14,7 @@ const personality_q_ids = [2, 7, 10];
 const AGGREGATE_Q_ID = '-1'
 const aggregateOption =  {  
       value: AGGREGATE_Q_ID,
-      label: 'Aggregate'
+      children: 'Aggregate'
     }
 
 const makeTimesTaughtReview = (timesTaught: number): Review => ({
@@ -119,7 +118,7 @@ const aggregateRatings = (ratings: Rating[]): Review[] => {
 
 
 
-type sortReviewsDef = (reviews: Review[])=>SortedReviews
+type sortReviewsDef = (reviews: Review[]) => SortedReviews;
 
 
 /**
@@ -128,8 +127,8 @@ type sortReviewsDef = (reviews: Review[])=>SortedReviews
 * @param {Review[]} reviews {sum of review of all semesters}
 * @return {SortedReviews} {Object with reviews sorted by category}
 */
-const sortReviews = (timesTaught: number):sortReviewsDef => 
-    (reviews: Review[]):SortedReviews => {
+const sortReviews = (timesTaught: number): sortReviewsDef => 
+    (reviews: Review[]): SortedReviews => {
 
     const normalized: Review[] = [...normalizeAverages(reviews), 
                                   makeTimesTaughtReview(timesTaught)]           
@@ -163,7 +162,7 @@ function createSemesterOptions(ratings: Rating[]): Option[]{
 }
 
 
-const replaceSpaces = (string:string): string =>  string.replace(/_/g, " ")
+const replaceSpaces = (string: string): string =>  string.replace(/_/g, " ")
 
 
 /**
@@ -190,7 +189,7 @@ const getAggregateRating = (ratings: Rating[], times_taught: number): SortedRevi
 }
 
 const getRatingById = (ratings: Rating[], ratingId: number, 
-                       timesTaught: number):Rating => {
+                       timesTaught: number): SortedReviews => {
     const ratingById = pipe(find(rating => rating._id === ratingId), 
                             prop('reviews'), 
                             sortReviews(timesTaught))
