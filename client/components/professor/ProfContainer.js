@@ -53,7 +53,7 @@ class ProfContainer extends React.Component {
         this.setState({
           selectedCourse: course_id,
           ratings: ratings,
-          selectedSemester: ''
+          selectedSemester: null
         });
       })
   }
@@ -65,7 +65,7 @@ class ProfContainer extends React.Component {
 
     const {ratings} = this.state
     const times_taught = ratings.length 
-
+    
     if(rating_id === AGGREGATE_Q_ID){
         return getAggregateRating(ratings, times_taught)
     } else { 

@@ -105,7 +105,7 @@ const divideBy = (numOfRatings) => (arr) => arr.map((rating) =>
 */
 const aggregateRatings = (ratings) => {
   // Convert ratings to an array of arrays 
-  const arrOfArrs = ratings.map(rating => rating.questions)
+  const arrOfArrs = ratings.map(rating => rating.reviews)
   const numOfRatings = arrOfArrs.length
   // convert to a single array with values added up
  // const addReduced = addReduce(arrOfArrs)
@@ -165,7 +165,7 @@ const getAggregateRating = (ratings, times_taught) =>
 
 const getRatingById =  (ratings, ratingId, timesTaught) =>
     pipe(find(rating => rating._id === ratingId), // propEq('_id', ratingId)
-         prop('questions'), 
+         prop('reviews'), 
          sortRatings(timesTaught))(ratings)
 
 // EXPORT FUNCTIONS
