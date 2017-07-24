@@ -4,6 +4,7 @@
   "description": "",
   "main": "start.js",
   "scripts": {
+    "build": "webpack -p",
     "start": "node start.js"
   },
    "engines": {
