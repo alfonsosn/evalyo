@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import { Panel, PanelHeader, Text} from 'rebass'
 import { Flex, Box } from 'reflexbox'
 import CustomSelect from '../select/select'
-import Quickview from './Quickview.js'
+import ReviewCharts from './review-charts.js'
 import Review from '../review/review'
 
 class Professor extends React.Component {
@@ -20,9 +20,11 @@ class Professor extends React.Component {
       selectedSemester,
       changeSemester,
       currentTitle,
-      reviews
+      reviews,
+      totalAverages
     } = this.props
 
+    console.log("we are in the professor", totalAverages)
 
     return (
       <div className="action">
@@ -65,7 +67,7 @@ class Professor extends React.Component {
         </Flex>
 
         <Box sm={12} px={2}>
-          <Quickview course={currentTitle}></Quickview>
+          <ReviewCharts totalAverages={totalAverages}/>
           <Review reviews={reviews}/>
         </Box>
 
