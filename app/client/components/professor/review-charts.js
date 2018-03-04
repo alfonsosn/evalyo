@@ -1,30 +1,53 @@
-'use strict';
+"use strict";
 
-import React from 'react';
-import { Link } from 'react-router';
-import { Flex, Box } from 'reflexbox'
+import React from "react";
+import { Link } from "react-router";
+import { Flex, Box } from "reflexbox";
+import { Sparklines, SparklinesLine, SparklinesReferenceLine } from "react-sparklines";
+import _ from "lodash";
 
 export default class ReviewCharts extends React.Component {
-
-  getRandomInt(min, max){
-      min = Math.ceil(min);
-      max = Math.floor(max);
-      return Math.floor(Math.random() * (max - min)) + min;
+  getLetterGrade(score) {
+    if (score > 90) return "A";
+    else if (score > 80) return "B";
+    else if (score > 70) return "C";
+    else if (score > 60) return "D";
+    else return "F";
   }
 
-  getLetterGrade(score) {
-    if ((score > 60) && (score < 70)) return "B"
-    else if ((score > 71) && (score < 80)) return "B+"
-    else if ((score > 81) && (score < 90)) return "A-"
-    else return "A"
+  getArrayOfAverages(totalAverages, category) {
+    return (_.keysIn(_.mapValues(_.groupBy(this.props.totalAverages, category))))
   }
 
   render(props) {
     console.log(this.props.totalAverages)
-    return (
-       <Flex col={12} lg={12} sm={12} pt={2} className="card">
 
-       </Flex>
-      )
-    }
+    return (
+      <div>
+        {
+        this.props.totalAverages.length ?
+          (
+            <div>
+              <h3> Clarity </h3>
+              <Sparklines data={this.getArrayOfAverages(this.props.totalAverages, "clarity")}>
+                <SparklinesLine />
+              </Sparklines>
+              <h3> Experience </h3>
+              <Sparklines data={this.getArrayOfAverages(this.props.totalAverages, "experience")}>
+                <SparklinesLine />
+              </Sparklines>
+              <h3> Personality </h3>
+              <Sparklines data={this.getArrayOfAverages(this.props.totalAverages, "personality")}>
+                <SparklinesLine />
+              </Sparklines>
+              <h3> Organization </h3>
+              <Sparklines data={this.getArrayOfAverages(this.props.totalAverages, "organization")}>
+                <SparklinesLine />
+              </Sparklines>
+            </div>
+          ): ("")
+      }
+      </div>
+    );
   }
+}

@@ -24,8 +24,6 @@ class Professor extends React.Component {
       totalAverages
     } = this.props
 
-    console.log("we are in the professor", totalAverages)
-
     return (
       <div className="action">
 
